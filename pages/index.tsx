@@ -5,9 +5,6 @@ export default function Contato() {
   return (
     <>
       <Header />
-      <h1>
-        <Link href="/contato">Ir para contatos</Link>
-      </h1>
     </>
   )
 }

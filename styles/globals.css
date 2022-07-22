@@ -1,24 +1,81 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+/*================ RESET ================*/
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
 
 a {
-  color: inherit;
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
-}
-.container {
-  display: flex;
-  margin-left: 1.5rem;
+img {
+  width: 100%;
+  height: auto;
 }
 
-.logo-text {
+ul {
+  list-style: none;
+}
+
+/*================ VARIABLES ================*/
+
+:root {
+  --brand-color-yellow: #ffca5e;
+  --brand-color-purple: #8c75b9;
+  --brand-color-white: #ffffff;
+  --brand-color-red: #d35555;
+  --brand-color-dark-purple: #5d4989;
+}
+
+/*================ GLOBAL ================*/
+
+.container {
+  padding: 0 1.5rem;
+}
+
+/*================ HEADER ================*/
+
+.header {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 5rem;
+  align-items: center;
+  background-color: var(--brand-color-purple);
+}
+
+.header h1 {
   font-size: 1.5rem;
+  color: var(--brand-color-white);
+  margin-left: 0.5rem;
+}
+
+#header_logo {
+  width: 2rem;
+  height: 2rem;
+}
+
+#menu_open {
+  position: absolute;
+  width: 1.5rem;
+  height: auto;
+  margin-right: 1.5rem;
+  right: 0;
+}
+
+/*================ SVG CLASSES ================*/
+
+.brand_yellow {
+  fill: var(--brand-color-yellow);
+}
+.brand_purple {
+  fill: var(--brand-color-purple);
+}
+.brand_white {
+  fill: var(--brand-color-white);
+}
+.brand_red {
+  fill: var(--brand-color-red);
 }
