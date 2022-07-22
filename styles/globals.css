@@ -23,10 +23,11 @@ ul {
 
 :root {
   --brand-color-yellow: #ffca5e;
-  --brand-color-purple: #8c75b9;
+  --brand-color-purple: #5d4989;
   --brand-color-white: #ffffff;
   --brand-color-red: #d35555;
-  --brand-color-dark-purple: #5d4989;
+  --brand-color-light-purple: #8c75b9;
+  --brand-color-extra-light-purple: #bda4ec;
 }
 
 /*================ GLOBAL ================*/
