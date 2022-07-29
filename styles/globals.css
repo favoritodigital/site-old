@@ -28,45 +28,110 @@ ul {
   --brand-color-red: #d35555;
   --brand-color-light-purple: #8c75b9;
   --brand-color-extra-light-purple: #bda4ec;
+  --brand-color-black: #1e1e1e;
 }
 
 /*================ GLOBAL ================*/
 
+.box_shadow {
+  box-shadow: 0 3px 3px #969696;
+  mix-blend-mode: multiply;
+}
+
+.margin_top {
+  height: 5rem;
+}
+
 .container {
   padding: 0 1.5rem;
+  min-width: 350px;
 }
 
 /*================ HEADER ================*/
 
-.header {
-  display: flex;
-  position: absolute;
+.header_wraper {
   width: 100%;
+  position: fixed;
+  min-width: 350px;
+}
+.header_main {
+  display: flex;
+  position: relative;
   height: 5rem;
   align-items: center;
   background-color: var(--brand-color-purple);
-}
-
-.header h1 {
-  font-size: 1.5rem;
-  color: var(--brand-color-white);
-  margin-left: 0.5rem;
+  z-index: 100;
 }
 
 #header_logo {
-  width: 2rem;
-  height: 2rem;
+  width: auto;
+  height: 2.5rem;
+  cursor: pointer;
 }
 
-#menu_open {
+.header_main button {
   position: absolute;
-  width: 1.5rem;
-  height: auto;
   margin-right: 1.5rem;
+  background-color: var(--brand-color-purple);
+  border: none;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
   right: 0;
 }
 
-/*================ SVG CLASSES ================*/
+#menu_open {
+  position: relative;
+  width: 1.5rem;
+  height: auto;
+  right: 0;
+}
+
+#menu_close {
+  position: relative;
+  width: 1rem;
+  height: auto;
+  right: 0.25rem;
+}
+
+.header_content ul li {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_content ul li {
+  font-size: 1.25rem;
+}
+
+.navigation_1 {
+  display: flex;
+  height: 5rem;
+  background-color: var(--brand-color-purple);
+}
+
+.navigation_2 {
+  display: flex;
+  height: 5rem;
+  background-color: var(--brand-color-light-purple);
+}
+
+.navigation h1 {
+  font-family: 'Signika', sans-serif;
+  font-weight: 300;
+  font-size: 1.25em;
+  color: var(--brand-color-white);
+  cursor: pointer;
+}
+
+@media screen and (min-width: 890px) {
+  .header button {
+    display: none;
+  }
+}
+
+/*================ FILL CLASSES ================*/
 
 .brand_yellow {
   fill: var(--brand-color-yellow);
@@ -79,4 +144,8 @@ ul {
 }
 .brand_red {
   fill: var(--brand-color-red);
+}
+
+.brand_black {
+  fill: var(--brand-color-black);
 }
