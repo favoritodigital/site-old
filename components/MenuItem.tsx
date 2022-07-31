@@ -8,16 +8,24 @@ interface Props {
   handleIsMenuOpen: (arg: boolean) => void
 }
 
-export default function MenuItem({ label, href, hasShadow, background, handleIsMenuOpen }: Props) {
+export default function MenuItem({
+  label,
+  href,
+  hasShadow,
+  background,
+  handleIsMenuOpen
+}: Props) {
   return (
     <li
-      className={`${background === 'light' ? 'navigation_2' : 'navigation_1'} container${
-        hasShadow && ' box_shadow'
-      }`}
+      className={`${
+        background === 'light' ? 'navigation_2' : 'navigation_1'
+      } container${hasShadow && ' box_shadow'}`}
     >
-      <Link href={href}>
-        <h1 onClick={() => handleIsMenuOpen(false)}>{label}</h1>
-      </Link>
+      <div>
+        <Link href={href}>
+          <h1 onClick={() => handleIsMenuOpen(false)}>{label}</h1>
+        </Link>
+      </div>
     </li>
   )
 }
