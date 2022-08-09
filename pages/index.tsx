@@ -26,10 +26,14 @@ export default function Home() {
           <img src="/images/quebarbada_mockup1.png" alt="" />
         </div>
         <div id="download-buttons">
-          <a href="https://www.apple.com/br/app-store/" target="_blank">
+          <a
+            href="https://www.apple.com/br/app-store/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <AppstoreButton />
           </a>
-          <a href="https://play.google.com/" target="_blank">
+          <a href="https://play.google.com/" target="_blank" rel="noreferrer">
             <GooglePlayButton />
           </a>
         </div>
