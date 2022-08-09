@@ -1,6 +1,7 @@
 import Link from 'next/link'
 
 interface Props {
+  id: string
   label: string
   href: string
   hasShadow?: boolean
@@ -13,10 +14,12 @@ export default function MenuItem({
   href,
   hasShadow,
   background,
-  handleIsMenuOpen
+  handleIsMenuOpen,
+  id
 }: Props) {
   return (
     <li
+      id={id}
       className={`${
         background === 'light' ? 'navigation_2' : 'navigation_1'
       } container${hasShadow && ' box_shadow'}`}

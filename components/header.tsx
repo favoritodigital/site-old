@@ -1,11 +1,15 @@
 import { useState } from 'react'
 import Link from 'next/link'
-import Logo from '../images/logo.svg'
-import Open from '../images/open.svg'
-import Close from '../images/close.svg'
 
+// SVGS
+import Logo from '../public/images/logo.svg'
+import Open from '../public/images/open.svg'
+import Close from '../public/images/open.svg'
+
+// COMPONENTS
 import MenuItem from './MenuItem'
 import WebNavigationItem from './WebNavigationItem'
+
 export default function Header() {
   const [isMenuOpen, handleIsMenuOpen] = useState(false)
   return (
@@ -25,15 +29,7 @@ export default function Header() {
               href={'/seja-parceiro'}
               label={'seja parceiro'}
             />
-
-            {/* <Link href={'/'}>
-              <h1>home</h1>
-            </Link>
-            <Link href={'/seja-parceiro'}>
-              <h1>seja parceiro</h1>
-            </Link> */}
           </div>
-
           {/* MENU BUTTON */}
           <button
             id="menu_button"
@@ -44,11 +40,11 @@ export default function Header() {
         </div>
         {/* NAVIGATION MOBILE */}
         <div className="navigation_mobile">
-          <ul></ul>
           {isMenuOpen && (
             <div className="header_menu">
               <ul>
                 <MenuItem
+                  id="menu_item1"
                   handleIsMenuOpen={handleIsMenuOpen}
                   href={'/'}
                   label={'home'}
@@ -56,37 +52,43 @@ export default function Header() {
                   hasShadow
                 />
                 <MenuItem
+                  id="menu_item2"
                   handleIsMenuOpen={handleIsMenuOpen}
                   href={'/#inicio'}
                   label={'inicio'}
                   background={'light'}
                 />
                 <MenuItem
+                  id="menu_item3"
                   handleIsMenuOpen={handleIsMenuOpen}
-                  href={'/#como-encontrar'}
+                  href={'/#como-encontrar-pin'}
                   label={'como encontrar o seu rolê'}
                   background={'light'}
                 />
                 <MenuItem
+                  id="menu_item4"
                   handleIsMenuOpen={handleIsMenuOpen}
-                  href={'/#clientes'}
+                  href={'/#clientes-pin'}
                   label={'clientes'}
                   background={'light'}
                 />
                 <MenuItem
+                  id="menu_item5"
                   handleIsMenuOpen={handleIsMenuOpen}
-                  href={'/#inicio'}
+                  href={'/#depoimentos-pin'}
                   label={'depoimentos'}
                   background={'light'}
                 />
                 <MenuItem
+                  id="menu_item6"
                   handleIsMenuOpen={handleIsMenuOpen}
-                  href={'/#apoiadores'}
+                  href={'/#apoiadores-pin'}
                   label={'apoiadores'}
                   background={'light'}
                   hasShadow
                 />
                 <MenuItem
+                  id="menu_item7"
                   handleIsMenuOpen={handleIsMenuOpen}
                   href={'/seja-parceiro'}
                   label={'seja parceiro'}
@@ -98,7 +100,6 @@ export default function Header() {
           )}
         </div>
       </div>
-      <div className="margin_top"></div>
     </>
   )
 }

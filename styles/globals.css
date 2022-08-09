@@ -4,6 +4,7 @@
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -29,15 +30,19 @@ ul {
   --brand-color-light-purple: #8c75b9;
   --brand-color-extra-light-purple: #bda4ec;
   --brand-color-black: #1e1e1e;
+  --background-color-purple: #faf5ff;
+  --background-color-red: #ffe6f0;
+  --text-color-gray: #414141;
 }
 
 /*================ GLOBAL ================*/
 
 .box_shadow {
-  box-shadow: 0 3px 3px #969696;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.4); */
 }
 
-.margin_top {
+.margin_menu {
   height: 5rem;
 }
 
@@ -59,7 +64,7 @@ ul {
   width: 100%;
   position: fixed;
   min-width: 350px;
-  z-index: 10;
+  z-index: 1;
 }
 
 .header_main {
@@ -69,8 +74,10 @@ ul {
   height: 5rem;
   align-items: center;
   background-color: var(--brand-color-purple);
-  box-shadow: 0 3px 3px #969696;
-  mix-blend-mode: multiply;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4);
+  z-index: 9;
+  /* box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.4); */
+  /* mix-blend-mode: multiply; */
 }
 
 .header_main .logo {
@@ -122,13 +129,41 @@ ul {
   opacity: 1;
 }
 
+#menu_item1 {
+  z-index: 8;
+}
+
+#menu_item2 {
+  z-index: 7;
+}
+
+#menu_item3 {
+  z-index: 6;
+}
+
+#menu_item4 {
+  z-index: 5;
+}
+
+#menu_item5 {
+  z-index: 4;
+}
+
+#menu_item6 {
+  z-index: 3;
+}
+
+#menu_item7 {
+  z-index: 2;
+}
+
 .header_menu ul li h1 {
   font-family: 'Signika', sans-serif;
   font-size: 1.25em;
   color: var(--brand-color-white);
   cursor: pointer;
   position: relative;
-  mix-blend-mode: normal;
+  /* mix-blend-mode: normal; */
 }
 
 .header_menu ul li h1::after {
@@ -154,8 +189,8 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  mix-blend-mode: multiply;
   font-size: 1rem;
+  /* mix-blend-mode: multiply; */
 }
 
 .navigation_1 {
@@ -178,12 +213,175 @@ ul {
   font-weight: 300;
 }
 
-/* .navigation_mobile h1 {
+#como-encontrar-pin,
+#clientes-pin,
+#depoimentos-pin,
+#apoiadores-pin {
+  position: absolute;
+  top: -5rem;
+  left: 0;
+  /* height: 5rem;
+  width: 5rem; */
+}
+
+/*================ SECTIONS ================*/
+
+.section {
+  position: relative;
+  align-items: center;
+  padding: 1.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  height: 645px;
+  min-width: 22.5rem;
+}
+
+.section_half {
+  position: relative;
+  padding: 3rem 3rem;
+  display: flex;
+  justify-content: center;
+  height: 322.5px;
+}
+
+.section_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+}
+
+.section_content .text {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0 1.5rem;
+}
+
+.section_content p {
+  font-size: 1.375em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: var(--text-color-gray);
+  text-align: center;
+  margin: 0 1.5rem;
+}
+
+.section_content img {
+  display: flex;
+  width: auto;
+  height: 326px;
+}
+
+.section_content p span {
+  font-weight: 500;
+}
+
+h1.section_title {
+  font-size: 1.5em;
   font-family: 'Signika', sans-serif;
-  font-size: 1.25em;
+  font-weight: 500;
+  color: var(--brand-color-purple);
+  text-align: center;
+  line-height: 1.75rem;
+  margin-bottom: 3rem;
+  padding: 0 1.5rem;
+  max-width: 28.125rem;
+}
+
+/*================ BG COLORS ================*/
+
+#inicio,
+#depoimentos {
+  background-color: var(--background-color-purple);
+}
+
+#como-encontrar {
+  background-color: var(--brand-color-white);
+}
+
+#clientes {
+  background-color: var(--background-color-red);
+}
+
+/*================ INICIO ================*/
+
+#inicio p {
+  font-size: 1em;
+  text-align: start;
+  margin-right: 2.25rem;
+  margin: 0 0;
+  max-width: 16.25rem;
+}
+
+#inicio svg {
+  width: 8.75rem;
+  height: auto;
+}
+
+#inicio {
+  padding-top: 6.5rem;
+  align-items: center;
+}
+
+#download-buttons {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin-top: 1.375rem;
+}
+/*================ CONVITE ================*/
+
+#convite {
+  display: flex;
+  height: 22.5rem;
+  width: 100%;
+  background-color: var(--background-color-purple);
+  align-items: center;
+  justify-content: center;
+}
+
+#convite p {
+  font-size: 1.5em;
+  font-family: 'Signika', sans-serif;
+  font-weight: 600;
+  color: var(--text-color-gray);
+  margin: 0 5rem;
+  text-align: center;
+}
+
+/*================ FOOTER ================*/
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 11.25rem;
+  background-color: var(--brand-color-purple);
+  padding: 1rem 3rem;
+}
+
+footer .social-media {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+footer .social-media svg {
+  width: 2rem;
+  height: auto;
+}
+
+footer p {
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
   color: var(--brand-color-white);
-  cursor: pointer;
-} */
+  margin-bottom: 1rem;
+}
 
 /*================ RESPONSIVITY ================*/
 
