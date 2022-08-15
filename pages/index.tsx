@@ -6,6 +6,7 @@ import GooglePlayButton from '../public/images/googleplaybutton.svg'
 import InstagramLogo from '../public/images/instagramlogo.svg'
 import FacebookLogo from '../public/images/facebooklogo.svg'
 import LinkedinLogo from '../public/images/linkedinlogo.svg'
+import DownloadButton from '../components/DownloadButton'
 
 export default function Home() {
   return (
@@ -26,20 +27,12 @@ export default function Home() {
           <img src="/images/quebarbada_mockup1.png" alt="" />
         </div>
         <div id="download-buttons">
-          <a
-            href="https://www.apple.com/br/app-store/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <AppstoreButton />
-          </a>
-          <a href="https://play.google.com/" target="_blank" rel="noreferrer">
-            <GooglePlayButton />
-          </a>
+          <DownloadButton type="appstore" />
+          <DownloadButton type="googleplay" />
         </div>
       </div>
-      <div id="como-encontrar" className="section">
-        <div id="como-encontrar-pin"></div>
+      <div id="como-encontrar-section" className="section">
+        <div id="como-encontrar"></div>
         <h1 className="section_title">encontre seu rolê em 30 segundos</h1>
         <div className="section_content">
           <div className="swiper-wraper"></div>
@@ -50,22 +43,22 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div id="clientes" className="section_half">
-        <div id="clientes-pin"></div>
+      <div id="clientes-section" className="section_half">
+        <div id="clientes"></div>
         <div className="section-content"></div>
         <h1 className="section_title">clientes</h1>
       </div>
-      <div id="depoimentos" className="section_half">
-        <div id="depoimentos-pin"></div>
+      <div id="depoimentos-section" className="section_half">
+        <div id="depoimentos"></div>
         <div className="section-content"></div>
         <h1 className="section_title">depoimentos</h1>
       </div>
-      <div id="apoiadores" className="section_half">
-        <div id="apoiadores-pin"></div>
+      <div id="apoiadores-section" className="section_half">
+        <div id="apoiadores"></div>
         <div className="section-content"></div>
         <h1 className="section_title">apoiadores</h1>
       </div>
-      <div id="convite">
+      <div id="invite">
         <p>e aí barbadinha, bora pro rolê? ;)</p>
       </div>
       <footer>

@@ -76,8 +76,6 @@ ul {
   background-color: var(--brand-color-purple);
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4);
   z-index: 9;
-  /* box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.4); */
-  /* mix-blend-mode: multiply; */
 }
 
 .header_main .logo {
@@ -163,7 +161,6 @@ ul {
   color: var(--brand-color-white);
   cursor: pointer;
   position: relative;
-  /* mix-blend-mode: normal; */
 }
 
 .header_menu ul li h1::after {
@@ -190,7 +187,6 @@ ul {
   justify-content: center;
   align-items: center;
   font-size: 1rem;
-  /* mix-blend-mode: multiply; */
 }
 
 .navigation_1 {
@@ -213,15 +209,13 @@ ul {
   font-weight: 300;
 }
 
-#como-encontrar-pin,
-#clientes-pin,
-#depoimentos-pin,
-#apoiadores-pin {
+#como-encontrar,
+#clientes,
+#depoimentos,
+#apoiadores {
   position: absolute;
   top: -5rem;
   left: 0;
-  /* height: 5rem;
-  width: 5rem; */
 }
 
 /*================ SECTIONS ================*/
@@ -232,7 +226,8 @@ ul {
   padding: 1.5rem 1.5rem;
   display: flex;
   flex-direction: column;
-  height: 645px;
+  /* height: 645px; */
+  height: calc(100vh - 5rem);
   min-width: 22.5rem;
 }
 
@@ -241,10 +236,20 @@ ul {
   padding: 3rem 3rem;
   display: flex;
   justify-content: center;
-  height: 322.5px;
+  /* height: 322.5px; */
+  height: 50vh;
 }
 
 .section_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+  height: calc(100vh - 14rem);
+}
+
+.section_content_half {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -271,7 +276,8 @@ ul {
 .section_content img {
   display: flex;
   width: auto;
-  height: 326px;
+  /* height: 326px; */
+  height: 50vh;
 }
 
 .section_content p span {
@@ -293,15 +299,16 @@ h1.section_title {
 /*================ BG COLORS ================*/
 
 #inicio,
-#depoimentos {
+#depoimentos-section {
   background-color: var(--background-color-purple);
 }
 
-#como-encontrar {
+#como-encontrar-section,
+#apoiadores-section {
   background-color: var(--brand-color-white);
 }
 
-#clientes {
+#clientes-section {
   background-color: var(--background-color-red);
 }
 
@@ -323,6 +330,7 @@ h1.section_title {
 #inicio {
   padding-top: 6.5rem;
   align-items: center;
+  height: 100vh;
 }
 
 #download-buttons {
@@ -333,9 +341,9 @@ h1.section_title {
   gap: 2rem;
   margin-top: 1.375rem;
 }
-/*================ CONVITE ================*/
+/*================ INVITE ================*/
 
-#convite {
+#invite {
   display: flex;
   height: 22.5rem;
   width: 100%;
@@ -344,7 +352,7 @@ h1.section_title {
   justify-content: center;
 }
 
-#convite p {
+#invite p {
   font-size: 1.5em;
   font-family: 'Signika', sans-serif;
   font-weight: 600;

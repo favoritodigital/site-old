@@ -61,28 +61,28 @@ export default function Header() {
                 <MenuItem
                   id="menu_item3"
                   handleIsMenuOpen={handleIsMenuOpen}
-                  href={'/#como-encontrar-pin'}
+                  href={'/#como-encontrar'}
                   label={'como encontrar o seu rolê'}
                   background={'light'}
                 />
                 <MenuItem
                   id="menu_item4"
                   handleIsMenuOpen={handleIsMenuOpen}
-                  href={'/#clientes-pin'}
+                  href={'/#clientes'}
                   label={'clientes'}
                   background={'light'}
                 />
                 <MenuItem
                   id="menu_item5"
                   handleIsMenuOpen={handleIsMenuOpen}
-                  href={'/#depoimentos-pin'}
+                  href={'/#depoimentos'}
                   label={'depoimentos'}
                   background={'light'}
                 />
                 <MenuItem
                   id="menu_item6"
                   handleIsMenuOpen={handleIsMenuOpen}
-                  href={'/#apoiadores-pin'}
+                  href={'/#apoiadores'}
                   label={'apoiadores'}
                   background={'light'}
                   hasShadow
