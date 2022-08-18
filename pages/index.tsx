@@ -1,12 +1,14 @@
 import Header from '../components/Header'
 
-import AppstoreButton from '../public/images/appstorebutton.svg'
-import GooglePlayButton from '../public/images/googleplaybutton.svg'
-
 import InstagramLogo from '../public/images/instagramlogo.svg'
 import FacebookLogo from '../public/images/facebooklogo.svg'
 import LinkedinLogo from '../public/images/linkedinlogo.svg'
 import DownloadButton from '../components/DownloadButton'
+
+import { Swiper, SwiperSlide } from 'swiper/react'
+import 'swiper/css'
+import { Navigation } from 'swiper'
+import 'swiper/css/navigation'
 
 export default function Home() {
   return (
@@ -45,18 +47,175 @@ export default function Home() {
       </div>
       <div id="clientes-section" className="section_half">
         <div id="clientes"></div>
-        <div className="section-content"></div>
         <h1 className="section_title">clientes</h1>
+        <div className="section_content_half">
+          <div className="swiper_wrapper">
+            <Swiper
+              slidesPerView={3.5}
+              onSlideChange={() => console.log('slide change')}
+              onSwiper={swiper => console.log(swiper)}
+            >
+              <SwiperSlide>
+                <div className="costumer">
+                  <div className="costumer-image"></div>
+                  <h1>Cliente 1</h1>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="costumer">
+                  <div className="costumer-image"></div>
+                  <h1>Cliente 2</h1>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="costumer">
+                  <div className="costumer-image"></div>
+                  <h1>Cliente 3</h1>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="costumer">
+                  <div className="costumer-image"></div>
+                  <h1>Cliente 4</h1>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="costumer">
+                  <div className="costumer-image"></div>
+                  <h1>Cliente 5</h1>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="costumer">
+                  <div className="costumer-image"></div>
+                  <h1>Cliente 6</h1>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="costumer">
+                  <div className="costumer-image"></div>
+                  <h1>Cliente 7</h1>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="costumer">
+                  <div className="costumer-image"></div>
+                  <h1>Cliente 8</h1>
+                </div>
+              </SwiperSlide>
+            </Swiper>
+          </div>
+        </div>
       </div>
       <div id="depoimentos-section" className="section_half">
         <div id="depoimentos"></div>
-        <div className="section-content"></div>
         <h1 className="section_title">depoimentos</h1>
+        <div className="section_content_half">
+          <div className="swiper_wrapper">
+            <Swiper
+              modules={[Navigation]}
+              navigation={true}
+              slidesPerView={1}
+              onSlideChange={() => console.log('slide change')}
+              onSwiper={swiper => console.log(swiper)}
+            >
+              <SwiperSlide>
+                <div className="testimonial">
+                  <div className="testemony-person">
+                    <div className="testimonial-image"></div>
+                    <h1 className="testemony-name">Pessoa 1</h1>
+                  </div>
+                  <p className="testemony-text">
+                    “O melhor aplicativo para achar um lugar para beber com
+                    minhas amigas, utilizo todo final de semana”
+                  </p>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="testimonial">
+                  <div className="testemony-person">
+                    <div className="testimonial-image"></div>
+                    <h1 className="testemony-name">Pessoa 2</h1>
+                  </div>
+                  <p className="testemony-text">“Top Demais!!!”</p>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="testimonial">
+                  <div className="testemony-person">
+                    <div className="testimonial-image"></div>
+                    <h1 className="testemony-name">Pessoa 3</h1>
+                  </div>
+                  <p className="testemony-text">
+                    “Não vivo mais sem, melhor app!!!”
+                  </p>
+                </div>
+              </SwiperSlide>
+            </Swiper>
+          </div>
+        </div>
       </div>
       <div id="apoiadores-section" className="section_half">
         <div id="apoiadores"></div>
-        <div className="section-content"></div>
         <h1 className="section_title">apoiadores</h1>
+        <div className="section_content_half">
+          <div className="swiper_wrapper">
+            <Swiper
+              slidesPerView={3.5}
+              onSlideChange={() => console.log('slide change')}
+              onSwiper={swiper => console.log(swiper)}
+            >
+              <SwiperSlide>
+                <div className="sponsor">
+                  <div className="sponsor-image"></div>
+                  <h1>Apoiador 1</h1>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="sponsor">
+                  <div className="sponsor-image"></div>
+                  <h1>Apoiador 2</h1>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="sponsor">
+                  <div className="sponsor-image"></div>
+                  <h1>Apoiador 3</h1>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="sponsor">
+                  <div className="sponsor-image"></div>
+                  <h1>Apoiador 4</h1>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="sponsor">
+                  <div className="sponsor-image"></div>
+                  <h1>Apoiador 5</h1>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="sponsor">
+                  <div className="sponsor-image"></div>
+                  <h1>Apoiador 6</h1>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="sponsor">
+                  <div className="sponsor-image"></div>
+                  <h1>Apoiador 7</h1>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="sponsor">
+                  <div className="sponsor-image"></div>
+                  <h1>Apoiador 8</h1>
+                </div>
+              </SwiperSlide>
+            </Swiper>
+          </div>
+        </div>
       </div>
       <div id="invite">
         <p>e aí barbadinha, bora pro rolê? ;)</p>
