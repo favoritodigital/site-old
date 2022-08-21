@@ -250,15 +250,14 @@ ul {
   align-items: center;
   flex-direction: row;
   display: flex;
-  height: calc(100vh - 15rem);
-  min-height: 11.875rem;
+  min-height: 16.125rem;
 }
 
 .section_content_half {
   overflow: hidden;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: row;
   display: flex;
   height: calc(50vh - 7.75rem);
@@ -283,7 +282,8 @@ ul {
 .section_content img {
   display: flex;
   width: auto;
-  height: 40vh;
+  height: calc(100vh - 21rem);
+  /* height: 50vh; */
   min-height: 16.125rem;
 }
 
@@ -320,6 +320,10 @@ h1.section_title {
 
 /*================ INICIO ================*/
 
+#inicio .section_content {
+  height: calc(100vh - 21rem);
+}
+
 #inicio p {
   font-size: 1.125em;
   text-align: start;
@@ -351,14 +355,31 @@ h1.section_title {
   margin: 1.375rem 0;
 }
 
+/*================ CLIENTES ================*/
+
+#como-encontrar-section .section_content {
+  height: calc(100vh - 18rem);
+}
+
+/*================ CLIENTES ================*/
+
+#clientes-section h1 {
+  margin-bottom: 0;
+}
+
+#clientes-section .section_content_half {
+  height: calc(50vh - 4.75rem);
+}
+
 /*================ DEPOIMENTOS ================*/
 
 #depoimentos-section .section_title {
-  margin-bottom: 1.5rem;
+  /* margin-bottom: 1.5rem; */
+  margin-bottom: 0;
 }
 
 #depoimentos-section .section_content_half {
-  height: 11.875rem;
+  height: calc(50vh - 4.75rem);
 }
 
 .testimonial {
@@ -403,6 +424,12 @@ h1.section_title {
   clip-path: circle();
   margin-right: 1rem;
   margin-left: 0.75rem;
+}
+
+/*================ APOIADORES ================*/
+
+#apoiadores-section h1 {
+  margin-bottom: 0;
 }
 
 /*================ INVITE ================*/
