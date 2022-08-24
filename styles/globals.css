@@ -355,6 +355,12 @@ h1.section_title {
   margin: 1.375rem 0;
 }
 
+/*================ COMO ENCONTRAR ================*/
+
+#como-encontrar-section .section_content {
+  flex-direction: column;
+}
+
 /*================ CLIENTES ================*/
 
 #como-encontrar-section .section_content {
@@ -488,9 +494,32 @@ footer p {
   display: flex;
   overflow: hidden;
   z-index: 0;
+  max-width: 100%;
+}
+
+.swiper-pagination {
+  bottom: 0 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--brand-color-purple) !important;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.swiper-slide {
+  width: 33.3% !important;
 }
 
 /* ================ SWIPER: COSTUMERS ================ */
+
+#depoimentos-section .swiper_wrapper {
+  height: 14rem;
+}
 
 .costumer {
   top: 0;

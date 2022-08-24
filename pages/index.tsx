@@ -7,8 +7,10 @@ import DownloadButton from '../components/DownloadButton'
 
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
-import { Navigation } from 'swiper'
+import { Navigation, Pagination, EffectCoverflow } from 'swiper'
 import 'swiper/css/navigation'
+import 'swiper/css/pagination'
+import 'swiper/css/effect-coverflow'
 
 export default function Home() {
   return (
@@ -37,7 +39,54 @@ export default function Home() {
         <div id="como-encontrar"></div>
         <h1 className="section_title">encontre seu rolê em 30 segundos</h1>
         <div className="section_content">
-          <div className="swiper-wraper"></div>
+          <div className="swiper_wrapper">
+            <div className="swiper-wraper">
+              <Swiper
+                effect={'coverflow'}
+                grabCursor={true}
+                centeredSlides={true}
+                slidesPerView={'auto'}
+                coverflowEffect={{
+                  rotate: 50,
+                  stretch: 0,
+                  depth: 100,
+                  modifier: 1,
+                  slideShadows: true
+                }}
+                pagination={true}
+                modules={[EffectCoverflow, Pagination]}
+                className="mySwiper"
+              >
+                <SwiperSlide>
+                  <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+                </SwiperSlide>
+              </Swiper>
+            </div>
+          </div>
           <p>
             utilize nossos <span>filtros</span> para descobrir os rolês com
             promoções, música ao vivo, espaço kids, aceita animais, entre outras
@@ -50,11 +99,7 @@ export default function Home() {
         <h1 className="section_title">clientes</h1>
         <div className="section_content_half">
           <div className="swiper_wrapper">
-            <Swiper
-              slidesPerView={3.5}
-              onSlideChange={() => console.log('slide change')}
-              onSwiper={swiper => console.log(swiper)}
-            >
+            <Swiper slidesPerView={3.5}>
               <SwiperSlide>
                 <div className="costumer">
                   <div className="costumer-image"></div>
@@ -113,11 +158,10 @@ export default function Home() {
         <div className="section_content_half">
           <div className="swiper_wrapper">
             <Swiper
-              modules={[Navigation]}
+              modules={[Navigation, Pagination]}
+              pagination={true}
               navigation={true}
               slidesPerView={1}
-              onSlideChange={() => console.log('slide change')}
-              onSwiper={swiper => console.log(swiper)}
             >
               <SwiperSlide>
                 <div className="testimonial">
@@ -160,11 +204,7 @@ export default function Home() {
         <h1 className="section_title">apoiadores</h1>
         <div className="section_content_half">
           <div className="swiper_wrapper">
-            <Swiper
-              slidesPerView={3.5}
-              onSlideChange={() => console.log('slide change')}
-              onSwiper={swiper => console.log(swiper)}
-            >
+            <Swiper slidesPerView={3.5}>
               <SwiperSlide>
                 <div className="sponsor">
                   <div className="sponsor-image"></div>
