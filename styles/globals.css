@@ -426,7 +426,7 @@ h1.section_title {
   display: flex;
   width: 2.625rem;
   height: 2.625rem;
-  background-color: var(--brand-color-extra-light-purple);
+  background-color: var(--brand-color-white);
   clip-path: circle();
   margin-right: 1rem;
   margin-left: 0.75rem;
@@ -533,7 +533,7 @@ footer p {
   display: flex;
   height: 64px;
   width: 64px;
-  background-color: var(--brand-color-red);
+  background-color: var(--brand-color-white);
   margin-bottom: 0.75rem;
   clip-path: circle();
 }

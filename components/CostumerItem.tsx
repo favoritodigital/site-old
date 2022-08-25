@@ -1,19 +1,17 @@
 import { SwiperSlide } from 'swiper/react'
 
 interface props {
-  imagesrc: string
+  imageUrl: string
   name: string
 }
 
-export default function CostumerItem({ imagesrc, name }: props) {
+export default function CustomerItem({ imageUrl, name }: props) {
   return (
-    <SwiperSlide>
-      <div className="costumer">
-        <div className="costumer-image">
-          <img src={imagesrc} alt={`imagem do cliente ${name}`} />
-        </div>
-        <h1>{name}</h1>
+    <div className='costumer'>
+      <div className='costumer-image'>
+        <img src={imageUrl} alt={`imagem do cliente ${name}`} />
       </div>
-    </SwiperSlide>
+      <h1>{name}</h1>
+    </div>
   )
 }
