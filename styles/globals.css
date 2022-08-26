@@ -229,7 +229,7 @@ ul {
   flex-direction: column;
   height: 100vh;
   min-width: 22.5rem;
-  min-height: 35.3125rem;
+  min-height: 645px;
 }
 
 .section_half {
@@ -263,13 +263,6 @@ ul {
   height: calc(50vh - 7.75rem);
 }
 
-.section_content .text {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  padding: 0 1.5rem;
-}
-
 .section_content p {
   font-size: 1.375em;
   font-family: 'Roboto', sans-serif;
@@ -277,14 +270,6 @@ ul {
   color: var(--text-color-gray);
   text-align: center;
   margin: 0 1.5rem;
-}
-
-.section_content img {
-  display: flex;
-  width: auto;
-  height: calc(100vh - 21rem);
-  /* height: 50vh; */
-  min-height: 16.125rem;
 }
 
 .section_content p span {
@@ -320,8 +305,27 @@ h1.section_title {
 
 /*================ INICIO ================*/
 
+#inicio .section_content .text {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 0 1.5rem;
+}
+
+#inicio h1.section_title {
+  margin-bottom: 2rem;
+}
+
+#inicio .section_content img {
+  display: flex;
+  width: auto;
+  height: 45vh;
+  min-height: 290px;
+}
+
 #inicio .section_content {
   height: calc(100vh - 21rem);
+  min-height: 309px;
 }
 
 #inicio p {
@@ -352,19 +356,28 @@ h1.section_title {
   display: flex;
   flex-direction: row;
   gap: 2rem;
-  margin: 1.375rem 0;
+  margin-top: 2rem;
 }
 
 /*================ COMO ENCONTRAR ================*/
 
-#como-encontrar-section .section_content {
-  flex-direction: column;
+#como-encontrar-section {
+  overflow: hidden;
+  height: calc(100vh - 5rem);
 }
 
-/*================ CLIENTES ================*/
+#como-encontrar-section h1.section_title {
+  margin-bottom: 0;
+}
+
+#como-encontrar-section p {
+  width: calc(100vw - 3rem);
+}
 
 #como-encontrar-section .section_content {
-  height: calc(100vh - 18rem);
+  height: calc(100vh - 12.5rem);
+  flex-direction: column;
+  gap: 2rem;
 }
 
 /*================ CLIENTES ================*/
@@ -511,25 +524,46 @@ footer p {
   height: auto;
 }
 
-.swiper-slide {
-  width: 33.3% !important;
+/* ================ SWIPER: COMO ENCONTRAR ================ */
+
+#como-encontrar-section img {
+  width: auto;
+  height: 35vh;
 }
 
-/* ================ SWIPER: COSTUMERS ================ */
+#como-encontrar-section .swiper-slide {
+  width: auto;
+  height: 35vh;
+}
+
+#como-encontrar-section .swiper-pagination {
+  bottom: 0.5rem !important;
+}
+
+#como-encontrar-section .swiper-slide-shadow-left,
+#como-encontrar-section .swiper-slide-shadow-right {
+  background-image: none;
+}
+
+#como-encontrar-section .swiper_wrapper {
+  margin-top: 1rem;
+}
+
+/* ================ SWIPER: CLIENTES ================ */
 
 #depoimentos-section .swiper_wrapper {
   height: 14rem;
 }
 
-.costumer {
+.custumer {
   top: 0;
-  width: 72px;
+  width: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.costumer-image {
+.custumer-image {
   display: flex;
   height: 64px;
   width: 64px;
@@ -538,16 +572,16 @@ footer p {
   clip-path: circle();
 }
 
-.costumer h1 {
+.custumer h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 1em;
   font-weight: 400;
-  max-width: 72px;
+  max-width: 100px;
   color: var(--text-color-gray);
   text-align: center;
 }
 
-/*================ SWIPER: SPONSORS ================*/
+/*================ SWIPER: DEPOIMENTOS ================*/
 
 .swiper-button-next,
 .swiper-button-prev {
@@ -573,7 +607,7 @@ footer p {
   display: none;
 }
 
-/*================ SWIPER: SPONSORS ================*/
+/*================ SWIPER: APOIADORES ================*/
 
 .sponsor {
   top: 0;

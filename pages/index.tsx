@@ -4,264 +4,272 @@ import InstagramLogo from '../public/images/instagramlogo.svg'
 import FacebookLogo from '../public/images/facebooklogo.svg'
 import LinkedinLogo from '../public/images/linkedinlogo.svg'
 import DownloadButton from '../components/DownloadButton'
-import CustomerItem from '../components/CostumerItem'
+import CustomerItem from '../components/CustumerItem'
 import TestimonialItem from '../components/TestimonialItem'
 
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
-import { Navigation, Pagination, EffectCoverflow } from 'swiper'
+import { Navigation, Pagination } from 'swiper'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
-import 'swiper/css/effect-coverflow'
+import ComoEncontrarSwiper from '../components/ComoEncontrarSwiper'
 
 const customers = [
   {
     name: "Champ's Green Burguer",
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220716102249230-champs-green-burguer.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220716102249230-champs-green-burguer.jpg'
   },
   {
     name: 'Sun7.River Gastrobar',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220704200751727-sun7river-gastrobar.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220704200751727-sun7river-gastrobar.jpg'
   },
   {
     name: 'Vibar',
-    imageUrl: 'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220530134226304-vibar.jpg',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220530134226304-vibar.jpg'
   },
   {
     name: 'Stannis Tap Reinoldo',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220716102429495-stannis-tap-reinoldo.png',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220716102429495-stannis-tap-reinoldo.png'
   },
   {
     name: 'Sinners Pub',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220716102456810-sinners-pub.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220716102456810-sinners-pub.jpg'
   },
   {
     name: 'Nostro Bar',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220716102520304-nostro-bar.jpeg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220716102520304-nostro-bar.jpeg'
   },
   {
     name: 'Macuco Sinuca',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220716102553484-macuco-sinuca.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220716102553484-macuco-sinuca.jpg'
   },
   {
     name: 'Cherokee Brewhouse',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220716102622566-cherokee-brewhouse.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220716102622566-cherokee-brewhouse.jpg'
   },
   {
     name: 'Choperia Arweg',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220809130320242-choperia-arweg.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220809130320242-choperia-arweg.jpg'
   },
   {
     name: 'ZG Lounge',
-    imageUrl: 'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220716102658380-zg-lounge.jpg',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220716102658380-zg-lounge.jpg'
   },
   {
     name: 'Tapera Country Bar',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220622085250498-tapera-country-bar.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220622085250498-tapera-country-bar.jpg'
   },
   {
     name: 'Barbatum Brewpub',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220716102750896-barbatum-brewpub.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220716102750896-barbatum-brewpub.jpg'
   },
   {
     name: 'Madrugadão Lanches Barra',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220716102817311-madrugadao-lanches-barra.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220716102817311-madrugadao-lanches-barra.jpg'
   },
   {
     name: 'Stannis Pub',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220716102849034-stannis-pub.png',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220716102849034-stannis-pub.png'
   },
   {
     name: 'Deck Lounge',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220716102925367-deck-lounge.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220716102925367-deck-lounge.jpg'
   },
   {
     name: 'Via Green In Bar',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220716103042355-via-green-in-bar.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220716103042355-via-green-in-bar.jpg'
   },
   {
     name: 'Zanzibar',
-    imageUrl: 'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220716103057657-zanzibar.jpg',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220716103057657-zanzibar.jpg'
   },
   {
     name: 'Stannis Tap Guaramirim',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220716103123299-stannis-tap-guaramirim.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220716103123299-stannis-tap-guaramirim.jpg'
   },
   {
     name: 'Choperia Tia Neide',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220716103143563-choperia-tia-neide.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220716103143563-choperia-tia-neide.jpg'
   },
   {
     name: 'Black Box Tap House',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220716103204179-black-box-tap-house.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220716103204179-black-box-tap-house.jpg'
   },
   {
     name: 'Quiosque Marquesin',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220716103219574-quiosque-marquesin.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220716103219574-quiosque-marquesin.jpg'
   },
   {
     name: 'Meu Boteco',
-    imageUrl: 'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220422175307062-meu-boteco.jpg',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220422175307062-meu-boteco.jpg'
   },
   {
     name: "Rajada's Dog",
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220423143312202-rajada-s-dog.png',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220423143312202-rajada-s-dog.png'
   },
   {
     name: 'Samambaia',
-    imageUrl: 'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220427200649297-samambaia.jpg',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220427200649297-samambaia.jpg'
   },
   {
     name: 'Stannis Cervejaria - Bar e Loja',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220429172259089-stannis-cervejaria-bar-e-loja.jpeg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220429172259089-stannis-cervejaria-bar-e-loja.jpeg'
   },
   {
     name: 'Pizzadog',
-    imageUrl: 'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220502180330271-pizzadog.jpg',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220502180330271-pizzadog.jpg'
   },
   {
     name: 'Estação Open Bar',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220503202826331-estacao-open-bar.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220503202826331-estacao-open-bar.jpg'
   },
   {
     name: 'Kneipe 383 Steak House',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220817082011828-kneipe-383-steak-house.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220817082011828-kneipe-383-steak-house.jpg'
   },
   {
     name: 'Deck do Nilo',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220513140721095-deck-do-nilo.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220513140721095-deck-do-nilo.jpg'
   },
   {
     name: 'Boulevard 763 | Food Park',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220524120400504-boulevard-763-food-park.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220524120400504-boulevard-763-food-park.jpg'
   },
   {
     name: 'Praça Bread',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220525112325020-praca-bread.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220525112325020-praca-bread.jpg'
   },
   {
     name: 'Sr Rango Rest. e Petiscaria',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220525150653878-sr-rango-rest-e-petiscaria.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220525150653878-sr-rango-rest-e-petiscaria.jpg'
   },
   {
     name: 'Plankton Burger',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220526222610137-plankton-burger.png',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220526222610137-plankton-burger.png'
   },
   {
     name: 'Wissen - Malte & Lúpulo',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220602132825850-wissen-malte-lupulo.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220602132825850-wissen-malte-lupulo.jpg'
   },
   {
     name: 'Stage Pub',
-    imageUrl: 'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220603085655927-stage-pub.jpg',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220603085655927-stage-pub.jpg'
   },
   {
     name: 'Espetinho Cuiabano GastroPub',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220605201040194-espetinho-cuiabano-gastropub.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220605201040194-espetinho-cuiabano-gastropub.jpg'
   },
   {
     name: 'Karsten Bier Platz',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220810185606784-karsten-bier-platz.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220810185606784-karsten-bier-platz.jpg'
   },
   {
     name: 'Casa da Cerveja',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220620093611517-casa-da-cerveja.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220620093611517-casa-da-cerveja.jpg'
   },
   {
     name: 'Jack American Bar',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220620112809577-jack-americar-bar.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220620112809577-jack-americar-bar.jpg'
   },
   {
     name: 'Arriba Mexican Bar',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220810184332257-arriba-mexican-bar.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220810184332257-arriba-mexican-bar.jpg'
   },
   {
     name: 'Ogro Burger',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220622143228674-ogro-burger.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220622143228674-ogro-burger.jpg'
   },
   {
     name: 'Chef Tilápia',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220627104752528-chef-tilapia.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220627104752528-chef-tilapia.jpg'
   },
   {
     name: 'Vita Jardim Gastronômico e Wine Bar',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220630184842253-vita-jardim-gastron-wine-bar.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220630184842253-vita-jardim-gastron-wine-bar.jpg'
   },
   {
     name: 'Estação Pier Box',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220809150029442-estacao-pier-box.png',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220809150029442-estacao-pier-box.png'
   },
   {
     name: 'ASG Tabacaria e Lounge',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220714190854203-asg-tabacaria-e-lounge.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220714190854203-asg-tabacaria-e-lounge.jpg'
   },
   {
     name: 'Redwolf Pizzas e Burgers',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220731162945029-redwolf-pizzas-e-burgers.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220731162945029-redwolf-pizzas-e-burgers.jpg'
   },
   {
     name: 'Flame Conveniência',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220801142956612-flame-conveniencia.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220801142956612-flame-conveniencia.jpg'
   },
   {
     name: 'Arweg Tap',
-    imageUrl: 'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220804005715669-arweg-tap.jpg',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220804005715669-arweg-tap.jpg'
   },
   {
     name: 'Café de Rua',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220817144244876-cafe-de-rua.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220817144244876-cafe-de-rua.jpg'
   },
   {
     name: 'Gaúcho Chopp e Cozinha',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220818152940287-gaucho-chopp-e-cozinha.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220818152940287-gaucho-chopp-e-cozinha.jpg'
   },
   {
     name: 'Leon Gourmet',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220823170616476-leon-gourmet.jpg',
-  },
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220823170616476-leon-gourmet.jpg'
+  }
 ]
 
 const testimonials = [
@@ -269,126 +277,85 @@ const testimonials = [
     testimonial:
       '“Praticamente toda semana pessoas comentam que conheceram o Meu Boteco ao baixar o Que Barbada no hotel”',
     owner: 'Pedro - proprietário Meu Boteco',
-    imageFileName: 'customer_pedro_meuboteco.jpeg',
+    imageFileName: 'customer_pedro_meuboteco.jpeg'
   },
   {
     testimonial:
       '“Promovemos um show no Sinners Pub é mais de 40 ingressos foram vendidos através do app Que Barbada”',
     owner: 'Baco - proprietário Sinners Pub',
-    imageFileName: 'customer_baco_sinners.jpeg',
+    imageFileName: 'customer_baco_sinners.jpeg'
   },
   {
-    testimonial: '“No dia dos namorados tivemos 3 reservas efetuadas pelo app Que Barbada”',
+    testimonial:
+      '“No dia dos namorados tivemos 3 reservas efetuadas pelo app Que Barbada”',
     owner: 'Magnos - proprietário Samambaia',
-    imageFileName: 'customer_magnos_samambaia.jpeg',
+    imageFileName: 'customer_magnos_samambaia.jpeg'
   },
   {
     testimonial:
       '“Quando as pessoas veem o adesivo do Que Barbada no monitor do caixa, comentam que vieram conhecer o meu bar porque viram no app”',
     owner: 'Moacyr - proprietário Barbatum Brew Pub',
-    imageFileName: 'customer_moacyr_barbatum.jpeg',
+    imageFileName: 'customer_moacyr_barbatum.jpeg'
   },
   {
     testimonial:
       '“Aqui no Sun7 River os clientes comentam que acompanham a nossa agenda de eventos e promoções pelo app Que Barbada”',
     owner: 'Fernanda - proprietária Sun7 River Gastrobar',
-    imageFileName: 'customer_fernanda_sun7.jpeg',
-  },
+    imageFileName: 'customer_fernanda_sun7.jpeg'
+  }
 ]
 
 export default function Home() {
   return (
     <>
       <Header />
-      <div id='inicio' className='section'>
-        <h1 className='section_title'>encontre os melhores rolês em um único lugar!</h1>
-        <div className='section_content'>
-          <div className='text'>
+      <div id="inicio" className="section">
+        <h1 className="section_title">
+          encontre os melhores rolês em um único lugar!
+        </h1>
+        <div className="section_content">
+          <div className="text">
             <p>
               no nosso app, você tem acesso aos melhores rolês de{' '}
               <span>Jaraguá do Sul e região</span> de maneira simples e prática.
             </p>
             <p>disponível para download na App Store e Google Play:</p>
           </div>
-          <img src='/images/quebarbada_mockup1.png' alt='' />
+          <img
+            src="/images/inicio-mockup.png"
+            alt="Imagem do aplicativo Que Barbada"
+          />
         </div>
-        <div id='download-buttons'>
-          <DownloadButton type='appstore' />
-          <DownloadButton type='googleplay' />
+        <div id="download-buttons">
+          <DownloadButton type="appstore" />
+          <DownloadButton type="googleplay" />
         </div>
       </div>
-      <div id='como-encontrar-section' className='section'>
-        <div id='como-encontrar'></div>
-        <h1 className='section_title'>encontre seu rolê em 30 segundos</h1>
-        <div className='section_content'>
-          <div className='swiper_wrapper'>
-            <div className='swiper-wraper'>
-              <Swiper
-                effect={'coverflow'}
-                grabCursor={true}
-                centeredSlides={true}
-                slidesPerView={'auto'}
-                coverflowEffect={{
-                  rotate: 50,
-                  stretch: 0,
-                  depth: 100,
-                  modifier: 1,
-                  slideShadows: true,
-                }}
-                pagination={true}
-                modules={[EffectCoverflow, Pagination]}
-                className='mySwiper'
-              >
-                <SwiperSlide>
-                  <img src='https://swiperjs.com/demos/images/nature-1.jpg' />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <img src='https://swiperjs.com/demos/images/nature-2.jpg' />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <img src='https://swiperjs.com/demos/images/nature-3.jpg' />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <img src='https://swiperjs.com/demos/images/nature-4.jpg' />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <img src='https://swiperjs.com/demos/images/nature-5.jpg' />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <img src='https://swiperjs.com/demos/images/nature-6.jpg' />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <img src='https://swiperjs.com/demos/images/nature-7.jpg' />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <img src='https://swiperjs.com/demos/images/nature-8.jpg' />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <img src='https://swiperjs.com/demos/images/nature-9.jpg' />
-                </SwiperSlide>
-              </Swiper>
-            </div>
-          </div>
+      <div id="como-encontrar-section" className="section">
+        <div id="como-encontrar"></div>
+        <h1 className="section_title">encontre seu rolê em 30 segundos</h1>
+        <div className="section_content">
+          <ComoEncontrarSwiper />
           <p>
-            utilize nossos <span>filtros</span> para descobrir os rolês com promoções, música ao
-            vivo, espaço kids, aceita animais, entre outras opções
+            utilize nossos <span>filtros</span> para descobrir os rolês com
+            promoções, música ao vivo, espaço kids, aceita animais, entre outras
+            opções
           </p>
         </div>
       </div>
-      <div id='clientes-section' className='section_half'>
-        <div id='clientes'></div>
-        <h1 className='section_title'>clientes</h1>
-        <div className='section_content_half'>
-          <div className='swiper_wrapper'>
-            <Swiper
-              slidesPerView={3.5}
-              onSlideChange={() => console.log('slide change')}
-              onSwiper={(swiper) => console.log(swiper)}
-            >
-              {customers.map((customer) => {
+      <div id="clientes-section" className="section_half">
+        <div id="clientes"></div>
+        <h1 className="section_title">clientes</h1>
+        <div className="section_content_half">
+          <div className="swiper_wrapper">
+            <Swiper slidesPerView={2.33}>
+              {customers.map(customer => {
                 return (
                   <SwiperSlide key={customer.name}>
-                    <CustomerItem imageUrl={customer.imageUrl} name={customer.name} />
+                    <CustomerItem
+                      imageUrl={customer.imageUrl}
+                      name={customer.name}
+                    />
                   </SwiperSlide>
                 )
               })}
@@ -396,20 +363,18 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div id='depoimentos-section' className='section_half'>
-        <div id='depoimentos'></div>
-        <h1 className='section_title'>depoimentos</h1>
-        <div className='section_content_half'>
-          <div className='swiper_wrapper'>
+      <div id="depoimentos-section" className="section_half">
+        <div id="depoimentos"></div>
+        <h1 className="section_title">depoimentos</h1>
+        <div className="section_content_half">
+          <div className="swiper_wrapper">
             <Swiper
               modules={[Navigation, Pagination]}
               pagination={true}
               navigation={true}
               slidesPerView={1}
-              onSlideChange={() => console.log('slide change')}
-              onSwiper={(swiper) => console.log(swiper)}
             >
-              {testimonials.map((testimonial) => {
+              {testimonials.map(testimonial => {
                 return (
                   <SwiperSlide key={testimonial.owner}>
                     <TestimonialItem
@@ -424,61 +389,57 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div id='apoiadores-section' className='section_half'>
-        <div id='apoiadores'></div>
-        <h1 className='section_title'>apoiadores</h1>
-        <div className='section_content_half'>
-          <div className='swiper_wrapper'>
-            <Swiper
-              slidesPerView={3.5}
-              onSlideChange={() => console.log('slide change')}
-              onSwiper={(swiper) => console.log(swiper)}
-            >
+      <div id="apoiadores-section" className="section_half">
+        <div id="apoiadores"></div>
+        <h1 className="section_title">apoiadores</h1>
+        <div className="section_content_half">
+          <div className="swiper_wrapper">
+            <Swiper slidesPerView={2.33}>
               <SwiperSlide>
-                <div className='sponsor'>
-                  <div className='sponsor-image'></div>
+                <div className="sponsor">
+                  <div className="sponsor-image"></div>
                   <h1>Apoiador 1</h1>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className='sponsor'>
-                  <div className='sponsor-image'></div>
+                <div className="sponsor">
+                  <div className="sponsor-image"></div>
                   <h1>Apoiador 2</h1>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className='sponsor'>
-                  <div className='sponsor-image'></div>
+                <div className="sponsor">
+                  <div className="sponsor-image"></div>
                   <h1>Apoiador 3</h1>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className='sponsor'>
-                  <div className='sponsor-image'></div>
+                <div className="sponsor">
+                  <div className="sponsor-image"></div>
                   <h1>Apoiador 4</h1>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className='sponsor'>
-                  <div className='sponsor-image'></div>
+                <div className="sponsor">
+                  <div className="sponsor-image"></div>
                   <h1>Apoiador 5</h1>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className='sponsor'>
-                  <div className='sponsor-image'></div>
+                <div className="sponsor">
+                  <div className="sponsor-image"></div>
                   <h1>Apoiador 6</h1>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className='sponsor'>
-                  <div className='sponsor-image'></div>
+                <div className="sponsor">
+                  <div className="sponsor-image"></div>
                   <h1>Apoiador 7</h1>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className='sponsor'>
-                  <div className='sponsor-image'></div>
+                <div className="sponsor">
+                  <div className="sponsor-image"></div>
                   <h1>Apoiador 8</h1>
                 </div>
               </SwiperSlide>
@@ -486,11 +447,11 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div id='invite'>
+      <div id="invite">
         <p>e aí barbadinha, bora pro rolê? ;)</p>
       </div>
       <footer>
-        <div className='social-media'>
+        <div className="social-media">
           <InstagramLogo />
           <FacebookLogo />
           <LinkedinLogo />
