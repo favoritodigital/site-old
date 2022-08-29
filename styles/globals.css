@@ -376,8 +376,9 @@ h1.section_title {
 
 #como-encontrar-section .section_content {
   height: calc(100vh - 12.5rem);
+  margin-top: 2rem;
   flex-direction: column;
-  gap: 2rem;
+  /* gap: 2rem; */
 }
 
 /*================ CLIENTES ================*/
@@ -528,12 +529,12 @@ footer p {
 
 #como-encontrar-section img {
   width: auto;
-  height: 35vh;
+  height: calc(100vh - 25rem);
 }
 
 #como-encontrar-section .swiper-slide {
   width: auto;
-  height: 35vh;
+  height: calc(100vh - 25rem);
 }
 
 #como-encontrar-section .swiper-pagination {
@@ -546,7 +547,7 @@ footer p {
 }
 
 #como-encontrar-section .swiper_wrapper {
-  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 /* ================ SWIPER: CLIENTES ================ */
