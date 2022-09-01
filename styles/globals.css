@@ -51,6 +51,10 @@ ul {
   min-width: 350px;
 }
 
+.tablet {
+  display: none;
+}
+
 /*================ HEADER ================*/
 
 #header_logo {
@@ -240,7 +244,7 @@ ul {
   flex-direction: column;
   height: 50vh;
   min-width: 22.5rem;
-  min-height: 17.65625rem;
+  min-height: 282.5px;
 }
 
 .section_content {
@@ -258,7 +262,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
+  flex-direction: column;
   display: flex;
   height: calc(50vh - 7.75rem);
 }
@@ -356,7 +360,6 @@ h1.section_title {
   display: flex;
   flex-direction: row;
   gap: 2rem;
-  margin-top: 2rem;
 }
 
 /*================ COMO ENCONTRAR ================*/
@@ -376,19 +379,21 @@ h1.section_title {
 
 #como-encontrar-section .section_content {
   height: calc(100vh - 12.5rem);
-  margin-top: 2rem;
   flex-direction: column;
-  /* gap: 2rem; */
 }
 
 /*================ CLIENTES ================*/
+
+#clientes-section {
+  height: 70vh;
+}
 
 #clientes-section h1 {
   margin-bottom: 0;
 }
 
 #clientes-section .section_content_half {
-  height: calc(50vh - 4.75rem);
+  height: calc(100vh - 4.75rem);
 }
 
 /*================ DEPOIMENTOS ================*/
@@ -538,7 +543,7 @@ footer p {
 }
 
 #como-encontrar-section .swiper-pagination {
-  bottom: 0.5rem !important;
+  bottom: 0rem !important;
 }
 
 #como-encontrar-section .swiper-slide-shadow-left,
@@ -552,13 +557,10 @@ footer p {
 
 /* ================ SWIPER: CLIENTES ================ */
 
-#depoimentos-section .swiper_wrapper {
-  height: 14rem;
-}
-
 .custumer {
   top: 0;
   width: 100px;
+  height: 10rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -583,6 +585,10 @@ footer p {
 }
 
 /*================ SWIPER: DEPOIMENTOS ================*/
+
+#depoimentos-section .swiper_wrapper {
+  height: 14rem;
+}
 
 .swiper-button-next,
 .swiper-button-prev {
@@ -612,6 +618,7 @@ footer p {
 
 .sponsor {
   top: 0;
+  height: 10rem;
   width: 72px;
   display: flex;
   flex-direction: column;
@@ -638,7 +645,7 @@ footer p {
 
 /*================ MEDIA QUERIES ================*/
 
-@media screen and (min-width: 890px) {
+@media screen and (min-width: 768px) {
   .container {
     padding: 0 8rem;
   }
@@ -652,5 +659,13 @@ footer p {
 
   .navigation_web {
     right: 8rem;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .tablet {
+    display: block;
   }
 }
