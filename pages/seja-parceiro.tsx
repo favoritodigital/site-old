@@ -1,3 +1,6 @@
+// NEXT
+import Head from 'next/head'
+
 // HEADER
 import Footer from '../components/Footer'
 import Header from '../components/Header'
@@ -9,6 +12,11 @@ import SejaParceiro from '../components/SejaParceiro-section'
 export default function Sejaparceiro() {
   return (
     <>
+      <Head>
+        <title>Que Barbada</title>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Header />
       <SejaParceiro />
       <Footer />
