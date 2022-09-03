@@ -701,7 +701,8 @@ footer p {
   align-items: center;
 }
 
-#seja-parceiro a {
+#seja-parceiro .telephone {
+  cursor: pointer;
   display: flex;
   align-items: center;
   margin-bottom: 3rem;
@@ -726,6 +727,7 @@ footer p {
     font-size: 2em;
     line-height: 2rem;
   }
+
   .section_content p {
     font-size: 1.75rem;
     line-height: 2.5rem;
@@ -735,10 +737,12 @@ footer p {
   .container {
     padding: 0 4rem;
   }
+
   .navigation_web {
     display: inline-flex;
     right: 4rem;
   }
+
   .tablet {
     display: flex;
   }
@@ -747,6 +751,7 @@ footer p {
   .header_main button {
     display: none;
   }
+
   .mobile {
     display: none;
   }
@@ -755,14 +760,17 @@ footer p {
   #inicio {
     padding-top: 8rem;
   }
+
   #inicio p {
     font-size: 1.75em;
     line-height: 2.5rem;
   }
+
   #inicio svg {
     width: 15.375rem;
     height: auto;
   }
+
   #inicio .section_content {
     height: calc(100vh - 26rem);
   }
@@ -779,29 +787,36 @@ footer p {
     width: 150px;
     height: 220px;
   }
+
   .customer-image {
     width: 96px;
     height: 96px;
   }
+
   .customer h1 {
     font-size: 1.25em;
   }
+
   /*============================================ DEPOIMENTOS */
   .testimonial h1 {
     margin-right: 0.5rem;
   }
+
   /*============================================ APOIADORES */
   .sponsor {
     width: 150px;
     height: 180px;
   }
+
   .sponsor-image {
     width: 96px;
     height: 96px;
   }
+
   .sponsor h1 {
     font-size: 1.25em;
   }
+
   /*============================================ CONVITE */
   #invite p {
     font-size: 2.5em;

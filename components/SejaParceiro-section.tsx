@@ -1,4 +1,5 @@
 // IMAGES
+import Link from 'next/link'
 import WhatsappLogo from '../public/images/whatsapplogo.svg'
 
 // SEJA PARCEIRO SECTION
@@ -38,10 +39,12 @@ export default function SejaParceiro() {
           e temos uma longa história para construirmos juntos. entre em contato
           com a gente clicando no whatsapp abaixo:
         </p>
-        <a href="/">
-          <WhatsappLogo />
-          <span itemProp="telephone">+55 (00) 00000-0000</span>
-        </a>
+        <Link href={'/'}>
+          <div className="telephone">
+            <WhatsappLogo />
+            <span itemProp="telephone">+55 (00) 00000-0000</span>
+          </div>
+        </Link>
       </div>
     </div>
   )
