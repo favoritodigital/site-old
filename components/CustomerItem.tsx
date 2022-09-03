@@ -1,16 +1,16 @@
-//TYPES
+// TYPES
 import { Customer } from '../types/Customer'
 interface Props {
   customer1: Customer
   customer2?: Customer
 }
 
-//CUSTOMERITEM
+// CUSTOMERITEM
 export default function CustomerItem({ customer1, customer2 }: Props) {
   return (
     <>
-      <div className="custumer">
-        <div className="custumer-image">
+      <div className="customer">
+        <div className="customer-image">
           <img
             src={customer1.imageUrl}
             alt={`imagem do cliente ${customer1.name}`}
@@ -19,8 +19,8 @@ export default function CustomerItem({ customer1, customer2 }: Props) {
         <h1>{customer1.name}</h1>
       </div>
       {customer2 && (
-        <div className="custumer">
-          <div className="custumer-image">
+        <div className="customer">
+          <div className="customer-image">
             <img
               src={customer2.imageUrl}
               alt={`imagem do cliente ${customer2.name}`}

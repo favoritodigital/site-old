@@ -1,7 +1,10 @@
+// REACT
 import { useState } from 'react'
+
+// NEXT
 import Link from 'next/link'
 
-// SVGS
+// IMAGES
 import Logo from '../public/images/logo.svg'
 import Open from '../public/images/open.svg'
 import Close from '../public/images/open.svg'

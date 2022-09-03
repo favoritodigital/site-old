@@ -1,5 +1,7 @@
+// NEXT
 import Link from 'next/link'
 
+// TYPES
 interface Props {
   id: string
   label: string
@@ -9,6 +11,7 @@ interface Props {
   handleIsMenuOpen: (arg: boolean) => void
 }
 
+// MENU ITEM
 export default function MenuItem({
   label,
   href,

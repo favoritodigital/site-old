@@ -1,9 +1,9 @@
-//IMAGES
+// IMAGES
 import InstagramLogo from '../public/images/instagramlogo.svg'
 import FacebookLogo from '../public/images/facebooklogo.svg'
 import LinkedinLogo from '../public/images/linkedinlogo.svg'
 
-//FOOTER
+// FOOTER
 export default function Footer() {
   return (
     <footer>

@@ -557,7 +557,7 @@ footer p {
 
 /* ================ SWIPER: CLIENTES ================ */
 
-.custumer {
+.customer {
   top: 0;
   width: 100px;
   height: 10rem;
@@ -566,7 +566,7 @@ footer p {
   align-items: center;
 }
 
-.custumer-image {
+.customer-image {
   display: flex;
   height: 64px;
   width: 64px;
@@ -575,7 +575,7 @@ footer p {
   clip-path: circle();
 }
 
-.custumer h1 {
+.customer h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 1em;
   font-weight: 400;
@@ -638,34 +638,178 @@ footer p {
   font-family: 'Roboto', sans-serif;
   font-size: 1em;
   font-weight: 400;
-  max-width: 72px;
+  max-width: 100px;
   color: var(--text-color-gray);
   text-align: center;
 }
 
-/*================ MEDIA QUERIES ================*/
+/*================ SEJA PARCEIRO ================*/
 
+#seja-parceiro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 1.5rem;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+#seja-parceiro h1.title {
+  margin-top: 7rem;
+  width: 12rem;
+}
+
+#seja-parceiro h1.contact {
+  width: 17rem;
+}
+
+#seja-parceiro h1 {
+  font-family: 'Signika', sans-serif;
+  font-size: 1.5em;
+  color: var(--brand-color-purple);
+  margin-bottom: 3rem;
+}
+
+#seja-parceiro h2 {
+  color: var(--brand-color-light-purple);
+  margin-bottom: 3rem;
+  font-size: 1em;
+}
+
+#seja-parceiro p {
+  color: var(--text-color-gray);
+  font-weight: 700;
+  margin-bottom: 3rem;
+  line-height: 1.25rem;
+  font-size: 1em;
+}
+
+#seja-parceiro li {
+  color: var(--text-color-gray);
+  line-height: 1.25rem;
+  margin-bottom: 0.5rem;
+  font-size: 1em;
+}
+
+#seja-parceiro ul {
+  margin-bottom: 3rem;
+}
+
+#seja-parceiro .whatsapp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#seja-parceiro a {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3rem;
+  gap: 0.5rem;
+}
+
+#seja-parceiro span {
+  color: #075e54;
+}
+
+#seja-parceiro svg {
+  width: auto;
+  height: 2rem;
+}
+
+/*============================================== MEDIA QUERIES */
+
+/*============================================== TABLET */
 @media screen and (min-width: 768px) {
-  .container {
-    padding: 0 8rem;
+  /*============================================ GLOBAL */
+  h1.section_title {
+    font-size: 2em;
+    line-height: 2rem;
+  }
+  .section_content p {
+    font-size: 1.75rem;
+    line-height: 2.5rem;
   }
 
-  .header_main button {
-    display: none;
+  /*============================================ ENABLE TABLET */
+  .container {
+    padding: 0 4rem;
   }
   .navigation_web {
     display: inline-flex;
+    right: 4rem;
+  }
+  .tablet {
+    display: flex;
   }
 
-  .navigation_web {
-    right: 8rem;
+  /*============================================ DISABLE MOBILE */
+  .header_main button {
+    display: none;
   }
-
   .mobile {
     display: none;
   }
 
-  .tablet {
-    display: block;
+  /*============================================ INICIO */
+  #inicio {
+    padding-top: 8rem;
   }
+  #inicio p {
+    font-size: 1.75em;
+    line-height: 2.5rem;
+  }
+  #inicio svg {
+    width: 15.375rem;
+    height: auto;
+  }
+  #inicio .section_content {
+    height: calc(100vh - 26rem);
+  }
+
+  /*============================================ COMO ENCONTRAR */
+  #como-encontrar-section .swiper-slide,
+  #como-encontrar-section img {
+    width: auto;
+    height: calc(100vh - 30rem);
+  }
+
+  /*============================================ CLIENTES */
+  .customer {
+    width: 150px;
+    height: 220px;
+  }
+  .customer-image {
+    width: 96px;
+    height: 96px;
+  }
+  .customer h1 {
+    font-size: 1.25em;
+  }
+  /*============================================ DEPOIMENTOS */
+  .testimonial h1 {
+    margin-right: 0.5rem;
+  }
+  /*============================================ APOIADORES */
+  .sponsor {
+    width: 150px;
+    height: 180px;
+  }
+  .sponsor-image {
+    width: 96px;
+    height: 96px;
+  }
+  .sponsor h1 {
+    font-size: 1.25em;
+  }
+  /*============================================ CONVITE */
+  #invite p {
+    font-size: 2.5em;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  /*============================================ DISABLE TABLET */
+
+  /*============================================ ENABLE WEB */
 }

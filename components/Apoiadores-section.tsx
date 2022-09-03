@@ -1,8 +1,8 @@
-//SWIPER
+// SWIPER
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 
-//APOIADORES SECTION
+// APOIADORES SECTION
 export default function ApoiadoresSection() {
   return (
     <div id="apoiadores-section" className="section_half">

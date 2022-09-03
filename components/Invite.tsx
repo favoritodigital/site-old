@@ -1,3 +1,4 @@
+// INVITE
 export default function Invite() {
   return (
     <div id="invite">

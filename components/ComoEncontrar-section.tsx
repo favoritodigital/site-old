@@ -1,7 +1,7 @@
-//COMPONENTS
+// COMPONENTS
 import ComoEncontrarSwiper from './ComoEncontrarSwiper'
 
-//COMO ENCONTRAR SECTION
+// COMO ENCONTRAR SECTION
 export default function ComoEncontrarSection() {
   return (
     <div id="como-encontrar-section" className="section">

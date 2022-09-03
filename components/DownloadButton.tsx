@@ -1,12 +1,16 @@
+// REACT
 import React from 'react'
 
+// IMAGES
 import AppStoreLogo from '../public/images/appstorebutton.svg'
 import GooglePlayLogo from '../public/images/googleplaybutton.svg'
 
+// TYPES
 interface Props {
   type: 'appstore' | 'googleplay'
 }
 
+// DOWNLOAD BUTTON
 export default function DownloadButton({ type }: Props) {
   return (
     <a

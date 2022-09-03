@@ -1,20 +1,20 @@
-//REACT
+// REACT
 import { useEffect, useState } from 'react'
 
-//SWIPER
+// SWIPER
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 
-//COMPONENTS
-import CustomerItem from '../components/CustumerItem'
+// COMPONENTS
+import CustomerItem from '../components/CustomerItem'
 
-//TYPES
+// TYPES
 import { Customer } from '../types/Customer'
 
-//REPOSITORY
+// REPOSITORY
 import { rawCustomers } from '../Repository'
 
-//CUSTOMERS CHUNK ARRAY - SWIPER MOBILE
+// CUSTOMERS CHUNK ARRAY - SWIPER MOBILE
 const chunk = (chunkSize: number, array: Customer[]) => {
   let customers: Customer[][] = []
 
@@ -26,7 +26,7 @@ const chunk = (chunkSize: number, array: Customer[]) => {
   return customers
 }
 
-//CLIENTES SECTION
+// CLIENTES SECTION
 export default function ClientesSection() {
   const [customers, setCustomers] = useState<Customer[][]>([])
 
