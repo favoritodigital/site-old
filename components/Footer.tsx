@@ -18,16 +18,28 @@ export default function Footer() {
         <div className="social-media">
           <p>Siga nas redes sociais:</p>
           <div className="social-media-images">
-            <a href="https://www.instagram.com/" target="_blank">
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <InstagramLogo />
             </a>
-            <a href="https://www.facebook.com/" target="_blank">
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FacebookLogo />
             </a>
-            <a href="https://www.linkedin.com/" target="_blank">
+            <a
+              href="https://www.linkedin.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <LinkedinLogo />
             </a>
-            <a href="https://www.tiktok.com/" target="_blank">
+            <a href="https://www.tiktok.com/" target="_blank" rel="noreferrer">
               <TiktokLogo />
             </a>
           </div>
