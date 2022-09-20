@@ -1,6 +1,14 @@
 // SWIPER
 import { Swiper, SwiperSlide } from 'swiper/react'
+import { Pagination } from 'swiper'
+import 'swiper/css/pagination'
 import 'swiper/css'
+
+// REPOSITORY
+import { sponsors } from '../Repository'
+
+// COMPONENTS
+import SponsorItem from './SponsorItem'
 
 // APOIADORES SECTION
 export default function ApoiadoresSection() {
@@ -10,105 +18,36 @@ export default function ApoiadoresSection() {
       <h1 className="section_title">apoiadores</h1>
       <div className="section_content_half">
         <div className="swiper_wrapper">
-          <Swiper className="mobile" slidesPerView={2.33}>
-            <SwiperSlide>
-              <div className="sponsor">
-                <div className="sponsor-image"></div>
-                <h1>Apoiador 1</h1>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="sponsor">
-                <div className="sponsor-image"></div>
-                <h1>Apoiador 2</h1>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="sponsor">
-                <div className="sponsor-image"></div>
-                <h1>Apoiador 3</h1>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="sponsor">
-                <div className="sponsor-image"></div>
-                <h1>Apoiador 4</h1>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="sponsor">
-                <div className="sponsor-image"></div>
-                <h1>Apoiador 5</h1>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="sponsor">
-                <div className="sponsor-image"></div>
-                <h1>Apoiador 6</h1>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="sponsor">
-                <div className="sponsor-image"></div>
-                <h1>Apoiador 7</h1>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="sponsor">
-                <div className="sponsor-image"></div>
-                <h1>Apoiador 8</h1>
-              </div>
-            </SwiperSlide>
+          <Swiper
+            className="mobile"
+            slidesPerView={2.33}
+            modules={[Pagination]}
+            pagination
+          >
+            {sponsors.map(sponsor => {
+              return (
+                <SwiperSlide key={`mobile ${sponsor.name}`}>
+                  <SponsorItem
+                    name={sponsor.name}
+                    imageFileName={sponsor.imageFileName}
+                    url={sponsor.url}
+                  />
+                </SwiperSlide>
+              )
+            })}
           </Swiper>
-          <Swiper className="tablet" slidesPerView={5.33}>
-            <SwiperSlide>
-              <div className="sponsor">
-                <div className="sponsor-image"></div>
-                <h1>Apoiador 1</h1>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="sponsor">
-                <div className="sponsor-image"></div>
-                <h1>Apoiador 2</h1>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="sponsor">
-                <div className="sponsor-image"></div>
-                <h1>Apoiador 3</h1>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="sponsor">
-                <div className="sponsor-image"></div>
-                <h1>Apoiador 4</h1>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="sponsor">
-                <div className="sponsor-image"></div>
-                <h1>Apoiador 5</h1>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="sponsor">
-                <div className="sponsor-image"></div>
-                <h1>Apoiador 6</h1>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="sponsor">
-                <div className="sponsor-image"></div>
-                <h1>Apoiador 7</h1>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="sponsor">
-                <div className="sponsor-image"></div>
-                <h1>Apoiador 8</h1>
-              </div>
-            </SwiperSlide>
+          <Swiper className="tablet" slidesPerView={3}>
+            {sponsors.map(sponsor => {
+              return (
+                <SwiperSlide key={`tablet ${sponsor.name}`}>
+                  <SponsorItem
+                    name={sponsor.name}
+                    imageFileName={sponsor.imageFileName}
+                    url={sponsor.url}
+                  />
+                </SwiperSlide>
+              )
+            })}
           </Swiper>
         </div>
       </div>

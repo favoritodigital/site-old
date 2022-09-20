@@ -13,13 +13,13 @@ export default function TestimonialItem({
 }: Props) {
   return (
     <div className="testimonial">
-      <div className="testemony-person">
+      <div className="testimony-person">
         <div className="testimonial-image">
           <img src={`/images/${imageFileName}`} alt={`Foto do ${owner}`} />
         </div>
-        <h1 className="testemony-name">{owner}</h1>
+        <h1 className="testimony-name">{owner}</h1>
       </div>
-      <p className="testemony-text">{testimonial}</p>
+      <p className="testimony-text">{testimonial}</p>
     </div>
   )
 }

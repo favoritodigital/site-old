@@ -287,6 +287,24 @@ export const testimonials = [
     testimonial:
       '"Aqui no Sun7 River os clientes comentam que acompanham a nossa agenda de eventos e promoções pelo app Que Barbada"',
     owner: 'Fernanda - proprietária Sun7 River Gastrobar',
-    imageFileName: 'customer_fernanda_sun7.jpeg'
+    imageFileName: 'customer_fernanda_sun7.jpg'
+  }
+]
+
+export const sponsors = [
+  {
+    name: 'Programa NaSCer',
+    imageFileName: 'nascer.png',
+    url: 'https://fapesc.sc.gov.br/programa-nascer/'
+  },
+  {
+    name: 'TXM Methods',
+    imageFileName: 'txm.png',
+    url: 'https://www.txm-methods.com/'
+  },
+  {
+    name: 'Fapesc',
+    imageFileName: 'fapesc.png',
+    url: 'https://fapesc.sc.gov.br/'
   }
 ]

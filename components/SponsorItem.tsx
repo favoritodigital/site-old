@@ -1,17 +1,19 @@
-// TYPES
 interface props {
-  imagesrc: string
   name: string
+  imageFileName: string
+  url: string
 }
 
-// SPONSOR ITEM
-export default function SponsorItem({ imagesrc, name }: props) {
+export default function ApoiadorItem({ name, imageFileName, url }: props) {
   return (
-    <div className="costumer">
-      <div className="costumer-image">
-        <img src={imagesrc} alt={`imagem do apoiador ${name}`} />
+    <a href={url} className="sponsor" target="_blank">
+      <div className="sponsor-image">
+        <img
+          src={`/images/${imageFileName}`}
+          alt={`imagem do apoiador ${name}`}
+        />
       </div>
       <h1>{name}</h1>
-    </div>
+    </a>
   )
 }

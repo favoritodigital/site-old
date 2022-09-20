@@ -8,6 +8,9 @@ import Header from '../components/Header'
 // SECTIONS
 import SejaParceiro from '../components/SejaParceiro-section'
 
+// COMPONENTS
+import WhatsappButton from '../components/WhatsappButton'
+
 // SEJA PARCEIRO
 export default function Sejaparceiro() {
   return (
@@ -18,6 +21,7 @@ export default function Sejaparceiro() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <Header />
+      <WhatsappButton />
       <SejaParceiro />
       <Footer />
     </>

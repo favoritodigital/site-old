@@ -1,10 +1,6 @@
 // REACT
 import React from 'react'
 
-// IMAGES
-import AppStoreLogo from '../public/images/appstorebutton.svg'
-import GooglePlayLogo from '../public/images/googleplaybutton.svg'
-
 // TYPES
 interface Props {
   type: 'appstore' | 'googleplay'
@@ -22,7 +18,11 @@ export default function DownloadButton({ type }: Props) {
       target="_blank"
       rel="noreferrer"
     >
-      {type === 'appstore' ? <AppStoreLogo /> : <GooglePlayLogo />}
+      {type === 'appstore' ? (
+        <img src="/images/appstorebutton.png" alt="appstore" />
+      ) : (
+        <img src="/images/googleplaybutton.png" alt="googleplay" />
+      )}
     </a>
   )
 }

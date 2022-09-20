@@ -2,18 +2,37 @@
 import InstagramLogo from '../public/images/instagramlogo.svg'
 import FacebookLogo from '../public/images/facebooklogo.svg'
 import LinkedinLogo from '../public/images/linkedinlogo.svg'
+import Logo from '../public/images/logo.svg'
+import TiktokLogo from '../public/images/tiktoklogo.svg'
 
 // FOOTER
 export default function Footer() {
   return (
     <footer>
-      <div className="social-media">
-        <InstagramLogo />
-        <FacebookLogo />
-        <LinkedinLogo />
+      <div className="footer-items">
+        <div className="quebarbada">
+          <Logo />
+          <p>Que Barbada &copy;</p>
+          <p>CNPJ 00.000.000/0000-00</p>
+        </div>
+        <div className="social-media">
+          <p>Siga nas redes sociais:</p>
+          <div className="social-media-images">
+            <a href="https://www.instagram.com/" target="_blank">
+              <InstagramLogo />
+            </a>
+            <a href="https://www.facebook.com/" target="_blank">
+              <FacebookLogo />
+            </a>
+            <a href="https://www.linkedin.com/" target="_blank">
+              <LinkedinLogo />
+            </a>
+            <a href="https://www.tiktok.com/" target="_blank">
+              <TiktokLogo />
+            </a>
+          </div>
+        </div>
       </div>
-      <p>Que Barbada &copy;</p>
-      <p>CNPJ 00.000.000/0000-00</p>
     </footer>
   )
 }

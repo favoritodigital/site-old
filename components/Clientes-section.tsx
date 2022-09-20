@@ -66,6 +66,18 @@ export default function ClientesSection() {
               )
             })}
           </Swiper>
+          <Swiper className="web-large" slidesPerView={6.33}>
+            {customers.map(customer => {
+              return (
+                <SwiperSlide key={customer[0].name}>
+                  <CustomerItem
+                    customer1={customer[0]}
+                    customer2={customer.length === 2 ? customer[1] : undefined}
+                  />
+                </SwiperSlide>
+              )
+            })}
+          </Swiper>
         </div>
       </div>
     </div>

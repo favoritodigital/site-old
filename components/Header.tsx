@@ -19,27 +19,29 @@ export default function Header() {
     <>
       <div className="header_wraper">
         <div className="header_main container box_shadow">
-          {/* LOGO */}
-          <Link href={'/'}>
-            <div id="header_logo">
-              <Logo />
+          <div className="header-items">
+            {/* LOGO */}
+            <Link href={'/'}>
+              <div id="header_logo">
+                <Logo />
+              </div>
+            </Link>
+            {/* NAVIGATION WEB */}
+            <div className="navigation_web">
+              <WebNavigationItem href={'/'} label={'home'} />
+              <WebNavigationItem
+                href={'/seja-parceiro'}
+                label={'seja parceiro'}
+              />
             </div>
-          </Link>
-          {/* NAVIGATION WEB */}
-          <div className="navigation_web">
-            <WebNavigationItem href={'/'} label={'home'} />
-            <WebNavigationItem
-              href={'/seja-parceiro'}
-              label={'seja parceiro'}
-            />
+            {/* MENU BUTTON */}
+            <button
+              id="menu_button"
+              onClick={() => handleIsMenuOpen(!isMenuOpen)}
+            >
+              <div>{isMenuOpen ? <Close /> : <Open />}</div>
+            </button>
           </div>
-          {/* MENU BUTTON */}
-          <button
-            id="menu_button"
-            onClick={() => handleIsMenuOpen(!isMenuOpen)}
-          >
-            <div>{isMenuOpen ? <Close /> : <Open />}</div>
-          </button>
         </div>
         {/* NAVIGATION MOBILE */}
         <div className="navigation_mobile">

@@ -1,8 +1,8 @@
 // SWIPER
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
-import { Pagination, EffectCoverflow } from 'swiper'
-import 'swiper/css/zoom'
+import { Navigation, Pagination, EffectCoverflow } from 'swiper'
+import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import 'swiper/css/effect-coverflow'
 
@@ -66,6 +66,7 @@ export default function ComoEncontrarSwiper() {
           </SwiperSlide>
         </Swiper>
         <Swiper
+          navigation={true}
           spaceBetween={32}
           effect={'coverflow'}
           grabCursor={true}
@@ -79,7 +80,7 @@ export default function ComoEncontrarSwiper() {
             slideShadows: true
           }}
           pagination={true}
-          modules={[EffectCoverflow, Pagination]}
+          modules={[Navigation, EffectCoverflow, Pagination]}
           className="tablet"
         >
           <SwiperSlide>
