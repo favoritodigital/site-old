@@ -79,7 +79,7 @@ export default function Footer() {
         <div className="developer">
           <p>Desenvolvido por:</p>
           <a
-            href="https://www.linkedin.com/in/wesley-bridi-12909623a/"
+            href="https://www.linkedin.com/in/wesleybridirigo"
             target="_blank"
             rel="noreferrer"
           >

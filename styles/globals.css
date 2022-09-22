@@ -461,6 +461,9 @@ ul {
   #clientes-section .section_content_half {
     height: calc(100vh - 4.75rem);
   }
+  #clientes-section .section_content_half .swiper {
+    cursor: grab;
+  }
   /*================ DEPOIMENTOS ================*/
   #depoimentos-section .section_title {
     /* margin-bottom: 1.5rem; */
