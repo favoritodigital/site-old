@@ -14,7 +14,7 @@ export default function Footer() {
         <div className="quebarbada">
           <Logo />
           <p>Que Barbada &copy;</p>
-          <p>CNPJ 00.000.000/0000-00</p>
+          <p>CNPJ 46.230.468/0001-73</p>
         </div>
         <div className="social-media">
           <p>Siga nas redes sociais:</p>

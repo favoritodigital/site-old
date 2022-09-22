@@ -40,7 +40,11 @@ export default function SejaParceiro() {
           com a gente clicando no número abaixo, ou no botão ao lado:
         </p>
         <div className="tablet">
-          <a href="https://web.whatsapp.com/" target="_blank" rel="noreferrer">
+          <a
+            href="https://wa.me/5547997536595"
+            target="_blank"
+            rel="noreferrer"
+          >
             <div className="telephone">
               <WhatsappLogo />
               <span itemProp="telephone">+55 (00) 00000-0000</span>
