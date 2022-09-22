@@ -16,7 +16,7 @@ export default function Sejaparceiro() {
   return (
     <>
       <Head>
-        <title>Que Barbada</title>
+        <title>seja parceiro | Que Barbada</title>
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>

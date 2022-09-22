@@ -128,8 +128,8 @@ ul {
 /*================ EFECTS ================*/
 .navigation_web h1 {
   font-size: 1.5rem;
-  font-family: 'Signika', sans-serif;
-  font-weight: 300;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
   color: var(--brand-color-white);
   cursor: pointer;
   position: relative;
@@ -161,7 +161,7 @@ ul {
   z-index: 2;
 }
 .header_menu ul li h1 {
-  font-family: 'Signika', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 1.25em;
   color: var(--brand-color-white);
   cursor: pointer;
@@ -364,8 +364,8 @@ ul {
   }
   h1.section_title {
     font-size: 1.5em;
-    font-family: 'Signika', sans-serif;
-    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
     color: var(--brand-color-purple);
     text-align: center;
     line-height: 1.75rem;
@@ -453,13 +453,13 @@ ul {
     height: 70vh;
     width: 100vw;
     padding: 2.5rem 0;
+    width: 100%;
   }
   #clientes-section h1 {
     margin-bottom: 0;
   }
   #clientes-section .section_content_half {
     height: calc(100vh - 4.75rem);
-    cursor: grab;
   }
   /*================ DEPOIMENTOS ================*/
   #depoimentos-section .section_title {
@@ -481,8 +481,8 @@ ul {
   }
   #depoimentos-section .testimonial h1 {
     font-size: 1.125em;
-    font-family: 'Signika', sans-serif;
-    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
     color: var(--brand-color-purple);
   }
   #depoimentos-section .testimonial p {
@@ -552,8 +552,8 @@ ul {
   }
   #invite p {
     font-size: 1.5em;
-    font-family: 'Signika', sans-serif;
-    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
     color: var(--text-color-gray);
     margin: 0 5rem;
     text-align: center;
@@ -606,6 +606,7 @@ ul {
     height: 3rem;
     width: auto;
     margin-bottom: 3rem;
+    cursor: pointer;
   }
   footer .social-media-images {
     margin-top: 0.5rem;
@@ -722,7 +723,7 @@ ul {
     width: 17rem;
   }
   #seja-parceiro h1 {
-    font-family: 'Signika', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.5em;
     color: var(--brand-color-purple);
     margin-bottom: 3rem;
@@ -873,14 +874,15 @@ ul {
   }
   #apoiadores-section .section_content_half {
     flex-direction: row;
+    gap: 2.5rem;
   }
   #apoiadores-section .sponsor {
     width: 150px;
     height: 180px;
   }
   #apoiadores-section .sponsor-image {
-    width: 96px;
-    height: 96px;
+    width: 130px;
+    height: 130px;
   }
   #apoiadores-section .sponsor h1 {
     font-size: 1.25em;
@@ -996,11 +998,11 @@ ul {
     gap: 4rem;
   }
   #inicio #download-buttons-web img {
-    width: 10rem;
+    width: 9rem;
     height: auto;
   }
   #download-buttons-web img {
-    width: 8.75rem;
+    width: 7.2rem;
     height: auto;
   }
   #download-buttons-web {
@@ -1248,7 +1250,7 @@ ul {
     gap: 5rem;
   }
   #inicio #download-buttons-web img {
-    width: 12.5rem;
+    width: 9rem;
   }
   #download-buttons-web {
     margin-top: 1.25rem;

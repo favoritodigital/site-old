@@ -267,7 +267,7 @@ export const testimonials = [
   },
   {
     testimonial:
-      '"Promovemos um show no Sinners Pub é mais de 40 ingressos foram vendidos através do app Que Barbada"',
+      '"Promovemos um show no Sinners Pub e mais de 40 ingressos foram vendidos através do app Que Barbada"',
     owner: 'Baco - proprietário Sinners Pub',
     imageFileName: 'customer_baco_sinners.jpeg'
   },

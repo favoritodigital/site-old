@@ -27,14 +27,16 @@ export default function Header({ Dot }: PageProps) {
             {/* LOGO */}
             <Link href={'/'}>
               <div id="header_logo">
-                <Logo />
+                <a>
+                  <Logo />
+                </a>
               </div>
             </Link>
             {/* NAVIGATION WEB */}
             <div className="navigation_web">
               <WebNavigationItem
                 href={'/'}
-                label={'home'}
+                label={'início'}
                 HasDot={Dot === 'home' ? true : false}
               />
               <WebNavigationItem

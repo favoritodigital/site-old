@@ -12,8 +12,12 @@ export default function Footer() {
     <footer>
       <div className="footer-items">
         <div className="quebarbada">
-          <Logo />
-          <p>Que Barbada &copy;</p>
+          <Link href={'/'}>
+            <a>
+              <Logo />
+            </a>
+          </Link>
+          <p>&copy; 2022 Que Barbada. Todos direitos reservados.</p>
           <p>CNPJ 46.230.468/0001-73</p>
         </div>
         <div className="social-media">
@@ -50,15 +54,27 @@ export default function Footer() {
           </div>
         </div>
         <div className="legal">
-          <Link href="/politica-de-privacidade">
+          <a
+            href="https://home.quebarbada.com/politica-de-privacidade"
+            target="_blank"
+            rel="noreferrer"
+          >
             <p>Política de Privacidade</p>
-          </Link>
-          <Link href="/termos-de-uso-estabelecimento">
+          </a>
+          <a
+            href="https://home.quebarbada.com/termos-de-uso-estabelecimento"
+            target="_blank"
+            rel="noreferrer"
+          >
             <p>Termos de Uso - Estabelecimento</p>
-          </Link>
-          <Link href="/termos-de-uso-usuario">
+          </a>
+          <a
+            href="https://home.quebarbada.com/termos-de-uso-usuario"
+            target="_blank"
+            rel="noreferrer"
+          >
             <p>Termos de Uso - Usuário</p>
-          </Link>
+          </a>
         </div>
         <div className="developer">
           <p>Desenvolvido por:</p>

@@ -17,7 +17,9 @@ export default function WebNavigationItem({
   return (
     <div className="webnavigation-item">
       <Link href={href}>
-        <h1>{label}</h1>
+        <a>
+          <h1>{label}</h1>
+        </a>
       </Link>
       <div className={`header-menu-dot ${HasDot && 'visible'}`}></div>
     </div>
