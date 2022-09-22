@@ -83,14 +83,14 @@ export default function Sejaparceiro() {
           <p>
             Cookies are files with a small amount of data that are commonly used
             as anonymous unique identifiers. These are sent to your browser from
-            the websites that you visit and are stored on your device's internal
-            memory. This Service does not use these &ldquo;cookies&rdquo;
-            explicitly. However, the app may use third party code and libraries
-            that use &ldquo;cookies&rdquo; to collect information and improve
-            their services. You have the option to either accept or refuse these
-            cookies and know when a cookie is being sent to your device. If you
-            choose to refuse our cookies, you may not be able to use some
-            portions of this Service.
+            the websites that you visit and are stored on your device&rsquo;s
+            internal memory. This Service does not use these
+            &ldquo;cookies&rdquo; explicitly. However, the app may use third
+            party code and libraries that use &ldquo;cookies&rdquo; to collect
+            information and improve their services. You have the option to
+            either accept or refuse these cookies and know when a cookie is
+            being sent to your device. If you choose to refuse our cookies, you
+            may not be able to use some portions of this Service.
           </p>
           <h2>Service Providers</h2>
           <p>
@@ -127,7 +127,7 @@ export default function Sejaparceiro() {
             control over and assume no responsibility for the content, privacy
             policies, or practices of any third-party sites or services.
           </p>
-          <h2>Children's Privacy</h2>
+          <h2>Children&rsquo;s Privacy</h2>
           <p>
             These Services do not address anyone under the age of 13. We do not
             knowingly collect personally identifiable information from children
