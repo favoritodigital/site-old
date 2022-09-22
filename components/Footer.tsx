@@ -55,21 +55,21 @@ export default function Footer() {
         </div>
         <div className="legal">
           <a
-            href="https://home.quebarbada.com/politica-de-privacidade"
+            href="https://www.quebarbada.com/politica-de-privacidade"
             target="_blank"
             rel="noreferrer"
           >
             <p>Política de Privacidade</p>
           </a>
           <a
-            href="https://home.quebarbada.com/termos-de-uso-estabelecimento"
+            href="https://www.quebarbada.com/termos-de-uso-estabelecimento"
             target="_blank"
             rel="noreferrer"
           >
             <p>Termos de Uso - Estabelecimento</p>
           </a>
           <a
-            href="https://home.quebarbada.com/termos-de-uso-usuario"
+            href="https://www.quebarbada.com/termos-de-uso-usuario"
             target="_blank"
             rel="noreferrer"
           >
