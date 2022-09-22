@@ -1,27 +1,21 @@
 /*================ HTML RESET ================*/
-
 * {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-
 a {
   text-decoration: none;
 }
-
 img {
   width: 100%;
   height: auto;
 }
-
 ul {
   list-style: none;
 }
-
 /*================ GLOBAL VARIABLES ================*/
-
 :root {
   --brand-color-yellow: #ffca5e;
   --brand-color-purple: #5d4989;
@@ -32,45 +26,41 @@ ul {
   --brand-color-black: #1e1e1e;
   --background-color-purple: #faf5ff;
   --background-color-red: #ffe6f0;
-  --text-color-gray: #414141;
+  --text-color-gray: #474747;
 }
-
 /*================ GLOBAL ================*/
-
 .box_shadow {
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-  /* box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.4); */
 }
-
 .margin_menu {
   height: 5rem;
 }
-
 .container {
   padding: 0 1.5rem;
   min-width: 350px;
 }
-
 .tablet {
   display: none;
 }
-
+.legal-text-center {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
 /*================ HEADER ================*/
-
 #header_logo {
   position: relative;
   width: 11rem;
   height: auto;
   cursor: pointer;
 }
-
 .header_wraper {
   width: 100%;
   position: fixed;
   min-width: 350px;
   z-index: 1;
 }
-
 .header-items {
   display: inline-flex;
   position: relative;
@@ -78,7 +68,6 @@ ul {
   width: calc(100vw - 4rem);
   max-width: 1080px;
 }
-
 .header_main {
   display: inline-flex;
   position: relative;
@@ -90,12 +79,10 @@ ul {
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4);
   z-index: 9;
 }
-
 .header_main .logo {
   height: 2.5rem;
   width: auto;
 }
-
 #menu_button {
   position: absolute;
   background-color: var(--brand-color-purple);
@@ -105,26 +92,40 @@ ul {
   width: 1.25rem;
   height: auto;
 }
-
 .navigation_web {
   display: none;
   position: absolute;
   gap: 5rem;
   right: 1.5rem;
 }
-
 .mobile-content {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-
 .web-content {
   display: none;
 }
-
+.webnavigation-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header-menu-dot {
+  display: none;
+  position: absolute;
+  bottom: -0.5rem;
+  height: 0.35rem;
+  width: 0.35rem;
+  clip-path: circle();
+  background-color: var(--brand-color-yellow);
+}
+.webnavigation-item .visible {
+  display: inherit;
+}
 /*================ EFECTS ================*/
-
 .navigation_web h1 {
   font-size: 1.5rem;
   font-family: 'Signika', sans-serif;
@@ -132,78 +133,45 @@ ul {
   color: var(--brand-color-white);
   cursor: pointer;
   position: relative;
-}
-
-.navigation_web h1::after {
-  content: '';
-  width: 100%;
-  height: 2px;
-  background-color: var(--brand-color-white);
-  position: absolute;
-  bottom: -0.25rem;
-  left: 0;
   transition: 0.2s;
-  opacity: 0;
 }
-
-.navigation_web h1:hover::after {
-  opacity: 1;
+.navigation_web h1:hover {
+  color: var(--brand-color-extra-light-purple);
+  transform: scale(1.05);
 }
-
 #menu_item1 {
   z-index: 8;
 }
-
 #menu_item2 {
   z-index: 7;
 }
-
 #menu_item3 {
   z-index: 6;
 }
-
 #menu_item4 {
   z-index: 5;
 }
-
 #menu_item5 {
   z-index: 4;
 }
-
 #menu_item6 {
   z-index: 3;
 }
-
 #menu_item7 {
   z-index: 2;
 }
-
 .header_menu ul li h1 {
   font-family: 'Signika', sans-serif;
   font-size: 1.25em;
   color: var(--brand-color-white);
   cursor: pointer;
   position: relative;
-}
-
-.header_menu ul li h1::after {
-  content: '';
-  width: 100%;
-  height: 2px;
-  position: absolute;
-  background-color: var(--brand-color-white);
-  bottom: -0.125rem;
-  right: 0%;
-  opacity: 0;
   transition: 0.2s;
 }
-
-.header_menu ul li h1:hover::after {
-  opacity: 1;
+.header_menu ul li h1:hover {
+  color: var(--brand-color-extra-light-purple);
 }
-
 /*================ HEADER MENU ================*/
-
 .header_menu ul li {
   position: relative;
   display: flex;
@@ -211,27 +179,22 @@ ul {
   align-items: center;
   font-size: 1rem;
 }
-
 .navigation_1 {
   display: flex;
   height: 5rem;
   background-color: var(--brand-color-purple);
 }
-
 .navigation_1 h1 {
   font-weight: 500;
 }
-
 .navigation_2 {
   display: flex;
   height: 3.25rem;
   background-color: var(--brand-color-light-purple);
 }
-
 .navigation_2 h1 {
   font-weight: 300;
 }
-
 #como-encontrar,
 #clientes,
 #depoimentos,
@@ -240,7 +203,111 @@ ul {
   top: -5rem;
   left: 0;
 }
-
+/*============================================== PRIVACY POLITICY */
+.privacy-policy {
+  justify-items: center;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  padding: 6rem 0;
+  margin: 0 2rem;
+  font-family: 'Roboto', sans-serif;
+}
+.privacy-policy h1 {
+  text-align: center;
+  width: 100%;
+  font-size: 2em;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  color: var(--brand-color-black);
+}
+.privacy-policy h2 {
+  text-align: center;
+  width: 100%;
+  font-size: 1.25em;
+  margin-top: 2rem;
+  color: var(--brand-color-black);
+}
+.privacy-policy p {
+  text-indent: 1.5rem;
+  margin-top: 0.75rem;
+  width: 100%;
+  text-align: justify;
+  font-size: 1em;
+  line-height: 1.5rem;
+  color: var(--text-color-gray);
+}
+.privacy-policy ul {
+  width: 100%;
+  margin: 0.5rem 0;
+  list-style: disc;
+  margin-left: 1rem;
+}
+.privacy-policy a {
+  color: var(--text-color-gray);
+  text-decoration: underline;
+}
+.privacy-policy li {
+  color: var(--text-color-gray);
+}
+.privacy-policy li::marker {
+  color: var(--text-color-gray);
+}
+/*============================================== TERMOS DE USO */
+.termos-de-uso-estabelecimento,
+.termos-de-uso-usuario {
+  justify-items: center;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  padding: 6rem 0;
+  margin: 0 2rem;
+  font-family: 'Roboto', sans-serif;
+}
+.termos-de-uso-estabelecimento h1,
+.termos-de-uso-usuario h1 {
+  text-align: center;
+  width: 100%;
+  font-size: 2em;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  color: var(--brand-color-black);
+}
+.termos-de-uso-estabelecimento h2,
+.termos-de-uso-usuario h2 {
+  text-align: start;
+  text-indent: 1.5rem;
+  width: 100%;
+  font-size: 1.25em;
+  margin-top: 2rem;
+  color: var(--brand-color-black);
+}
+.termos-de-uso-estabelecimento p,
+.termos-de-uso-usuario p {
+  text-indent: 1.5rem;
+  margin-top: 0.75rem;
+  width: 100%;
+  text-align: justify;
+  font-size: 1em;
+  line-height: 1.5rem;
+  color: var(--text-color-gray);
+}
+.termos-de-uso-estabelecimento ul,
+.termos-de-uso-usuario ul {
+  width: 100%;
+  margin: 0.5rem 0;
+  list-style: disc;
+  margin-left: 1rem;
+}
+.termos-de-uso-estabelecimento a,
+.termos-de-uso-usuario a {
+  color: var(--text-color-gray);
+  text-decoration: underline;
+}
+.termos-de-uso-estabelecimento li,
+.termos-de-uso-usuario li {
+  color: var(--text-color-gray);
+}
 /*============================================== MEDIA QUERIES */
 /*============================================== CELPHONE */
 @media screen and (min-width: 1px) {
@@ -384,12 +451,15 @@ ul {
   /*================ CLIENTES ================*/
   #clientes-section {
     height: 70vh;
+    width: 100vw;
+    padding: 2.5rem 0;
   }
   #clientes-section h1 {
     margin-bottom: 0;
   }
   #clientes-section .section_content_half {
     height: calc(100vh - 4.75rem);
+    cursor: grab;
   }
   /*================ DEPOIMENTOS ================*/
   #depoimentos-section .section_title {
@@ -398,8 +468,9 @@ ul {
   }
   #depoimentos-section .section_content_half {
     height: calc(50vh - 4.75rem);
+    cursor: grab;
   }
-  .testimonial {
+  #depoimentos-section .testimonial {
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
@@ -408,13 +479,13 @@ ul {
     background-color: var(--brand-color-white);
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
   }
-  .testimonial h1 {
+  #depoimentos-section .testimonial h1 {
     font-size: 1.125em;
     font-family: 'Signika', sans-serif;
     font-weight: 300;
     color: var(--brand-color-purple);
   }
-  .testimonial p {
+  #depoimentos-section .testimonial p {
     font-size: 1em;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -424,12 +495,12 @@ ul {
     margin: 1rem 0.75rem;
     text-align: left;
   }
-  .testimony-person {
+  #depoimentos-section .testimony-person {
     display: flex;
     align-items: center;
     margin-top: 0.75rem;
   }
-  .testimonial-image {
+  #depoimentos-section .testimonial-image {
     display: flex;
     width: 2.625rem;
     height: 2.625rem;
@@ -439,8 +510,36 @@ ul {
     margin-left: 0.75rem;
   }
   /*================ APOIADORES ================*/
-  #apoiadores-section h1 {
+  #apoiadores-section {
+    height: 70vh;
+    min-height: 33rem;
+  }
+  #apoiadores-section h1.section_title {
     margin-bottom: 0;
+  }
+  #apoiadores-section .section_content_half {
+    height: 100%;
+    gap: 1rem;
+  }
+  #apoiadores-section .sponsor {
+    top: 0;
+    height: 8rem;
+    width: 8rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  #apoiadores-section .sponsor-image {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  #apoiadores-section .sponsor-image img {
+    height: auto;
+    width: 100%;
+    max-height: 8rem;
   }
   /*================ INVITE ================*/
   #invite {
@@ -472,34 +571,53 @@ ul {
     flex-direction: column;
     align-items: left;
     margin-right: 4rem;
+    gap: 2rem;
   }
   footer .social-media {
     display: flex;
     flex-direction: column;
-    margin-top: 3rem;
   }
   footer .social-media-images svg {
-    width: 2rem;
+    width: 1.75rem;
     height: auto;
   }
   footer p {
-    font-size: 1em;
+    font-size: 0.9em;
     font-family: 'Roboto', sans-serif;
     color: var(--brand-color-white);
     margin-bottom: 0.5rem;
   }
-
+  footer a {
+    font-size: 0.9em;
+    font-family: 'Roboto', sans-serif;
+    color: var(--brand-color-white);
+    margin-bottom: 0.5rem;
+  }
+  footer .legal p,
+  footer a {
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  footer .legal p:hover,
+  footer a:hover {
+    color: var(--brand-color-extra-light-purple);
+  }
   footer .quebarbada svg {
     height: 3rem;
     width: auto;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
   }
-
   footer .social-media-images {
-    margin-top: 0.75rem;
+    margin-top: 0.5rem;
     display: flex;
     flex-direction: row;
-    gap: 2rem;
+    gap: 0.75rem;
+  }
+  footer .social-media-images svg {
+    transition: 0.2s;
+  }
+  footer .social-media-images svg:hover {
+    transform: scale(1.1);
   }
   /*================ SWIPER: GLOBAL ================*/
   .swiper_wrapper {
@@ -587,37 +705,6 @@ ul {
   #depoimentos-section .swiper-button-prev::after {
     display: none;
   }
-  /*================ SWIPER: APOIADORES ================*/
-  .sponsor {
-    top: 0;
-    height: 10rem;
-    width: 72px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    cursor: pointer;
-  }
-  .sponsor-image {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    height: 64px;
-    width: 64px;
-    margin-bottom: 0.75rem;
-    clip-path: circle();
-  }
-  .sponsor-image img {
-    height: 48px;
-    width: 48px;
-  }
-  .sponsor h1 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1em;
-    font-weight: 400;
-    max-width: 100px;
-    color: var(--text-color-gray);
-    text-align: center;
-  }
   /*================ SEJA PARCEIRO ================*/
   #seja-parceiro {
     display: flex;
@@ -699,139 +786,168 @@ ul {
     font-size: 2em;
     line-height: 2rem;
   }
-
   .section_content p {
     font-size: 1.75rem;
     line-height: 2.5rem;
   }
-
   /*============================================ ENABLE TABLET */
   .container {
     padding: 0 4rem;
   }
-
   .navigation_web {
     display: inline-flex;
     right: 4rem;
   }
-
   .tablet {
     display: flex;
   }
-
   /*============================================ DISABLE MOBILE */
   .header_main button {
     display: none;
   }
-
   .mobile {
     display: none;
   }
-
   /*============================================ INICIO */
   #inicio {
     padding-top: 8rem;
+    min-height: 1024px;
   }
-
   #inicio p {
     font-size: 1.75em;
     line-height: 2.5rem;
   }
-
+  #inicio .section_content img {
+    min-height: 460px;
+  }
   #inicio #download-buttons-mobile img {
     width: 13.5rem;
     height: auto;
   }
-
   #inicio .section_content {
     height: calc(100vh - 26rem);
+    min-height: 608px;
   }
-
   /*============================================ COMO ENCONTRAR */
+  #como-encontrar-section {
+    min-height: 1024px;
+  }
+  #como-encontrar-section .section_content {
+    min-height: 824px;
+  }
   #como-encontrar-section .swiper-slide,
   #como-encontrar-section img {
     width: auto;
     height: calc(100vh - 30rem);
+    min-height: 544px;
   }
-
   /*============================================ CLIENTES */
   .customer {
     width: 150px;
     height: 220px;
+    justify-content: center;
   }
-
   .customer-image {
     width: 96px;
     height: 96px;
   }
-
   .customer h1 {
     font-size: 1.25em;
   }
-
   /*============================================ DEPOIMENTOS */
-  .testimonial h1 {
+  #depoimentos-section {
+    height: 512px;
+    min-height: 0;
+  }
+  #depoimentos-section .testimonial h1 {
     margin-right: 0.5rem;
   }
-
+  #depoimentos-section .swiper-pagination {
+    bottom: 0;
+  }
   /*============================================ APOIADORES */
-  .sponsor {
+  #apoiadores-section {
+    height: 400px;
+    min-height: 0;
+  }
+  #apoiadores-section .section_content_half {
+    flex-direction: row;
+  }
+  #apoiadores-section .sponsor {
     width: 150px;
     height: 180px;
   }
-
-  .sponsor-image {
+  #apoiadores-section .sponsor-image {
     width: 96px;
     height: 96px;
   }
-
-  .sponsor h1 {
+  #apoiadores-section .sponsor h1 {
     font-size: 1.25em;
   }
-
   /*============================================ CONVITE */
   #invite p {
     font-size: 2.5em;
   }
   /*============================================ FOOTER */
   footer {
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 4rem 4rem;
+    padding: 0 6rem;
+  }
+  footer .footer-items {
+    width: 100%;
+    max-width: 1080px;
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: space-between;
+    align-content: space-between;
+    justify-items: start;
+    align-items: start;
+    gap: 2rem;
   }
   footer .social-media {
     margin-top: 0;
-    align-items: flex-end;
-    position: absolute;
-    right: 0;
-  }
-  footer .social-media-images {
-    margin-top: 1.75rem;
+    grid-column-start: 2;
+    grid-column-end: 3;
   }
   footer .social-media-images svg {
-    width: 2.5rem;
   }
-  footer p {
-    font-size: 1.225em;
+  footer p,
+  footer a {
     margin-bottom: 0.5rem;
   }
-
+  footer .quebarbada {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
   footer .quebarbada svg {
-    height: 4rem;
     margin-bottom: 1.75rem;
   }
-  footer .footer-items {
+  footer .developer {
     display: flex;
-    position: relative;
-    width: calc(100vw - 8rem);
-    max-width: 1080px;
+    flex-direction: column;
+  }
+  footer .legal,
+  footer .quebarbada {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  footer .social-media,
+  footer .developer {
+    width: 100%;
+    align-items: flex-end;
+    justify-content: flex-end;
   }
 }
-/*============================================== WEB SMALL */
+/*============================================== WEB MEDIUM */
 @media screen and (min-width: 1024px) {
   /*============================================ DISABLE TABLET */
   .mobile-content {
+    display: none;
+  }
+  #depoimentos-section .tablet {
     display: none;
   }
   /*============================================ ENABLE WEB */
@@ -844,37 +960,42 @@ ul {
   }
   /*============================================ INÍCIO */
   #inicio {
-    height: 768px;
-    padding: 3rem 1.5rem;
-    padding-top: 8rem;
+    height: 100vh;
+    min-height: 576px;
+    max-height: 768px;
+    padding: 0 1.5rem;
+    padding-top: 5rem;
   }
   #inicio .section_content {
     display: flex;
-    width: 100%x;
+    width: 100%;
     height: 100%;
     align-items: center;
     justify-content: center;
+    min-height: 0;
   }
   #inicio h1.section_title {
     font-size: 3em;
-    line-height: 3.5rem;
+    line-height: 3rem;
     text-align: start;
     padding: 0 0;
-    width: 525px;
+    width: 28rem;
     max-width: none;
+    margin-bottom: 1rem;
   }
   #inicio p {
-    font-size: 32px;
-    line-height: 36px;
-    width: 525px;
+    font-size: 16px;
+    line-height: 24px;
+    width: 28rem;
     max-width: none;
   }
   #inicio .section_content .text {
     margin-left: 0;
-    margin-right: 128px;
+    margin-right: 0;
+    gap: 4rem;
   }
   #inicio #download-buttons-web img {
-    width: 13.5rem;
+    width: 10rem;
     height: auto;
   }
   #download-buttons-web img {
@@ -882,13 +1003,14 @@ ul {
     height: auto;
   }
   #download-buttons-web {
-    margin-top: 3rem;
+    margin-top: 1rem;
     display: flex;
     flex-direction: row;
-    gap: 2rem;
+    gap: 1.5rem;
   }
   #inicio .section_content img {
-    height: 32rem;
+    height: 400px;
+    min-height: 0;
     width: auto;
   }
   #inicio .web-content {
@@ -896,21 +1018,40 @@ ul {
   }
   #inicio .left-column,
   #inicio .right-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
     position: relative;
-    height: 32rem;
+    height: 100%;
     z-index: 0;
+  }
+  #inicio .left-column {
+    margin-right: 6rem;
   }
   /*============================================ COMO ENCONTRAR */
   #como-encontrar-section {
-    height: 768px;
+    height: calc(100vh - 5rem);
+    min-height: 496px;
+    max-height: 688px;
+    padding: 0 0;
+  }
+  #como-encontrar-section .section_content {
+    height: calc(100% - 4rem);
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
   }
   #como-encontrar-section img {
-    height: 32rem;
+    height: 435px;
+    min-height: 0;
   }
   #como-encontrar-section .swiper-slide {
-    height: 32rem;
+    height: 435px;
+    min-height: 0;
   }
   #como-encontrar-section .swiper_wrapper {
+    height: calc(100% - 4rem);
     display: flex;
     position: relative;
     width: 18rem;
@@ -919,10 +1060,9 @@ ul {
     margin-right: 2.5rem;
     margin-bottom: 0;
   }
-  #como-encontrar-section .section_content {
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 2rem;
+  #como-encontrar-section .web-content {
+    height: 100%;
+    align-items: center;
   }
   #como-encontrar-section .swiper {
     position: initial;
@@ -937,11 +1077,11 @@ ul {
     width: 0.5rem;
   }
   #como-encontrar-section .swiper-button-next {
-    right: 47.25rem;
+    right: 40.5rem;
     background-image: url('/images/swiper-right.svg');
   }
   #como-encontrar-section .swiper-button-prev {
-    left: 47.25rem;
+    left: 40.5rem;
     background-image: url('/images/swiper-left.svg');
   }
   #como-encontrar-section .swiper-button-next::after,
@@ -949,15 +1089,15 @@ ul {
     display: none;
   }
   #como-encontrar-section p {
-    width: 28rem;
     text-align: end;
-    font-size: 32px;
-    line-height: 36px;
+    font-size: 16px;
+    line-height: 24px;
     margin: 0 0;
+    width: 24rem;
   }
   #como-encontrar-section h1 {
     font-size: 3em;
-    line-height: 3.5rem;
+    line-height: 3rem;
     text-align: end;
     padding: 0 0;
     width: 25rem;
@@ -973,13 +1113,52 @@ ul {
     align-items: flex-end;
     justify-content: center;
     height: 28rem;
-    width: 28rem;
-    gap: 3rem;
+    width: 24rem;
+    gap: 2rem;
   }
   /*============================================== CUSTOMERS */
   #clientes-section {
-    height: 80vh;
-    min-height: 615px;
+    height: calc(100vh - 5rem);
+    min-height: 496px;
+    max-height: 688px;
+    padding-bottom: 0;
+  }
+  #clientes-section .customer {
+    padding-top: 34px;
+    height: 190px;
+    justify-content: flex-start;
+  }
+  #clientes-section .customer-image {
+    width: 72px;
+    height: 72px;
+  }
+  /*============================================== DEPOIMENTOS */
+  #depoimentos-section {
+    height: 425px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+  }
+  #depoimentos-section .section_content_half {
+    height: 100%;
+  }
+  #depoimentos-section .swiper_wrapper {
+    width: 90%;
+  }
+  #depoimentos-section .swiper {
+    padding: 0 0.4rem;
+  }
+  #depoimentos-section .swiper-pagination {
+    bottom: 0;
+  }
+  #depoimentos-section .testimonial {
+    margin: 3px 0.75rem;
+  }
+  #depoimentos-section .swiper-button-next {
+    right: 0rem;
+  }
+  #depoimentos-section .swiper-button-prev {
+    left: 0rem;
   }
   /*============================================== SEJA PARCEIRO */
   #seja-parceiro {
@@ -1025,129 +1204,114 @@ ul {
   #seja-parceiro span {
     font-size: 1.5em;
   }
+  /*============================================== FOOTER */
+  footer {
+    padding: 0 4rem;
+  }
+  footer .footer-items {
+    margin-right: 0;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding-bottom: 3rem;
+  }
+  footer .social-media,
+  footer .developer {
+    width: 100%;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
 }
 /*============================================== WEB LARGE */
 @media screen and (min-width: 1280px) {
   /*============================================ INÍCIO */
   #inicio {
-    height: 1080px;
-    padding-top: 0;
-  }
-  #inicio .section_content {
-    display: flex;
-    width: 1080px;
-    height: 952px;
-    align-items: center;
-    justify-content: center;
+    height: 100vh;
+    min-height: 720px;
+    max-height: 1024px;
+    padding: 3rem 1.5rem;
+    padding-top: 8rem;
   }
   #inicio h1.section_title {
-    font-size: 64px;
-    line-height: 64px;
-    text-align: start;
+    font-size: 3.75em;
+    line-height: 3.75rem;
     padding: 0 0;
-    width: 525px;
-    max-width: none;
+    width: 35rem;
+    margin-bottom: 1.25rem;
   }
   #inicio p {
-    font-size: 36px;
-    line-height: 48px;
-    width: 525px;
-    max-width: none;
+    font-size: 20px;
+    line-height: 30px;
+    width: 35rem;
   }
   #inicio .section_content .text {
-    margin-left: 0;
-    margin-right: 128px;
+    gap: 5rem;
   }
-  #inicio .right-column {
-    height: 544px;
-    width: auto;
+  #inicio #download-buttons-web img {
+    width: 12.5rem;
+  }
+  #download-buttons-web {
+    margin-top: 1.25rem;
+    gap: 1.875rem;
   }
   #inicio .section_content img {
-    height: 750px;
-    width: auto;
-  }
-  #inicio .left-column {
-    height: 544px;
+    height: 500px;
   }
   /*============================================ COMO ENCONTRAR */
   #como-encontrar-section {
-    height: 1000px;
+    height: calc(100vh - 5rem);
+    min-height: 640px;
+    max-height: 944px;
+  }
+  #como-encontrar-section .section_content {
+    height: calc(100% - 5rem);
   }
   #como-encontrar-section img {
-    height: 42rem;
+    height: 544px;
   }
   #como-encontrar-section .swiper-slide {
-    height: 42rem;
+    height: 544px;
   }
   #como-encontrar-section .swiper_wrapper {
-    width: 26rem;
-  }
-  #como-encontrar-section .swiper-button-next {
-    right: 60rem;
-  }
-  #como-encontrar-section .swiper-button-prev {
-    left: 60rem;
+    height: calc(100% - 5rem);
+    width: 18rem;
+    margin-left: 3.125rem;
+    margin-right: 3.125rem;
   }
   #como-encontrar-section .swiper-button-next,
   #como-encontrar-section .swiper-button-prev {
-    height: 3rem;
-    width: 1rem;
+    height: 1.5rem;
+    width: 0.5rem;
   }
-  #como-encontrar-section .section_title {
-    font-size: 64px;
-    line-height: 64px;
+  #como-encontrar-section .swiper-button-next {
+    right: 50rem;
+  }
+  #como-encontrar-section .swiper-button-prev {
+    left: 50rem;
   }
   #como-encontrar-section p {
-    font-size: 36px;
-    line-height: 48px;
+    font-size: 20px;
+    line-height: 30px;
+    width: 30rem;
+  }
+  #como-encontrar-section h1 {
+    font-size: 3.75em;
+    line-height: 3.75rem;
+    width: 31.25rem;
+  }
+  #como-encontrar-section .right-column {
+    height: 35rem;
+    width: 30rem;
+    gap: 2.5rem;
   }
   /*============================================ CLIENTES */
   #clientes-section {
     height: 700px;
   }
-  /*============================================ DEPOIMENTOS */
-  #depoimentos-section {
-    height: 615px;
+  #clientes-section .tablet {
+    display: none;
   }
-  #depoimentos-section .section_content_half {
-    height: calc(100% - 3rem);
-  }
-  #depoimentos-section .swiper_wrapper {
-    align-items: center;
-    height: calc(100% - 3rem);
-    gap: 2rem;
-  }
-  #depoimentos-section .swiper {
-    height: calc(100% - 3rem);
-  }
-  #depoimentos-section .swiper-button-prev,
-  #depoimentos-section .swiper-button-next {
-    height: 3rem;
-    width: 1rem;
-  }
-  #depoimentos-section .swiper-pagination {
-    bottom: 0;
-  }
-  #depoimentos-section .testimonial {
-    height: 340px;
-    margin: 3px 3rem;
-  }
-  #depoimentos-section .testimonial-image {
-    width: 5rem;
-    height: 5rem;
-    margin-left: 2rem;
-  }
-  #depoimentos-section .testimony-person {
-    margin-top: 1.5rem;
-  }
-  #depoimentos-section .testimony-name {
-    font-size: 2em;
-    margin-right: 2rem;
-  }
-  #depoimentos-section p.testimony-text {
-    font-size: 1.5em;
-    line-height: 2rem;
-    margin: 2rem 2rem;
+  #clientes-section .web-large {
+    display: inherit;
   }
   /*============================================ SEJA PARCEIRO */
   #seja-parceiro h1.title {
@@ -1192,10 +1356,10 @@ ul {
   }
 }
 @media screen and (min-width: 1500px) {
-  #clientes-section .tablet {
+  #clientes-section .web-large {
     display: none;
   }
-  #clientes-section .web-large {
+  #clientes-section .web-x-large {
     display: inherit;
   }
 }

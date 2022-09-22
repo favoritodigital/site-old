@@ -57,6 +57,25 @@ export default function DepoimentosSection() {
               )
             })}
           </Swiper>
+          <Swiper
+            className="web-large"
+            modules={[Navigation, Pagination]}
+            pagination={true}
+            navigation={true}
+            slidesPerView={3}
+          >
+            {testimonials.map(testimonial => {
+              return (
+                <SwiperSlide key={testimonial.owner}>
+                  <TestimonialItem
+                    owner={testimonial.owner}
+                    testimonial={testimonial.testimonial}
+                    imageFileName={testimonial.imageFileName}
+                  />
+                </SwiperSlide>
+              )
+            })}
+          </Swiper>
         </div>
       </div>
     </div>

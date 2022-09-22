@@ -13,7 +13,11 @@ import Close from '../public/images/open.svg'
 import MenuItem from './MenuItem'
 import WebNavigationItem from './WebNavigationItem'
 
-export default function Header() {
+interface PageProps {
+  Dot?: 'home' | 'seja-parceiro'
+}
+
+export default function Header({ Dot }: PageProps) {
   const [isMenuOpen, handleIsMenuOpen] = useState(false)
   return (
     <>
@@ -28,10 +32,15 @@ export default function Header() {
             </Link>
             {/* NAVIGATION WEB */}
             <div className="navigation_web">
-              <WebNavigationItem href={'/'} label={'home'} />
+              <WebNavigationItem
+                href={'/'}
+                label={'home'}
+                HasDot={Dot === 'home' ? true : false}
+              />
               <WebNavigationItem
                 href={'/seja-parceiro'}
                 label={'seja parceiro'}
+                HasDot={Dot === 'seja-parceiro' ? true : false}
               />
             </div>
             {/* MENU BUTTON */}

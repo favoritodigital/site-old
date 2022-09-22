@@ -13,7 +13,6 @@ export default function ApoiadorItem({ name, imageFileName, url }: props) {
           alt={`imagem do apoiador ${name}`}
         />
       </div>
-      <h1>{name}</h1>
     </a>
   )
 }

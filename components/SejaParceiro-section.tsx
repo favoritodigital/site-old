@@ -35,21 +35,17 @@ export default function SejaParceiro() {
       </div>
       <div className="whatsapp">
         <h1 className="contact">se você chegou até aqui... é um match ;)</h1>
-        <p className="mobile">
+        <p>
           e temos uma longa história para construirmos juntos. entre em contato
-          com a gente clicando no botão ao lado:
-        </p>
-        <p className="tablet">
-          e temos uma longa história para construirmos juntos. entre em contato
-          com a gente clicando no whatsapp abaixo:
+          com a gente clicando no número abaixo, ou no botão ao lado:
         </p>
         <div className="tablet">
-          <Link href={'/'}>
+          <a href="https://web.whatsapp.com/" target="_blank" rel="noreferrer">
             <div className="telephone">
               <WhatsappLogo />
               <span itemProp="telephone">+55 (00) 00000-0000</span>
             </div>
-          </Link>
+          </a>
         </div>
       </div>
     </div>

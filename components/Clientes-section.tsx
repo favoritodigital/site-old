@@ -42,7 +42,7 @@ export default function ClientesSection() {
       <h1 className="section_title">clientes</h1>
       <div className="section_content_half">
         <div className="swiper_wrapper">
-          <Swiper className="mobile" slidesPerView={2.33}>
+          <Swiper className="mobile" slidesPerView={2.3}>
             {customers.map(customer => {
               return (
                 <SwiperSlide key={customer[0].name}>
@@ -54,7 +54,7 @@ export default function ClientesSection() {
               )
             })}
           </Swiper>
-          <Swiper className="tablet" slidesPerView={5.33}>
+          <Swiper className="tablet" slidesPerView={5.3}>
             {customers.map(customer => {
               return (
                 <SwiperSlide key={customer[0].name}>
@@ -66,7 +66,19 @@ export default function ClientesSection() {
               )
             })}
           </Swiper>
-          <Swiper className="web-large" slidesPerView={6.33}>
+          <Swiper className="web-large" slidesPerView={7.3}>
+            {customers.map(customer => {
+              return (
+                <SwiperSlide key={customer[0].name}>
+                  <CustomerItem
+                    customer1={customer[0]}
+                    customer2={customer.length === 2 ? customer[1] : undefined}
+                  />
+                </SwiperSlide>
+              )
+            })}
+          </Swiper>
+          <Swiper className="web-x-large" slidesPerView={9.3}>
             {customers.map(customer => {
               return (
                 <SwiperSlide key={customer[0].name}>
