@@ -20,6 +20,7 @@ export default function ApoiadoresSection() {
         {sponsors.map(sponsor => {
           return (
             <SponsorItem
+              key={sponsor.name}
               name={sponsor.name}
               imageFileName={sponsor.imageFileName}
               url={sponsor.url}

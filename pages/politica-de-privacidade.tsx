@@ -74,23 +74,23 @@ export default function Sejaparceiro() {
             We want to inform you that whenever you use our Service, in a case
             of an error in the app we collect data and information (through
             third party products) on your phone called Log Data. This Log Data
-            may include information such as your device Internet Protocol (“IP”)
-            address, device name, operating system version, the configuration of
-            the app when utilizing our Service, the time and date of your use of
-            the Service, and other statistics.
+            may include information such as your device Internet Protocol
+            (&ldquo;IP&rdquo;) address, device name, operating system version,
+            the configuration of the app when utilizing our Service, the time
+            and date of your use of the Service, and other statistics.
           </p>
           <h2>Cookies</h2>
           <p>
             Cookies are files with a small amount of data that are commonly used
             as anonymous unique identifiers. These are sent to your browser from
             the websites that you visit and are stored on your device's internal
-            memory. This Service does not use these “cookies” explicitly.
-            However, the app may use third party code and libraries that use
-            “cookies” to collect information and improve their services. You
-            have the option to either accept or refuse these cookies and know
-            when a cookie is being sent to your device. If you choose to refuse
-            our cookies, you may not be able to use some portions of this
-            Service.
+            memory. This Service does not use these &ldquo;cookies&rdquo;
+            explicitly. However, the app may use third party code and libraries
+            that use &ldquo;cookies&rdquo; to collect information and improve
+            their services. You have the option to either accept or refuse these
+            cookies and know when a cookie is being sent to your device. If you
+            choose to refuse our cookies, you may not be able to use some
+            portions of this Service.
           </p>
           <h2>Service Providers</h2>
           <p>
@@ -209,10 +209,10 @@ export default function Sejaparceiro() {
             de erro no aplicativo, coletamos dados e informações (por meio de
             produtos de terceiros) em seu telefone denominado Log Data. Esses
             dados de registro podem incluir informações como endereço de
-            protocolo de Internet ("IP") do dispositivo, nome do dispositivo,
-            versão do sistema operacional, configuração do aplicativo ao
-            utilizar nosso serviço, hora e data de uso do serviço e outras
-            estatísticas.
+            protocolo de Internet (&ldquo;IP&rdquo;) do dispositivo, nome do
+            dispositivo, versão do sistema operacional, configuração do
+            aplicativo ao utilizar nosso serviço, hora e data de uso do serviço
+            e outras estatísticas.
           </p>
           <h2>Cookies</h2>
           <p>
@@ -220,12 +220,13 @@ export default function Sejaparceiro() {
             comumente usados como identificadores exclusivos anônimos. Eles são
             enviados para o seu navegador a partir dos sites que você visita e
             são armazenados na memória interna do seu dispositivo. Este Serviço
-            não usa esses “cookies” explicitamente. No entanto, o aplicativo
-            pode usar código de terceiros e bibliotecas que usam “cookies” para
-            coletar informações e melhorar seus serviços. Você tem a opção de
-            aceitar ou recusar esses cookies e saber quando um cookie está sendo
-            enviado para o seu dispositivo. Se você optar por recusar nossos
-            cookies, pode não ser capaz de usar algumas partes deste Serviço.
+            não usa esses &ldquo;cookies&rdquo; explicitamente. No entanto, o
+            aplicativo pode usar código de terceiros e bibliotecas que usam
+            &ldquo;cookies&rdquo; para coletar informações e melhorar seus
+            serviços. Você tem a opção de aceitar ou recusar esses cookies e
+            saber quando um cookie está sendo enviado para o seu dispositivo. Se
+            você optar por recusar nossos cookies, pode não ser capaz de usar
+            algumas partes deste Serviço.
           </p>
           <h2>Provedores de serviço</h2>
           <p>
