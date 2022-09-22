@@ -47,7 +47,7 @@ export default function SejaParceiro() {
           >
             <div className="telephone">
               <WhatsappLogo />
-              <span itemProp="telephone">+55 (00) 00000-0000</span>
+              <span itemProp="telephone">+55 (47) 99753-6595</span>
             </div>
           </a>
         </div>
