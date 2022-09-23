@@ -437,9 +437,11 @@ ul {
   #como-encontrar-section {
     overflow: hidden;
     height: calc(100vh - 5rem);
+    padding-top: 1.5rem;
   }
   #como-encontrar-section h1.section_title {
     margin-bottom: 0;
+    width: 20rem;
   }
   #como-encontrar-section p {
     width: calc(100vw - 3rem);
@@ -836,6 +838,9 @@ ul {
   /*============================================ COMO ENCONTRAR */
   #como-encontrar-section {
     min-height: 1024px;
+  }
+  #como-encontrar-section h1.section_title {
+    width: auto;
   }
   #como-encontrar-section .section_content {
     min-height: 824px;

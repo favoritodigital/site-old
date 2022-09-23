@@ -39,18 +39,12 @@ export default function SejaParceiro() {
           e temos uma longa história para construirmos juntos. entre em contato
           com a gente clicando no número abaixo, ou no botão ao lado:
         </p>
-        <div className="tablet">
-          <a
-            href="https://wa.me/5547997536595"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <div className="telephone">
-              <WhatsappLogo />
-              <span itemProp="telephone">+55 (47) 99753-6595</span>
-            </div>
-          </a>
-        </div>
+        <a href="https://wa.me/5547997536595" target="_blank" rel="noreferrer">
+          <div className="telephone">
+            <WhatsappLogo />
+            <span itemProp="telephone">+55 (47) 99753-6595</span>
+          </div>
+        </a>
       </div>
     </div>
   )
