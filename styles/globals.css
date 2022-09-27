@@ -450,6 +450,9 @@ ul {
     height: calc(100vh - 12.5rem);
     flex-direction: column;
   }
+  #como-encontrar-section .swiper-wraper {
+    max-width: 100vw;
+  }
   /*================ CLIENTES ================*/
   #clientes-section {
     height: 70vh;
