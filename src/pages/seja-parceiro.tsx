@@ -7,7 +7,7 @@ import BePartnerSection from '../sections/BePartnerSection'
 
 import WhatsappButton from '../components/WhatsappButton'
 
-export default function Sejaparceiro() {
+export default function BePartner() {
   return (
     <>
       <Head>
