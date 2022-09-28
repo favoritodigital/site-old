@@ -5,11 +5,11 @@ import Head from 'next/head'
 import Header from '../components/Header'
 
 // SECTIONS
-import InicioSection from '../sections/InicioSection'
-import ComoEncontrarSection from '../sections/ComoEncontrarSection'
-import ClientesSection from '../sections/ClientesSection'
-import DepoimentosSection from '../sections/DepoimentosSection'
-import ApoiadoresSection from '../sections/ApoiadoresSection'
+import InicioSection from '../sections/IntroductionSection'
+import ComoEncontrarSection from '../sections/ContentSection'
+import ClientesSection from '../sections/CustomersSection'
+import DepoimentosSection from '../sections/TestimonialsSection'
+import ApoiadoresSection from '../sections/SupportersSection'
 import Invite from '../components/Invite'
 import Footer from '../components/Footer'
 

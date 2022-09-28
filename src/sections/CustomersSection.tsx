@@ -18,8 +18,8 @@ import { rawCustomers } from '../utils/repository'
 const chunk = (chunkSize: number, array: Customer[]) => {
   const customers: Customer[][] = []
 
-  for (let i = 0; i < rawCustomers.length; i += chunkSize) {
-    const chunk = rawCustomers.slice(i, i + chunkSize)
+  for (let i = 0; i < array.length; i += chunkSize) {
+    const chunk = array.slice(i, i + chunkSize)
     customers[i] = chunk
   }
 
