@@ -1,4 +1,4 @@
-import { Customer } from './types/Customer'
+import { Customer } from './types/Customera'
 
 export const rawCustomers: Customer[] = [
   {

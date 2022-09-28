@@ -1,5 +1,5 @@
 // TYPES
-import { Customer } from '../types/Customer'
+import { Customer } from '../types/Customera'
 interface Props {
   customer1: Customer
   customer2?: Customer

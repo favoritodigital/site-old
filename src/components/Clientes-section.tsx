@@ -9,7 +9,7 @@ import 'swiper/css'
 import CustomerItem from './CustomerItem'
 
 // TYPES
-import { Customer } from '../types/Customer'
+import { Customer } from '../types/Customera'
 
 // REPOSITORY
 import { rawCustomers } from '../Repository'
