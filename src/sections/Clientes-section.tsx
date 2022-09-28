@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 
 // COMPONENTS
-import CustomerItem from './CustomerItem'
+import CustomerItem from '../components/CustomerItem'
 
 // TYPES
 import { Customer } from '../types/customer'

@@ -1,5 +1,5 @@
 // COMPONENTS
-import ComoEncontrarSwiper from './ComoEncontrarSwiper'
+import ComoEncontrarSwiper from '../components/ComoEncontrarSwiper'
 
 // COMO ENCONTRAR SECTION
 export default function ComoEncontrarSection() {

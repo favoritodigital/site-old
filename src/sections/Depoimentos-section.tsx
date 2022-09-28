@@ -6,7 +6,7 @@ import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 
 // COMPONENTS
-import TestimonialItem from './TestimonialItem'
+import TestimonialItem from '../components/TestimonialItem'
 
 // REPOSITORY
 import { testimonials } from '../utils/repository'

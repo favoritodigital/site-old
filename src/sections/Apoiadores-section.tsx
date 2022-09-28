@@ -6,7 +6,7 @@ import 'swiper/css'
 import { sponsors } from '../utils/repository'
 
 // COMPONENTS
-import SponsorItem from './SponsorItem'
+import SponsorItem from '../components/SponsorItem'
 
 // APOIADORES SECTION
 export default function ApoiadoresSection() {

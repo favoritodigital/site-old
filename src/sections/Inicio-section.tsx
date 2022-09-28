@@ -1,5 +1,5 @@
 // IMAGES
-import DownloadButton from './DownloadButton'
+import DownloadButton from '../components/DownloadButton'
 
 // INICIO SECTION
 export default function InicioSection() {
