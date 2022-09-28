@@ -113,7 +113,7 @@ ul {
   justify-content: center;
   align-items: center;
 }
-.header-menu-dot {
+.header-menu-badge {
   display: none;
   position: absolute;
   bottom: -0.5rem;

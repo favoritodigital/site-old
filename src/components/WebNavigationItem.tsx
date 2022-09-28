@@ -1,15 +1,12 @@
-// NEXT
 import Link from 'next/link'
 
-// TYPES
-interface WebNavigationProps {
+interface Props {
   href: string
   label: string
-  HasDot: boolean
+  hasBadge: boolean
 }
 
-// WEB NAVIGATION ITEM
-export default function WebNavigationItem({ href, label, HasDot }: WebNavigationProps) {
+export default function WebNavigationItem({ href, label, hasBadge }: Props) {
   return (
     <div className='webnavigation-item'>
       <Link href={href}>
@@ -17,7 +14,7 @@ export default function WebNavigationItem({ href, label, HasDot }: WebNavigation
           <h1>{label}</h1>
         </a>
       </Link>
-      <div className={`header-menu-dot ${HasDot && 'visible'}`}></div>
+      <div className={`header-menu-badge ${hasBadge && 'visible'}`}></div>
     </div>
   )
 }

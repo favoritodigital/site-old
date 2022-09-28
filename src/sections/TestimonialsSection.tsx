@@ -1,17 +1,13 @@
-// SWIPER
+import { Navigation, Pagination } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
-import { Navigation, Pagination } from 'swiper'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 
-// COMPONENTS
 import TestimonialItem from '../components/TestimonialItem'
 
-// REPOSITORY
 import { testimonials } from '../utils/repository'
 
-// DEPOIMENTOS SECTION
 export default function TestimonialsSection() {
   return (
     <div id='depoimentos-section' className='section_half'>

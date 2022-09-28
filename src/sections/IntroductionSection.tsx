@@ -1,7 +1,5 @@
-// IMAGES
 import DownloadButton from '../components/DownloadButton'
 
-// INICIO SECTION
 export default function IntroductionSection() {
   return (
     <>

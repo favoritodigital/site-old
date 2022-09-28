@@ -1,12 +1,9 @@
-// REACT
 import React from 'react'
 
-// TYPES
 interface Props {
   type: 'appstore' | 'googleplay'
 }
 
-// DOWNLOAD BUTTON
 export default function DownloadButton({ type }: Props) {
   return (
     <a

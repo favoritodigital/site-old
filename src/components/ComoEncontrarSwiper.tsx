@@ -1,12 +1,10 @@
-// SWIPER
+import { Navigation, Pagination, EffectCoverflow } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
-import { Navigation, Pagination, EffectCoverflow } from 'swiper'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import 'swiper/css/effect-coverflow'
 
-// COMO ENCONTRAR SWIPER
 export default function ComoEncontrarSwiper() {
   return (
     <div className='swiper_wrapper'>

@@ -1,32 +1,13 @@
-// REACT
 import { useEffect, useState } from 'react'
-
-// SWIPER
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 
-// COMPONENTS
 import CustomerItem from '../components/CustomerItem'
 
-// TYPES
 import { Customer } from '../types/customer'
 
-// REPOSITORY
 import { rawCustomers } from '../utils/repository'
 
-// CUSTOMERS CHUNK ARRAY - SWIPER MOBILE
-const chunk = (chunkSize: number, array: Customer[]) => {
-  const customers: Customer[][] = []
-
-  for (let i = 0; i < array.length; i += chunkSize) {
-    const chunk = array.slice(i, i + chunkSize)
-    customers[i] = chunk
-  }
-
-  return customers
-}
-
-// CLIENTES SECTION
 export default function CustomersSection() {
   const [customers, setCustomers] = useState<Customer[][]>([])
 
@@ -94,4 +75,15 @@ export default function CustomersSection() {
       </div>
     </div>
   )
+}
+
+const chunk = (chunkSize: number, array: Customer[]) => {
+  const customers: Customer[][] = []
+
+  for (let i = 0; i < array.length; i += chunkSize) {
+    const chunk = array.slice(i, i + chunkSize)
+    customers[i] = chunk
+  }
+
+  return customers
 }

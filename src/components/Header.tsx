@@ -1,23 +1,18 @@
-// REACT
 import { useState } from 'react'
-
-// NEXT
 import Link from 'next/link'
 
-// IMAGES
 import Logo from '/public/images/logo.svg'
 import Open from '/public/images/open.svg'
 import Close from '/public/images/close.svg'
 
-// COMPONENTS
 import MenuItem from './MenuItem'
 import WebNavigationItem from './WebNavigationItem'
 
-interface PageProps {
-  Dot?: 'home' | 'seja-parceiro'
+interface Props {
+  badge?: 'home' | 'seja-parceiro'
 }
 
-export default function Header({ Dot }: PageProps) {
+export default function Header({ badge }: Props) {
   const [isMenuOpen, handleIsMenuOpen] = useState(false)
   return (
     <>
@@ -34,11 +29,11 @@ export default function Header({ Dot }: PageProps) {
             </Link>
             {/* NAVIGATION WEB */}
             <div className='navigation_web'>
-              <WebNavigationItem href={'/'} label={'início'} HasDot={Dot === 'home'} />
+              <WebNavigationItem href={'/'} label={'início'} hasBadge={badge === 'home'} />
               <WebNavigationItem
                 href={'/seja-parceiro'}
                 label={'seja parceiro'}
-                HasDot={Dot === 'seja-parceiro'}
+                hasBadge={badge === 'seja-parceiro'}
               />
             </div>
             {/* MENU BUTTON */}

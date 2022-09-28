@@ -1,10 +1,10 @@
-interface props {
+interface Props {
   name: string
   imageFileName: string
   url: string
 }
 
-export default function ApoiadorItem({ name, imageFileName, url }: props) {
+export default function ApoiadorItem({ name, imageFileName, url }: Props) {
   return (
     <a href={url} className='sponsor' target='_blank' rel='noreferrer'>
       <div className='sponsor-image'>

@@ -1,14 +1,10 @@
-// SWIPER
 import 'swiper/css/pagination'
 import 'swiper/css'
 
-// REPOSITORY
 import { sponsors } from '../utils/repository'
 
-// COMPONENTS
 import SponsorItem from '../components/SponsorItem'
 
-// APOIADORES SECTION
 export default function SupportersSection() {
   return (
     <div id='apoiadores-section' className='section_half'>

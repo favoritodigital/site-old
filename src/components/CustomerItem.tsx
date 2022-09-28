@@ -1,11 +1,10 @@
-// TYPES
 import { Customer } from '../types/customer'
+
 interface Props {
   customer1: Customer
   customer2?: Customer
 }
 
-// CUSTOMERITEM
 export default function CustomerItem({ customer1, customer2 }: Props) {
   return (
     <>

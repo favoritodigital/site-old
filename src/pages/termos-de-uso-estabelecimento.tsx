@@ -1,11 +1,8 @@
-// NEXT
 import Head from 'next/head'
 
-// HEADER
 import Footer from '../components/Footer'
 import Header from '../components/Header'
 
-// POLÍTICA DE PRIVACIDADE
 export default function Sejaparceiro() {
   return (
     <>

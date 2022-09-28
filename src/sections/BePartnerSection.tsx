@@ -1,7 +1,5 @@
-// IMAGES
 import WhatsappLogo from '/public/images/whatsapplogo.svg'
 
-// SEJA PARCEIRO SECTION
 export default function BePartnerSection() {
   return (
     <div id='seja-parceiro'>

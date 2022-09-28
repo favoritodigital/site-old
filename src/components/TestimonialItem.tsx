@@ -1,11 +1,9 @@
-// TYPES
 interface Props {
   testimonial: string
   owner: string
   imageFileName: string
 }
 
-// TESTIMONIAL ITEM
 export default function TestimonialItem({ testimonial, owner, imageFileName }: Props) {
   return (
     <div className='testimonial'>
