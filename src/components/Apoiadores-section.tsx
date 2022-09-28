@@ -3,7 +3,7 @@ import 'swiper/css/pagination'
 import 'swiper/css'
 
 // REPOSITORY
-import { sponsors } from '../Repository'
+import { sponsors } from '../utils/repository'
 
 // COMPONENTS
 import SponsorItem from './SponsorItem'

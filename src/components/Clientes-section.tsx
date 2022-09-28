@@ -12,7 +12,7 @@ import CustomerItem from './CustomerItem'
 import { Customer } from '../types/customer'
 
 // REPOSITORY
-import { rawCustomers } from '../Repository'
+import { rawCustomers } from '../utils/repository'
 
 // CUSTOMERS CHUNK ARRAY - SWIPER MOBILE
 const chunk = (chunkSize: number, array: Customer[]) => {

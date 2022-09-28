@@ -9,7 +9,7 @@ import 'swiper/css/pagination'
 import TestimonialItem from './TestimonialItem'
 
 // REPOSITORY
-import { testimonials } from '../Repository'
+import { testimonials } from '../utils/repository'
 
 // DEPOIMENTOS SECTION
 export default function DepoimentosSection() {
