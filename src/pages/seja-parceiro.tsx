@@ -6,7 +6,7 @@ import Footer from '../components/Footer'
 import Header from '../components/Header'
 
 // SECTIONS
-import SejaParceiro from '../components/SejaParceiro-section'
+import BePartnerSection from '../sections/BePartnerSection'
 
 // COMPONENTS
 import WhatsappButton from '../components/WhatsappButton'
@@ -22,7 +22,7 @@ export default function Sejaparceiro() {
       </Head>
       <Header Dot='seja-parceiro' />
       <WhatsappButton />
-      <SejaParceiro />
+      <BePartnerSection />
       <Footer />
     </>
   )

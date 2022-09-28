@@ -27,7 +27,7 @@ const chunk = (chunkSize: number, array: Customer[]) => {
 }
 
 // CLIENTES SECTION
-export default function ClientesSection() {
+export default function CustomersSection() {
   const [customers, setCustomers] = useState<Customer[][]>([])
 
   useEffect(() => {

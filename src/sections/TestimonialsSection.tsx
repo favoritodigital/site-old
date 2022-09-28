@@ -12,7 +12,7 @@ import TestimonialItem from '../components/TestimonialItem'
 import { testimonials } from '../utils/repository'
 
 // DEPOIMENTOS SECTION
-export default function DepoimentosSection() {
+export default function TestimonialsSection() {
   return (
     <div id='depoimentos-section' className='section_half'>
       <div id='depoimentos'></div>

@@ -2,7 +2,7 @@
 import DownloadButton from '../components/DownloadButton'
 
 // INICIO SECTION
-export default function InicioSection() {
+export default function IntroductionSection() {
   return (
     <>
       <div id='inicio' className='section'>

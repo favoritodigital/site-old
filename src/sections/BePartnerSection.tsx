@@ -2,7 +2,7 @@
 import WhatsappLogo from '/public/images/whatsapplogo.svg'
 
 // SEJA PARCEIRO SECTION
-export default function SejaParceiro() {
+export default function BePartnerSection() {
   return (
     <div id='seja-parceiro'>
       <h1 className='title'>seja um parceiro Que Barbada</h1>

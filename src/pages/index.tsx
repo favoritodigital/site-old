@@ -5,11 +5,11 @@ import Head from 'next/head'
 import Header from '../components/Header'
 
 // SECTIONS
-import InicioSection from '../sections/IntroductionSection'
-import ComoEncontrarSection from '../sections/ContentSection'
-import ClientesSection from '../sections/CustomersSection'
-import DepoimentosSection from '../sections/TestimonialsSection'
-import ApoiadoresSection from '../sections/SupportersSection'
+import IntroductionSection from '../sections/IntroductionSection'
+import ContentSection from '../sections/ContentSection'
+import CustomersSection from '../sections/CustomersSection'
+import TestimonialsSection from '../sections/TestimonialsSection'
+import SupportersSection from '../sections/SupportersSection'
 import Invite from '../components/Invite'
 import Footer from '../components/Footer'
 
@@ -23,11 +23,11 @@ export default function Home() {
         <meta name='viewport' content='initial-scale=1.0, width=device-width' />
       </Head>
       <Header Dot='home' />
-      <InicioSection />
-      <ComoEncontrarSection />
-      <ClientesSection />
-      <DepoimentosSection />
-      <ApoiadoresSection />
+      <IntroductionSection />
+      <ContentSection />
+      <CustomersSection />
+      <TestimonialsSection />
+      <SupportersSection />
       <Invite />
       <Footer />
     </>

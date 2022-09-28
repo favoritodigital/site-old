@@ -9,7 +9,7 @@ import { sponsors } from '../utils/repository'
 import SponsorItem from '../components/SponsorItem'
 
 // APOIADORES SECTION
-export default function ApoiadoresSection() {
+export default function SupportersSection() {
   return (
     <div id='apoiadores-section' className='section_half'>
       <div id='apoiadores'></div>
