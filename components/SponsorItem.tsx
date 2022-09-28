@@ -6,12 +6,9 @@ interface props {
 
 export default function ApoiadorItem({ name, imageFileName, url }: props) {
   return (
-    <a href={url} className="sponsor" target="_blank" rel="noreferrer">
-      <div className="sponsor-image">
-        <img
-          src={`/images/${imageFileName}`}
-          alt={`imagem do apoiador ${name}`}
-        />
+    <a href={url} className='sponsor' target='_blank' rel='noreferrer'>
+      <div className='sponsor-image'>
+        <img src={`/images/${imageFileName}`} alt={`imagem do apoiador ${name}`} />
       </div>
     </a>
   )

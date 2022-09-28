@@ -13,16 +13,16 @@ import ApoiadoresSection from '../components/Apoiadores-section'
 import Invite from '../components/Invite'
 import Footer from '../components/Footer'
 
-//HOME
+// HOME
 export default function Home() {
   return (
     <>
       <Head>
         <title>Que Barbada - a bússula do rolê</title>
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta charSet='utf-8' />
+        <meta name='viewport' content='initial-scale=1.0, width=device-width' />
       </Head>
-      <Header Dot="home" />
+      <Header Dot='home' />
       <InicioSection />
       <ComoEncontrarSection />
       <ClientesSection />

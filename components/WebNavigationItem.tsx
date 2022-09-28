@@ -9,13 +9,9 @@ interface WebNavigationProps {
 }
 
 // WEB NAVIGATION ITEM
-export default function WebNavigationItem({
-  href,
-  label,
-  HasDot
-}: WebNavigationProps) {
+export default function WebNavigationItem({ href, label, HasDot }: WebNavigationProps) {
   return (
-    <div className="webnavigation-item">
+    <div className='webnavigation-item'>
       <Link href={href}>
         <a>
           <h1>{label}</h1>

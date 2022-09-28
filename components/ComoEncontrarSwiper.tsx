@@ -9,8 +9,8 @@ import 'swiper/css/effect-coverflow'
 // COMO ENCONTRAR SWIPER
 export default function ComoEncontrarSwiper() {
   return (
-    <div className="swiper_wrapper">
-      <div className="swiper-wraper">
+    <div className='swiper_wrapper'>
+      <div className='swiper-wraper'>
         <Swiper
           spaceBetween={16}
           effect={'coverflow'}
@@ -22,46 +22,37 @@ export default function ComoEncontrarSwiper() {
             stretch: 0,
             depth: 75,
             modifier: 1,
-            slideShadows: true
+            slideShadows: true,
           }}
           pagination={true}
           modules={[EffectCoverflow, Pagination]}
-          className="mobile"
+          className='mobile'
         >
           <SwiperSlide>
+            <img src='/images/como-encontrar-1.png' alt='Imagem dos filtros do Que Barbada' />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src='/images/como-encontrar-2.png' alt='Imagem dos rolês do Que Barbada' />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src='/images/como-encontrar-3.png' alt='Imagem do rolê escolhido do Que Barbada' />
+          </SwiperSlide>
+          <SwiperSlide>
             <img
-              src="/images/como-encontrar-1.png"
-              alt="Imagem dos filtros do Que Barbada"
+              src='/images/como-encontrar-4.png'
+              alt='Imagem da mensagem do local do rolê escolhido do Que Barbada'
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
-              src="/images/como-encontrar-2.png"
-              alt="Imagem dos rolês do Que Barbada"
+              src='/images/como-encontrar-5.png'
+              alt='Imagem do cardápio do local do rolê escolhido do Que Barbada'
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
-              src="/images/como-encontrar-3.png"
-              alt="Imagem do rolê escolhido do Que Barbada"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img
-              src="/images/como-encontrar-4.png"
-              alt="Imagem da mensagem do local do rolê escolhido do Que Barbada"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img
-              src="/images/como-encontrar-5.png"
-              alt="Imagem do cardápio do local do rolê escolhido do Que Barbada"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img
-              src="/images/como-encontrar-6.png"
-              alt="Imagem da localização do rolê escolhido do Que Barbada"
+              src='/images/como-encontrar-6.png'
+              alt='Imagem da localização do rolê escolhido do Que Barbada'
             />
           </SwiperSlide>
         </Swiper>
@@ -77,46 +68,37 @@ export default function ComoEncontrarSwiper() {
             stretch: 0,
             depth: 75,
             modifier: 1,
-            slideShadows: true
+            slideShadows: true,
           }}
           pagination={true}
           modules={[Navigation, EffectCoverflow, Pagination]}
-          className="tablet"
+          className='tablet'
         >
           <SwiperSlide>
+            <img src='/images/como-encontrar-1.png' alt='Imagem dos filtros do Que Barbada' />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src='/images/como-encontrar-2.png' alt='Imagem dos rolês do Que Barbada' />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src='/images/como-encontrar-3.png' alt='Imagem do rolê escolhido do Que Barbada' />
+          </SwiperSlide>
+          <SwiperSlide>
             <img
-              src="/images/como-encontrar-1.png"
-              alt="Imagem dos filtros do Que Barbada"
+              src='/images/como-encontrar-4.png'
+              alt='Imagem da mensagem do local do rolê escolhido do Que Barbada'
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
-              src="/images/como-encontrar-2.png"
-              alt="Imagem dos rolês do Que Barbada"
+              src='/images/como-encontrar-5.png'
+              alt='Imagem do cardápio do local do rolê escolhido do Que Barbada'
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
-              src="/images/como-encontrar-3.png"
-              alt="Imagem do rolê escolhido do Que Barbada"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img
-              src="/images/como-encontrar-4.png"
-              alt="Imagem da mensagem do local do rolê escolhido do Que Barbada"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img
-              src="/images/como-encontrar-5.png"
-              alt="Imagem do cardápio do local do rolê escolhido do Que Barbada"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img
-              src="/images/como-encontrar-6.png"
-              alt="Imagem da localização do rolê escolhido do Que Barbada"
+              src='/images/como-encontrar-6.png'
+              alt='Imagem da localização do rolê escolhido do Que Barbada'
             />
           </SwiperSlide>
         </Swiper>

@@ -16,7 +16,7 @@ import { rawCustomers } from '../Repository'
 
 // CUSTOMERS CHUNK ARRAY - SWIPER MOBILE
 const chunk = (chunkSize: number, array: Customer[]) => {
-  let customers: Customer[][] = []
+  const customers: Customer[][] = []
 
   for (let i = 0; i < rawCustomers.length; i += chunkSize) {
     const chunk = rawCustomers.slice(i, i + chunkSize)
@@ -37,12 +37,12 @@ export default function ClientesSection() {
   }, [])
 
   return (
-    <div id="clientes-section" className="section_half">
-      <div id="clientes"></div>
-      <h1 className="section_title">clientes</h1>
-      <div className="section_content_half">
-        <div className="swiper_wrapper">
-          <Swiper className="mobile" slidesPerView={2.3}>
+    <div id='clientes-section' className='section_half'>
+      <div id='clientes'></div>
+      <h1 className='section_title'>clientes</h1>
+      <div className='section_content_half'>
+        <div className='swiper_wrapper'>
+          <Swiper className='mobile' slidesPerView={2.3}>
             {customers.map(customer => {
               return (
                 <SwiperSlide key={customer[0].name}>
@@ -54,7 +54,7 @@ export default function ClientesSection() {
               )
             })}
           </Swiper>
-          <Swiper className="tablet" slidesPerView={5.3}>
+          <Swiper className='tablet' slidesPerView={5.3}>
             {customers.map(customer => {
               return (
                 <SwiperSlide key={customer[0].name}>
@@ -66,7 +66,7 @@ export default function ClientesSection() {
               )
             })}
           </Swiper>
-          <Swiper className="web-large" slidesPerView={7.3}>
+          <Swiper className='web-large' slidesPerView={7.3}>
             {customers.map(customer => {
               return (
                 <SwiperSlide key={customer[0].name}>
@@ -78,7 +78,7 @@ export default function ClientesSection() {
               )
             })}
           </Swiper>
-          <Swiper className="web-x-large" slidesPerView={9.3}>
+          <Swiper className='web-x-large' slidesPerView={9.3}>
             {customers.map(customer => {
               return (
                 <SwiperSlide key={customer[0].name}>

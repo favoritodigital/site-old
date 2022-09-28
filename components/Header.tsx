@@ -7,7 +7,7 @@ import Link from 'next/link'
 // IMAGES
 import Logo from '../public/images/logo.svg'
 import Open from '../public/images/open.svg'
-import Close from '../public/images/open.svg'
+import Close from '../public/images/close.svg'
 
 // COMPONENTS
 import MenuItem from './MenuItem'
@@ -21,46 +21,39 @@ export default function Header({ Dot }: PageProps) {
   const [isMenuOpen, handleIsMenuOpen] = useState(false)
   return (
     <>
-      <div className="header_wraper">
-        <div className="header_main container box_shadow">
-          <div className="header-items">
+      <div className='header_wraper'>
+        <div className='header_main container box_shadow'>
+          <div className='header-items'>
             {/* LOGO */}
             <Link href={'/'}>
-              <div id="header_logo">
+              <div id='header_logo'>
                 <a>
                   <Logo />
                 </a>
               </div>
             </Link>
             {/* NAVIGATION WEB */}
-            <div className="navigation_web">
-              <WebNavigationItem
-                href={'/'}
-                label={'início'}
-                HasDot={Dot === 'home' ? true : false}
-              />
+            <div className='navigation_web'>
+              <WebNavigationItem href={'/'} label={'início'} HasDot={Dot === 'home'} />
               <WebNavigationItem
                 href={'/seja-parceiro'}
                 label={'seja parceiro'}
-                HasDot={Dot === 'seja-parceiro' ? true : false}
+                HasDot={Dot === 'seja-parceiro'}
               />
             </div>
             {/* MENU BUTTON */}
-            <button
-              id="menu_button"
-              onClick={() => handleIsMenuOpen(!isMenuOpen)}
-            >
+            <button id='menu_button' onClick={() => handleIsMenuOpen(!isMenuOpen)}>
               <div>{isMenuOpen ? <Close /> : <Open />}</div>
             </button>
           </div>
         </div>
         {/* NAVIGATION MOBILE */}
-        <div className="navigation_mobile">
+        <div className='navigation_mobile'>
           {isMenuOpen && (
-            <div className="header_menu">
+            <div className='header_menu'>
               <ul>
                 <MenuItem
-                  id="menu_item1"
+                  id='menu_item1'
                   handleIsMenuOpen={handleIsMenuOpen}
                   href={'/'}
                   label={'home'}
@@ -68,35 +61,35 @@ export default function Header({ Dot }: PageProps) {
                   hasShadow
                 />
                 <MenuItem
-                  id="menu_item2"
+                  id='menu_item2'
                   handleIsMenuOpen={handleIsMenuOpen}
                   href={'/#inicio'}
                   label={'inicio'}
                   background={'light'}
                 />
                 <MenuItem
-                  id="menu_item3"
+                  id='menu_item3'
                   handleIsMenuOpen={handleIsMenuOpen}
                   href={'/#como-encontrar'}
                   label={'como encontrar o seu rolê'}
                   background={'light'}
                 />
                 <MenuItem
-                  id="menu_item4"
+                  id='menu_item4'
                   handleIsMenuOpen={handleIsMenuOpen}
                   href={'/#clientes'}
                   label={'clientes'}
                   background={'light'}
                 />
                 <MenuItem
-                  id="menu_item5"
+                  id='menu_item5'
                   handleIsMenuOpen={handleIsMenuOpen}
                   href={'/#depoimentos'}
                   label={'depoimentos'}
                   background={'light'}
                 />
                 <MenuItem
-                  id="menu_item6"
+                  id='menu_item6'
                   handleIsMenuOpen={handleIsMenuOpen}
                   href={'/#apoiadores'}
                   label={'apoiadores'}
@@ -104,7 +97,7 @@ export default function Header({ Dot }: PageProps) {
                   hasShadow
                 />
                 <MenuItem
-                  id="menu_item7"
+                  id='menu_item7'
                   handleIsMenuOpen={handleIsMenuOpen}
                   href={'/seja-parceiro'}
                   label={'seja parceiro'}

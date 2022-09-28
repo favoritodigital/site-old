@@ -14,13 +14,13 @@ import { testimonials } from '../Repository'
 // DEPOIMENTOS SECTION
 export default function DepoimentosSection() {
   return (
-    <div id="depoimentos-section" className="section_half">
-      <div id="depoimentos"></div>
-      <h1 className="section_title">depoimentos</h1>
-      <div className="section_content_half">
-        <div className="swiper_wrapper">
+    <div id='depoimentos-section' className='section_half'>
+      <div id='depoimentos'></div>
+      <h1 className='section_title'>depoimentos</h1>
+      <div className='section_content_half'>
+        <div className='swiper_wrapper'>
           <Swiper
-            className="mobile"
+            className='mobile'
             modules={[Navigation, Pagination]}
             pagination={true}
             navigation={true}
@@ -39,7 +39,7 @@ export default function DepoimentosSection() {
             })}
           </Swiper>
           <Swiper
-            className="tablet"
+            className='tablet'
             modules={[Navigation, Pagination]}
             pagination={true}
             navigation={true}
@@ -58,7 +58,7 @@ export default function DepoimentosSection() {
             })}
           </Swiper>
           <Swiper
-            className="web-large"
+            className='web-large'
             modules={[Navigation, Pagination]}
             pagination={true}
             navigation={true}

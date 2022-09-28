@@ -17,10 +17,10 @@ export default function Sejaparceiro() {
     <>
       <Head>
         <title>seja parceiro | Que Barbada</title>
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta charSet='utf-8' />
+        <meta name='viewport' content='initial-scale=1.0, width=device-width' />
       </Head>
-      <Header Dot="seja-parceiro" />
+      <Header Dot='seja-parceiro' />
       <WhatsappButton />
       <SejaParceiro />
       <Footer />

@@ -18,14 +18,14 @@ export default function MenuItem({
   hasShadow,
   background,
   handleIsMenuOpen,
-  id
+  id,
 }: Props) {
   return (
     <li
       id={id}
-      className={`${
-        background === 'light' ? 'navigation_2' : 'navigation_1'
-      } container${hasShadow && ' box_shadow'}`}
+      className={`${background === 'light' ? 'navigation_2' : 'navigation_1'} container${
+        hasShadow && ' box_shadow'
+      }`}
     >
       <div>
         <Link href={href}>
