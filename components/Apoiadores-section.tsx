@@ -1,14 +1,12 @@
 // SWIPER
-import { Swiper, SwiperSlide } from 'swiper/react'
-import { Pagination } from 'swiper'
-import 'swiper/css/pagination'
-import 'swiper/css'
+import "swiper/css/pagination";
+import "swiper/css";
 
 // REPOSITORY
-import { sponsors } from '../Repository'
+import { sponsors } from "../Repository";
 
 // COMPONENTS
-import SponsorItem from './SponsorItem'
+import SponsorItem from "./SponsorItem";
 
 // APOIADORES SECTION
 export default function ApoiadoresSection() {
@@ -17,7 +15,7 @@ export default function ApoiadoresSection() {
       <div id="apoiadores"></div>
       <h1 className="section_title">apoiadores</h1>
       <div className="section_content_half">
-        {sponsors.map(sponsor => {
+        {sponsors.map((sponsor) => {
           return (
             <SponsorItem
               key={sponsor.name}
@@ -25,9 +23,9 @@ export default function ApoiadoresSection() {
               imageFileName={sponsor.imageFileName}
               url={sponsor.url}
             />
-          )
+          );
         })}
       </div>
     </div>
-  )
+  );
 }
