@@ -5,9 +5,9 @@ import { useState } from 'react'
 import Link from 'next/link'
 
 // IMAGES
-import Logo from '../public/images/logo.svg'
-import Open from '../public/images/open.svg'
-import Close from '../public/images/close.svg'
+import Logo from '/public/images/logo.svg'
+import Open from '/public/images/open.svg'
+import Close from '/public/images/close.svg'
 
 // COMPONENTS
 import MenuItem from './MenuItem'

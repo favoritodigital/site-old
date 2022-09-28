@@ -32,5 +32,6 @@ module.exports = {
     'react/prop-types': [0],
     'multiline-ternary': 0,
     'react/display-name': 'off',
+    'import/no-absolute-path': 'off',
   },
 }

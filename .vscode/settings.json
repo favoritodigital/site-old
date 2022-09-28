@@ -2,8 +2,5 @@
   "files.exclude": {
     "node_modules": true,
     ".next": true
-  },
-  "editor.tabSize": 2,
-  "files.insertFinalNewline": true,
-  "files.trimTrailingWhitespace": true
+  }
 }

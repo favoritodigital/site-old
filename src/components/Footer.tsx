@@ -1,10 +1,10 @@
 // IMAGES
 import Link from 'next/link'
-import InstagramLogo from '../public/images/instagramlogo.svg'
-import LinkedinLogo from '../public/images/linkedinlogo.svg'
-import TiktokLogo from '../public/images/tiktoklogo.svg'
-import GithubLogo from '../public/images/githublogo.svg'
-import Logo from '../public/images/logo.svg'
+import InstagramLogo from '/public/images/instagramlogo.svg'
+import LinkedinLogo from '/public/images/linkedinlogo.svg'
+import TiktokLogo from '/public/images/tiktoklogo.svg'
+import GithubLogo from '/public/images/githublogo.svg'
+import Logo from '/public/images/logo.svg'
 
 // FOOTER
 export default function Footer() {

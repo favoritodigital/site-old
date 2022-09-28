@@ -1,4 +1,4 @@
-import WhatsappLogoButton from '../public/images/whatsapp-icon-mobile.svg'
+import WhatsappLogoButton from '/public/images/whatsapp-icon-mobile.svg'
 
 export default function WhatsappButton() {
   return (

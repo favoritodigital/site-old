@@ -1,5 +1,5 @@
 // IMAGES
-import WhatsappLogo from '../public/images/whatsapplogo.svg'
+import WhatsappLogo from '/public/images/whatsapplogo.svg'
 
 // SEJA PARCEIRO SECTION
 export default function SejaParceiro() {
