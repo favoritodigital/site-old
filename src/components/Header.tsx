@@ -8,12 +8,18 @@ import Close from '/public/images/close.svg'
 import MenuItem from './MenuItem'
 import WebNavigationItem from './WebNavigationItem'
 
+export enum BadgePages {
+  home = '/',
+  bePartner = '/seja-parceiro',
+}
+
 interface Props {
-  badge?: 'home' | 'seja-parceiro'
+  badge?: BadgePages
 }
 
 export default function Header({ badge }: Props) {
   const [isMenuOpen, handleIsMenuOpen] = useState(false)
+
   return (
     <>
       <div className='header_wraper'>
@@ -29,11 +35,11 @@ export default function Header({ badge }: Props) {
             </Link>
             {/* NAVIGATION WEB */}
             <div className='navigation_web'>
-              <WebNavigationItem href={'/'} label={'início'} hasBadge={badge === 'home'} />
+              <WebNavigationItem href={'/'} label={'início'} hasBadge={badge === BadgePages.home} />
               <WebNavigationItem
                 href={'/seja-parceiro'}
                 label={'seja parceiro'}
-                hasBadge={badge === 'seja-parceiro'}
+                hasBadge={badge === BadgePages.bePartner}
               />
             </div>
             {/* MENU BUTTON */}

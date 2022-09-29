@@ -1,7 +1,5 @@
 import Head from 'next/head'
 
-import Header from '../components/Header'
-
 import IntroductionSection from '../sections/IntroductionSection'
 import ContentSection from '../sections/ContentSection'
 import CustomersSection from '../sections/CustomersSection'
@@ -15,10 +13,7 @@ export default function Home() {
     <>
       <Head>
         <title>Que Barbada - a bússula do rolê</title>
-        <meta charSet='utf-8' />
-        <meta name='viewport' content='initial-scale=1.0, width=device-width' />
       </Head>
-      <Header badge='home' />
       <IntroductionSection />
       <ContentSection />
       <CustomersSection />
