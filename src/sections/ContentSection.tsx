@@ -1,4 +1,4 @@
-import ComoEncontrarSwiper from '../components/SlidesContent'
+import SlidesContent from '../components/SlidesContent'
 
 export default function ContentSection() {
   return (
@@ -8,7 +8,7 @@ export default function ContentSection() {
       <div className='mobile-content'>
         <h1 className='section_title'>encontre seu rolê em 30 segundos</h1>
         <div className='section_content'>
-          <ComoEncontrarSwiper />
+          <SlidesContent />
           <p>
             utilize nossos <span>filtros</span> para descobrir os rolês com promoções, música ao
             vivo, espaço kids, aceita animais, entre outras opções
@@ -18,7 +18,7 @@ export default function ContentSection() {
       <div className='web-content'>
         <div className='section_content'>
           <div className='left-column'>
-            <ComoEncontrarSwiper />
+            <SlidesContent />
           </div>
           <div className='right-column'>
             <h1 className='section_title'>encontre seu rolê em 30 segundos</h1>

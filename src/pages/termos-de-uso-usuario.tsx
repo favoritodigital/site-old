@@ -4,7 +4,7 @@ export default function TermsOfUseUser() {
   return (
     <>
       <Head>
-        <title>Que Barbada</title>
+        <title>termos de uso | Que Barbada</title>
       </Head>
       <div className='legal-text-center'>
         <div className='termos-de-uso-usuario'>

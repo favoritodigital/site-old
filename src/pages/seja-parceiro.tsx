@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 import BePartnerSection from '../sections/BePartnerSection'
 
-import WhatsappButton from '../components/WhatsappButton'
+import ContactButton from '../components/ContactButton'
 
 export default function BePartner() {
   return (
@@ -10,7 +10,7 @@ export default function BePartner() {
       <Head>
         <title>seja parceiro | Que Barbada</title>
       </Head>
-      <WhatsappButton />
+      <ContactButton />
       <BePartnerSection />
     </>
   )

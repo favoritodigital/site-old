@@ -5,7 +5,7 @@ import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import 'swiper/css/effect-coverflow'
 
-export default function ComoEncontrarSwiper() {
+export default function SlidesContent() {
   return (
     <div className='swiper_wrapper'>
       <div className='swiper-wraper'>

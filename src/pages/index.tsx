@@ -5,7 +5,7 @@ import ContentSection from '../sections/ContentSection'
 import CustomersSection from '../sections/CustomersSection'
 import TestimonialsSection from '../sections/TestimonialsSection'
 import SupportersSection from '../sections/SupportersSection'
-import Invite from '../sections/InviteSection'
+import InviteSection from '../sections/InviteSection'
 
 export default function Home() {
   return (
@@ -18,7 +18,7 @@ export default function Home() {
       <CustomersSection />
       <TestimonialsSection />
       <SupportersSection />
-      <Invite />
+      <InviteSection />
     </>
   )
 }

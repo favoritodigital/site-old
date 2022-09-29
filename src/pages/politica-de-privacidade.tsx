@@ -4,7 +4,7 @@ export default function PrivacyPolicy() {
   return (
     <>
       <Head>
-        <title>Que Barbada</title>
+        <title>política de privacidade | Que Barbada</title>
       </Head>
       <div className='legal-text-center'>
         <div className='privacy-policy'>
