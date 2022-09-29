@@ -1,7 +1,5 @@
 import Head from 'next/head'
 
-import Footer from '../components/Footer'
-
 export default function TermsOfUseUser() {
   return (
     <>
@@ -81,7 +79,6 @@ export default function TermsOfUseUser() {
           <p>Estes termos e condições são válidos a partir de 01-03-2022.</p>
         </div>
       </div>
-      <Footer />
     </>
   )
 }

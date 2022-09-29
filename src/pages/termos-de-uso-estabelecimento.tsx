@@ -1,7 +1,5 @@
 import Head from 'next/head'
 
-import Footer from '../components/Footer'
-
 export default function TermsOfUseEstablishment() {
   return (
     <>
@@ -79,7 +77,6 @@ export default function TermsOfUseEstablishment() {
           </p>
         </div>
       </div>
-      <Footer />
     </>
   )
 }
