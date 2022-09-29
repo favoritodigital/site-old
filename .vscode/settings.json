@@ -3,6 +3,7 @@
     "node_modules": true,
     ".next": true,
     ".eslintrc.js": true,
+    ".prettierrc": true,
     ".gitignore": true,
     "next-env.d.ts": true,
     "next.config.js": true,
