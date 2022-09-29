@@ -55,7 +55,7 @@ ul {
   height: auto;
   cursor: pointer;
 }
-.header_wraper {
+.header-wrapper {
   width: 100%;
   position: fixed;
   min-width: 350px;
@@ -450,7 +450,7 @@ ul {
     height: calc(100vh - 12.5rem);
     flex-direction: column;
   }
-  #como-encontrar-section .swiper-wraper {
+  #como-encontrar-section .slide-wrapper {
     max-width: 100vw;
   }
   /*================ CLIENTES ================*/
@@ -632,7 +632,7 @@ ul {
     transform: scale(1.1);
   }
   /*================ SWIPER: GLOBAL ================*/
-  .swiper_wrapper {
+  .slide-wrapper {
     display: flex;
     overflow: hidden;
     z-index: 0;
@@ -665,7 +665,7 @@ ul {
   #como-encontrar-section .swiper-slide-shadow-right {
     background-image: none;
   }
-  #como-encontrar-section .swiper_wrapper {
+  #como-encontrar-section .slide-wrapper {
     margin-bottom: 2rem;
   }
   /* ================ SWIPER: CLIENTES ================ */
@@ -694,7 +694,7 @@ ul {
     text-align: center;
   }
   /*================ SWIPER: DEPOIMENTOS ================*/
-  #depoimentos-section .swiper_wrapper {
+  #depoimentos-section .slide-wrapper {
     height: 14rem;
   }
   #depoimentos-section .swiper-button-next,
@@ -927,8 +927,6 @@ ul {
     grid-column-start: 2;
     grid-column-end: 3;
   }
-  footer .social-media-images svg {
-  }
   footer p,
   footer a {
     margin-bottom: 0.5rem;
@@ -1067,7 +1065,7 @@ ul {
     height: 435px;
     min-height: 0;
   }
-  #como-encontrar-section .swiper_wrapper {
+  #como-encontrar-section .slide-wrapper {
     height: calc(100% - 4rem);
     display: flex;
     position: relative;
@@ -1159,7 +1157,7 @@ ul {
   #depoimentos-section .section_content_half {
     height: 100%;
   }
-  #depoimentos-section .swiper_wrapper {
+  #depoimentos-section .slide-wrapper {
     width: 90%;
   }
   #depoimentos-section .swiper {
@@ -1288,7 +1286,7 @@ ul {
   #como-encontrar-section .swiper-slide {
     height: 544px;
   }
-  #como-encontrar-section .swiper_wrapper {
+  #como-encontrar-section .slide-wrapper {
     height: calc(100% - 5rem);
     width: 18rem;
     margin-left: 3.125rem;
@@ -1300,10 +1298,10 @@ ul {
     width: 0.5rem;
   }
   #como-encontrar-section .swiper-button-next {
-    right: 50rem;
+    right: 0;
   }
   #como-encontrar-section .swiper-button-prev {
-    left: 50rem;
+    left: 0;
   }
   #como-encontrar-section p {
     font-size: 20px;

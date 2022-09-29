@@ -22,7 +22,7 @@ export default function CustomersSection() {
       <div id='clientes'></div>
       <h1 className='section_title'>clientes</h1>
       <div className='section_content_half'>
-        <div className='swiper_wrapper'>
+        <div className='slide-wrapper'>
           <Swiper className='mobile' slidesPerView={2.3}>
             {customers.map(customer => {
               return (

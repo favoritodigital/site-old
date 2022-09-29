@@ -22,7 +22,7 @@ export default function Header({ badge }: Props) {
 
   return (
     <>
-      <div className='header_wraper'>
+      <div className='header-wrapper'>
         <div className='header_main container box_shadow'>
           <div className='header-items'>
             {/* LOGO */}

@@ -14,7 +14,7 @@ export default function TestimonialsSection() {
       <div id='depoimentos'></div>
       <h1 className='section_title'>depoimentos</h1>
       <div className='section_content_half'>
-        <div className='swiper_wrapper'>
+        <div className='slide-wrapper'>
           <Swiper
             className='mobile'
             modules={[Navigation, Pagination]}
