@@ -29,6 +29,8 @@ export default function TestimonialsSection() {
                     owner={testimonial.owner}
                     testimonial={testimonial.testimonial}
                     imageFileName={testimonial.imageFileName}
+                    width={testimonial.width}
+                    height={testimonial.height}
                   />
                 </SwiperSlide>
               )
@@ -48,6 +50,8 @@ export default function TestimonialsSection() {
                     owner={testimonial.owner}
                     testimonial={testimonial.testimonial}
                     imageFileName={testimonial.imageFileName}
+                    width={testimonial.width}
+                    height={testimonial.height}
                   />
                 </SwiperSlide>
               )
@@ -67,6 +71,8 @@ export default function TestimonialsSection() {
                     owner={testimonial.owner}
                     testimonial={testimonial.testimonial}
                     imageFileName={testimonial.imageFileName}
+                    width={testimonial.width}
+                    height={testimonial.height}
                   />
                 </SwiperSlide>
               )

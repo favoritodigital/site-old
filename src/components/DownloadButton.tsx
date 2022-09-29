@@ -1,4 +1,4 @@
-import React from 'react'
+import Image from 'next/image'
 
 interface Props {
   type: 'appstore' | 'googleplay'
@@ -16,9 +16,25 @@ export default function DownloadButton({ type }: Props) {
       rel='noreferrer'
     >
       {type === 'appstore' ? (
-        <img src='/images/appstorebutton.png' alt='appstore' />
+        <div className='img'>
+          <Image
+            layout='responsive'
+            width={992}
+            height={325}
+            src='/images/appstorebutton.png'
+            alt='appstore'
+          />
+        </div>
       ) : (
-        <img src='/images/googleplaybutton.png' alt='googleplay' />
+        <div className='img'>
+          <Image
+            layout='responsive'
+            width={992}
+            height={325}
+            src='/images/googleplaybutton.png'
+            alt='googleplay'
+          />
+        </div>
       )}
     </a>
   )

@@ -390,22 +390,27 @@ ul {
     flex-direction: column;
     gap: 2rem;
     margin: 0 1.5rem;
+    width: 50%;
   }
   #inicio h1.section_title {
     margin-bottom: 2rem;
   }
-  #inicio .section_content img {
-    display: flex;
-    width: auto;
-    height: 45vh;
+  #inicio .img {
+    display: block;
+    position: relative;
+    width: 50%;
+    height: auto;
     min-height: 290px;
   }
   #inicio .section_content {
     height: calc(100vh - 21rem);
     min-height: 309px;
+    width: 100%;
   }
-  #inicio #download-buttons-mobile img,
-  #inicio #download-buttons-web img {
+  #inicio #download-buttons-mobile .img,
+  #inicio #download-buttons-web .img {
+    position: relative;
+    height: auto;
     min-height: 0;
   }
   #inicio p {
@@ -422,9 +427,8 @@ ul {
     padding-top: 6.5rem;
     align-items: center;
   }
-  #download-buttons-mobile img {
+  #download-buttons-mobile .img {
     width: 8.75rem;
-    height: auto;
   }
   #download-buttons-mobile {
     justify-content: center;
@@ -488,9 +492,10 @@ ul {
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
   }
   #depoimentos-section .testimonial h1 {
-    font-size: 1.125em;
+    font-size: 1em;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
+    max-width: calc(100% - 6.625rem);
     color: var(--brand-color-purple);
   }
   #depoimentos-section .testimonial p {
@@ -509,7 +514,8 @@ ul {
     margin-top: 0.75rem;
   }
   #depoimentos-section .testimonial-image {
-    display: flex;
+    display: block;
+    position: relative;
     width: 2.625rem;
     height: 2.625rem;
     background-color: var(--brand-color-white);
@@ -542,12 +548,10 @@ ul {
   #apoiadores-section .sponsor-image {
     align-items: center;
     justify-content: center;
-    display: flex;
-  }
-  #apoiadores-section .sponsor-image img {
-    height: auto;
+    display: block;
+    position: relative;
     width: 100%;
-    max-height: 8rem;
+    height: auto;
   }
   /*================ INVITE ================*/
   #invite {
@@ -650,13 +654,13 @@ ul {
     height: auto;
   }
   /* ================ SWIPER: COMO ENCONTRAR ================ */
-  #como-encontrar-section img {
-    width: auto;
-    height: calc(100vh - 25rem);
+  #como-encontrar-section .img {
+    width: calc((100vh - 25rem) / 2);
+    height: auto;
   }
   #como-encontrar-section .swiper-slide {
-    width: auto;
-    height: calc(100vh - 25rem);
+    width: calc((100vh - 25rem) / 2);
+    height: auto;
   }
   #como-encontrar-section .swiper-pagination {
     bottom: 0rem !important;
@@ -679,6 +683,7 @@ ul {
   }
   .customer-image {
     display: flex;
+    position: relative;
     height: 64px;
     width: 64px;
     background-color: var(--brand-color-white);
@@ -833,7 +838,8 @@ ul {
   #inicio .section_content img {
     min-height: 460px;
   }
-  #inicio #download-buttons-mobile img {
+  #inicio #download-buttons-mobile .img {
+    position: relative;
     width: 13.5rem;
     height: auto;
   }
@@ -852,10 +858,18 @@ ul {
     min-height: 824px;
   }
   #como-encontrar-section .swiper-slide,
-  #como-encontrar-section img {
-    width: auto;
-    height: calc(100vh - 30rem);
-    min-height: 544px;
+  #como-encontrar-section .img {
+    width: calc((100vh - 30rem) / 2);
+    height: auto;
+    min-height: auto;
+  }
+  #como-encontrar-section .swiper-button-next,
+  #como-encontrar-section .swiper-button-prev {
+    display: none;
+  }
+  #como-encontrar-section .swiper-button-next::after,
+  #como-encontrar-section .swiper-button-prev::after {
+    display: none;
   }
   /*============================================ CLIENTES */
   .customer {
@@ -896,7 +910,7 @@ ul {
   }
   #apoiadores-section .sponsor-image {
     width: 130px;
-    height: 130px;
+    height: auto;
   }
   #apoiadores-section .sponsor h1 {
     font-size: 1.25em;
@@ -995,26 +1009,22 @@ ul {
     text-align: start;
     padding: 0 0;
     width: 28rem;
-    max-width: none;
+    max-width: auto;
     margin-bottom: 1rem;
   }
   #inicio p {
     font-size: 16px;
     line-height: 24px;
     width: 28rem;
-    max-width: none;
+    max-width: auto;
   }
   #inicio .section_content .text {
     margin-left: 0;
     margin-right: 0;
     gap: 4rem;
   }
-  #inicio #download-buttons-web img {
+  #inicio #download-buttons-web .img {
     width: 9rem;
-    height: auto;
-  }
-  #download-buttons-web img {
-    width: 7.2rem;
     height: auto;
   }
   #download-buttons-web {
@@ -1023,10 +1033,10 @@ ul {
     flex-direction: row;
     gap: 1.5rem;
   }
-  #inicio .section_content img {
-    height: 400px;
-    min-height: 0;
-    width: auto;
+  #inicio .section_content .img {
+    width: 11.5rem;
+    height: auto;
+    min-height: auto;
   }
   #inicio .web-content {
     height: 100%;
@@ -1057,13 +1067,15 @@ ul {
     align-items: center;
     justify-content: center;
   }
-  #como-encontrar-section img {
-    height: 435px;
-    min-height: 0;
+  #como-encontrar-section .img {
+    height: auto;
+    width: 14.125rem;
+    min-height: auto;
   }
   #como-encontrar-section .swiper-slide {
-    height: 435px;
-    min-height: 0;
+    height: auto;
+    width: 14.125rem;
+    min-width: auto;
   }
   #como-encontrar-section .slide-wrapper {
     height: calc(100% - 4rem);
@@ -1084,6 +1096,7 @@ ul {
   }
   #como-encontrar-section .swiper-button-next,
   #como-encontrar-section .swiper-button-prev {
+    display: flex;
     position: absolute;
     background-repeat: no-repeat;
     background-size: contain;
@@ -1092,11 +1105,11 @@ ul {
     width: 0.5rem;
   }
   #como-encontrar-section .swiper-button-next {
-    right: 40.5rem;
+    right: 0;
     background-image: url('/images/swiper-right.svg');
   }
   #como-encontrar-section .swiper-button-prev {
-    left: 40.5rem;
+    left: 0;
     background-image: url('/images/swiper-left.svg');
   }
   #como-encontrar-section .swiper-button-next::after,
@@ -1156,6 +1169,10 @@ ul {
   }
   #depoimentos-section .section_content_half {
     height: 100%;
+  }
+  #depoimentos-section .testimonial-image {
+    width: 3.625rem;
+    height: 3.625rem;
   }
   #depoimentos-section .slide-wrapper {
     width: 90%;
@@ -1268,8 +1285,8 @@ ul {
     margin-top: 1.25rem;
     gap: 1.875rem;
   }
-  #inicio .section_content img {
-    height: 500px;
+  #inicio .section_content .img {
+    width: 14rem;
   }
   /*============================================ COMO ENCONTRAR */
   #como-encontrar-section {
@@ -1281,10 +1298,12 @@ ul {
     height: calc(100% - 5rem);
   }
   #como-encontrar-section img {
-    height: 544px;
+    height: auto;
+    width: 17.5rem;
   }
   #como-encontrar-section .swiper-slide {
-    height: 544px;
+    height: auto;
+    width: 17.5rem;
   }
   #como-encontrar-section .slide-wrapper {
     height: calc(100% - 5rem);

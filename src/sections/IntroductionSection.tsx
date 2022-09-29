@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import DownloadButton from '../components/DownloadButton'
 
 export default function IntroductionSection() {
@@ -14,7 +15,15 @@ export default function IntroductionSection() {
               </p>
               <p>disponível para download na App Store e Google Play:</p>
             </div>
-            <img src='/images/inicio-mockup.png' alt='Imagem do aplicativo Que Barbada' />
+            <div className='img'>
+              <Image
+                layout='responsive'
+                width={494}
+                height={1080}
+                src='/images/inicio-mockup.png'
+                alt='Imagem do aplicativo Que Barbada'
+              />
+            </div>
           </div>
           <div id='download-buttons-mobile'>
             <DownloadButton type='appstore' />
@@ -38,7 +47,15 @@ export default function IntroductionSection() {
               </div>
             </div>
             <div className='right-column'>
-              <img src='/images/inicio-mockup.png' alt='Imagem do aplicativo Que Barbada' />
+              <div className='img'>
+                <Image
+                  layout='responsive'
+                  width={494}
+                  height={1080}
+                  src='/images/inicio-mockup.png'
+                  alt='Imagem do aplicativo Que Barbada'
+                />
+              </div>
             </div>
           </div>
         </div>

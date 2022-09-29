@@ -3,7 +3,7 @@ import 'swiper/css'
 
 import { sponsors } from '../utils/repository'
 
-import SponsorItem from '../components/SponsorItem'
+import SponsorItem from '../components/SupporterItem'
 
 export default function SupportersSection() {
   return (
@@ -18,6 +18,8 @@ export default function SupportersSection() {
               name={sponsor.name}
               imageFileName={sponsor.imageFileName}
               url={sponsor.url}
+              width={sponsor.width}
+              height={sponsor.height}
             />
           )
         })}
