@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router'
 
-import Header, { BadgePages } from './Header'
-import Footer from './Footer'
+import Header, { BadgePages } from '../components/Header'
+import Footer from '../components/Footer'
 
 interface Props {
   children: React.ReactNode

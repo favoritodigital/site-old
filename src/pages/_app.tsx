@@ -1,7 +1,7 @@
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
 
-import BaseLayout from '../components/BaseLayout'
+import BaseLayout from '../sections/BaseLayout'
 
 import '../styles/globals.css'
 

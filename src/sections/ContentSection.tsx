@@ -1,4 +1,4 @@
-import ComoEncontrarSwiper from '../components/ComoEncontrarSwiper'
+import ComoEncontrarSwiper from '../components/SlidesContent'
 
 export default function ContentSection() {
   return (
