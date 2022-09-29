@@ -1297,7 +1297,7 @@ ul {
   #como-encontrar-section .section_content {
     height: calc(100% - 5rem);
   }
-  #como-encontrar-section img {
+  #como-encontrar-section .img {
     height: auto;
     width: 17.5rem;
   }

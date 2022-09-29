@@ -4,7 +4,6 @@ export default function ContentSection() {
   return (
     <div id='como-encontrar-section' className='section'>
       <div id='como-encontrar'></div>
-
       <div className='mobile-content'>
         <h1 className='section_title'>encontre seu rolê em 30 segundos</h1>
         <div className='section_content'>
