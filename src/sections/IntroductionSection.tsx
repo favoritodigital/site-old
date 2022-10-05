@@ -9,10 +9,7 @@ export default function IntroductionSection() {
           <h1 className='section_title'>encontre os melhores rolês em um único lugar!</h1>
           <div className='section_content'>
             <div className='text'>
-              <p>
-                no nosso app, você tem acesso aos melhores rolês de{' '}
-                <span>Jaraguá do Sul e região</span> de maneira simples e prática.
-              </p>
+              <p>no nosso app, você tem acesso aos melhores rolês de maneira simples e prática.</p>
               <p>disponível para download na App Store e Google Play:</p>
             </div>
             <div className='img'>
@@ -36,8 +33,7 @@ export default function IntroductionSection() {
               <h1 className='section_title'>encontre os melhores rolês em um único lugar!</h1>
               <div className='text'>
                 <p>
-                  no nosso app, você tem acesso aos melhores rolês de{' '}
-                  <span>Jaraguá do Sul e região</span> de maneira simples e prática.
+                  no nosso app, você tem acesso aos melhores rolês de maneira simples e prática.
                 </p>
                 <p>disponível para download na App Store e Google Play:</p>
               </div>
