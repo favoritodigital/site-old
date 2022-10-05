@@ -185,7 +185,7 @@ ul {
   background-color: var(--brand-color-purple);
 }
 .navigation_1 h1 {
-  font-weight: 500;
+  font-weight: 700;
 }
 .navigation_2 {
   display: flex;
@@ -193,7 +193,7 @@ ul {
   background-color: var(--brand-color-light-purple);
 }
 .navigation_2 h1 {
-  font-weight: 300;
+  font-weight: 500;
 }
 #como-encontrar,
 #clientes,
@@ -354,13 +354,10 @@ ul {
   .section_content p {
     font-size: 1.375em;
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     color: var(--text-color-gray);
     text-align: center;
     margin: 0 1.5rem;
-  }
-  .section_content p span {
-    font-weight: 500;
   }
   h1.section_title {
     font-size: 1.5em;
@@ -494,14 +491,14 @@ ul {
   #depoimentos-section .testimonial h1 {
     font-size: 1em;
     font-family: 'Poppins', sans-serif;
-    font-weight: 500;
+    font-weight: 700;
     max-width: calc(100% - 6.625rem);
     color: var(--brand-color-purple);
   }
   #depoimentos-section .testimonial p {
     font-size: 1em;
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     line-height: 1.5rem;
     font-style: italic;
     color: var(--text-color-gray);
@@ -693,7 +690,7 @@ ul {
   .customer h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
-    font-weight: 400;
+    font-weight: 500;
     max-width: 100px;
     color: var(--text-color-gray);
     text-align: center;
@@ -1009,19 +1006,20 @@ ul {
     text-align: start;
     padding: 0 0;
     width: 28rem;
-    max-width: auto;
+    max-width: none;
     margin-bottom: 1rem;
   }
   #inicio p {
     font-size: 16px;
     line-height: 24px;
-    width: 28rem;
-    max-width: auto;
+    width: 18rem;
+    max-width: none;
   }
   #inicio .section_content .text {
     margin-left: 0;
     margin-right: 0;
     gap: 4rem;
+    width: auto;
   }
   #inicio #download-buttons-web .img {
     width: 9rem;
@@ -1273,7 +1271,7 @@ ul {
   #inicio p {
     font-size: 20px;
     line-height: 30px;
-    width: 35rem;
+    width: 28rem;
   }
   #inicio .section_content .text {
     gap: 2rem;
