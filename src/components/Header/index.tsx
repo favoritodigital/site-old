@@ -5,8 +5,8 @@ import Logo from '/public/images/logo.svg'
 import Open from '/public/images/open.svg'
 import Close from '/public/images/close.svg'
 
-import MenuItem from './MenuItem'
-import WebNavigationItem from './WebNavigationItem'
+import MenuItem from '../MenuItem'
+import WebNavigationItem from '../WebNavigationItem'
 
 export enum BadgePages {
   home = '/',
@@ -23,7 +23,7 @@ export default function Header({ badge }: Props) {
   return (
     <>
       <div className='header-wrapper'>
-        <div className='header_main container box_shadow'>
+        <div className='header_main container box-shadow'>
           <div className='header-items'>
             {/* LOGO */}
             <Link href={'/'}>

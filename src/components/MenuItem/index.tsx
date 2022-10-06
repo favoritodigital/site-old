@@ -21,7 +21,7 @@ export default function MenuItem({
     <li
       id={id}
       className={`${background === 'light' ? 'navigation_2' : 'navigation_1'} container${
-        hasShadow && ' box_shadow'
+        hasShadow && ' box-shadow'
       }`}
     >
       <div>

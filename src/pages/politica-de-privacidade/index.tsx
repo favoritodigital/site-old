@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import styles from './politica-de-privacidade.module.css'
 
 export default function PrivacyPolicy() {
   return (
@@ -6,11 +7,11 @@ export default function PrivacyPolicy() {
       <Head>
         <title>política de privacidade | Que Barbada</title>
       </Head>
-      <div className='legal-text-center'>
-        <div className='privacy-policy'>
-          <h1>Privacy Policy</h1>
-          <p>Para idioma português role a página.</p>
-          <p>
+      <div className={styles.container}>
+        <div className={styles.textContainer}>
+          <h1 className={styles.titleBig}>Privacy Policy</h1>
+          <p className={styles.text}>Para idioma português role a página.</p>
+          <p className={styles.text}>
             QUE BARBADA LTDA built the Que Barbada app as a Free app. This SERVICE is provided by
             QUE BARBADA LTDA at no cost and is intended for use as is. This page is used to inform
             visitors regarding our policies with the collection, use, and disclosure of Personal
@@ -22,8 +23,8 @@ export default function PrivacyPolicy() {
             Conditions, which is accessible at Que Barbada unless otherwise defined in this Privacy
             Policy.
           </p>
-          <h2>Information Collection and Use</h2>
-          <p>
+          <h2 className={styles.titleSmall}>Information Collection and Use</h2>
+          <p className={styles.text}>
             For a better experience, while using our Service, we may require you to provide us with
             certain personally identifiable information, including but not limited to Name,
             Addresses, Phone numbers, Asset information, Personal identification number, Camera,
@@ -32,25 +33,33 @@ export default function PrivacyPolicy() {
             does use third party services that may collect information used to identify you. Link to
             privacy policy of third party service providers used by the app:
           </p>
-          <ul>
-            <li>
-              <a href='https://www.google.com/policies/privacy/' rel='noreferrer'>
+          <ul className={styles.list}>
+            <li className={styles.listItem}>
+              <a
+                className={styles.link}
+                href='https://www.google.com/policies/privacy/'
+                rel='noreferrer'
+              >
                 Google Play Services
               </a>
             </li>
-            <li>
-              <a href='https://www.facebook.com/about/privacy/update/printable' rel='noreferrer'>
+            <li className={styles.listItem}>
+              <a
+                className={styles.link}
+                href='https://www.facebook.com/about/privacy/update/printable'
+                rel='noreferrer'
+              >
                 Facebook
               </a>
             </li>
-            <li>
-              <a href='https://expo.io/privacy' rel='noreferrer'>
+            <li className={styles.listItem}>
+              <a className={styles.link} href='https://expo.io/privacy' rel='noreferrer'>
                 Expo
               </a>
             </li>
           </ul>
-          <h2>Log Data</h2>
-          <p>
+          <h2 className={styles.titleSmall}>Log Data</h2>
+          <p className={styles.text}>
             We want to inform you that whenever you use our Service, in a case of an error in the
             app we collect data and information (through third party products) on your phone called
             Log Data. This Log Data may include information such as your device Internet Protocol
@@ -58,8 +67,8 @@ export default function PrivacyPolicy() {
             the app when utilizing our Service, the time and date of your use of the Service, and
             other statistics.
           </p>
-          <h2>Cookies</h2>
-          <p>
+          <h2 className={styles.titleSmall}>Cookies</h2>
+          <p className={styles.text}>
             Cookies are files with a small amount of data that are commonly used as anonymous unique
             identifiers. These are sent to your browser from the websites that you visit and are
             stored on your device&rsquo;s internal memory. This Service does not use these
@@ -69,37 +78,39 @@ export default function PrivacyPolicy() {
             cookie is being sent to your device. If you choose to refuse our cookies, you may not be
             able to use some portions of this Service.
           </p>
-          <h2>Service Providers</h2>
-          <p>We may employ third-party companies and individuals due to the following reasons:</p>
-          <ul>
-            <li>To facilitate our Service;</li>
-            <li>To provide the Service on our behalf;</li>
-            <li>To perform Service-related services; or</li>
-            <li>To assist us in analyzing how our Service is used.</li>
+          <h2 className={styles.titleSmall}>Service Providers</h2>
+          <p className={styles.text}>
+            We may employ third-party companies and individuals due to the following reasons:
+          </p>
+          <ul className={styles.list}>
+            <li className={styles.listItem}>To facilitate our Service;</li>
+            <li className={styles.listItem}>To provide the Service on our behalf;</li>
+            <li className={styles.listItem}>To perform Service-related services; or</li>
+            <li className={styles.listItem}>To assist us in analyzing how our Service is used.</li>
           </ul>
-          <p>
+          <p className={styles.text}>
             We want to inform users of this Service that these third parties have access to your
             Personal Information. The reason is to perform the tasks assigned to them on our behalf.
             However, they are obligated not to disclose or use the information for any other
             purpose.
           </p>
-          <h2>Security</h2>
-          <p>
+          <h2 className={styles.titleSmall}>Security</h2>
+          <p className={styles.text}>
             We value your trust in providing us your Personal Information, thus we are striving to
             use commercially acceptable means of protecting it. But remember that no method of
             transmission over the internet, or method of electronic storage is 100% secure and
             reliable, and we cannot guarantee its absolute security.
           </p>
-          <h2>Links to Other Sites</h2>
-          <p>
+          <h2 className={styles.titleSmall}>Links to Other Sites</h2>
+          <p className={styles.text}>
             This Service may contain links to other sites. If you click on a third-party link, you
             will be directed to that site. Note that these external sites are not operated by us.
             Therefore, we strongly advise you to review the Privacy Policy of these websites. We
             have no control over and assume no responsibility for the content, privacy policies, or
             practices of any third-party sites or services.
           </p>
-          <h2>Children&rsquo;s Privacy</h2>
-          <p>
+          <h2 className={styles.titleSmall}>Children&rsquo;s Privacy</h2>
+          <p className={styles.text}>
             These Services do not address anyone under the age of 13. We do not knowingly collect
             personally identifiable information from children under 13 years of age. In the case we
             discover that a child under 13 has provided us with personal information, we immediately
@@ -107,19 +118,19 @@ export default function PrivacyPolicy() {
             your child has provided us with personal information, please contact us so that we will
             be able to do necessary actions.
           </p>
-          <h2>Changes to This Privacy Policy</h2>
-          <p>
+          <h2 className={styles.titleSmall}>Changes to This Privacy Policy</h2>
+          <p className={styles.text}>
             We may update our Privacy Policy from time to time. Thus, you are advised to review this
             page periodically for any changes. We will notify you of any changes by posting the new
             Privacy Policy on this page. This policy is effective as of 2021-10-05
           </p>
-          <h2>Contact Us</h2>
-          <p>
+          <h2 className={styles.titleSmall}>Contact Us</h2>
+          <p className={styles.text}>
             If you have any questions or suggestions about our Privacy Policy, do not hesitate to
             contact us at contato@quebarbada.com.
           </p>
           <h1>Política de Privacidade em Português</h1>
-          <p>
+          <p className={styles.text}>
             A QUE BARBADA LTDA construiu o aplicativo Que Barbada como um aplicativo gratuito. Este
             SERVIÇO é prestado pela QUE BARBADA LTDA sem nenhum custo e deve ser utilizado no estado
             em que se encontra. Esta página é usada para informar os visitantes sobre nossas
@@ -132,8 +143,8 @@ export default function PrivacyPolicy() {
             Condições, que podem ser acessados no Que Barbada, a menos que definido de outra forma
             nesta Política de Privacidade.
           </p>
-          <h2>Coleta e uso de informações</h2>
-          <p>
+          <h2 className={styles.titleSmall}>Coleta e uso de informações</h2>
+          <p className={styles.text}>
             Para uma melhor experiência, ao usar nosso serviço, podemos exigir que você nos forneça
             certas informações de identificação pessoal, incluindo, mas não se limitando a, nome,
             endereços, números de telefone, informações de ativos, número de identificação pessoal,
@@ -143,25 +154,33 @@ export default function PrivacyPolicy() {
             informações usadas para identificá-lo. Link para a política de privacidade de provedores
             de serviços terceirizados usados pelo aplicativo:
           </p>
-          <ul>
-            <li>
-              <a href='https://www.google.com/policies/privacy/' rel='noreferrer'>
+          <ul className={styles.list}>
+            <li className={styles.listItem}>
+              <a
+                className={styles.link}
+                href='https://www.google.com/policies/privacy/'
+                rel='noreferrer'
+              >
                 Serviços do Google Play
               </a>
             </li>
-            <li>
-              <a href='https://www.facebook.com/about/privacy/update/printable' rel='noreferrer'>
+            <li className={styles.listItem}>
+              <a
+                className={styles.link}
+                href='https://www.facebook.com/about/privacy/update/printable'
+                rel='noreferrer'
+              >
                 Facebook
               </a>
             </li>
-            <li>
-              <a href='https://expo.io/privacy' rel='noreferrer'>
+            <li className={styles.listItem}>
+              <a className={styles.link} href='https://expo.io/privacy' rel='noreferrer'>
                 Expo
               </a>
             </li>
           </ul>
-          <h2>Dados de registro</h2>
-          <p>
+          <h2 className={styles.titleSmall}>Dados de registro</h2>
+          <p className={styles.text}>
             Queremos informar que sempre que você utiliza nosso Serviço, em caso de erro no
             aplicativo, coletamos dados e informações (por meio de produtos de terceiros) em seu
             telefone denominado Log Data. Esses dados de registro podem incluir informações como
@@ -169,8 +188,8 @@ export default function PrivacyPolicy() {
             dispositivo, versão do sistema operacional, configuração do aplicativo ao utilizar nosso
             serviço, hora e data de uso do serviço e outras estatísticas.
           </p>
-          <h2>Cookies</h2>
-          <p>
+          <h2 className={styles.titleSmall}>Cookies</h2>
+          <p className={styles.text}>
             Cookies são arquivos com uma pequena quantidade de dados que são comumente usados como
             identificadores exclusivos anônimos. Eles são enviados para o seu navegador a partir dos
             sites que você visita e são armazenados na memória interna do seu dispositivo. Este
@@ -181,29 +200,33 @@ export default function PrivacyPolicy() {
             optar por recusar nossos cookies, pode não ser capaz de usar algumas partes deste
             Serviço.
           </p>
-          <h2>Provedores de serviço</h2>
-          <p>Podemos empregar empresas terceirizadas e indivíduos pelos seguintes motivos:</p>
-          <ul>
-            <li>Para facilitar nosso serviço;</li>
-            <li>Para fornecer o Serviço em nosso nome;</li>
-            <li>Executar serviços relacionados com o serviço; ou</li>
-            <li>Para nos ajudar a analisar como nosso serviço é usado.</li>
+          <h2 className={styles.titleSmall}>Provedores de serviço</h2>
+          <p className={styles.text}>
+            Podemos empregar empresas terceirizadas e indivíduos pelos seguintes motivos:
+          </p>
+          <ul className={styles.list}>
+            <li className={styles.listItem}>Para facilitar nosso serviço;</li>
+            <li className={styles.listItem}>Para fornecer o Serviço em nosso nome;</li>
+            <li className={styles.listItem}>Executar serviços relacionados com o serviço; ou</li>
+            <li className={styles.listItem}>
+              Para nos ajudar a analisar como nosso serviço é usado.
+            </li>
           </ul>
-          <p>
+          <p className={styles.text}>
             Queremos informar aos usuários deste Serviço que esses terceiros têm acesso às suas
             Informações Pessoais. O motivo é realizar as tarefas atribuídas a eles em nosso nome. No
             entanto, eles são obrigados a não divulgar ou usar as informações para qualquer outra
             finalidade.
           </p>
-          <h2>Segurança</h2>
-          <p>
+          <h2 className={styles.titleSmall}>Segurança</h2>
+          <p className={styles.text}>
             Valorizamos sua confiança em nos fornecer suas informações pessoais, portanto, estamos
             nos esforçando para usar meios comercialmente aceitáveis de protegê-las. Mas lembre-se
             que nenhum método de transmissão pela internet, ou método de armazenamento eletrônico é
             100% seguro e confiável, e não podemos garantir sua segurança absoluta.
           </p>
-          <h2>Links para outros sites</h2>
-          <p>
+          <h2 className={styles.titleSmall}>Links para outros sites</h2>
+          <p className={styles.text}>
             Este serviço pode conter links para outros sites. Se você clicar em um link de
             terceiros, será direcionado a esse site. Observe que esses sites externos não são
             operados por nós. Portanto, recomendamos enfaticamente que você analise a Política de
@@ -211,8 +234,8 @@ export default function PrivacyPolicy() {
             conteúdo, políticas de privacidade ou práticas de quaisquer sites ou serviços de
             terceiros.
           </p>
-          <h2>Privacidade das crianças</h2>
-          <p>
+          <h2 className={styles.titleSmall}>Privacidade das crianças</h2>
+          <p className={styles.text}>
             Esses Serviços não se dirigem a ninguém com menos de 13 anos. Não coletamos
             intencionalmente informações de identificação pessoal de crianças com menos de 13 anos.
             No caso de descobrirmos que uma criança menor de 13 anos nos forneceu informações
@@ -220,15 +243,15 @@ export default function PrivacyPolicy() {
             responsável e sabe que seu filho nos forneceu informações pessoais, entre em contato
             para que possamos tomar as medidas necessárias.
           </p>
-          <h2>Mudanças nesta Política de Privacidade</h2>
-          <p>
+          <h2 className={styles.titleSmall}>Mudanças nesta Política de Privacidade</h2>
+          <p className={styles.text}>
             Podemos atualizar nossa Política de Privacidade de tempos em tempos. Portanto, é
             recomendável revisar esta página periodicamente para verificar quaisquer alterações.
             Iremos notificá-lo de quaisquer alterações, publicando a nova Política de Privacidade
             nesta página. Esta política está em vigor a partir de 05-10-2021
           </p>
-          <h2>Entre em contato conosco</h2>
-          <p>
+          <h2 className={styles.titleSmall}>Entre em contato conosco</h2>
+          <p className={styles.text}>
             Se você tiver alguma dúvida ou sugestão sobre nossa Política de Privacidade, não hesite
             em nos contatar em contato@quebarbada.com
           </p>

@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+.textContainer {
+  justify-items: center;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  padding: 6rem 0;
+  margin: 0 2rem;
+  font-family: 'Roboto', sans-serif;
+}
+.titleBig {
+  text-align: center;
+  width: 100%;
+  font-size: 2em;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  color: var(--brand-color-black);
+}
+.titleSmall {
+  text-align: start;
+  text-indent: 1.5rem;
+  width: 100%;
+  font-size: 1.25em;
+  margin-top: 2rem;
+  color: var(--brand-color-black);
+}
+.text {
+  text-indent: 1.5rem;
+  margin-top: 0.75rem;
+  width: 100%;
+  text-align: justify;
+  font-size: 1em;
+  line-height: 1.5rem;
+  color: var(--text-color-gray);
+}
+.link {
+  color: var(--text-color-gray);
+  text-decoration: underline;
+}

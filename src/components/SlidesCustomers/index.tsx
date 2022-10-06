@@ -2,11 +2,11 @@ import { useEffect, useState } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 
-import CustomerItem from '../components/CustomerItem'
+import CustomerItem from '../CustomerItem'
 
-import { Customer } from '../types/customer'
+import { Customer } from '../../types/customer'
 
-import { rawCustomers } from '../utils/repository'
+import { rawCustomers } from '../../utils/repository'
 
 export default function SlidesCustomers() {
   const chunk = (chunkSize: number, array: Customer[]) => {

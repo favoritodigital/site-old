@@ -29,11 +29,8 @@ ul {
   --text-color-gray: #474747;
 }
 /*================ GLOBAL ================*/
-.box_shadow {
+.box-shadow {
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-}
-.margin_menu {
-  height: 5rem;
 }
 .container {
   padding: 0 1.5rem;
@@ -128,7 +125,7 @@ ul {
 /*================ EFECTS ================*/
 .navigation_web h1 {
   font-size: 1.5rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 300;
   color: var(--brand-color-white);
   cursor: pointer;
@@ -202,111 +199,6 @@ ul {
   position: absolute;
   top: -5rem;
   left: 0;
-}
-/*============================================== PRIVACY POLITICY */
-.privacy-policy {
-  justify-items: center;
-  max-width: 600px;
-  display: flex;
-  flex-direction: column;
-  padding: 6rem 0;
-  margin: 0 2rem;
-  font-family: 'Roboto', sans-serif;
-}
-.privacy-policy h1 {
-  text-align: center;
-  width: 100%;
-  font-size: 2em;
-  margin-top: 3rem;
-  margin-bottom: 1rem;
-  color: var(--brand-color-black);
-}
-.privacy-policy h2 {
-  text-align: center;
-  width: 100%;
-  font-size: 1.25em;
-  margin-top: 2rem;
-  color: var(--brand-color-black);
-}
-.privacy-policy p {
-  text-indent: 1.5rem;
-  margin-top: 0.75rem;
-  width: 100%;
-  text-align: justify;
-  font-size: 1em;
-  line-height: 1.5rem;
-  color: var(--text-color-gray);
-}
-.privacy-policy ul {
-  width: 100%;
-  margin: 0.5rem 0;
-  list-style: disc;
-  margin-left: 1rem;
-}
-.privacy-policy a {
-  color: var(--text-color-gray);
-  text-decoration: underline;
-}
-.privacy-policy li {
-  color: var(--text-color-gray);
-}
-.privacy-policy li::marker {
-  color: var(--text-color-gray);
-}
-/*============================================== TERMOS DE USO */
-.termos-de-uso-estabelecimento,
-.termos-de-uso-usuario {
-  justify-items: center;
-  max-width: 600px;
-  display: flex;
-  flex-direction: column;
-  padding: 6rem 0;
-  margin: 0 2rem;
-  font-family: 'Roboto', sans-serif;
-}
-.termos-de-uso-estabelecimento h1,
-.termos-de-uso-usuario h1 {
-  text-align: center;
-  width: 100%;
-  font-size: 2em;
-  margin-top: 3rem;
-  margin-bottom: 1rem;
-  color: var(--brand-color-black);
-}
-.termos-de-uso-estabelecimento h2,
-.termos-de-uso-usuario h2 {
-  text-align: start;
-  text-indent: 1.5rem;
-  width: 100%;
-  font-size: 1.25em;
-  margin-top: 2rem;
-  color: var(--brand-color-black);
-}
-.termos-de-uso-estabelecimento p,
-.termos-de-uso-usuario p {
-  text-indent: 1.5rem;
-  margin-top: 0.75rem;
-  width: 100%;
-  text-align: justify;
-  font-size: 1em;
-  line-height: 1.5rem;
-  color: var(--text-color-gray);
-}
-.termos-de-uso-estabelecimento ul,
-.termos-de-uso-usuario ul {
-  width: 100%;
-  margin: 0.5rem 0;
-  list-style: disc;
-  margin-left: 1rem;
-}
-.termos-de-uso-estabelecimento a,
-.termos-de-uso-usuario a {
-  color: var(--text-color-gray);
-  text-decoration: underline;
-}
-.termos-de-uso-estabelecimento li,
-.termos-de-uso-usuario li {
-  color: var(--text-color-gray);
 }
 /*============================================== MEDIA QUERIES */
 /*============================================== CELPHONE */

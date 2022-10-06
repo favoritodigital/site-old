@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { Customer } from '../types/customer'
+import { Customer } from '../../types/customer'
 
 interface Props {
   customer1: Customer
