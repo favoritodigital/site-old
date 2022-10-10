@@ -193,7 +193,6 @@ ul {
   font-weight: 300;
 }
 #como-encontrar,
-#clientes,
 #depoimentos,
 #apoiadores {
   position: absolute;
@@ -272,7 +271,6 @@ ul {
   }
   #clientes-section {
     background-color: var(--background-color-red);
-    min-height: 450px;
   }
   /*================ INICIO ================*/
   #inicio .section_content .text {
@@ -351,21 +349,7 @@ ul {
     bottom: 0;
   }
   /*================ CLIENTES ================*/
-  #clientes-section {
-    height: 70vh;
-    width: 100vw;
-    padding: 2.5rem 0;
-    width: 100%;
-  }
-  #clientes-section h1 {
-    margin-bottom: 0;
-  }
-  #clientes-section .section_content_half {
-    height: calc(100vh - 4.75rem);
-  }
-  #clientes-section .section_content_half .swiper {
-    cursor: grab;
-  }
+
   /*================ DEPOIMENTOS ================*/
   #depoimentos-section .section_title {
     /* margin-bottom: 1.5rem; */
@@ -555,7 +539,7 @@ ul {
     width: calc((100vh - 25rem) / 2);
     height: auto;
   }
-  .customer h1 #como-encontrar-section .swiper-pagination {
+  #como-encontrar-section .swiper-pagination {
     bottom: 0rem !important;
   }
   #como-encontrar-section .swiper-slide-shadow-left,
@@ -566,32 +550,7 @@ ul {
     margin-bottom: 2rem;
   }
   /* ================ SWIPER: CLIENTES ================ */
-  .customer {
-    top: 0;
-    width: 115px;
-    height: 10rem;
-    padding-top: 34px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .customer-image {
-    display: flex;
-    position: relative;
-    height: 64px;
-    width: 64px;
-    background-color: var(--brand-color-white);
-    margin-bottom: 0.75rem;
-    clip-path: circle();
-  }
-  .customer h1 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1em;
-    font-weight: 400;
-    max-width: 90%;
-    color: var(--text-color-gray);
-    text-align: center;
-  }
+
   /*================ SWIPER: DEPOIMENTOS ================*/
   #depoimentos-section .slide-wrapper {
     height: 14rem;
@@ -690,19 +649,6 @@ ul {
   #como-encontrar-section .swiper-button-next::after,
   #como-encontrar-section .swiper-button-prev::after {
     display: none;
-  }
-  /*============================================ CLIENTES */
-  .customer {
-    width: 150px;
-    height: 220px;
-    justify-content: center;
-  }
-  .customer-image {
-    width: 96px;
-    height: 96px;
-  }
-  .customer h1 {
-    font-size: 1.25em;
   }
   /*============================================ DEPOIMENTOS */
   #depoimentos-section {
@@ -966,21 +912,7 @@ ul {
     gap: 2rem;
   }
   /*============================================== CUSTOMERS */
-  #clientes-section {
-    height: calc(100vh - 5rem);
-    min-height: 496px;
-    max-height: 688px;
-    padding-bottom: 0;
-  }
-  #clientes-section .customer {
-    padding-top: 34px;
-    height: 220px;
-    justify-content: flex-start;
-  }
-  #clientes-section .customer-image {
-    width: 72px;
-    height: 72px;
-  }
+
   /*============================================== DEPOIMENTOS */
   #depoimentos-section {
     height: 425px;
@@ -1110,23 +1042,5 @@ ul {
     height: 35rem;
     width: 30rem;
     gap: 2.5rem;
-  }
-  /*============================================ CLIENTES */
-  #clientes-section {
-    height: 700px;
-  }
-  #clientes-section .tablet {
-    display: none;
-  }
-  #clientes-section .web-large {
-    display: inherit;
-  }
-}
-@media screen and (min-width: 1500px) {
-  #clientes-section .web-large {
-    display: none;
-  }
-  #clientes-section .web-x-large {
-    display: inherit;
   }
 }

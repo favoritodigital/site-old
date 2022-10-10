@@ -1,0 +1,51 @@
+.customer {
+  display: flex;
+  flex-direction: column;
+  width: 115px;
+  height: 10rem;
+  top: 0;
+  padding-top: 34px;
+  align-items: center;
+  justify-content: center;
+}
+.customerImage {
+  display: flex;
+  position: relative;
+  background-color: var(--brand-color-white);
+  margin-bottom: 0.75rem;
+  clip-path: circle();
+  height: 64px;
+  width: 64px;
+}
+.title {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: var(--text-color-gray);
+  max-width: 90%;
+  font-size: 1em;
+}
+
+@media screen and (min-width: 768px) {
+  .customer {
+    width: 150px;
+    height: 220px;
+  }
+  .customerImage {
+    height: 96px;
+    width: 96px;
+  }
+  .title {
+    font-size: 1.25em;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .customer {
+    justify-content: flex-start;
+  }
+  .customerImage {
+    height: 72px;
+    width: 72px;
+  }
+}

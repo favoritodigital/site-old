@@ -5,8 +5,9 @@ import 'swiper/css'
 import CustomerItem from '../CustomerItem'
 
 import { Customer } from '../../types/customer'
-
 import { rawCustomers } from '../../utils/repository'
+
+import styles from './SlidesCustomers.module.css'
 
 export default function SlidesCustomers() {
   const chunk = (chunkSize: number, array: Customer[]) => {
@@ -28,8 +29,8 @@ export default function SlidesCustomers() {
   }, [])
 
   return (
-    <div className='slide-wrapper'>
-      <Swiper className='mobile' slidesPerView={3.3}>
+    <div className={styles.slideWrapper}>
+      <Swiper className={styles.mobile} slidesPerView={3.3}>
         {customers.map(customer => {
           return (
             <SwiperSlide key={customer[0].name}>
@@ -41,7 +42,7 @@ export default function SlidesCustomers() {
           )
         })}
       </Swiper>
-      <Swiper className='tablet' slidesPerView={5.3}>
+      <Swiper className={styles.tablet} slidesPerView={5.3}>
         {customers.map(customer => {
           return (
             <SwiperSlide key={customer[0].name}>
@@ -53,7 +54,7 @@ export default function SlidesCustomers() {
           )
         })}
       </Swiper>
-      <Swiper className='web-large' slidesPerView={7.3}>
+      <Swiper className={styles.webLarge} slidesPerView={7.3}>
         {customers.map(customer => {
           return (
             <SwiperSlide key={customer[0].name}>
@@ -65,7 +66,7 @@ export default function SlidesCustomers() {
           )
         })}
       </Swiper>
-      <Swiper className='web-x-large' slidesPerView={9.3}>
+      <Swiper className={styles.webXLarge} slidesPerView={9.3}>
         {customers.map(customer => {
           return (
             <SwiperSlide key={customer[0].name}>
