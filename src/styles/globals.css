@@ -680,17 +680,6 @@ ul {
     width: auto;
     height: 2rem;
   }
-  .whatsappbutton {
-    position: fixed;
-    bottom: 1.5rem;
-    right: 1.5rem;
-    height: 3rem;
-    width: auto;
-  }
-  .whatsappbutton svg {
-    height: 3rem;
-    width: auto;
-  }
 }
 /*============================================== TABLET */
 @media screen and (min-width: 768px) {

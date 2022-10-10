@@ -1,0 +1,16 @@
+.button {
+  position: fixed;
+  width: auto;
+  right: 1.5rem;
+  bottom: 1.5rem;
+}
+.button svg {
+  height: 3rem;
+  width: auto;
+}
+
+@media screen and (min-width: 1920px) {
+  .button svg {
+    height: 4rem;
+  }
+}
