@@ -4,7 +4,7 @@
   width: 100%;
   align-items: center;
 }
-.textContainer {
+.container div {
   justify-items: center;
   max-width: 600px;
   display: flex;
@@ -13,7 +13,7 @@
   margin: 0 2rem;
   font-family: 'Roboto', sans-serif;
 }
-.titleBig {
+.container h1 {
   text-align: center;
   width: 100%;
   font-size: 2em;
@@ -21,14 +21,14 @@
   margin-bottom: 1rem;
   color: var(--brand-color-black);
 }
-.titleSmall {
+.container h2 {
   text-align: center;
   width: 100%;
   font-size: 1.25em;
   margin-top: 2rem;
   color: var(--brand-color-black);
 }
-.text {
+.container p {
   text-indent: 1.5rem;
   margin-top: 0.75rem;
   width: 100%;
@@ -37,16 +37,16 @@
   line-height: 1.5rem;
   color: var(--text-color-gray);
 }
-.link {
-  color: var(--text-color-gray);
-  text-decoration: underline;
-}
-.list {
+.container ul {
   width: 100%;
   margin: 0.5rem 0;
   list-style: disc;
   margin-left: 1rem;
 }
-.listItem {
+.container li {
   color: var(--text-color-gray);
+}
+.container li a {
+  color: var(--text-color-gray);
+  text-decoration: underline;
 }
