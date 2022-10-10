@@ -14,10 +14,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta property='og:title' content='Que Barbada - a bússola do rolê' />
         <meta name='description' content='encontre seu rolê em 30 segundos!' />
         <meta property='og:url' content='https://www.quebarbada.com/' />
-        <meta
-          property='og:image'
-          content='https://instagram.flaj2-1.fna.fbcdn.net/v/t51.2885-19/294619546_588196712821766_7521457590083016436_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.flaj2-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=PwN7deuVzrUAX8W22jt&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AT8NhYyNBpPUnvNmdFslYjoxhe3drHm2VKSfQh7Q6E4K1w&oe=6349FC33&_nc_sid=8fd12b'
-        />
+        <meta property='og:image' content='https://www.quebarbada.com/quebarbada.png' />
       </Head>
       <BaseLayout>
         <Component {...pageProps} />
