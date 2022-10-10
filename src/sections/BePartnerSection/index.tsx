@@ -1,14 +1,15 @@
 import WhatsappLogo from '/public/images/whatsapplogo.svg'
+import styles from './BePartnerSection.module.css'
 
 export default function BePartnerSection() {
   return (
-    <div id='seja-parceiro'>
-      <h1 className='title'>seja um parceiro Que Barbada</h1>
+    <div id='seja-parceiro' className={styles.container}>
+      <h1 className={styles.title}>seja um parceiro Que Barbada</h1>
       <p>
         cadastre-se e compartilhe você também a sua agenda e aumente a visibilidade do seu
         estabelecimento!
       </p>
-      <div className='benefícios'>
+      <div>
         <h2>benefícios de ser nosso parceiro:</h2>
         <ul>
           <li>-maior visibilidade para o seu estabelecimento</li>
@@ -18,7 +19,7 @@ export default function BePartnerSection() {
           <li>- ofereça cartão de fidelidade virtual para seu cliente</li>
         </ul>
       </div>
-      <div className='diferenciais'>
+      <div>
         <h2>nossos diferenciais:</h2>
         <ul>
           <li>- não cobramos taxa de adesão</li>
@@ -29,14 +30,14 @@ export default function BePartnerSection() {
           </li>
         </ul>
       </div>
-      <div className='whatsapp'>
-        <h1 className='contact'>se você chegou até aqui... é um match ;)</h1>
+      <div className={styles.contact}>
+        <h1 className={styles.contactTitle}>se você chegou até aqui... é um match ;)</h1>
         <p>
           e temos uma longa história para construirmos juntos. entre em contato com a gente clicando
           no número abaixo, ou no botão ao lado:
         </p>
         <a href='https://wa.me/5547997536595' target='_blank' rel='noreferrer'>
-          <div className='telephone'>
+          <div className={styles.telephone}>
             <WhatsappLogo />
             <span itemProp='telephone'>+55 (47) 99753-6595</span>
           </div>

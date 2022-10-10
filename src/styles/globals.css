@@ -616,70 +616,6 @@ ul {
   #depoimentos-section .swiper-button-prev::after {
     display: none;
   }
-  /*================ SEJA PARCEIRO ================*/
-  #seja-parceiro {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 1.5rem;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-  }
-  #seja-parceiro h1.title {
-    margin-top: 7rem;
-    width: 12rem;
-  }
-  #seja-parceiro h1.contact {
-    width: 17rem;
-  }
-  #seja-parceiro h1 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.5em;
-    color: var(--brand-color-purple);
-    margin-bottom: 3rem;
-  }
-  #seja-parceiro h2 {
-    color: var(--brand-color-light-purple);
-    margin-bottom: 3rem;
-    font-size: 1em;
-  }
-  #seja-parceiro p {
-    color: var(--text-color-gray);
-    font-weight: 700;
-    margin-bottom: 3rem;
-    line-height: 1.25rem;
-    font-size: 1em;
-  }
-  #seja-parceiro li {
-    color: var(--text-color-gray);
-    line-height: 1.25rem;
-    margin-bottom: 0.5rem;
-    font-size: 1em;
-  }
-  #seja-parceiro ul {
-    margin-bottom: 3rem;
-  }
-  #seja-parceiro .whatsapp {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  #seja-parceiro .telephone {
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    margin-bottom: 3rem;
-    gap: 0.5rem;
-  }
-  #seja-parceiro span {
-    color: #075e54;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-  }
-  #seja-parceiro svg {
-    width: auto;
-    height: 2rem;
-  }
 }
 /*============================================== TABLET */
 @media screen and (min-width: 768px) {
@@ -1074,50 +1010,6 @@ ul {
   #depoimentos-section .swiper-button-prev {
     left: 0rem;
   }
-  /*============================================== SEJA PARCEIRO */
-  #seja-parceiro {
-    margin: 0 4rem;
-  }
-  #seja-parceiro h1.title {
-    margin-top: 8rem;
-    width: auto;
-  }
-  #seja-parceiro h1.contact {
-    width: auto;
-  }
-  #seja-parceiro h1 {
-    font-size: 2.5em;
-    margin-bottom: 2.5rem;
-  }
-  #seja-parceiro h2 {
-    margin-bottom: 3rem;
-    font-size: 1.5em;
-  }
-  #seja-parceiro p {
-    width: 40rem;
-    margin-bottom: 3rem;
-    line-height: 2rem;
-    font-size: 1.25em;
-  }
-  #seja-parceiro li {
-    line-height: 1.25rem;
-    margin-bottom: 0.5rem;
-    font-size: 1em;
-    max-width: 40rem;
-  }
-  #seja-parceiro ul {
-    margin-bottom: 3rem;
-  }
-  #seja-parceiro .telephone {
-    margin-bottom: 3rem;
-    gap: 0.5rem;
-  }
-  #seja-parceiro svg {
-    height: 4rem;
-  }
-  #seja-parceiro span {
-    font-size: 1.5em;
-  }
   /*============================================== FOOTER */
   footer {
     padding: 0 4rem;
@@ -1228,47 +1120,6 @@ ul {
   }
   #clientes-section .web-large {
     display: inherit;
-  }
-  /*============================================ SEJA PARCEIRO */
-  #seja-parceiro h1.title {
-    margin-top: 10rem;
-    width: auto;
-  }
-  #seja-parceiro h1.contact {
-    width: auto;
-  }
-  #seja-parceiro h1 {
-    font-size: 3em;
-    margin-bottom: 3rem;
-  }
-  #seja-parceiro h2 {
-    margin-bottom: 3rem;
-    font-size: 2em;
-  }
-  #seja-parceiro p {
-    width: 50rem;
-    margin-bottom: 3rem;
-    line-height: 2rem;
-    font-size: 1.5em;
-  }
-  #seja-parceiro li {
-    line-height: 1.5rem;
-    margin-bottom: 0.5rem;
-    font-size: 1.25em;
-    max-width: 40rem;
-  }
-  #seja-parceiro ul {
-    margin-bottom: 3rem;
-  }
-  #seja-parceiro .telephone {
-    margin-bottom: 3rem;
-    gap: 0.5rem;
-  }
-  #seja-parceiro svg {
-    height: 5rem;
-  }
-  #seja-parceiro span {
-    font-size: 2em;
   }
 }
 @media screen and (min-width: 1500px) {
