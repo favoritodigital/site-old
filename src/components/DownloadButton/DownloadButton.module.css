@@ -1,0 +1,17 @@
+.button {
+  position: relative;
+  height: auto;
+  min-height: 0;
+  width: 8.75rem;
+}
+
+@media screen and (min-width: 768px) {
+  .button {
+    width: 13.5rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .button {
+    width: 9rem;
+  }
+}

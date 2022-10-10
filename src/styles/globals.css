@@ -283,12 +283,11 @@ ul {
   #inicio h1.section_title {
     margin-bottom: 2rem;
   }
-  #inicio .img {
+  #inicio .section_content .img {
     display: block;
     position: relative;
     width: 50%;
     height: auto;
-    min-height: 290px;
   }
   #inicio .section_content {
     height: calc(100vh - 21rem);

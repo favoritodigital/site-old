@@ -1,5 +1,7 @@
 import Image from 'next/image'
 
+import styles from './DownloadButton.module.css'
+
 interface Props {
   type: 'appstore' | 'googleplay'
 }
@@ -16,8 +18,9 @@ export default function DownloadButton({ type }: Props) {
       rel='noreferrer'
     >
       {type === 'appstore' ? (
-        <div className='img'>
+        <div className={styles.button}>
           <Image
+            priority
             layout='responsive'
             width={992}
             height={325}
@@ -26,8 +29,9 @@ export default function DownloadButton({ type }: Props) {
           />
         </div>
       ) : (
-        <div className='img'>
+        <div className={styles.button}>
           <Image
+            priority
             layout='responsive'
             width={992}
             height={325}
