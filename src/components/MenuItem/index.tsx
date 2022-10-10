@@ -22,9 +22,9 @@ export default function MenuItem({
   return (
     <li
       id={id}
-      className={`${background === 'light' && `${styles.navigation2}`} ${
-        background === 'dark' && `${styles.navigation1}`
-      } ${hasShadow && `${styles.boxShadow}`}`}
+      className={`${background === 'light' ? styles.navigationLight : styles.navigationDark}${
+        hasShadow ? ` ${styles.boxShadow}` : ''
+      }`}
     >
       <div>
         <Link href={href}>

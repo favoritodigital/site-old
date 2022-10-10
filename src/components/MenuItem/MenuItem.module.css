@@ -1,17 +1,17 @@
-.navigation1 {
+.navigationDark {
   display: flex;
   height: 5rem;
   background-color: var(--brand-color-purple);
 }
-.navigation1 h1 {
+.navigationDark h1 {
   font-weight: 500;
 }
-.navigation2 {
+.navigationLight {
   display: flex;
   height: 3.25rem;
   background-color: var(--brand-color-light-purple);
 }
-.navigation2 h1 {
+.navigationLight h1 {
   font-weight: 300;
 }
 .boxShadow {
