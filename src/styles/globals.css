@@ -446,71 +446,6 @@ ul {
     margin: 0 5rem;
     text-align: center;
   }
-  /*================ FOOTER ================*/
-  footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: var(--brand-color-purple);
-    padding: 3rem 3rem;
-  }
-  footer .footer-items {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    margin-right: 4rem;
-    gap: 2rem;
-  }
-  footer .social-media {
-    display: flex;
-    flex-direction: column;
-  }
-  footer .social-media-images svg {
-    width: 2.25rem;
-    height: auto;
-  }
-  footer p {
-    font-size: 0.95em;
-    font-family: 'Roboto', sans-serif;
-    color: var(--brand-color-white);
-    margin-bottom: 0.5rem;
-  }
-  footer a {
-    font-size: 0.95em;
-    font-family: 'Roboto', sans-serif;
-    color: var(--brand-color-white);
-    margin-bottom: 0.5rem;
-  }
-  footer a p {
-    margin-bottom: 1.225rem;
-  }
-  footer .legal p,
-  footer a {
-    cursor: pointer;
-    transition: 0.2s;
-  }
-  footer .legal p:hover,
-  footer a:hover {
-    color: var(--brand-color-extra-light-purple);
-  }
-  footer .quebarbada svg {
-    height: 3rem;
-    width: auto;
-    margin-bottom: 3rem;
-    cursor: pointer;
-  }
-  footer .social-media-images {
-    margin-top: 0.5rem;
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-  }
-  footer .social-media-images svg {
-    transition: 0.2s;
-  }
-  footer .social-media-images svg:hover {
-    transform: scale(1.1);
-  }
   /*================ SWIPER: GLOBAL ================*/
   .slide-wrapper {
     display: flex;
@@ -683,56 +618,6 @@ ul {
   /*============================================ CONVITE */
   #invite p {
     font-size: 2.5em;
-  }
-  /*============================================ FOOTER */
-  footer {
-    padding: 0 6rem;
-  }
-  footer .footer-items {
-    width: 100%;
-    max-width: 1080px;
-    padding-top: 2rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    justify-content: space-between;
-    align-content: space-between;
-    justify-items: start;
-    align-items: start;
-    gap: 2rem;
-  }
-  footer .social-media {
-    margin-top: 0;
-    grid-column-start: 2;
-    grid-column-end: 3;
-  }
-  footer p,
-  footer a {
-    margin-bottom: 0.5rem;
-  }
-  footer .quebarbada {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  footer .quebarbada svg {
-    margin-bottom: 1.75rem;
-  }
-  footer .developer {
-    display: flex;
-    flex-direction: column;
-  }
-  footer .legal,
-  footer .quebarbada {
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  footer .social-media,
-  footer .developer {
-    width: 100%;
-    align-items: flex-end;
-    justify-content: flex-end;
   }
 }
 /*============================================== WEB MEDIUM */
@@ -940,22 +825,6 @@ ul {
   }
   #depoimentos-section .swiper-button-prev {
     left: 0rem;
-  }
-  /*============================================== FOOTER */
-  footer {
-    padding: 0 4rem;
-  }
-  footer .footer-items {
-    margin-right: 0;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    padding-bottom: 3rem;
-  }
-  footer .social-media,
-  footer .developer {
-    width: 100%;
-    align-items: flex-start;
-    justify-content: flex-start;
   }
 }
 /*============================================== WEB LARGE */

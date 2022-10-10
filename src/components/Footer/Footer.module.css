@@ -1,0 +1,124 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--brand-color-purple);
+  padding: 3rem 3rem;
+}
+.footerItems {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-right: 4rem;
+  gap: 2rem;
+}
+.footer p {
+  font-size: 0.95em;
+  font-family: 'Roboto', sans-serif;
+  color: var(--brand-color-white);
+  margin-bottom: 1.225rem;
+}
+.footer a {
+  cursor: pointer;
+}
+.footer .quebarbada svg {
+  height: 3rem;
+  width: auto;
+  margin-bottom: 3rem;
+}
+.footer .socialMedia {
+  display: flex;
+  flex-direction: column;
+}
+.footer .socialMediaImages {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.footer .socialMediaImages svg {
+  width: 2.25rem;
+  height: auto;
+}
+
+/* effects */
+.footer a,
+.footer a p {
+  transition: 0.2s;
+}
+.footer a:hover {
+  opacity: 0.6;
+}
+.socialMedia a:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    padding: 0 6rem;
+  }
+  .footerItems {
+    width: 100%;
+    max-width: 1080px;
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: space-between;
+    align-content: space-between;
+    justify-items: start;
+    align-items: start;
+    gap: 2rem;
+  }
+  .socialMedia {
+    margin-top: 0;
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  .footer p,
+  .footer a {
+    margin-bottom: 0.5rem;
+  }
+  .footer .quebarbada {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .footer .quebarbada svg {
+    margin-bottom: 1.75rem;
+  }
+  .footer .developer {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer .legal,
+  .footer .quebarbada {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .footer .socialMedia,
+  .footer .developer {
+    width: 100%;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    padding: 0 4rem;
+  }
+  .footer .footerItems {
+    margin-right: 0;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding-bottom: 3rem;
+  }
+  .footer .socialMedia,
+  .footer .developer {
+    width: 100%;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+}
