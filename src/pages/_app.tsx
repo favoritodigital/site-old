@@ -11,8 +11,8 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Head>
         <meta charSet='utf-8' />
         <meta name='viewport' content='initial-scale=1.0, width=device-width' />
-        <meta name='description' content='encontre os melhores rolês!' />
-        <meta property='og:title' content='a bússola do rolê' />
+        <meta property='og:title' content='Que Barbada - a bússola do rolê' />
+        <meta name='description' content='encontre seu rolê em 30 segundos!' />
         <meta property='og:url' content='https://www.quebarbada.com/' />
         <meta
           property='og:image'
