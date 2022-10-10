@@ -1,5 +1,7 @@
 import Link from 'next/link'
 
+import styles from './MenuItem.module.css'
+
 interface Props {
   id: string
   label: string
@@ -20,9 +22,9 @@ export default function MenuItem({
   return (
     <li
       id={id}
-      className={`${background === 'light' ? 'navigation_2' : 'navigation_1'} container${
-        hasShadow && ' box-shadow'
-      }`}
+      className={`${background === 'light' && `${styles.navigation2}`} ${
+        background === 'dark' && `${styles.navigation1}`
+      } ${hasShadow && `${styles.boxShadow}`}`}
     >
       <div>
         <Link href={href}>

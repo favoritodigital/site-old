@@ -1,0 +1,19 @@
+.navigation1 {
+  display: flex;
+  height: 5rem;
+  background-color: var(--brand-color-purple);
+}
+.navigation1 h1 {
+  font-weight: 500;
+}
+.navigation2 {
+  display: flex;
+  height: 3.25rem;
+  background-color: var(--brand-color-light-purple);
+}
+.navigation2 h1 {
+  font-weight: 300;
+}
+.boxShadow {
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+}

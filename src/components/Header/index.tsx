@@ -8,6 +8,8 @@ import Close from '/public/images/close.svg'
 import MenuItem from '../MenuItem'
 import WebNavigationItem from '../WebNavigationItem'
 
+import styles from './Header.module.css'
+
 export enum BadgePages {
   home = '/',
   bePartner = '/seja-parceiro',
@@ -22,36 +24,30 @@ export default function Header({ badge }: Props) {
 
   return (
     <>
-      <div className='header-wrapper'>
-        <div className='header_main container box-shadow'>
-          <div className='header-items'>
-            {/* LOGO */}
+      <div className={styles.wrapper}>
+        <div className={styles.container}>
+          <div className={styles.logo}>
             <Link href={'/'}>
-              <div id='header_logo'>
-                <a>
-                  <Logo />
-                </a>
-              </div>
+              <a>
+                <Logo />
+              </a>
             </Link>
-            {/* NAVIGATION WEB */}
-            <div className='navigation_web'>
-              <WebNavigationItem href={'/'} label={'início'} hasBadge={badge === BadgePages.home} />
-              <WebNavigationItem
-                href={'/seja-parceiro'}
-                label={'seja parceiro'}
-                hasBadge={badge === BadgePages.bePartner}
-              />
-            </div>
-            {/* MENU BUTTON */}
-            <button id='menu_button' onClick={() => handleIsMenuOpen(!isMenuOpen)}>
-              <div>{isMenuOpen ? <Close /> : <Open />}</div>
-            </button>
           </div>
+          <div className={styles.navigationWeb}>
+            <WebNavigationItem href={'/'} label={'início'} hasBadge={badge === BadgePages.home} />
+            <WebNavigationItem
+              href={'/seja-parceiro'}
+              label={'seja parceiro'}
+              hasBadge={badge === BadgePages.bePartner}
+            />
+          </div>
+          <button className={styles.menuButton} onClick={() => handleIsMenuOpen(!isMenuOpen)}>
+            <div>{isMenuOpen ? <Close /> : <Open />}</div>
+          </button>
         </div>
-        {/* NAVIGATION MOBILE */}
-        <div className='navigation_mobile'>
+        <div className={styles.navigationMobile}>
           {isMenuOpen && (
-            <div className='header_menu'>
+            <div className={styles.headerMenu}>
               <ul>
                 <MenuItem
                   id='menu_item1'
