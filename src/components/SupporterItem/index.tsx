@@ -8,10 +8,10 @@ interface Props {
   height: number
 }
 
-export default function SponsorItem({ name, imageFileName, url, width, height }: Props) {
+export default function SupporterItem({ name, imageFileName, url, width, height }: Props) {
   return (
-    <a href={url} className='sponsor' target='_blank' rel='noreferrer'>
-      <div className='sponsor-image'>
+    <a href={url} className='supporter' target='_blank' rel='noreferrer'>
+      <div className='supporter-image'>
         <Image
           layout='responsive'
           width={width}

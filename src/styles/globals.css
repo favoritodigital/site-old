@@ -428,7 +428,7 @@ ul {
     height: 100%;
     gap: 1rem;
   }
-  #apoiadores-section .sponsor {
+  #apoiadores-section .supporter {
     top: 0;
     height: 8rem;
     width: 8rem;
@@ -438,7 +438,7 @@ ul {
     justify-content: center;
     cursor: pointer;
   }
-  #apoiadores-section .sponsor-image {
+  #apoiadores-section .supporter-image {
     align-items: center;
     justify-content: center;
     display: block;
@@ -788,15 +788,15 @@ ul {
     flex-direction: row;
     gap: 2.5rem;
   }
-  #apoiadores-section .sponsor {
+  #apoiadores-section .supporter {
     width: 150px;
     height: 180px;
   }
-  #apoiadores-section .sponsor-image {
+  #apoiadores-section .supporter-image {
     width: 130px;
     height: auto;
   }
-  #apoiadores-section .sponsor h1 {
+  #apoiadores-section .supporter h1 {
     font-size: 1.25em;
   }
   /*============================================ CONVITE */

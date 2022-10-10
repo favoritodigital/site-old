@@ -1,9 +1,9 @@
 import 'swiper/css/pagination'
 import 'swiper/css'
 
-import { sponsors } from '../utils/repository'
+import { supporters } from '../utils/repository'
 
-import SponsorItem from '../components/SupporterItem'
+import SupporterItem from '../components/SupporterItem'
 
 export default function SupportersSection() {
   return (
@@ -11,15 +11,15 @@ export default function SupportersSection() {
       <div id='apoiadores'></div>
       <h1 className='section_title'>apoiadores</h1>
       <div className='section_content_half'>
-        {sponsors.map(sponsor => {
+        {supporters.map(supporter => {
           return (
-            <SponsorItem
-              key={sponsor.name}
-              name={sponsor.name}
-              imageFileName={sponsor.imageFileName}
-              url={sponsor.url}
-              width={sponsor.width}
-              height={sponsor.height}
+            <SupporterItem
+              key={supporter.name}
+              name={supporter.name}
+              imageFileName={supporter.imageFileName}
+              url={supporter.url}
+              width={supporter.width}
+              height={supporter.height}
             />
           )
         })}

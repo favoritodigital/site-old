@@ -292,7 +292,7 @@ export const testimonials = [
   },
 ]
 
-export const sponsors = [
+export const supporters = [
   {
     name: 'Programa NaSCer',
     imageFileName: 'nascer.png',
