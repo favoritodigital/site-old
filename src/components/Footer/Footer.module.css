@@ -75,8 +75,9 @@
     grid-column-start: 2;
     grid-column-end: 3;
   }
-  .footer p,
-  .footer a {
+  .quebarbada p,
+  .socialMedia p,
+  .developer p {
     margin-bottom: 0.5rem;
   }
   .footer .quebarbada {
