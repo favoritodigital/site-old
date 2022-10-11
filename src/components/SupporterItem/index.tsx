@@ -13,6 +13,7 @@ export default function SupporterItem({ name, imageFileName, url, width, height 
     <a href={url} className='supporter' target='_blank' rel='noreferrer'>
       <div className='supporter-image'>
         <Image
+          placeholder='blur'
           layout='responsive'
           width={width}
           height={height}
