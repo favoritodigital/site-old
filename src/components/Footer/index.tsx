@@ -6,7 +6,7 @@ import TiktokLogo from '/public/images/tiktoklogo.svg'
 import GithubLogo from '/public/images/githublogo.svg'
 import Logo from '/public/images/logo.svg'
 
-import styles from './Footer.module.css'
+import styles from './styles.module.css'
 
 export default function Footer() {
   return (

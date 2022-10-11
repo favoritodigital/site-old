@@ -4,6 +4,7 @@ import Head from 'next/head'
 import BaseLayout from '../sections/BaseLayout'
 
 import '../styles/globals.css'
+import '../styles/SlidesContentSwiper.css'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (

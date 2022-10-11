@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import styles from './termos-de-uso-usuario.module.css'
+import styles from './styles.module.css'
 
 export default function TermsOfUseUser() {
   return (

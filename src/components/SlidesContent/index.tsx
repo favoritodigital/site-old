@@ -6,11 +6,13 @@ import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import 'swiper/css/effect-coverflow'
 
+import styles from './styles.module.css'
+
 export default function SlidesContent() {
   return (
-    <div className='slide-wrapper'>
+    <div className={styles.slideWrapper}>
       <Swiper
-        className='mobile'
+        className={styles.mobile}
         spaceBetween={16}
         effect={'coverflow'}
         grabCursor={true}
@@ -27,7 +29,7 @@ export default function SlidesContent() {
         modules={[EffectCoverflow, Pagination]}
       >
         <SwiperSlide>
-          <div className='img'>
+          <div className={styles.img}>
             <Image
               layout='responsive'
               width={452}
@@ -38,7 +40,7 @@ export default function SlidesContent() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className='img'>
+          <div className={styles.img}>
             <Image
               layout='responsive'
               width={452}
@@ -49,7 +51,7 @@ export default function SlidesContent() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className='img'>
+          <div className={styles.img}>
             <Image
               layout='responsive'
               width={452}
@@ -60,7 +62,7 @@ export default function SlidesContent() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className='img'>
+          <div className={styles.img}>
             <Image
               layout='responsive'
               width={452}
@@ -71,7 +73,7 @@ export default function SlidesContent() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className='img'>
+          <div className={styles.img}>
             <Image
               layout='responsive'
               width={452}
@@ -82,7 +84,7 @@ export default function SlidesContent() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className='img'>
+          <div className={styles.img}>
             <Image
               layout='responsive'
               width={452}
@@ -94,7 +96,7 @@ export default function SlidesContent() {
         </SwiperSlide>
       </Swiper>
       <Swiper
-        className='tablet'
+        className={styles.tablet}
         navigation={true}
         spaceBetween={32}
         effect={'coverflow'}
@@ -112,7 +114,7 @@ export default function SlidesContent() {
         modules={[Navigation, EffectCoverflow, Pagination]}
       >
         <SwiperSlide>
-          <div className='img'>
+          <div className={styles.img}>
             <Image
               layout='responsive'
               width={452}
@@ -123,7 +125,7 @@ export default function SlidesContent() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className='img'>
+          <div className={styles.img}>
             <Image
               layout='responsive'
               width={452}
@@ -134,7 +136,7 @@ export default function SlidesContent() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className='img'>
+          <div className={styles.img}>
             <Image
               layout='responsive'
               width={452}
@@ -145,7 +147,7 @@ export default function SlidesContent() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className='img'>
+          <div className={styles.img}>
             <Image
               layout='responsive'
               width={452}
@@ -156,7 +158,7 @@ export default function SlidesContent() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className='img'>
+          <div className={styles.img}>
             <Image
               layout='responsive'
               width={452}
@@ -167,7 +169,7 @@ export default function SlidesContent() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className='img'>
+          <div className={styles.img}>
             <Image
               layout='responsive'
               width={452}

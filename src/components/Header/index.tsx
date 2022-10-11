@@ -8,7 +8,7 @@ import Close from '/public/images/close.svg'
 import MenuItem from '../MenuItem'
 import WebNavigationItem from '../WebNavigationItem'
 
-import styles from './Header.module.css'
+import styles from './styles.module.css'
 
 export enum BadgePages {
   home = '/',

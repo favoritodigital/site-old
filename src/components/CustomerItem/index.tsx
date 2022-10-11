@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { Customer } from '../../types/customer'
-import styles from './CustomerItem.module.css'
+import styles from './styles.module.css'
 interface Props {
   customer1: Customer
   customer2?: Customer

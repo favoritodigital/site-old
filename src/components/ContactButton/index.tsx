@@ -1,5 +1,5 @@
 import WhatsappIcon from '/public/images/whatsapp-icon-mobile.svg'
-import styles from './ContactButton.module.css'
+import styles from './styles.module.css'
 
 export default function ContactButton() {
   return (

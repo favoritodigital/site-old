@@ -7,7 +7,7 @@ import CustomerItem from '../CustomerItem'
 import { Customer } from '../../types/customer'
 import { rawCustomers } from '../../utils/repository'
 
-import styles from './SlidesCustomers.module.css'
+import styles from './styles.module.css'
 
 export default function SlidesCustomers() {
   const chunk = (chunkSize: number, array: Customer[]) => {

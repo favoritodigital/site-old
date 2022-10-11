@@ -29,6 +29,15 @@ ul {
   --text-color-gray: #474747;
 }
 /*================ GLOBAL ================*/
+.web-content {
+  display: none;
+}
+.mobile-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .tablet {
   display: none;
 }
@@ -271,12 +280,6 @@ ul {
     height: calc(100vh - 12.5rem);
     flex-direction: column;
   }
-  #como-encontrar-section .slide-wrapper {
-    max-width: 100vw;
-  }
-  #como-encontrar-section .swiper-pagination {
-    bottom: 0;
-  }
   /*================ CLIENTES ================*/
 
   /*================ DEPOIMENTOS ================*/
@@ -394,25 +397,6 @@ ul {
     width: 100%;
     height: auto;
   }
-  /* ================ SWIPER: COMO ENCONTRAR ================ */
-  #como-encontrar-section .img {
-    width: calc((100vh - 25rem) / 2);
-    height: auto;
-  }
-  #como-encontrar-section .swiper-slide {
-    width: calc((100vh - 25rem) / 2);
-    height: auto;
-  }
-  #como-encontrar-section .swiper-pagination {
-    bottom: 0rem !important;
-  }
-  #como-encontrar-section .swiper-slide-shadow-left,
-  #como-encontrar-section .swiper-slide-shadow-right {
-    background-image: none;
-  }
-  #como-encontrar-section .slide-wrapper {
-    margin-bottom: 2rem;
-  }
   /* ================ SWIPER: CLIENTES ================ */
 
   /*================ SWIPER: DEPOIMENTOS ================*/
@@ -499,20 +483,6 @@ ul {
   }
   #como-encontrar-section .section_content {
     min-height: 824px;
-  }
-  #como-encontrar-section .swiper-slide,
-  #como-encontrar-section .img {
-    width: calc((100vh - 30rem) / 2);
-    height: auto;
-    min-height: auto;
-  }
-  #como-encontrar-section .swiper-button-next,
-  #como-encontrar-section .swiper-button-prev {
-    display: none;
-  }
-  #como-encontrar-section .swiper-button-next::after,
-  #como-encontrar-section .swiper-button-prev::after {
-    display: none;
   }
   /*============================================ DEPOIMENTOS */
   #depoimentos-section {
@@ -648,55 +618,11 @@ ul {
     align-items: center;
     justify-content: center;
   }
-  #como-encontrar-section .img {
-    height: auto;
-    width: 14.125rem;
-    min-height: auto;
-  }
-  #como-encontrar-section .swiper-slide {
-    height: auto;
-    width: 14.125rem;
-    min-width: auto;
-  }
-  #como-encontrar-section .slide-wrapper {
-    height: calc(100% - 4rem);
-    display: flex;
-    position: relative;
-    width: 18rem;
-    justify-content: center;
-    margin-left: 2.5rem;
-    margin-right: 2.5rem;
-    margin-bottom: 0;
-  }
   #como-encontrar-section .web-content {
     height: 100%;
     align-items: center;
   }
-  #como-encontrar-section .swiper {
-    position: initial;
-  }
-  #como-encontrar-section .swiper-button-next,
-  #como-encontrar-section .swiper-button-prev {
-    display: flex;
-    position: absolute;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    height: 1.5rem;
-    width: 0.5rem;
-  }
-  #como-encontrar-section .swiper-button-next {
-    right: 0;
-    background-image: url('/images/swiper-right.svg');
-  }
-  #como-encontrar-section .swiper-button-prev {
-    left: 0;
-    background-image: url('/images/swiper-left.svg');
-  }
-  #como-encontrar-section .swiper-button-next::after,
-  #como-encontrar-section .swiper-button-prev::after {
-    display: none;
-  }
+
   #como-encontrar-section p {
     text-align: end;
     font-size: 16px;
@@ -800,31 +726,6 @@ ul {
   }
   #como-encontrar-section .section_content {
     height: calc(100% - 5rem);
-  }
-  #como-encontrar-section .img {
-    height: auto;
-    width: 17.5rem;
-  }
-  #como-encontrar-section .swiper-slide {
-    height: auto;
-    width: 17.5rem;
-  }
-  #como-encontrar-section .slide-wrapper {
-    height: calc(100% - 5rem);
-    width: 18rem;
-    margin-left: 3.125rem;
-    margin-right: 3.125rem;
-  }
-  #como-encontrar-section .swiper-button-next,
-  #como-encontrar-section .swiper-button-prev {
-    height: 1.5rem;
-    width: 0.5rem;
-  }
-  #como-encontrar-section .swiper-button-next {
-    right: 0;
-  }
-  #como-encontrar-section .swiper-button-prev {
-    left: 0;
   }
   #como-encontrar-section p {
     font-size: 20px;

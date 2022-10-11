@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import styles from './DownloadButton.module.css'
+import styles from './styles.module.css'
 
 interface Props {
   type: 'appstore' | 'googleplay'

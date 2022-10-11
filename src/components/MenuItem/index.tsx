@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-import styles from './MenuItem.module.css'
+import styles from './styles.module.css'
 
 interface Props {
   id: string

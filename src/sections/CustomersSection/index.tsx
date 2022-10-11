@@ -1,5 +1,5 @@
 import SlidesCustomers from '../../components/SlidesCustomers'
-import styles from './CustomersSection.module.css'
+import styles from './styles.module.css'
 
 export default function CustomersSection() {
   return (

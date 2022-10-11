@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import styles from './politica-de-privacidade.module.css'
+import styles from './styles.module.css'
 
 export default function PrivacyPolicy() {
   return (
