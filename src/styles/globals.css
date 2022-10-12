@@ -278,47 +278,6 @@ ul {
     height: 100%;
     cursor: grab;
   }
-  #depoimentos-section .testimonial {
-    border-radius: 1rem;
-    display: flex;
-    flex-direction: column;
-    margin: 3px 1.5rem;
-    height: 11.5rem;
-    background-color: var(--brand-color-white);
-    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
-  }
-  #depoimentos-section .testimonial h1 {
-    font-size: 0.9em;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    max-width: calc(100% - 6.625rem);
-    color: var(--brand-color-purple);
-  }
-  #depoimentos-section .testimonial p {
-    font-size: 0.9em;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    line-height: 1.3rem;
-    font-style: italic;
-    color: var(--text-color-gray);
-    margin: 1rem 0.75rem;
-    text-align: left;
-  }
-  #depoimentos-section .testimony-person {
-    display: flex;
-    align-items: center;
-    margin-top: 0.75rem;
-  }
-  #depoimentos-section .testimonial-image {
-    display: block;
-    position: relative;
-    width: 2.625rem;
-    height: 2.625rem;
-    background-color: var(--brand-color-white);
-    clip-path: circle();
-    margin-right: 1rem;
-    margin-left: 0.75rem;
-  }
   /*================ APOIADORES ================*/
   #apoiadores-section {
     height: 70vh;
@@ -449,9 +408,6 @@ ul {
     height: 512px;
     min-height: 0;
   }
-  #depoimentos-section .testimonial h1 {
-    margin-right: 0.5rem;
-  }
   #depoimentos-section .swiper-pagination {
     bottom: 0;
   }
@@ -564,10 +520,6 @@ ul {
     padding-right: 0;
     padding-bottom: 0;
   }
-  #depoimentos-section .testimonial-image {
-    width: 3.625rem;
-    height: 3.625rem;
-  }
   #depoimentos-section .slide-wrapper {
     width: 90%;
   }
@@ -576,9 +528,6 @@ ul {
   }
   #depoimentos-section .swiper-pagination {
     bottom: 0;
-  }
-  #depoimentos-section .testimonial {
-    margin: 3px 0.75rem;
   }
   #depoimentos-section .swiper-button-next {
     right: 0rem;

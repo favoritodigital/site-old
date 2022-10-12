@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import styles from './styles.module.css'
 
 interface Props {
   testimonial: string
@@ -16,10 +17,11 @@ export default function TestimonialItem({
   height,
 }: Props) {
   return (
-    <div className='testimonial'>
-      <div className='testimony-person'>
-        <div className='testimonial-image'>
+    <div className={styles.testimonial}>
+      <div className={styles.testimonyPerson}>
+        <div className={styles.testimonialImage}>
           <Image
+            loading='eager'
             layout='responsive'
             width={width}
             height={height}
@@ -28,9 +30,9 @@ export default function TestimonialItem({
             objectFit='cover'
           />
         </div>
-        <h1 className='testimony-name'>{owner}</h1>
+        <h1 className={styles.testimonyName}>{owner}</h1>
       </div>
-      <p className='testimony-text'>{testimonial}</p>
+      <p className={styles.testimonyText}>{testimonial}</p>
     </div>
   )
 }
