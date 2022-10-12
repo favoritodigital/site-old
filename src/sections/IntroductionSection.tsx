@@ -14,7 +14,7 @@ export default function IntroductionSection() {
             </div>
             <div className='img'>
               <Image
-                placeholder='blur'
+                loading='eager'
                 layout='responsive'
                 width={494}
                 height={1080}
@@ -46,7 +46,7 @@ export default function IntroductionSection() {
             <div className='right-column'>
               <div className='img'>
                 <Image
-                  placeholder='blur'
+                  loading='eager'
                   layout='responsive'
                   width={494}
                   height={1080}

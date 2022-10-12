@@ -31,7 +31,7 @@ export default function SlidesContent() {
         <SwiperSlide>
           <div className={styles.img}>
             <Image
-              placeholder='blur'
+              loading='eager'
               layout='responsive'
               width={452}
               height={870}
@@ -43,7 +43,7 @@ export default function SlidesContent() {
         <SwiperSlide>
           <div className={styles.img}>
             <Image
-              placeholder='blur'
+              loading='eager'
               layout='responsive'
               width={452}
               height={870}
@@ -55,7 +55,7 @@ export default function SlidesContent() {
         <SwiperSlide>
           <div className={styles.img}>
             <Image
-              placeholder='blur'
+              loading='eager'
               layout='responsive'
               width={452}
               height={870}
@@ -67,7 +67,7 @@ export default function SlidesContent() {
         <SwiperSlide>
           <div className={styles.img}>
             <Image
-              placeholder='blur'
+              loading='eager'
               layout='responsive'
               width={452}
               height={870}
@@ -79,7 +79,7 @@ export default function SlidesContent() {
         <SwiperSlide>
           <div className={styles.img}>
             <Image
-              placeholder='blur'
+              loading='eager'
               layout='responsive'
               width={452}
               height={870}
@@ -91,7 +91,7 @@ export default function SlidesContent() {
         <SwiperSlide>
           <div className={styles.img}>
             <Image
-              placeholder='blur'
+              loading='eager'
               layout='responsive'
               width={452}
               height={870}
@@ -122,7 +122,7 @@ export default function SlidesContent() {
         <SwiperSlide>
           <div className={styles.img}>
             <Image
-              placeholder='blur'
+              loading='eager'
               layout='responsive'
               width={452}
               height={870}
@@ -134,7 +134,7 @@ export default function SlidesContent() {
         <SwiperSlide>
           <div className={styles.img}>
             <Image
-              placeholder='blur'
+              loading='eager'
               layout='responsive'
               width={452}
               height={870}
@@ -146,7 +146,7 @@ export default function SlidesContent() {
         <SwiperSlide>
           <div className={styles.img}>
             <Image
-              placeholder='blur'
+              loading='eager'
               layout='responsive'
               width={452}
               height={870}
@@ -158,7 +158,7 @@ export default function SlidesContent() {
         <SwiperSlide>
           <div className={styles.img}>
             <Image
-              placeholder='blur'
+              loading='eager'
               layout='responsive'
               width={452}
               height={870}
@@ -170,7 +170,7 @@ export default function SlidesContent() {
         <SwiperSlide>
           <div className={styles.img}>
             <Image
-              placeholder='blur'
+              loading='eager'
               layout='responsive'
               width={452}
               height={870}
@@ -182,7 +182,7 @@ export default function SlidesContent() {
         <SwiperSlide>
           <div className={styles.img}>
             <Image
-              placeholder='blur'
+              loading='eager'
               layout='responsive'
               width={452}
               height={870}

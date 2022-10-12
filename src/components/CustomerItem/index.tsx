@@ -12,7 +12,7 @@ export default function CustomerItem({ customer1, customer2 }: Props) {
       <div className={styles.customer}>
         <div className={styles.customerImage}>
           <Image
-            placeholder='blur'
+            loading='eager'
             layout='fill'
             src={customer1.imageUrl}
             alt={`imagem do cliente ${customer1.name}`}
@@ -24,7 +24,7 @@ export default function CustomerItem({ customer1, customer2 }: Props) {
         <div className={styles.customer}>
           <div className={styles.customerImage}>
             <Image
-              placeholder='blur'
+              loading='eager'
               layout='fill'
               src={customer2.imageUrl}
               alt={`imagem do cliente ${customer2.name}`}
