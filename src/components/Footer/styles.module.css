@@ -4,6 +4,7 @@
   align-items: center;
   background-color: var(--brand-color-purple);
   padding: 3rem 3rem;
+  min-width: 22.5rem;
 }
 .footerItems {
   display: flex;

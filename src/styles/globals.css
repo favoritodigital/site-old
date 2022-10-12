@@ -339,6 +339,7 @@ ul {
     background-color: var(--background-color-purple);
     align-items: center;
     justify-content: center;
+    min-width: 22.5rem;
   }
   #invite p {
     font-size: 1.5em;
