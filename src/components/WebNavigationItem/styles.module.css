@@ -1,0 +1,21 @@
+.webnavigationItem {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerMenuBagde {
+  display: none;
+  position: absolute;
+  bottom: -0.5rem;
+  height: 0.35rem;
+  width: 0.35rem;
+  clip-path: circle();
+  background-color: var(--brand-color-yellow);
+}
+
+.visible {
+  display: inherit !important;
+}

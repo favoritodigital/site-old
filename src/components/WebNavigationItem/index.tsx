@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import styles from './styles.module.css'
 
 interface Props {
   href: string
@@ -8,13 +9,13 @@ interface Props {
 
 export default function WebNavigationItem({ href, label, hasBadge }: Props) {
   return (
-    <div className='webnavigation-item'>
+    <div className={styles.webnavigationItem}>
       <Link href={href}>
         <a>
           <h1>{label}</h1>
         </a>
       </Link>
-      <div className={`header-menu-badge ${hasBadge && 'visible'}`}></div>
+      <div className={`${styles.headerMenuBagde} ${hasBadge && ` ${styles.visible}`}`}></div>
     </div>
   )
 }
