@@ -331,24 +331,6 @@ ul {
     height: 100%;
     gap: 1rem;
   }
-  #apoiadores-section .supporter {
-    top: 0;
-    height: 8rem;
-    width: 8rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-  }
-  #apoiadores-section .supporter-image {
-    align-items: center;
-    justify-content: center;
-    display: block;
-    position: relative;
-    width: 100%;
-    height: auto;
-  }
   /*================ INVITE ================*/
   #invite {
     display: flex;
@@ -480,14 +462,6 @@ ul {
   #apoiadores-section .section_content_half {
     flex-direction: row;
     gap: 2.5rem;
-  }
-  #apoiadores-section .supporter {
-    width: 150px;
-    height: 180px;
-  }
-  #apoiadores-section .supporter-image {
-    width: 130px;
-    height: auto;
   }
   #apoiadores-section .supporter h1 {
     font-size: 1.25em;
