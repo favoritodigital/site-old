@@ -1,0 +1,11 @@
+.swiper-pagination {
+  bottom: 0;
+}
+.swiper-pagination-bullet-active {
+  background-color: var(--brand-color-purple) !important;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: auto;
+}

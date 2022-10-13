@@ -5,7 +5,7 @@ import styles from './styles.module.css'
 export default function IntroductionSection() {
   return (
     <>
-      <div id='inicio' className={styles.section}>
+      <div id='inicio' className={styles.container}>
         <div className={styles.mobileContent}>
           <h1 className={styles.sectionTitle}>encontre os melhores rolês em um único lugar!</h1>
           <div className={styles.sectionContent}>

@@ -9,9 +9,9 @@
   padding-top: 3rem;
   display: flex;
   flex-direction: column;
-  height: 50vh;
+  height: 70vh;
   min-width: 22.5rem;
-  min-height: 370px;
+  min-height: 33px;
 }
 .sectionTitle {
   font-family: 'Poppins', sans-serif;
@@ -50,5 +50,9 @@
     flex-direction: row;
 
     gap: 2.5rem;
+  }
+  .container {
+    height: 400px;
+    min-height: 0;
   }
 }

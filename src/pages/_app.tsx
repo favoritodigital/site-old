@@ -4,8 +4,9 @@ import Head from 'next/head'
 import BaseLayout from '../sections/BaseLayout'
 
 import '../styles/globals.css'
-import '../styles/SlidesContentSwiper.css'
-import '../styles/SlidesTestimonialsSection.css'
+import '../styles/swiper.css'
+import '../styles/slides-content-section.css'
+import '../styles/slides-sestimonials-section.css'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (

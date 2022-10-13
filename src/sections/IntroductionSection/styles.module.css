@@ -1,4 +1,4 @@
-.section {
+.container {
   display: flex;
   flex-direction: column;
 
@@ -96,7 +96,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .section {
+  .container {
     min-height: 1024px;
 
     padding-top: 8rem;
@@ -121,7 +121,7 @@
   .mobileContent {
     display: none;
   }
-  .section {
+  .container {
     height: 100vh;
     min-height: 576px;
     max-height: 768px;
@@ -178,8 +178,8 @@
 
     height: 100%;
   }
-  .section .leftColumn,
-  .section .rightColumn {
+  .container .leftColumn,
+  .container .rightColumn {
     display: flex;
     flex-direction: column;
 
@@ -191,13 +191,13 @@
 
     height: 100%;
   }
-  .section .leftColumn {
+  .container .leftColumn {
     margin-right: 6rem;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .section {
+  .container {
     min-height: 720px;
     max-height: 1024px;
 

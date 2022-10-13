@@ -8,6 +8,7 @@
   min-width: 22.5rem;
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
+  background-color: var(--background-color-red);
 }
 .content {
   display: flex;
