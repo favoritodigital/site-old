@@ -345,10 +345,6 @@ ul {
   #apoiadores-section .supporter h1 {
     font-size: 1.25em;
   }
-  /*============================================ CONVITE */
-  #invite p {
-    font-size: 2.5em;
-  }
 }
 /*============================================== WEB MEDIUM */
 @media screen and (min-width: 1024px) {

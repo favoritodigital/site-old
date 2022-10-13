@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--background-color-purple);
+
+  height: 22.5rem;
+  width: 100%;
+  min-width: 22.5rem;
+}
+.container p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5em;
+  font-weight: 900;
+
+  color: var(--text-color-gray);
+
+  text-align: center;
+
+  margin: 0 5rem;
+}
+@media screen and (min-width: 768px) {
+  .container p {
+    font-size: 2.5em;
+  }
+}
