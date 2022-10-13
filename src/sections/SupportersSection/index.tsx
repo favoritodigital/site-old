@@ -1,16 +1,18 @@
 import 'swiper/css/pagination'
 import 'swiper/css'
 
-import { supporters } from '../utils/repository'
+import { supporters } from '../../utils/repository'
 
-import SupporterItem from '../components/SupporterItem'
+import SupporterItem from '../../components/SupporterItem'
+
+import styles from './styles.module.css'
 
 export default function SupportersSection() {
   return (
-    <div id='apoiadores-section' className='section_half'>
-      <div id='apoiadores'></div>
-      <h1 className='section_title'>apoiadores</h1>
-      <div className='section_content_half'>
+    <div id='apoiadores-section' className={styles.container}>
+      <div id='apoiadores' className={styles.pin}></div>
+      <h1 className={styles.sectionTitle}>apoiadores</h1>
+      <div className={styles.sectionContentHalf}>
         {supporters.map(supporter => {
           return (
             <SupporterItem
