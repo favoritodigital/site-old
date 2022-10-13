@@ -1,0 +1,233 @@
+.section {
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+
+  align-items: center;
+
+  background-color: var(--background-color-purple);
+
+  height: 100vh;
+  min-height: 645px;
+  min-width: 22.5rem;
+
+  padding: 6.5rem 1.5rem;
+  padding-bottom: 0;
+}
+.sectionTitle {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5em;
+  font-weight: 700;
+
+  line-height: 1.75rem;
+
+  color: var(--brand-color-purple);
+
+  text-align: center;
+
+  max-width: 28.125rem;
+
+  margin-bottom: 2rem;
+  padding: 0 1.5rem;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+
+  width: 50%;
+
+  gap: 2rem;
+
+  margin: 0 1.5rem;
+}
+.text p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.125em;
+  font-weight: 500;
+
+  color: var(--text-color-gray);
+
+  text-align: start;
+
+  max-width: 16.25rem;
+
+  margin-right: 2.25rem;
+  margin: 0 0;
+}
+.sectionContent {
+  height: calc(100vh - 21rem);
+  min-height: 19.3125rem;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+}
+.img {
+  display: block;
+  position: relative;
+
+  width: 50%;
+  height: auto;
+}
+.downloadButtonsMobile {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+  align-items: center;
+
+  gap: 2rem;
+}
+.mobileContent {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+}
+.webContent {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .section {
+    min-height: 1024px;
+
+    padding-top: 8rem;
+  }
+  .text p {
+    font-size: 1.75em;
+
+    line-height: 2.5rem;
+  }
+  .sectionContent {
+    height: calc(100vh - 26rem);
+    min-height: 608px;
+  }
+  .sectionTitle {
+    font-size: 2em;
+
+    line-height: 2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .mobileContent {
+    display: none;
+  }
+  .section {
+    height: 100vh;
+    min-height: 576px;
+    max-height: 768px;
+
+    padding: 5rem 1.5rem;
+    padding-bottom: 0;
+  }
+  .sectionContent {
+    height: 100%;
+  }
+  .sectionTitle {
+    font-size: 3em;
+
+    line-height: 3rem;
+
+    text-align: start;
+    max-width: none;
+
+    width: 28rem;
+
+    margin-bottom: 1rem;
+    padding: 0 0;
+  }
+  .text p {
+    font-size: 1em;
+
+    line-height: 24px;
+
+    width: 18rem;
+    max-width: none;
+  }
+  .text {
+    width: auto;
+
+    gap: 4rem;
+
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .downloadButtonsWeb {
+    display: flex;
+    flex-direction: row;
+
+    gap: 1.5rem;
+
+    margin-top: 1rem;
+  }
+  .img {
+    width: 11.5rem;
+    height: auto;
+  }
+  .webContent {
+    display: flex;
+
+    height: 100%;
+  }
+  .section .leftColumn,
+  .section .rightColumn {
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+    justify-content: center;
+
+    position: relative;
+    z-index: 0;
+
+    height: 100%;
+  }
+  .section .leftColumn {
+    margin-right: 6rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .section {
+    min-height: 720px;
+    max-height: 1024px;
+
+    padding: 8rem 1.5rem;
+    padding-bottom: 3rem;
+  }
+  .sectionTitle {
+    font-size: 3.75em;
+
+    line-height: 3.75rem;
+
+    width: 35rem;
+
+    margin-bottom: 1.25rem;
+  }
+  .text p {
+    font-size: 1.25em;
+
+    line-height: 30px;
+    width: 28rem;
+  }
+  .text {
+    gap: 2rem;
+  }
+  .downloadButtonsWeb {
+    gap: 1.875rem;
+
+    margin-top: 1.25rem;
+  }
+  .img {
+    width: 14rem;
+  }
+}

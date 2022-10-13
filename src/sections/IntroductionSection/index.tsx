@@ -1,18 +1,19 @@
 import Image from 'next/image'
-import DownloadButton from '../components/DownloadButton'
+import DownloadButton from '../../components/DownloadButton'
+import styles from './styles.module.css'
 
 export default function IntroductionSection() {
   return (
     <>
-      <div id='inicio' className='section'>
-        <div className='mobile-content'>
-          <h1 className='section_title'>encontre os melhores rolês em um único lugar!</h1>
-          <div className='section_content'>
-            <div className='text'>
+      <div id='inicio' className={styles.section}>
+        <div className={styles.mobileContent}>
+          <h1 className={styles.sectionTitle}>encontre os melhores rolês em um único lugar!</h1>
+          <div className={styles.sectionContent}>
+            <div className={styles.text}>
               <p>no nosso app, você tem acesso aos melhores rolês de maneira simples e prática.</p>
               <p>disponível para download na App Store e Google Play:</p>
             </div>
-            <div className='img'>
+            <div className={styles.img}>
               <Image
                 loading='eager'
                 layout='responsive'
@@ -23,28 +24,28 @@ export default function IntroductionSection() {
               />
             </div>
           </div>
-          <div id='download-buttons-mobile'>
+          <div className={styles.downloadButtonsMobile}>
             <DownloadButton type='appstore' />
             <DownloadButton type='googleplay' />
           </div>
         </div>
-        <div className='web-content'>
-          <div className='section_content'>
-            <div className='left-column'>
-              <h1 className='section_title'>encontre os melhores rolês em um único lugar!</h1>
-              <div className='text'>
+        <div className={styles.webContent}>
+          <div className={styles.sectionContent}>
+            <div className={styles.leftColumn}>
+              <h1 className={styles.sectionTitle}>encontre os melhores rolês em um único lugar!</h1>
+              <div className={styles.text}>
                 <p>
                   no nosso app, você tem acesso aos melhores rolês de maneira simples e prática.
                 </p>
                 <p>disponível para download na App Store e Google Play:</p>
               </div>
-              <div id='download-buttons-web'>
+              <div className={styles.downloadButtonsWeb}>
                 <DownloadButton type='appstore' />
                 <DownloadButton type='googleplay' />
               </div>
             </div>
-            <div className='right-column'>
-              <div className='img'>
+            <div className={styles.rightColumn}>
+              <div className={styles.img}>
                 <Image
                   loading='eager'
                   layout='responsive'

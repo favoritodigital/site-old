@@ -202,7 +202,6 @@ ul {
     padding: 0 1.5rem;
   }
   /*================ BG COLORS ================*/
-  #inicio,
   #depoimentos-section {
     background-color: var(--background-color-purple);
   }
@@ -213,62 +212,6 @@ ul {
   #clientes-section {
     background-color: var(--background-color-red);
   }
-  /*================ INICIO ================*/
-  #inicio .section_content .text {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    margin: 0 1.5rem;
-    width: 50%;
-  }
-  #inicio h1.section_title {
-    margin-bottom: 2rem;
-  }
-  #inicio .section_content .img {
-    display: block;
-    position: relative;
-    width: 50%;
-    height: auto;
-  }
-  #inicio .section_content {
-    height: calc(100vh - 21rem);
-    min-height: 309px;
-    width: 100%;
-  }
-  #inicio #download-buttons-mobile .img,
-  #inicio #download-buttons-web .img {
-    position: relative;
-    height: auto;
-    min-height: 0;
-  }
-  #inicio p {
-    font-size: 1.125em;
-    text-align: start;
-    margin-right: 2.25rem;
-    margin: 0 0;
-    max-width: 16.25rem;
-  }
-  #inicio h1 {
-    max-width: 28.125rem;
-  }
-  #inicio {
-    padding-top: 6.5rem;
-    align-items: center;
-  }
-  #download-buttons-mobile .img {
-    width: 8.75rem;
-  }
-  #download-buttons-mobile {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
-  }
-  /*================ COMO ENCONTRAR ================*/
-
-  /*================ CLIENTES ================*/
-
   /*================ DEPOIMENTOS ================*/
   #depoimentos-section .section_title {
     /* margin-bottom: 1.5rem; */
@@ -382,27 +325,6 @@ ul {
   .mobile {
     display: none;
   }
-  /*============================================ INICIO */
-  #inicio {
-    padding-top: 8rem;
-    min-height: 1024px;
-  }
-  #inicio p {
-    font-size: 1.75em;
-    line-height: 2.5rem;
-  }
-  #inicio .section_content img {
-    min-height: 460px;
-  }
-  #inicio #download-buttons-mobile .img {
-    position: relative;
-    width: 13.5rem;
-    height: auto;
-  }
-  #inicio .section_content {
-    height: calc(100vh - 26rem);
-    min-height: 608px;
-  }
   /*============================================ DEPOIMENTOS */
   #depoimentos-section {
     height: 512px;
@@ -445,74 +367,6 @@ ul {
   .navigation_web {
     right: 0;
   }
-  /*============================================ INÍCIO */
-  #inicio {
-    height: 100vh;
-    min-height: 576px;
-    max-height: 768px;
-    padding: 0 1.5rem;
-    padding-top: 5rem;
-  }
-  #inicio .section_content {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
-    min-height: 0;
-  }
-  #inicio h1.section_title {
-    font-size: 3em;
-    line-height: 3rem;
-    text-align: start;
-    padding: 0 0;
-    width: 28rem;
-    max-width: none;
-    margin-bottom: 1rem;
-  }
-  #inicio p {
-    font-size: 16px;
-    line-height: 24px;
-    width: 18rem;
-    max-width: none;
-  }
-  #inicio .section_content .text {
-    margin-left: 0;
-    margin-right: 0;
-    gap: 4rem;
-    width: auto;
-  }
-  #inicio #download-buttons-web .img {
-    width: 9rem;
-    height: auto;
-  }
-  #download-buttons-web {
-    margin-top: 1rem;
-    display: flex;
-    flex-direction: row;
-    gap: 1.5rem;
-  }
-  #inicio .section_content .img {
-    width: 11.5rem;
-    height: auto;
-    min-height: auto;
-  }
-  #inicio .web-content {
-    height: 100%;
-  }
-  #inicio .left-column,
-  #inicio .right-column {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    position: relative;
-    height: 100%;
-    z-index: 0;
-  }
-  #inicio .left-column {
-    margin-right: 6rem;
-  }
   /*============================================== DEPOIMENTOS */
   #depoimentos-section {
     height: 425px;
@@ -534,41 +388,5 @@ ul {
   }
   #depoimentos-section .swiper-button-prev {
     left: 0rem;
-  }
-}
-/*============================================== WEB LARGE */
-@media screen and (min-width: 1280px) {
-  /*============================================ INÍCIO */
-  #inicio {
-    height: 100vh;
-    min-height: 720px;
-    max-height: 1024px;
-    padding: 3rem 1.5rem;
-    padding-top: 8rem;
-  }
-  #inicio h1.section_title {
-    font-size: 3.75em;
-    line-height: 3.75rem;
-    padding: 0 0;
-    width: 35rem;
-    margin-bottom: 1.25rem;
-  }
-  #inicio p {
-    font-size: 20px;
-    line-height: 30px;
-    width: 28rem;
-  }
-  #inicio .section_content .text {
-    gap: 2rem;
-  }
-  #inicio #download-buttons-web img {
-    width: 9rem;
-  }
-  #download-buttons-web {
-    margin-top: 1.25rem;
-    gap: 1.875rem;
-  }
-  #inicio .section_content .img {
-    width: 14rem;
   }
 }
