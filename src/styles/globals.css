@@ -1,4 +1,4 @@
-/*================ HTML RESET ================*/
+/* HTML RESET */
 * {
   margin: 0%;
   padding: 0%;
@@ -15,7 +15,7 @@ img {
 ul {
   list-style: none;
 }
-/*================ GLOBAL VARIABLES ================*/
+/* GLOBAL VARIABLES */
 :root {
   --brand-color-yellow: #ffca5e;
   --brand-color-purple: #5d4989;
@@ -28,7 +28,7 @@ ul {
   --background-color-red: #ffe6f0;
   --text-color-gray: #474747;
 }
-/*================ GLOBAL ================*/
+/* GLOBAL */
 .web-content {
   display: none;
 }
@@ -202,9 +202,7 @@ ul {
     padding: 0 1.5rem;
   }
   /*================ BG COLORS ================*/
-  #depoimentos-section {
-    background-color: var(--background-color-purple);
-  }
+
   #como-encontrar-section,
   #apoiadores-section {
     background-color: var(--brand-color-white);
@@ -213,14 +211,7 @@ ul {
     background-color: var(--background-color-red);
   }
   /*================ DEPOIMENTOS ================*/
-  #depoimentos-section .section_title {
-    /* margin-bottom: 1.5rem; */
-    margin-bottom: 0;
-  }
-  #depoimentos-section .section_content_half {
-    height: 100%;
-    cursor: grab;
-  }
+
   /*================ APOIADORES ================*/
   #apoiadores-section {
     height: 70vh;
@@ -233,7 +224,7 @@ ul {
     height: 100%;
     gap: 1rem;
   }
-  /*================ SWIPER: GLOBAL ================*/
+  /*================ SWIPER ================*/
   .slide-wrapper {
     display: flex;
     overflow: hidden;
@@ -252,29 +243,6 @@ ul {
     height: auto;
   }
   /*================ SWIPER: DEPOIMENTOS ================*/
-  #depoimentos-section .slide-wrapper {
-    height: 14rem;
-  }
-  #depoimentos-section .swiper-button-next,
-  #depoimentos-section .swiper-button-prev {
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    height: 1.5rem;
-    width: 0.5rem;
-  }
-  #depoimentos-section .swiper-button-next {
-    right: 0;
-    background-image: url('/images/swiper-right.svg');
-  }
-  #depoimentos-section .swiper-button-prev {
-    left: 0;
-    background-image: url('/images/swiper-left.svg');
-  }
-  #depoimentos-section .swiper-button-next::after,
-  #depoimentos-section .swiper-button-prev::after {
-    display: none;
-  }
 }
 /*============================================== TABLET */
 @media screen and (min-width: 768px) {
@@ -298,22 +266,12 @@ ul {
   .tablet {
     display: flex;
   }
-  /*============================================ DISABLE MOBILE */
   .header_main button {
     display: none;
   }
   .mobile {
     display: none;
   }
-  /*============================================ DEPOIMENTOS */
-  #depoimentos-section {
-    height: 512px;
-    min-height: 0;
-  }
-  #depoimentos-section .swiper-pagination {
-    bottom: 0;
-  }
-  /*============================================ APOIADORES */
   #apoiadores-section {
     height: 400px;
     min-height: 0;
@@ -326,43 +284,14 @@ ul {
     font-size: 1.25em;
   }
 }
-/*============================================== WEB MEDIUM */
 @media screen and (min-width: 1024px) {
-  /*============================================ DISABLE TABLET */
   .mobile-content {
     display: none;
   }
-  #depoimentos-section .tablet {
-    display: none;
-  }
-  /*============================================ ENABLE WEB */
   .web-content {
     display: flex;
   }
-  /*============================================ HEADER */
   .navigation_web {
     right: 0;
-  }
-  /*============================================== DEPOIMENTOS */
-  #depoimentos-section {
-    height: 425px;
-    padding-left: 0;
-    padding-right: 0;
-    padding-bottom: 0;
-  }
-  #depoimentos-section .slide-wrapper {
-    width: 90%;
-  }
-  #depoimentos-section .swiper {
-    padding: 0 0.4rem;
-  }
-  #depoimentos-section .swiper-pagination {
-    bottom: 0;
-  }
-  #depoimentos-section .swiper-button-next {
-    right: 0rem;
-  }
-  #depoimentos-section .swiper-button-prev {
-    left: 0rem;
   }
 }

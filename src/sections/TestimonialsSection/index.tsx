@@ -4,19 +4,21 @@ import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 
-import TestimonialItem from '../components/TestimonialItem'
+import TestimonialItem from '../../components/TestimonialItem'
 
-import { testimonials } from '../utils/repository'
+import { testimonials } from '../../utils/repository'
+
+import styles from './styles.module.css'
 
 export default function TestimonialsSection() {
   return (
-    <div id='depoimentos-section' className='section_half'>
-      <div id='depoimentos'></div>
-      <h1 className='section_title'>depoimentos</h1>
-      <div className='section_content_half'>
-        <div className='slide-wrapper'>
+    <div id='depoimentos-section' className={styles.container}>
+      <div id='depoimentos' className={styles.pin}></div>
+      <h1 className={styles.sectionTitle}>depoimentos</h1>
+      <div className={styles.sectionContentHalf}>
+        <div className={styles.slideWrapper}>
           <Swiper
-            className='mobile'
+            className={styles.mobile}
             modules={[Navigation, Pagination]}
             pagination={true}
             navigation={true}
@@ -37,7 +39,7 @@ export default function TestimonialsSection() {
             })}
           </Swiper>
           <Swiper
-            className='tablet'
+            className={styles.tablet}
             modules={[Navigation, Pagination]}
             pagination={true}
             navigation={true}
@@ -58,7 +60,7 @@ export default function TestimonialsSection() {
             })}
           </Swiper>
           <Swiper
-            className='web-large'
+            className={styles.webLarge}
             modules={[Navigation, Pagination]}
             pagination={true}
             navigation={true}

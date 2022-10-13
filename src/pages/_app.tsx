@@ -5,6 +5,7 @@ import BaseLayout from '../sections/BaseLayout'
 
 import '../styles/globals.css'
 import '../styles/SlidesContentSwiper.css'
+import '../styles/SlidesTestimonialsSection.css'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
