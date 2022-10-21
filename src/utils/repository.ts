@@ -4,249 +4,562 @@ export const rawCustomers: Customer[] = [
   {
     name: "Champ's Green Burguer",
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220716102249230-champs-green-burguer.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084710066-champs-green-burguer.jpeg',
   },
   {
     name: 'Sun7.River Gastrobar',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220704200751727-sun7river-gastrobar.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084716954-sun7river-gastrobar.jpeg',
   },
   {
     name: 'Vibar',
-    imageUrl: 'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220530134226304-vibar.jpg',
+    imageUrl: 'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084719215-vibar.jpeg',
   },
   {
     name: 'Stannis Tap Reinoldo',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220716102429495-stannis-tap-reinoldo.png',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084721220-stannis-tap-reinoldo.jpeg',
   },
   {
     name: 'Sinners Pub',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220716102456810-sinners-pub.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084722264-sinners-pub.jpeg',
   },
   {
     name: 'Nostro Bar',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220716102520304-nostro-bar.jpeg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084723257-nostro-bar.jpeg',
   },
   {
     name: 'Macuco Sinuca',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220716102553484-macuco-sinuca.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084724448-macuco-sinuca.jpeg',
   },
   {
     name: 'Cherokee Brewhouse',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220716102622566-cherokee-brewhouse.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084725589-cherokee-brewhouse.jpeg',
   },
   {
     name: 'Choperia Arweg',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220809130320242-choperia-arweg.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084726652-choperia-arweg.jpeg',
   },
   {
     name: 'ZG Lounge',
-    imageUrl: 'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220716102658380-zg-lounge.jpg',
-  },
-  {
-    name: 'Tapera Country Bar',
-    imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220622085250498-tapera-country-bar.jpg',
+    imageUrl: 'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084727738-zg-lounge.jpeg',
   },
   {
     name: 'Barbatum Brewpub',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220716102750896-barbatum-brewpub.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084730717-barbatum-brewpub.jpeg',
   },
   {
     name: 'Madrugadão Lanches Barra',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220716102817311-madrugadao-lanches-barra.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084731634-madrugadao-lanches-barra.jpeg',
   },
   {
     name: 'Stannis Pub',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220716102849034-stannis-pub.png',
-  },
-  {
-    name: 'Deck Lounge',
-    imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220716102925367-deck-lounge.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084732767-stannis-pub.jpeg',
   },
   {
     name: 'Via Green In Bar',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220716103042355-via-green-in-bar.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084735640-via-green-in-bar.jpeg',
   },
   {
     name: 'Zanzibar',
-    imageUrl: 'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220716103057657-zanzibar.jpg',
+    imageUrl: 'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084736425-zanzibar.jpeg',
   },
   {
     name: 'Stannis Tap Guaramirim',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220716103123299-stannis-tap-guaramirim.jpg',
-  },
-  {
-    name: 'Choperia Tia Neide',
-    imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220716103143563-choperia-tia-neide.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084737435-stannis-tap-guaramirim.jpeg',
   },
   {
     name: 'Black Box Tap House',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220716103204179-black-box-tap-house.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084739805-black-box-tap-house.jpeg',
   },
   {
     name: 'Quiosque Marquesin',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220716103219574-quiosque-marquesin.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084740978-quiosque-marquesin.jpeg',
   },
   {
     name: 'Meu Boteco',
-    imageUrl: 'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220422175307062-meu-boteco.jpg',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084743984-meu-boteco.jpeg',
   },
   {
     name: "Rajada's Dog",
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220423143312202-rajada-s-dog.png',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084745233-rajadas-dog.jpeg',
+  },
+  {
+    name: 'Moto Clube Cano Quente',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084746259-moto-clube-cano-quente.jpeg',
   },
   {
     name: 'Samambaia',
-    imageUrl: 'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220427200649297-samambaia.jpg',
+    imageUrl: 'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084747171-samambaia.jpeg',
   },
   {
     name: 'Stannis Cervejaria - Bar e Loja',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220429172259089-stannis-cervejaria-bar-e-loja.jpeg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084748361-stannis-cervejaria-bar-e-loja.jpeg',
   },
   {
     name: 'Pizzadog',
-    imageUrl: 'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220502180330271-pizzadog.jpg',
+    imageUrl: 'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084749714-pizzadog.jpeg',
+  },
+  {
+    name: 'Pirata Rock Bar',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084751949-pirata-rock-bar.jpeg',
   },
   {
     name: 'Estação Open Bar',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220503202826331-estacao-open-bar.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084752807-estacao-open-bar.jpeg',
   },
   {
     name: 'Kneipe 383 Steak House',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220817082011828-kneipe-383-steak-house.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084754811-kneipe-383-steak-house.jpeg',
   },
   {
     name: 'Deck do Nilo',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220513140721095-deck-do-nilo.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084757103-deck-do-nilo.jpeg',
   },
   {
     name: 'Boulevard 763 | Food Park',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220524120400504-boulevard-763-food-park.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084758793-boulevard-763-food-park.jpeg',
   },
   {
     name: 'Praça Bread',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220525112325020-praca-bread.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084759628-praca-bread.jpeg',
   },
   {
     name: 'Sr Rango Rest. e Petiscaria',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220525150653878-sr-rango-rest-e-petiscaria.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084800717-sr-rango-rest-e-petiscaria.jpeg',
   },
   {
     name: 'Plankton Burger',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220526222610137-plankton-burger.png',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084801870-plankton-burger.jpeg',
   },
   {
     name: 'Wissen - Malte & Lúpulo',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220602132825850-wissen-malte-lupulo.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084804109-wissen-malte-lupulo.jpeg',
   },
   {
     name: 'Stage Pub',
-    imageUrl: 'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220603085655927-stage-pub.jpg',
+    imageUrl: 'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084805087-stage-pub.jpeg',
   },
   {
     name: 'Espetinho Cuiabano GastroPub',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220605201040194-espetinho-cuiabano-gastropub.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084805997-espetinho-cuiabano-gastropub.jpeg',
   },
   {
     name: 'Karsten Bier Platz',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220810185606784-karsten-bier-platz.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084808046-karsten-bier-platz.jpeg',
   },
   {
     name: 'Casa da Cerveja',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220620093611517-casa-da-cerveja.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084809255-casa-da-cerveja.jpeg',
   },
   {
     name: 'Jack American Bar',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220620112809577-jack-americar-bar.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084810505-jack-american-bar.jpeg',
   },
   {
     name: 'Arriba Mexican Bar',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220810184332257-arriba-mexican-bar.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084811832-arriba-mexican-bar.jpeg',
   },
   {
     name: 'Ogro Burger',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220622143228674-ogro-burger.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084812949-ogro-burger.jpeg',
   },
   {
     name: 'Chef Tilápia',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220627104752528-chef-tilapia.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084814114-chef-tilapia.jpeg',
   },
   {
-    name: 'Vita Jardim Gastronômico e Wine Bar',
+    name: 'Vita Jardim Gastronômico & Wine Bar',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220630184842253-vita-jardim-gastron-wine-bar.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084816237-vita-jardim-gastronomico-wine-bar.jpeg',
   },
   {
     name: 'Estação Pier Box',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220809150029442-estacao-pier-box.png',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084818384-estacao-pier-box.jpeg',
   },
   {
     name: 'ASG Tabacaria e Lounge',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220714190854203-asg-tabacaria-e-lounge.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084819386-asg-tabacaria-e-lounge.jpeg',
+  },
+  {
+    name: 'Empório Hookah Lounge',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084822316-emporio-hookah-lounge.jpeg',
   },
   {
     name: 'Redwolf Pizzas e Burgers',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220731162945029-redwolf-pizzas-e-burgers.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084823309-redwolf-pizzas-e-burgers.jpeg',
   },
   {
     name: 'Flame Conveniência',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220801142956612-flame-conveniencia.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084824287-flame-conveniencia.jpeg',
   },
   {
     name: 'Arweg Tap',
-    imageUrl: 'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220804005715669-arweg-tap.jpg',
+    imageUrl: 'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084825601-arweg-tap.jpeg',
+  },
+  {
+    name: 'Quiero Café',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084826536-quiero-cafe.jpeg',
   },
   {
     name: 'Café de Rua',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220817144244876-cafe-de-rua.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084827516-cafe-de-rua.jpeg',
+  },
+  {
+    name: 'Hortelã Café',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084828664-hortela-cafe.jpeg',
+  },
+  {
+    name: 'Oh My Bread Café',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084829642-oh-my-bread-cafe.jpeg',
   },
   {
     name: 'Gaúcho Chopp e Cozinha',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220818152940287-gaucho-chopp-e-cozinha.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084830838-gaucho-chopp-e-cozinha.jpeg',
   },
   {
-    name: 'Leon Gourmet',
+    name: 'Bari Caffe',
     imageUrl:
-      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20220823170616476-leon-gourmet.jpg',
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084833214-bari-caffe.jpeg',
+  },
+  {
+    name: 'Grano Speciale',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084834382-grano-speciale.jpeg',
+  },
+  {
+    name: 'Confeitos e Afetos',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084835368-confeitos-e-afetos.jpeg',
+  },
+  {
+    name: 'Casa Treë',
+    imageUrl: 'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084836223-casa-tree.jpeg',
+  },
+  {
+    name: 'Zabú Gastrobar',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084837198-zabu-gastrobar.jpeg',
+  },
+  {
+    name: 'Tobatta Comedy',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084838134-tobatta-comedy.jpeg',
+  },
+  {
+    name: 'Choppana Happy Hour',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084839058-choppana-happy-hour.jpeg',
+  },
+  {
+    name: 'Gärten Pub',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084839996-garten-pub.jpeg',
+  },
+  {
+    name: 'Armazém Carvoeiro',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084841017-armazem-carvoeiro.jpeg',
+  },
+  {
+    name: 'Máverick Bikers Pub',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084842110-maverick-bikers-pub.jpeg',
+  },
+  {
+    name: "Let's Drop Gastropub",
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084842965-lets-drop-gastropub.jpeg',
+  },
+  {
+    name: 'Pomar Café e Choperia',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084843855-pomar-cafe-e-choperia.jpeg',
+  },
+  {
+    name: "Let's Drop Sushi Bar",
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084844688-lets-drop-sushi-bar.jpeg',
+  },
+  {
+    name: 'Fábrica de Costela',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084845559-fabrica-de-costela.jpeg',
+  },
+  {
+    name: "Rancho's Beer Food",
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084846763-ranchos-beer-food.jpeg',
+  },
+  {
+    name: 'Green Original Pub',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084847880-green-original-pub.jpeg',
+  },
+  {
+    name: 'Avenida Carnes Içara',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084848863-avenida-carnes-icara.jpeg',
+  },
+  {
+    name: "Boemio's Bar e Café",
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084849992-boemios-bar-e-cafe.jpeg',
+  },
+  {
+    name: 'UnaBirra Pub',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084850856-unabirra-pub.jpeg',
+  },
+  {
+    name: 'Capo e Gin',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084851825-capo-e-gin.jpeg',
+  },
+  {
+    name: 'San Diego Happy Hour',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084852673-san-diego-happy-hour.jpeg',
+  },
+  {
+    name: 'Pub Saint Bier',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084853671-pub-saint-bier.jpeg',
+  },
+  {
+    name: 'Van Tap Bier',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084854541-van-tap-bier.jpeg',
+  },
+  {
+    name: 'Bar Seu Bragança',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084855676-bar-seu-braganca.jpeg',
+  },
+  {
+    name: "Queen's House Pub",
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084856509-queens-house-pub.jpeg',
+  },
+  {
+    name: 'Don João GastroBar',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084857598-don-joao-gastrobar.jpeg',
+  },
+  {
+    name: 'Deboas Restaurante e Pub',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084858406-deboas-restaurante-e-pub.jpeg',
+  },
+  {
+    name: 'Old West Country Pub',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084859484-old-west-country-pub.jpeg',
+  },
+  {
+    name: 'Place Lounge',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084900334-place-lounge.jpeg',
+  },
+  {
+    name: 'Tigre Sports Bar',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084901226-tigre-sports-bar.jpeg',
+  },
+  {
+    name: 'Santo Alho',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084902107-santo-alho.jpeg',
+  },
+  {
+    name: 'Casa de Carnes Dumon',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084903269-casa-de-carnes-dumon.jpeg',
+  },
+  {
+    name: 'Good Point Rest. e Choperia',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084904360-good-point-rest-e-choperia.jpeg',
+  },
+  {
+    name: 'Atlantic Pub House',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084905439-atlantic-pub-house.jpeg',
+  },
+  {
+    name: 'Roof 360 Food e Fun',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084906338-roof-360-food-e-fun.jpeg',
+  },
+  {
+    name: 'Garden',
+    imageUrl: 'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084907235-garden.jpeg',
+  },
+  {
+    name: 'Brazucas Lounge Bar',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084908106-brazucas-lounge-bar.jpeg',
+  },
+  {
+    name: 'Haras HG - Centro de Eventos',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084908925-haras-hg-centro-de-eventos.jpeg',
+  },
+  {
+    name: 'Montalccino Pasta Grill',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084909807-montalccino-pasta-grill.jpeg',
+  },
+  {
+    name: 'Planeta Beer',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084910922-planeta-beer.jpeg',
+  },
+  {
+    name: 'Estádio Heriberto Hülse',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084911709-estadio-heriberto-hulse.jpeg',
+  },
+  {
+    name: 'Duetto Chopp Grill',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084912515-duetto-chopp-grill.jpeg',
+  },
+  {
+    name: 'Street Dumon Arte Bar',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084913328-street-dumon-arte-bar.jpeg',
+  },
+  {
+    name: 'San Paolo Trattoria Bar',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084914250-san-paolo-trattoria-bar.jpeg',
+  },
+  {
+    name: 'Forneria Casaluce',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084915093-forneria-casaluce.jpeg',
+  },
+  {
+    name: 'Coletivo 73',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084916397-coletivo-73.jpeg',
+  },
+  {
+    name: 'Bem-me-Quer',
+    imageUrl: 'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084917362-bemmequer.jpeg',
+  },
+  {
+    name: 'iOStec Café',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084918415-iostec-cafe.jpeg',
+  },
+  {
+    name: 'Container Food Park',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084919294-container-food-park.jpeg',
+  },
+  {
+    name: 'Wynn Club',
+    imageUrl: 'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084920209-wynn-club.jpeg',
+  },
+  {
+    name: 'Mandala Pub',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084921235-mandala-pub.jpeg',
+  },
+  {
+    name: 'OZ Music & Fantasy',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084922093-oz-music-fantasy.jpeg',
+  },
+  {
+    name: 'Donno Gastronomia e Música',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084923004-donno-gastronomia-e-musica.jpeg',
+  },
+  {
+    name: 'Boraa Bar',
+    imageUrl: 'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084923931-boraa-bar.jpeg',
+  },
+  {
+    name: '•P Club',
+    imageUrl: 'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084924891-p-club.jpeg',
+  },
+  {
+    name: '1051 Club',
+    imageUrl: 'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084925756-1051-club.jpeg',
+  },
+  {
+    name: 'Éden',
+    imageUrl: 'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084926679-eden.jpeg',
+  },
+  {
+    name: 'El Tarquin | Parrilla Argentina',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084927538-el-tarquin-parrilla-argentina.jpeg',
+  },
+  {
+    name: 'JP Boutique de Carnes',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084928470-jp-boutique-de-carnes.jpeg',
+  },
+  {
+    name: 'Santo Boteco',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084929361-santo-boteco.jpeg',
+  },
+  {
+    name: 'Happy Gastropub',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084930224-happy-gastropub.jpeg',
+  },
+  {
+    name: 'Posto Beer',
+    imageUrl:
+      'https://quebarbada.s3.sa-east-1.amazonaws.com/logo/20221021084931094-posto-beer.jpeg',
   },
 ]
 
