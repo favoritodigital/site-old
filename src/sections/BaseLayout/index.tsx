@@ -15,8 +15,6 @@ export default function BaseLayout({ children }: Props) {
   const router = useRouter()
   const { cookiesIsEnabled } = useContext(CookiesContext)
 
-  console.log(cookiesIsEnabled)
-
   return (
     <div>
       <Header badge={router.pathname as BadgePages} />

@@ -12,14 +12,11 @@ interface Props {
 export const CookiesContext = createContext({} as CookiesContextData)
 
 export function CookiesProvider({ children }: Props) {
-  const [cookiesIsEnabled, setCookiesIsEnabled] = useState(false)
+  const [cookiesIsEnabled, setCookiesIsEnabled] = useState(true)
 
   useEffect(() => {
     const cookiesIsEnabled = localStorage.getItem('cookiesIsEnabled')
-
-    if (cookiesIsEnabled === 'true') {
-      setCookiesIsEnabled(true)
-    }
+    setCookiesIsEnabled(cookiesIsEnabled === 'true')
   }, [])
 
   const handleSetCookiesIsEnabled = (enabled: boolean) => {
