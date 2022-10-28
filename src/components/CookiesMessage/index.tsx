@@ -21,7 +21,7 @@ export default function CookiesMessage() {
         </p>
       </div>
 
-      <button className={styles.btn} onClick={() => setCookiesIsEnabled(true)}>
+      <button className={styles.btn} onClick={setCookiesIsEnabled}>
         Entendi
       </button>
     </div>

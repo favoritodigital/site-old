@@ -2,7 +2,7 @@ import React, { useState, createContext, ReactNode, useEffect } from 'react'
 
 interface CookiesContextData {
   cookiesIsEnabled: boolean
-  setCookiesIsEnabled: (value: boolean) => void
+  setCookiesIsEnabled: () => void
 }
 
 interface Props {
@@ -15,13 +15,13 @@ export function CookiesProvider({ children }: Props) {
   const [cookiesIsEnabled, setCookiesIsEnabled] = useState(true)
 
   useEffect(() => {
-    const cookiesIsEnabled = localStorage.getItem('cookiesIsEnabled')
-    setCookiesIsEnabled(cookiesIsEnabled === 'true')
+    const localStorageCookiesIsEnabledValue = localStorage.getItem('cookiesIsEnabled')
+    setCookiesIsEnabled(localStorageCookiesIsEnabledValue === 'true')
   }, [])
 
-  const handleSetCookiesIsEnabled = (enabled: boolean) => {
-    localStorage.setItem('cookiesIsEnabled', enabled ? 'true' : 'false')
-    setCookiesIsEnabled(enabled)
+  const handleSetCookiesIsEnabled = () => {
+    localStorage.setItem('cookiesIsEnabled', 'true')
+    setCookiesIsEnabled(true)
   }
 
   return (
