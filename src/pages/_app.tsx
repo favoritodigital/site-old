@@ -1,12 +1,13 @@
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
 
-import BaseLayout from '../sections/BaseLayout'
-
 import '../styles/globals.css'
 import '../styles/swiper.css'
 import '../styles/slides-content-section.css'
 import '../styles/slides-sestimonials-section.css'
+
+import BaseLayout from '../sections/BaseLayout'
+import { CookiesProvider } from '../contexts/CookiesContext'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -19,9 +20,11 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta property='og:url' content='https://www.quebarbada.com/' />
         <meta property='og:image' content='https://www.quebarbada.com/quebarbada.png' />
       </Head>
-      <BaseLayout>
-        <Component {...pageProps} />
-      </BaseLayout>
+      <CookiesProvider>
+        <BaseLayout>
+          <Component {...pageProps} />
+        </BaseLayout>
+      </CookiesProvider>
     </>
   )
 }
