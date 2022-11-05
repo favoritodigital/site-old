@@ -1,0 +1,42 @@
+.pin {
+  position: absolute;
+  top: -5rem;
+  left: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  position: relative;
+
+  background-color: var(--background-color-purple);
+
+  width: 100%;
+  height: calc(100vh - 5rem);
+  min-width: 22.5rem;
+  min-height: 587px;
+  max-height: 40rem;
+
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 1.5rem;
+
+  z-index: 0;
+}
+.sectionTitle {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5em;
+  font-weight: 700;
+
+  line-height: 1.75rem;
+
+  color: var(--brand-color-purple);
+
+  text-align: center;
+
+  max-width: 28.125rem;
+
+  margin-bottom: 2rem;
+  padding: 0 1.5rem;
+}

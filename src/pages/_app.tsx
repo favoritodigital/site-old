@@ -5,6 +5,7 @@ import '../styles/globals.css'
 import '../styles/swiper.css'
 import '../styles/slides-content-section.css'
 import '../styles/slides-sestimonials-section.css'
+import '../styles/slides-que-barbada-na-midia.css'
 
 import BaseLayout from '../sections/BaseLayout'
 import { CookiesProvider } from '../contexts/CookiesContext'

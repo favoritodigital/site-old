@@ -1,0 +1,115 @@
+.centralizer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  position: relative;
+
+  background-color: var(--brand-color-white);
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+  width: calc(100% - 3rem);
+  height: calc(100% - 6rem);
+
+  max-width: 16rem;
+  max-height: 27.5rem;
+
+  margin: 0.5rem 1.5rem;
+  padding: 1rem 1rem;
+
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.slideWrapper {
+  display: flex;
+
+  width: 100%;
+  height: 100%;
+
+  margin-bottom: 3rem;
+
+  max-height: 30rem;
+}
+
+.imgSizeBox {
+  position: relative;
+  width: 100%;
+  height: 50%;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+
+  line-height: 1.25rem;
+  margin-top: 1rem;
+
+  color: var(--brand-color-purple);
+}
+
+.link {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.9em;
+  font-weight: 700;
+
+  position: absolute;
+
+  right: 1rem;
+  bottom: 1rem;
+
+  text-decoration: underline;
+  text-underline-offset: 3px;
+
+  color: var(--brand-color-purple);
+
+  transition: 0.2s;
+}
+
+.link:hover {
+  opacity: 0.7;
+}
+
+.mobileContent {
+  display: flex;
+}
+
+.webContent {
+  display: none;
+}
+
+.webContentLarge {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .mobileContent {
+    display: none;
+  }
+
+  .webContent {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .webContent {
+    display: none;
+  }
+
+  .webContentLarge {
+    display: flex;
+  }
+}

@@ -6,6 +6,7 @@ import CustomersSection from '../sections/CustomersSection'
 import TestimonialsSection from '../sections/TestimonialsSection'
 import SupportersSection from '../sections/SupportersSection'
 import InviteSection from '../sections/InviteSection'
+import QuebarbadaNaMidia from '../sections/QueBarbadaNaMidiaSection'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       </Head>
       <IntroductionSection />
       <ContentSection />
+      <QuebarbadaNaMidia />
       <CustomersSection />
       <TestimonialsSection />
       <SupportersSection />
