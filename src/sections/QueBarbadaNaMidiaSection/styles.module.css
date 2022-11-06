@@ -15,7 +15,7 @@
   width: 100%;
   height: calc(100vh - 5rem);
   min-width: 22.5rem;
-  min-height: 587px;
+  min-height: 37rem;
   max-height: 40rem;
 
   padding-left: 1.5rem;
@@ -39,4 +39,20 @@
 
   margin-bottom: 2rem;
   padding: 0 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .sectionTitle {
+    font-size: 2em;
+
+    line-height: 1.75rem;
+
+    max-width: none;
+
+    margin-bottom: 0;
+    padding: 0 0;
+  }
+  .container {
+    padding-top: 2.5rem;
+  }
 }

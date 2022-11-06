@@ -46,7 +46,7 @@ export default function SlidesQueBarbadaNaMidia() {
           })}
         </Swiper>
         <Swiper
-          className={styles.webContent}
+          className={styles.tabletContent}
           modules={[Navigation, Pagination]}
           pagination
           navigation
@@ -79,7 +79,7 @@ export default function SlidesQueBarbadaNaMidia() {
           })}
         </Swiper>
         <Swiper
-          className={styles.webContentLarge}
+          className={styles.webContent}
           modules={[Navigation, Pagination]}
           pagination
           navigation
