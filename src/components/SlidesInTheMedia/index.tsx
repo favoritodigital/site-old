@@ -8,7 +8,7 @@ import { news } from '../../utils/repositories/news'
 import styles from './styles.module.css'
 import Image from 'next/image'
 
-export default function SlidesQueBarbadaNaMidia() {
+export default function SlidesInTheMedia() {
   return (
     <>
       <div className={styles.slideWrapper}>
