@@ -4,7 +4,7 @@ import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 
-import { news } from '../../utils/repository'
+import { news } from '../../utils/repositories/news'
 import styles from './styles.module.css'
 import Image from 'next/image'
 
