@@ -1,20 +1,20 @@
-#que-barbada-na-midia-section .swiper-button-next,
-#que-barbada-na-midia-section .swiper-button-prev {
+#na-midia-section .swiper-button-next,
+#na-midia-section .swiper-button-prev {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
   height: 1.5rem;
   width: 0.5rem;
 }
-#que-barbada-na-midia-section .swiper-button-next {
+#na-midia-section .swiper-button-next {
   right: 0;
   background-image: url('/images/swiper-right.svg');
 }
-#que-barbada-na-midia-section .swiper-button-prev {
+#na-midia-section .swiper-button-prev {
   left: 0;
   background-image: url('/images/swiper-left.svg');
 }
-#que-barbada-na-midia-section .swiper-button-next::after,
-#que-barbada-na-midia-section .swiper-button-prev::after {
+#na-midia-section .swiper-button-next::after,
+#na-midia-section .swiper-button-prev::after {
   display: none;
 }
