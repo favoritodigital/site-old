@@ -22,25 +22,23 @@ export default function SlidesInTheMedia() {
           {news.map(slide => {
             return (
               <SwiperSlide key={slide.name}>
-                <div className={styles.centralizer}>
-                  <div className={styles.container}>
-                    <div className={styles.imgSizeBox}>
-                      <Image
-                        loading='eager'
-                        layout='fill'
-                        objectFit='cover'
-                        src={slide.imgFilePath}
-                        alt={`imagem da notícia no ${slide.name}`}
-                      />
+                <a href={slide.url} rel='noreferrer' target='_blank'>
+                  <div className={styles.centralizer}>
+                    <div className={styles.container}>
+                      <div className={styles.imgSizeBox}>
+                        <Image
+                          loading='eager'
+                          layout='fill'
+                          objectFit='cover'
+                          src={slide.imgFilePath}
+                          alt={`imagem da notícia no ${slide.name}`}
+                        />
+                      </div>
+                      <h1 className={styles.title}>{slide.title}</h1>
+                      <p className={styles.site}>{slide.name}</p>
                     </div>
-
-                    <h1 className={styles.title}>{slide.title}</h1>
-
-                    <a href={slide.url} rel='noreferrer' target='_blank'>
-                      <p className={styles.link}>Saiba mais</p>
-                    </a>
                   </div>
-                </div>
+                </a>
               </SwiperSlide>
             )
           })}
@@ -55,25 +53,23 @@ export default function SlidesInTheMedia() {
           {news.map(slide => {
             return (
               <SwiperSlide key={slide.name}>
-                <div className={styles.centralizer}>
-                  <div className={styles.container}>
-                    <div className={styles.imgSizeBox}>
-                      <Image
-                        loading='eager'
-                        layout='fill'
-                        objectFit='cover'
-                        src={slide.imgFilePath}
-                        alt={`imagem da notícia no ${slide.name}`}
-                      />
+                <a href={slide.url} rel='noreferrer' target='_blank'>
+                  <div className={styles.centralizer}>
+                    <div className={styles.container}>
+                      <div className={styles.imgSizeBox}>
+                        <Image
+                          loading='eager'
+                          layout='fill'
+                          objectFit='cover'
+                          src={slide.imgFilePath}
+                          alt={`imagem da notícia no ${slide.name}`}
+                        />
+                      </div>
+                      <h1 className={styles.title}>{slide.title}</h1>
+                      <p className={styles.site}>{slide.name}</p>
                     </div>
-
-                    <h1 className={styles.title}>{slide.title}</h1>
-
-                    <a href={slide.url} rel='noreferrer' target='_blank'>
-                      <p className={styles.link}>Saiba mais</p>
-                    </a>
                   </div>
-                </div>
+                </a>
               </SwiperSlide>
             )
           })}
@@ -88,25 +84,23 @@ export default function SlidesInTheMedia() {
           {news.map(slide => {
             return (
               <SwiperSlide key={slide.name}>
-                <div className={styles.centralizer}>
-                  <div className={styles.container}>
-                    <div className={styles.imgSizeBox}>
-                      <Image
-                        loading='eager'
-                        layout='fill'
-                        objectFit='cover'
-                        src={slide.imgFilePath}
-                        alt={`imagem da notícia no ${slide.name}`}
-                      />
+                <a href={slide.url} rel='noreferrer' target='_blank'>
+                  <div className={styles.centralizer}>
+                    <div className={styles.container}>
+                      <div className={styles.imgSizeBox}>
+                        <Image
+                          loading='eager'
+                          layout='fill'
+                          objectFit='cover'
+                          src={slide.imgFilePath}
+                          alt={`imagem da notícia no ${slide.name}`}
+                        />
+                      </div>
+                      <h1 className={styles.title}>{slide.title}</h1>
+                      <p className={styles.site}>{slide.name}</p>
                     </div>
-
-                    <h1 className={styles.title}>{slide.title}</h1>
-
-                    <a href={slide.url} rel='noreferrer' target='_blank'>
-                      <p className={styles.link}>Saiba mais</p>
-                    </a>
                   </div>
-                </div>
+                </a>
               </SwiperSlide>
             )
           })}
