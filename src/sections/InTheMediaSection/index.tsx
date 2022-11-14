@@ -1,5 +1,6 @@
-import styles from './styles.module.css'
 import SlidesInTheMedia from '../../components/SlidesInTheMedia'
+
+import styles from './styles.module.css'
 
 export default function InTheMediaSection() {
   return (

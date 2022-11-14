@@ -1,12 +1,15 @@
-import { Navigation, Pagination } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
+
+import Image from 'next/image'
+
+import { Navigation, Pagination } from 'swiper'
 import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 
 import { news } from '../../repositories/news'
+
 import styles from './styles.module.css'
-import Image from 'next/image'
 
 export default function SlidesInTheMedia() {
   return (
