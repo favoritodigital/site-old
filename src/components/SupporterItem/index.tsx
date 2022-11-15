@@ -1,6 +1,7 @@
 import Image from 'next/image'
 
 import styles from './styles.module.css'
+
 interface Props {
   name: string
   imageFileName: string

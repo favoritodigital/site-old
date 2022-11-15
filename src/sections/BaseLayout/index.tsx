@@ -1,5 +1,4 @@
 import { useContext } from 'react'
-
 import { useRouter } from 'next/router'
 
 import Header, { BadgePages } from '../../components/Header'
