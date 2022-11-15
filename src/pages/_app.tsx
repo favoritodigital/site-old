@@ -4,6 +4,7 @@ import Head from 'next/head'
 import '../styles/globals.css'
 import '../styles/swiper.css'
 import '../styles/slides-content-section.css'
+import '../styles/slides-in-the-media.css'
 import '../styles/slides-testimonials-section.css'
 
 import BaseLayout from '../sections/BaseLayout'
