@@ -1,12 +1,12 @@
 import { useState } from 'react'
 import Link from 'next/link'
 
+import MenuItem from '../MenuItem'
+import WebNavigationItem from '../WebNavigationItem'
+
 import Logo from '/public/images/logo.svg'
 import Open from '/public/images/open.svg'
 import Close from '/public/images/close.svg'
-
-import MenuItem from '../MenuItem'
-import WebNavigationItem from '../WebNavigationItem'
 
 import styles from './styles.module.css'
 

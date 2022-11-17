@@ -1,4 +1,5 @@
 import WhatsappLogo from '/public/images/whatsapplogo.svg'
+
 import styles from './styles.module.css'
 
 export default function BePartnerSection() {

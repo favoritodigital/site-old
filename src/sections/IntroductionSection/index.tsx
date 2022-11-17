@@ -1,5 +1,7 @@
 import Image from 'next/image'
+
 import DownloadButton from '../../components/DownloadButton'
+
 import styles from './styles.module.css'
 
 export default function IntroductionSection() {

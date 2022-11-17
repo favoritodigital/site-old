@@ -1,4 +1,5 @@
 import SlidesContent from '../../components/SlidesContent'
+
 import styles from './styles.module.css'
 
 export default function ContentSection() {

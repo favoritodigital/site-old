@@ -1,5 +1,5 @@
-import Link from 'next/link'
 import { useContext } from 'react'
+import Link from 'next/link'
 
 import { CookiesContext } from '../../contexts/CookiesContext'
 
