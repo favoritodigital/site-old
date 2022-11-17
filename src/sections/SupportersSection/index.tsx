@@ -1,5 +1,5 @@
-import 'swiper/css/pagination'
 import 'swiper/css'
+import 'swiper/css/pagination'
 
 import { supporters } from '../../utils/repository'
 

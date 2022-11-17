@@ -5,6 +5,7 @@ import 'swiper/css'
 import CustomerItem from '../CustomerItem'
 
 import { Customer } from '../../types/customer'
+
 import { rawCustomers } from '../../utils/repository'
 
 import styles from './styles.module.css'
