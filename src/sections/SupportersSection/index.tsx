@@ -1,7 +1,7 @@
 import 'swiper/css'
 import 'swiper/css/pagination'
 
-import { supporters } from '../../utils/repository'
+import { supporters } from '../../repositories/supporters'
 
 import SupporterItem from '../../components/SupporterItem'
 
