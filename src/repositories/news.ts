@@ -17,4 +17,16 @@ export const news = [
     title: "Aplicativo Que Barbada, criado em Jaraguá do Sul, chega para 'descomplicar o rolê'",
     imgFilePath: '/images/quebarbada-engeplus-noticenter.png',
   },
+  {
+    name: 'Diário da Jaraguá',
+    url: 'https://www.diariodajaragua.com.br/geral/aplicativo-criado-em-jaragua-ajuda-clientes-a-encontrarem-bares-e/473264/',
+    title: 'Aplicativo criado em Jaraguá ajuda clientes a encontrarem bares e restaurantes ideais',
+    imgFilePath: '/images/quebarbada-diario-da-jaragua.png',
+  },
+  {
+    name: 'Super Nova FM',
+    url: 'https://www.supernova.fm/aplicativo-ajuda-clientes-a-encontrarem-bares-e-restaurantes/',
+    title: 'Aplicativo ajuda clientes a encontrarem bares e restaurantes',
+    imgFilePath: '/images/quebarbada-super-nova-fm.png',
+  },
 ]
