@@ -126,3 +126,15 @@
     display: flex;
   }
 }
+
+@media screen and (min-width: 1680px) {
+  .tabletContent {
+    display: none;
+  }
+  .webContent {
+    display: none;
+  }
+  .webContentLarge {
+    display: flex;
+  }
+}

@@ -108,6 +108,37 @@ export default function SlidesInTheMedia() {
             )
           })}
         </Swiper>
+        <Swiper
+          className={styles.webContentLarge}
+          modules={[Navigation, Pagination]}
+          pagination
+          navigation
+          slidesPerView={4}
+        >
+          {news.map(slide => {
+            return (
+              <SwiperSlide key={slide.name}>
+                <a href={slide.url} rel='noreferrer' target='_blank'>
+                  <div className={styles.centralizer}>
+                    <div className={styles.container}>
+                      <div className={styles.imgSizeBox}>
+                        <Image
+                          loading='eager'
+                          layout='fill'
+                          objectFit='cover'
+                          src={slide.imgFilePath}
+                          alt={`imagem da notícia no ${slide.name}`}
+                        />
+                      </div>
+                      <h1 className={styles.title}>{slide.title}</h1>
+                      <p className={styles.site}>{slide.name}</p>
+                    </div>
+                  </div>
+                </a>
+              </SwiperSlide>
+            )
+          })}
+        </Swiper>
       </div>
     </>
   )
