@@ -77,68 +77,31 @@ export default function SlidesInTheMedia() {
             )
           })}
         </Swiper>
-        <Swiper
-          className={styles.webContent}
-          modules={[Navigation, Pagination]}
-          pagination
-          navigation
-          slidesPerView={3}
-        >
-          {news.map(slide => {
-            return (
-              <SwiperSlide key={slide.name}>
-                <a href={slide.url} rel='noreferrer' target='_blank'>
-                  <div className={styles.centralizer}>
-                    <div className={styles.container}>
-                      <div className={styles.imgSizeBox}>
-                        <Image
-                          loading='eager'
-                          layout='fill'
-                          objectFit='cover'
-                          src={slide.imgFilePath}
-                          alt={`imagem da notícia no ${slide.name}`}
-                        />
-                      </div>
-                      <h1 className={styles.title}>{slide.title}</h1>
-                      <p className={styles.site}>{slide.name}</p>
+      </div>
+      <div className={styles.webContent}>
+        {news.map(card => {
+          return (
+            <div key={card.name}>
+              <a href={card.url} rel='noreferrer' target='_blank'>
+                <div className={styles.centralizer}>
+                  <div className={styles.container}>
+                    <div className={styles.imgSizeBox}>
+                      <Image
+                        loading='eager'
+                        layout='fill'
+                        objectFit='cover'
+                        src={card.imgFilePath}
+                        alt={`imagem da notícia no ${card.name}`}
+                      />
                     </div>
+                    <h1 className={styles.title}>{card.title}</h1>
+                    <p className={styles.site}>{card.name}</p>
                   </div>
-                </a>
-              </SwiperSlide>
-            )
-          })}
-        </Swiper>
-        <Swiper
-          className={styles.webContentLarge}
-          modules={[Navigation, Pagination]}
-          pagination
-          navigation
-          slidesPerView={4}
-        >
-          {news.map(slide => {
-            return (
-              <SwiperSlide key={slide.name}>
-                <a href={slide.url} rel='noreferrer' target='_blank'>
-                  <div className={styles.centralizer}>
-                    <div className={styles.container}>
-                      <div className={styles.imgSizeBox}>
-                        <Image
-                          loading='eager'
-                          layout='fill'
-                          objectFit='cover'
-                          src={slide.imgFilePath}
-                          alt={`imagem da notícia no ${slide.name}`}
-                        />
-                      </div>
-                      <h1 className={styles.title}>{slide.title}</h1>
-                      <p className={styles.site}>{slide.name}</p>
-                    </div>
-                  </div>
-                </a>
-              </SwiperSlide>
-            )
-          })}
-        </Swiper>
+                </div>
+              </a>
+            </div>
+          )
+        })}
       </div>
     </>
   )

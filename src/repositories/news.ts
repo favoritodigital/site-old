@@ -15,18 +15,18 @@ export const news = [
     name: 'Noticenter',
     url: 'https://www.noticenter.com.br/n.php?ID=31809&T=aplicativo-que-barbada-criado-em-jaragua-do-sul-chega-para-descomplicar-o-role',
     title: "Aplicativo Que Barbada, criado em Jaraguá do Sul, chega para 'descomplicar o rolê'",
-    imgFilePath: '/images/quebarbada-engeplus-noticenter.png',
+    imgFilePath: '/images/generic-news-image-1.png',
   },
   {
     name: 'Diário da Jaraguá',
     url: 'https://www.diariodajaragua.com.br/geral/aplicativo-criado-em-jaragua-ajuda-clientes-a-encontrarem-bares-e/473264/',
     title: 'Aplicativo criado em Jaraguá ajuda clientes a encontrarem bares e restaurantes ideais',
-    imgFilePath: '/images/quebarbada-diario-da-jaragua.png',
+    imgFilePath: '/images/generic-news-image-2.png',
   },
   {
     name: 'Super Nova FM',
     url: 'https://www.supernova.fm/aplicativo-ajuda-clientes-a-encontrarem-bares-e-restaurantes/',
     title: 'Aplicativo ajuda clientes a encontrarem bares e restaurantes',
-    imgFilePath: '/images/quebarbada-super-nova-fm.png',
+    imgFilePath: '/images/generic-news-image-3.png',
   },
 ]
