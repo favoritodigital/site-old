@@ -56,3 +56,9 @@
     padding-top: 2.5rem;
   }
 }
+@media screen and (min-width: 1440px) {
+  .container {
+    height: 26rem;
+    min-height: auto;
+  }
+}

@@ -74,19 +74,26 @@ export default function Header({ badge }: Props) {
                 <MenuItem
                   id='menu_item4'
                   handleIsMenuOpen={handleIsMenuOpen}
+                  href={'/#na-midia'}
+                  label={'na mídia'}
+                  background={'light'}
+                />
+                <MenuItem
+                  id='menu_item5'
+                  handleIsMenuOpen={handleIsMenuOpen}
                   href={'/#clientes'}
                   label={'clientes'}
                   background={'light'}
                 />
                 <MenuItem
-                  id='menu_item5'
+                  id='menu_item6'
                   handleIsMenuOpen={handleIsMenuOpen}
                   href={'/#depoimentos'}
                   label={'depoimentos'}
                   background={'light'}
                 />
                 <MenuItem
-                  id='menu_item6'
+                  id='menu_item7'
                   handleIsMenuOpen={handleIsMenuOpen}
                   href={'/#apoiadores'}
                   label={'apoiadores'}
@@ -94,7 +101,7 @@ export default function Header({ badge }: Props) {
                   hasShadow
                 />
                 <MenuItem
-                  id='menu_item7'
+                  id='menu_item8'
                   handleIsMenuOpen={handleIsMenuOpen}
                   href={'/seja-parceiro'}
                   label={'seja parceiro'}
