@@ -5,18 +5,12 @@ import styles from './styles.module.css'
 interface Props {
   testimonial: string
   owner: string
-  imageFileName: string
+  imagePath: string
   width: number
   height: number
 }
 
-export default function TestimonialItem({
-  testimonial,
-  owner,
-  imageFileName,
-  width,
-  height,
-}: Props) {
+export default function TestimonialItem({ testimonial, owner, imagePath, width, height }: Props) {
   return (
     <div className={styles.testimonial}>
       <div className={styles.testimonyPerson}>
@@ -26,7 +20,7 @@ export default function TestimonialItem({
             layout='responsive'
             width={width}
             height={height}
-            src={`/images/${imageFileName}`}
+            src={imagePath}
             alt={`Foto do ${owner}`}
             objectFit='cover'
           />

@@ -1,4 +1,4 @@
-import WhatsappLogo from '/public/images/whatsapplogo.svg'
+import WhatsAppIcon from '/public/images/brands/social-medias/whatsapp.svg'
 
 import styles from './styles.module.css'
 
@@ -39,7 +39,7 @@ export default function BePartnerSection() {
         </p>
         <a href='https://wa.me/5547997536595' target='_blank' rel='noreferrer'>
           <div className={styles.telephone}>
-            <WhatsappLogo />
+            <WhatsAppIcon />
             <span itemProp='telephone'>+55 (47) 99753-6595</span>
           </div>
         </a>

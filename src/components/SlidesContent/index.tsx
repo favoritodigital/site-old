@@ -35,7 +35,7 @@ export default function SlidesContent() {
               layout='responsive'
               width={452}
               height={870}
-              src='/images/como-encontrar-1.png'
+              src='/images/app/app-1.png'
               alt='Imagem dos filtros do Que Barbada'
             />
           </div>
@@ -47,7 +47,7 @@ export default function SlidesContent() {
               layout='responsive'
               width={452}
               height={870}
-              src='/images/como-encontrar-2.png'
+              src='/images/app/app-2.png'
               alt='Imagem dos rolês do Que Barbada'
             />
           </div>
@@ -59,7 +59,7 @@ export default function SlidesContent() {
               layout='responsive'
               width={452}
               height={870}
-              src='/images/como-encontrar-3.png'
+              src='/images/app/app-3.png'
               alt='Imagem do rolê escolhido do Que Barbada'
             />
           </div>
@@ -71,7 +71,7 @@ export default function SlidesContent() {
               layout='responsive'
               width={452}
               height={870}
-              src='/images/como-encontrar-4.png'
+              src='/images/app/app-4.png'
               alt='Imagem da mensagem do local do rolê escolhido do Que Barbada'
             />
           </div>
@@ -83,7 +83,7 @@ export default function SlidesContent() {
               layout='responsive'
               width={452}
               height={870}
-              src='/images/como-encontrar-5.png'
+              src='/images/app/app-5.png'
               alt='Imagem do cardápio do local do rolê escolhido do Que Barbada'
             />
           </div>
@@ -95,7 +95,7 @@ export default function SlidesContent() {
               layout='responsive'
               width={452}
               height={870}
-              src='/images/como-encontrar-6.png'
+              src='/images/app/app-6.png'
               alt='Imagem da localização do rolê escolhido do Que Barbada'
             />
           </div>
@@ -126,7 +126,7 @@ export default function SlidesContent() {
               layout='responsive'
               width={452}
               height={870}
-              src='/images/como-encontrar-1.png'
+              src='/images/app/app-1.png'
               alt='Imagem dos filtros do Que Barbada'
             />
           </div>
@@ -138,7 +138,7 @@ export default function SlidesContent() {
               layout='responsive'
               width={452}
               height={870}
-              src='/images/como-encontrar-2.png'
+              src='/images/app/app-2.png'
               alt='Imagem dos rolês do Que Barbada'
             />
           </div>
@@ -150,7 +150,7 @@ export default function SlidesContent() {
               layout='responsive'
               width={452}
               height={870}
-              src='/images/como-encontrar-3.png'
+              src='/images/app/app-3.png'
               alt='Imagem do rolê escolhido do Que Barbada'
             />
           </div>
@@ -162,7 +162,7 @@ export default function SlidesContent() {
               layout='responsive'
               width={452}
               height={870}
-              src='/images/como-encontrar-4.png'
+              src='/images/app/app-4.png'
               alt='Imagem da mensagem do local do rolê escolhido do Que Barbada'
             />
           </div>
@@ -174,7 +174,7 @@ export default function SlidesContent() {
               layout='responsive'
               width={452}
               height={870}
-              src='/images/como-encontrar-5.png'
+              src='/images/app/app-5.png'
               alt='Imagem do cardápio do local do rolê escolhido do Que Barbada'
             />
           </div>
@@ -186,7 +186,7 @@ export default function SlidesContent() {
               layout='responsive'
               width={452}
               height={870}
-              src='/images/como-encontrar-6.png'
+              src='/images/app/app-6.png'
               alt='Imagem da localização do rolê escolhido do Que Barbada'
             />
           </div>

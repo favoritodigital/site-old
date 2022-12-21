@@ -18,7 +18,7 @@ export default function SupportersSection() {
             <SupporterItem
               key={supporter.name}
               name={supporter.name}
-              imageFileName={supporter.imageFileName}
+              imagePath={supporter.imagePath}
               url={supporter.url}
               width={supporter.width}
               height={supporter.height}

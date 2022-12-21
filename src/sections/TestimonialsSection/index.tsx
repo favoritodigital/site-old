@@ -30,7 +30,7 @@ export default function TestimonialsSection() {
                   <TestimonialItem
                     owner={testimonial.owner}
                     testimonial={testimonial.testimonial}
-                    imageFileName={testimonial.imageFileName}
+                    imagePath={testimonial.imagePath}
                     width={testimonial.width}
                     height={testimonial.height}
                   />
@@ -51,7 +51,7 @@ export default function TestimonialsSection() {
                   <TestimonialItem
                     owner={testimonial.owner}
                     testimonial={testimonial.testimonial}
-                    imageFileName={testimonial.imageFileName}
+                    imagePath={testimonial.imagePath}
                     width={testimonial.width}
                     height={testimonial.height}
                   />
@@ -72,7 +72,7 @@ export default function TestimonialsSection() {
                   <TestimonialItem
                     owner={testimonial.owner}
                     testimonial={testimonial.testimonial}
-                    imageFileName={testimonial.imageFileName}
+                    imagePath={testimonial.imagePath}
                     width={testimonial.width}
                     height={testimonial.height}
                   />

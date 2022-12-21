@@ -4,9 +4,9 @@ import Link from 'next/link'
 import MenuItem from '../MenuItem'
 import WebNavigationItem from '../WebNavigationItem'
 
-import Logo from '/public/images/logo.svg'
-import Open from '/public/images/open.svg'
-import Close from '/public/images/close.svg'
+import QueBarbadaLogo from '/public/images/quebarbada-logo.svg'
+import OpenIcon from '/public/images/icons/open.svg'
+import CloseIcon from '/public/images/icons/close.svg'
 
 import styles from './styles.module.css'
 
@@ -29,7 +29,7 @@ export default function Header({ badge }: Props) {
           <div className={styles.logo}>
             <Link href={'/'}>
               <a>
-                <Logo />
+                <QueBarbadaLogo />
               </a>
             </Link>
           </div>
@@ -42,7 +42,7 @@ export default function Header({ badge }: Props) {
             />
           </div>
           <button className={styles.menuButton} onClick={() => handleIsMenuOpen(!isMenuOpen)}>
-            <div>{isMenuOpen ? <Close /> : <Open />}</div>
+            <div>{isMenuOpen ? <CloseIcon /> : <OpenIcon />}</div>
           </button>
         </div>
         <div className={styles.navigationMobile}>

@@ -44,11 +44,11 @@
   }
   #como-encontrar-section .swiper-button-next {
     right: 0;
-    background-image: url('/images/swiper-right.svg');
+    background-image: url('/images/icons/right-arrow.svg');
   }
   #como-encontrar-section .swiper-button-prev {
     left: 0;
-    background-image: url('/images/swiper-left.svg');
+    background-image: url('/images/icons/left-arrow.svg');
   }
   .swiper-button-next::after,
   .swiper-button-prev::after {

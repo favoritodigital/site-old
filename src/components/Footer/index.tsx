@@ -1,10 +1,10 @@
 import Link from 'next/link'
 
-import InstagramLogo from '/public/images/instagramlogo.svg'
-import LinkedinLogo from '/public/images/linkedinlogo.svg'
-import TiktokLogo from '/public/images/tiktoklogo.svg'
-import GithubLogo from '/public/images/githublogo.svg'
-import Logo from '/public/images/logo.svg'
+import InstagramIcon from '/public/images/brands/social-medias/instagram.svg'
+import LinkedInIcon from '/public/images/brands/social-medias/linkedin.svg'
+import TiktokIcon from '/public/images/brands/social-medias/tiktok.svg'
+import GitHubIcon from '/public/images/brands/social-medias/github.svg'
+import QueBarbadaLogo from '/public/images/quebarbada-logo.svg'
 
 import styles from './styles.module.css'
 
@@ -15,7 +15,7 @@ export default function Footer() {
         <div className={styles.quebarbada}>
           <Link href={'/'}>
             <a>
-              <Logo />
+              <QueBarbadaLogo />
             </a>
           </Link>
           <p>&copy; 2022 Que Barbada. Todos direitos reservados.</p>
@@ -25,16 +25,16 @@ export default function Footer() {
           <p>Siga nas redes sociais:</p>
           <div className={styles.socialMediaImages}>
             <a href='https://www.instagram.com/quebarbadaoficial/' target='_blank' rel='noreferrer'>
-              <InstagramLogo />
+              <InstagramIcon />
             </a>
             <a href='https://www.tiktok.com/@quebarbada' target='_blank' rel='noreferrer'>
-              <TiktokLogo />
+              <TiktokIcon />
             </a>
             <a href='https://www.linkedin.com/company/quebarbada' target='_blank' rel='noreferrer'>
-              <LinkedinLogo />
+              <LinkedInIcon />
             </a>
             <a href='https://github.com/quebarbada/landing-page' target='_blank' rel='noreferrer'>
-              <GithubLogo />
+              <GitHubIcon />
             </a>
           </div>
         </div>

@@ -24,7 +24,7 @@ export default function DownloadButton({ type }: Props) {
             layout='responsive'
             width={992}
             height={325}
-            src='/images/appstorebutton.png'
+            src='/images/brands/appstore.png'
             alt='appstore'
           />
         </div>
@@ -35,7 +35,7 @@ export default function DownloadButton({ type }: Props) {
             layout='responsive'
             width={992}
             height={325}
-            src='/images/googleplaybutton.png'
+            src='/images/brands/googleplay.png'
             alt='googleplay'
           />
         </div>

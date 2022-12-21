@@ -21,7 +21,7 @@ export default function IntroductionSection() {
                 layout='responsive'
                 width={494}
                 height={1080}
-                src='/images/inicio-mockup.png'
+                src='/images/app/app-perspective.png'
                 alt='Imagem do aplicativo Que Barbada'
               />
             </div>
@@ -53,7 +53,7 @@ export default function IntroductionSection() {
                   layout='responsive'
                   width={494}
                   height={1080}
-                  src='/images/inicio-mockup.png'
+                  src='/images/app/app-perspective.png'
                   alt='Imagem do aplicativo Que Barbada'
                 />
               </div>
