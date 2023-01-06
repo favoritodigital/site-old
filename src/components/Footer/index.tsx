@@ -18,7 +18,7 @@ export default function Footer() {
               <QueBarbadaLogo />
             </a>
           </Link>
-          <p>&copy; 2022 Que Barbada. Todos direitos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} Que Barbada. Todos direitos reservados.</p>
           <p>CNPJ 46.230.468/0001-73</p>
         </div>
         <div className={styles.socialMedia}>
