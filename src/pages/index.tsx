@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Que Barbada - a bússula do rolê</title>
+        <title>Que Barbada - a bússola do rolê</title>
       </Head>
       <IntroductionSection />
       <ContentSection />
