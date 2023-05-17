@@ -1,0 +1,68 @@
+.container {
+  padding: 8rem 0 3rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+
+  text-align: center;
+  width: 19.5rem;
+
+  color: var(--brand-color-purple);
+
+  margin-bottom: 2rem;
+}
+
+.paragraph {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+
+  text-align: center;
+  width: 19.5rem;
+
+  margin-bottom: 2rem;
+}
+
+.web {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    padding: 9rem 0 4rem 0;
+  }
+
+  .title {
+    font-size: 3.75rem;
+    line-height: 4rem;
+
+    width: 60.625rem;
+
+    margin-bottom: 1.5rem;
+  }
+
+  .paragraph {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+
+    width: 51.4375rem;
+
+    margin-bottom: 3rem;
+  }
+
+  .web {
+    display: block;
+  }
+
+  .mobile {
+    display: none;
+  }
+}
