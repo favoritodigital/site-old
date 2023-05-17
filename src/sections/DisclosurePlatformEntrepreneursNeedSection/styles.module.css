@@ -31,6 +31,10 @@
   margin-bottom: 2rem;
 }
 
+.video {
+  margin-bottom: 2rem;
+}
+
 .web {
   display: none;
 }
@@ -55,6 +59,10 @@
 
     width: 51.4375rem;
 
+    margin-bottom: 3rem;
+  }
+
+  .video {
     margin-bottom: 3rem;
   }
 

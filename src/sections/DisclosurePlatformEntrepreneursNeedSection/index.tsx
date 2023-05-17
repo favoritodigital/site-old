@@ -35,6 +35,7 @@ export default function DisclosurePlatformEntrepreneursNeedSection() {
           <YouTube opts={webOpts} videoId={'4B2u8yaId54'} />
         </div>
       </div>
+      <DownloadButton text='baixe o app grátis' />
     </div>
   )
 }
