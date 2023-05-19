@@ -8,7 +8,7 @@ export default function NoMoreQuestions() {
       <Ilustration />
       <p className={styles.paragraph}>
         no app Que Barbada você encontra as informações necessárias para escolher o seu rolê ideal,
-        em apenas alguns toques.
+        em apenas alguns toques
       </p>
     </div>
   )
