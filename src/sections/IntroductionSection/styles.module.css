@@ -87,15 +87,16 @@
     justify-content: center;
     align-items: start;
     height: 44.125rem;
+    padding: 5rem 0 0 0;
+    align-items: center;
   }
 
   .content {
-    margin-left: calc((100vw - 54.375rem) * 0.4);
-
     width: 54.375rem;
     grid-template-columns: 6fr 4fr;
     grid-template-rows: 11.1875rem 5.25rem 4.985rem 4.1875rem;
     grid-gap: 0 1.875rem;
+    margin-right: 6.25rem;
   }
 
   .title {
