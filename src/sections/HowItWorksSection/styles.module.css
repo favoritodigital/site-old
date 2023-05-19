@@ -33,7 +33,7 @@
 .paragraph span {
   font-weight: 700;
 }
-.carrousel {
+.carousel {
   z-index: 0;
 }
 
@@ -75,7 +75,7 @@
     align-self: flex-start;
     justify-self: flex-end;
   }
-  .carrousel {
+  .carousel {
     grid-column: 2/3;
     grid-row: 1/4;
   }

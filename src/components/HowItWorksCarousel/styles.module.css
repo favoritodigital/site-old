@@ -1,9 +1,9 @@
-.carrouselWrapper,
+.carouselWrapper,
 .slide {
   width: 22.5rem;
 }
 
-.carrouselWrapper {
+.carouselWrapper {
   height: 28.44825rem;
   margin-bottom: 2rem;
 }
@@ -41,12 +41,12 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .carrouselWrapper,
+  .carouselWrapper,
   .slide {
     width: 29.375rem;
   }
 
-  .carrouselWrapper {
+  .carouselWrapper {
     height: 33.375rem;
     margin-bottom: 0;
   }

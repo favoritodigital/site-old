@@ -9,9 +9,9 @@ import 'swiper/css/effect-coverflow'
 
 import styles from './styles.module.css'
 
-export default function HowItWorksCarrousel() {
+export default function HowItWorksCarousel() {
   return (
-    <div className={styles.carrouselWrapper}>
+    <div className={styles.carouselWrapper}>
       <Swiper
         navigation={true}
         effect={'fade'}

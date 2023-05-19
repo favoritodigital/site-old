@@ -1,5 +1,5 @@
 import DownloadButton from '../../components/DownloadButton'
-import HowItWorksCarrousel from '../../components/HowItWorksCarrousel'
+import HowItWorksCarousel from '../../components/HowItWorksCarousel'
 import styles from './styles.module.css'
 
 export default function HowItWorksSection() {
@@ -9,8 +9,8 @@ export default function HowItWorksSection() {
       <p className={styles.paragraph}>
         o app é <span>grátis</span> e sem nenhum cadastro! após baixar, você já consegue
       </p>
-      <div className={styles.carrousel}>
-        <HowItWorksCarrousel />
+      <div className={styles.carousel}>
+        <HowItWorksCarousel />
       </div>
       <div className={styles.btn}>
         <DownloadButton text={'baixe o app e aproveite'} />
