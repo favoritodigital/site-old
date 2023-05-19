@@ -7,7 +7,6 @@
 
   width: auto;
   min-width: 22.5rem;
-  height: 44.125rem;
 
   padding: 5rem 1.5rem 0 1.5rem;
 }
@@ -15,7 +14,7 @@
 .content {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 8.5rem 10.125rem 7.8125rem 4.5rem;
+  grid-template-rows: 8.5rem 10.125rem 7.8125rem 7rem;
   grid-gap: 0 1rem;
 }
 
@@ -87,6 +86,7 @@
   .container {
     justify-content: center;
     align-items: start;
+    height: 44.125rem;
   }
 
   .content {
