@@ -25,3 +25,16 @@
 #como-funciona-na-pratica-section .swiper-pagination {
   bottom: 0;
 }
+
+@media screen and (min-width: 1024px) {
+  #como-funciona-na-pratica-section .swiper-button-prev,
+  #como-funciona-na-pratica-section .swiper-button-next {
+    top: 14rem;
+  }
+  #como-funciona-na-pratica-section .swiper-button-prev {
+    left: 7rem;
+  }
+  #como-funciona-na-pratica-section .swiper-button-next {
+    right: 7rem;
+  }
+}
