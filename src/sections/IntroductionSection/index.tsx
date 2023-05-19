@@ -25,9 +25,9 @@ export default function IntroductionSection() {
           <Image
             loading='eager'
             layout='responsive'
-            width={212}
-            height={410}
-            src='/images/app/app-2.png'
+            width={440}
+            height={850}
+            src='/images/app/app-introduction.png'
             alt='Imagem do aplicativo Que Barbada'
           />
         </div>
