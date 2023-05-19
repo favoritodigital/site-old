@@ -7,11 +7,6 @@ import UsersRecommendationsSection from '../sections/UsersRecommendationsSection
 import WhereWeAreSection from '../sections/WhereWeAreSection'
 import InTheMediaSection from '../sections/InTheMediaSection'
 
-import ContentSection from '../sections/ContentSection'
-import CustomersSection from '../sections/CustomersSection'
-import SupportersSection from '../sections/SupportersSection'
-import InviteSection from '../sections/InviteSection'
-
 export default function Home() {
   return (
     <>
@@ -24,11 +19,6 @@ export default function Home() {
       <UsersRecommendationsSection />
       <WhereWeAreSection />
       <InTheMediaSection />
-
-      <ContentSection />
-      <CustomersSection />
-      <SupportersSection />
-      <InviteSection />
     </>
   )
 }
