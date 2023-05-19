@@ -1,0 +1,158 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  /* height: 25.75rem; */
+  padding: 3rem 0;
+
+  background-color: var(--background-color-purple);
+
+  align-items: center;
+}
+
+.title {
+  margin-bottom: 2rem;
+
+  width: 11rem;
+
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+
+  color: var(--brand-color-purple);
+
+  text-align: center;
+}
+
+.paragraph {
+  margin-bottom: 2rem;
+
+  width: 19.5rem;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  text-align: center;
+  color: var(--text-color-gray);
+}
+
+.gradient {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: linear-gradient(
+    270deg,
+    var(--background-color-purple) 0%,
+    rgba(250, 245, 255, 0) 5%,
+    rgba(250, 245, 255, 0) 95%,
+    var(--background-color-purple) 100%
+  );
+}
+
+.carouselWrapper {
+  position: relative;
+  width: 19.5rem;
+  height: 11.25rem;
+  z-index: 0;
+}
+
+.slides {
+  position: relative;
+  z-index: 0;
+}
+
+.slideJaragua,
+.slideCriciuma,
+.slideJoinville,
+.slideLajeado {
+  height: 180px;
+}
+
+.slideLajeado {
+  width: 240px;
+}
+
+.slideCriciuma {
+  width: 271px;
+}
+
+.slideJoinville {
+  width: 325px;
+}
+
+.slideJaragua {
+  width: 312px;
+}
+
+.cityName {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 1.5rem;
+
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+
+  color: white;
+  text-shadow: 0px 0px 10px var(--brand-color-purple), 0px 0px 10px var(--brand-color-purple),
+    0px 0px 10px var(--brand-color-purple), 0px 0px 10px var(--brand-color-purple);
+  box-shadow: ;
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    height: 39.125rem;
+    display: grid;
+    gap: 0 8.125rem;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: 23.125rem 29.375rem;
+    grid-template-rows: 10rem 3.25rem;
+  }
+
+  .carouselWrapper {
+    width: 23.0625rem;
+  }
+
+  .title {
+    width: 16.9375rem;
+
+    font-size: 3.75rem;
+    line-height: 4rem;
+
+    margin-bottom: 0;
+
+    text-align: end;
+
+    grid-column: 1/2;
+    grid-row: 1/2;
+    align-self: flex-start;
+    justify-self: flex-end;
+  }
+
+  .paragraph {
+    width: 21.4375rem;
+
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+
+    text-align: end;
+
+    margin-bottom: 0;
+
+    align-self: flex-start;
+    justify-self: flex-end;
+
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+
+  .carouselWrapper {
+    grid-column: 2/3;
+    grid-row: 1/3;
+  }
+}

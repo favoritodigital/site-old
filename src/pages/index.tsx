@@ -4,6 +4,8 @@ import IntroductionSection from '../sections/IntroductionSection'
 import NoMoreQuestions from '../sections/NoMoreQuestions'
 import HowItWorksSection from '../sections/HowItWorksSection'
 import UsersRecommendationsSection from '../sections/UsersRecommendationsSection'
+import WhereWeAreSection from '../sections/WhereWeAreSection'
+
 import ContentSection from '../sections/ContentSection'
 import CustomersSection from '../sections/CustomersSection'
 import SupportersSection from '../sections/SupportersSection'
@@ -20,6 +22,7 @@ export default function Home() {
       <NoMoreQuestions />
       <HowItWorksSection />
       <UsersRecommendationsSection />
+      <WhereWeAreSection />
       <ContentSection />
       <InTheMediaSection />
       <CustomersSection />
