@@ -40,7 +40,7 @@
 @media screen and (min-width: 1024px) {
   .container {
     display: grid;
-    gap: 0 9.5rem;
+    gap: 0 8.125rem;
     align-content: center;
     justify-content: center;
     grid-template-columns: 23.125rem 29.375rem;
