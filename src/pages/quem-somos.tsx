@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
 import AStartupThatCameToHelpSection from '../sections/AStartupThatCameToHelpSection'
-import OurPath from '../sections/OurPathSection'
+import OurPathSection from '../sections/OurPathSection'
 
 export default function Home() {
   return (
@@ -10,7 +10,7 @@ export default function Home() {
         <title>quem somos | Que Barbada</title>
       </Head>
       <AStartupThatCameToHelpSection />
-      <OurPath />
+      <OurPathSection />
     </>
   )
 }
