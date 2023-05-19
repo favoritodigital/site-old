@@ -41,8 +41,8 @@
   .container {
     display: grid;
     gap: 0 9.5rem;
+    align-content: center;
     justify-content: center;
-    margin-left: ;
     grid-template-columns: 23.125rem 29.375rem;
     grid-template-rows: 16.9375rem 7.125rem 9.3125rem;
   }
