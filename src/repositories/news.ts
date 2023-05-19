@@ -6,12 +6,6 @@ export const news = [
     imgFilePath: '/images/news/engeplus.png',
   },
   {
-    name: 'CanalSC',
-    url: 'https://canalsc.com.br/aplicativo-chega-para-os-descomplicar-o-role/',
-    title: 'Aplicativo criado em Jaraguá do Sul chega para os descomplicar o rolê',
-    imgFilePath: '/images/news/canalsc.png',
-  },
-  {
     name: 'Noticenter',
     url: 'https://www.noticenter.com.br/n.php?ID=31809&T=aplicativo-que-barbada-criado-em-jaragua-do-sul-chega-para-descomplicar-o-role',
     title: "Aplicativo Que Barbada, criado em Jaraguá do Sul, chega para 'descomplicar o rolê'",

@@ -7,14 +7,17 @@
   width: 0.5rem;
 }
 #na-midia-section .swiper-button-next {
-  right: 0;
+  right: 1.5rem;
   background-image: url('/images/icons/right-arrow.svg');
 }
 #na-midia-section .swiper-button-prev {
-  left: 0;
+  left: 1.5rem;
   background-image: url('/images/icons/left-arrow.svg');
 }
 #na-midia-section .swiper-button-next::after,
 #na-midia-section .swiper-button-prev::after {
   display: none;
+}
+#na-midia-section .swiper-pagination {
+  bottom: -4px;
 }
