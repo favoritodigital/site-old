@@ -5,7 +5,7 @@ import UsersRecommendationCarouselItem from '../UsersRecommendationCarouselItem'
 
 import styles from './styles.module.css'
 
-import { testimonials } from '../../repositories/newtestimonials'
+import { testimonials } from '../../repositories/testimonials'
 
 export default function UsersRecommendationCarousel() {
   return (
