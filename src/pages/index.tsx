@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
 import IntroductionSection from '../sections/IntroductionSection'
-import NoMoreQuestions from '../sections/NoMoreQuestions'
+import NoMoreQuestions from '../sections/NoMoreQuestionsSection'
 import HowItWorksSection from '../sections/HowItWorksSection'
 import UsersRecommendationsSection from '../sections/UsersRecommendationsSection'
 import WhereWeAreSection from '../sections/WhereWeAreSection'
