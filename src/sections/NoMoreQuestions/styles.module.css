@@ -57,15 +57,6 @@
     justify-content: center;
   }
 
-  .content {
-    margin-left: calc((100vw - 54.375rem) * 0.4);
-
-    width: 54.375rem;
-    grid-template-columns: 6fr 4fr;
-    grid-template-rows: 11.1875rem 5.25rem 4.985rem 4.1875rem;
-    grid-gap: 0 1.875rem;
-  }
-
   .title {
     font-size: 3.75rem;
     width: 22.875rem;
