@@ -33,6 +33,7 @@
 
   grid-column: 1/3;
   grid-row: 1/2;
+  text-align: center;
   justify-self: center;
 }
 
@@ -105,6 +106,7 @@
 
     grid-column: 1/2;
     grid-row: 1/2;
+    text-align: start;
   }
 
   .paragraph {
