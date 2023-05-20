@@ -4,7 +4,7 @@ import DisclosurePlatformEntrepreneursNeedSection from '../sections/DisclosurePl
 import WhatOurAppDeliversSection from '../sections/WhatOurAppDeliversSection'
 import WeDoEverythingForYou from '../sections/WeDoEverythingForYouSection'
 
-export default function BePartner() {
+export default function RegisterEstablishment() {
   return (
     <>
       <Head>
