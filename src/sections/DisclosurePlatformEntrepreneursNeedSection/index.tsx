@@ -7,7 +7,7 @@ const mobileOpts: YouTubeProps['opts'] = {
   height: '190',
   width: '310',
   playerVars: {
-    autoplay: 1,
+    autoplay: 0,
   },
 }
 
@@ -15,7 +15,7 @@ const webOpts: YouTubeProps['opts'] = {
   height: '430',
   width: '770',
   playerVars: {
-    autoplay: 1,
+    autoplay: 0,
   },
 }
 
