@@ -1,0 +1,88 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  background-color: var(--background-color-red);
+
+  align-items: center;
+
+  padding: 3rem;
+}
+
+.title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+
+  text-align: center;
+  width: 13.6875rem;
+
+  color: var(--brand-color-purple);
+
+  margin-bottom: 2rem;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+
+  gap: 2rem;
+
+  margin-bottom: 2rem;
+}
+
+.text p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+
+  color: var(--text-color-gray);
+
+  width: 19.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    justify-content: center;
+
+    padding: 0;
+
+    height: 39.125rem;
+  }
+
+  .title {
+    font-size: 3.75rem;
+    line-height: 4rem;
+
+    width: 34.125rem;
+
+    color: var(--brand-color-purple);
+
+    margin-bottom: 2rem;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+
+    gap: 1.5rem;
+
+    margin-bottom: 1.5rem;
+  }
+
+  .text p {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+
+    width: 48.125rem;
+  }
+
+  .btn {
+    display: flex;
+    flex-direction: column;
+
+    width: 48.125rem;
+  }
+}

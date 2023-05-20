@@ -2,6 +2,7 @@ import Head from 'next/head'
 
 import DisclosurePlatformEntrepreneursNeedSection from '../sections/DisclosurePlatformEntrepreneursNeedSection'
 import WhatOurAppDeliversSection from '../sections/WhatOurAppDeliversSection'
+import WeDoEverythingForYou from '../sections/WeDoEverythingForYouSection'
 
 export default function BePartner() {
   return (
@@ -11,6 +12,7 @@ export default function BePartner() {
       </Head>
       <DisclosurePlatformEntrepreneursNeedSection />
       <WhatOurAppDeliversSection />
+      <WeDoEverythingForYou />
     </>
   )
 }
