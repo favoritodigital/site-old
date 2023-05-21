@@ -4,7 +4,7 @@ import styles from './styles.module.css'
 import DownloadButton from '../../components/DownloadButton'
 
 const mobileOpts: YouTubeProps['opts'] = {
-  height: '190',
+  height: '174',
   width: '310',
   playerVars: {
     autoplay: 0,
@@ -13,7 +13,7 @@ const mobileOpts: YouTubeProps['opts'] = {
 
 const webOpts: YouTubeProps['opts'] = {
   height: '430',
-  width: '770',
+  width: '765',
   playerVars: {
     autoplay: 0,
   },
@@ -29,10 +29,10 @@ export default function DisclosurePlatformEntrepreneursNeedSection() {
       </p>
       <div className={styles.video}>
         <div className={styles.mobile}>
-          <YouTube opts={mobileOpts} videoId={'4B2u8yaId54'} />
+          <YouTube opts={mobileOpts} videoId={'-p6tSfUjP3o'} />
         </div>
         <div className={styles.web}>
-          <YouTube opts={webOpts} videoId={'4B2u8yaId54'} />
+          <YouTube opts={webOpts} videoId={'-p6tSfUjP3o'} />
         </div>
       </div>
       <DownloadButton text='baixe o app grátis' />
