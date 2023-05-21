@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 2rem 0;
+}
+
+.title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+
+  text-align: center;
+  width: 14.0625rem;
+
+  color: var(--brand-color-purple);
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    height: 39.125rem;
+
+    justify-content: center;
+
+    padding: 0;
+  }
+
+  .title {
+    font-size: 3.75rem;
+    line-height: 4rem;
+
+    width: 60.625rem;
+
+    margin-bottom: 3rem;
+  }
+}

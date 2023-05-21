@@ -8,6 +8,7 @@ import '../styles/slides-in-the-media.css'
 import '../styles/slides-how-it-works.css'
 import '../styles/slides-users-recommendation-section.css'
 import '../styles/slides-where-we-are.css'
+import '../styles/slides-thats-what-entrepreneurs-say.css'
 
 import BaseLayout from '../sections/BaseLayout'
 import { CookiesProvider } from '../contexts/CookiesContext'
