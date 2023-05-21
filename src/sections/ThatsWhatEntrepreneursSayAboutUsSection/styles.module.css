@@ -18,6 +18,10 @@
   color: var(--brand-color-purple);
 }
 
+.carousel {
+  margin-bottom: 2rem;
+}
+
 @media screen and (min-width: 1024px) {
   .container {
     height: 39.125rem;
@@ -33,6 +37,10 @@
 
     width: 60.625rem;
 
+    margin-bottom: 3rem;
+  }
+
+  .carousel {
     margin-bottom: 3rem;
   }
 }
