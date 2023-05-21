@@ -4,6 +4,7 @@ import DisclosurePlatformEntrepreneursNeedSection from '../sections/DisclosurePl
 import WhatOurAppDeliversSection from '../sections/WhatOurAppDeliversSection'
 import WeDoEverythingForYou from '../sections/WeDoEverythingForYouSection'
 import ThatsWhatEntrepreneursSayAboutUsSection from '../sections/ThatsWhatEntrepreneursSayAboutUsSection'
+import BeSeenByYourCustomersSection from '../sections/BeSeenByYourCustomersSection'
 
 export default function RegisterEstablishment() {
   return (
@@ -15,6 +16,7 @@ export default function RegisterEstablishment() {
       <WhatOurAppDeliversSection />
       <WeDoEverythingForYou />
       <ThatsWhatEntrepreneursSayAboutUsSection />
+      <BeSeenByYourCustomersSection />
     </>
   )
 }
