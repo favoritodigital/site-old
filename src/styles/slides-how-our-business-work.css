@@ -1,0 +1,40 @@
+#how-our-business-work .swiper-button-next,
+#how-our-business-work .swiper-button-prev {
+  display: flex;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 1.5rem;
+  width: 0.5rem;
+}
+#how-our-business-work .swiper-button-next {
+  top: 11.125rem;
+  right: 1.5rem;
+  background-image: url('/images/icons/right-arrow.svg');
+}
+#how-our-business-work .swiper-button-prev {
+  top: 11.125rem;
+  left: 1.5rem;
+  background-image: url('/images/icons/left-arrow.svg');
+}
+#how-our-business-work .swiper-button-next::after,
+#how-our-business-work .swiper-button-prev::after {
+  display: none;
+}
+#how-our-business-work .swiper-pagination {
+  bottom: 0;
+}
+
+@media screen and (min-width: 1024px) {
+  #how-our-business-work .swiper-button-prev,
+  #how-our-business-work .swiper-button-next {
+    top: 14rem;
+  }
+  #how-our-business-work .swiper-button-prev {
+    left: 7rem;
+  }
+  #how-our-business-work .swiper-button-next {
+    right: 7rem;
+  }
+}
