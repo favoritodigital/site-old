@@ -1,19 +1,12 @@
-.navigationDark {
+.container {
   display: flex;
   height: 5rem;
-  background-color: var(--brand-color-purple);
-}
-.navigationDark h1 {
-  font-weight: 500;
-}
-.navigationLight {
-  display: flex;
-  height: 3.25rem;
   background-color: var(--brand-color-light-purple);
 }
-.navigationLight h1 {
-  font-weight: 300;
-}
-.boxShadow {
-  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+.container h1 {
+  font-weight: 400;
+  font-family: 'poppins', sans-serif;
+  font-size: 1.25rem;
+  word-spacing: 120%;
+  color: var(--brand-color-white);
 }

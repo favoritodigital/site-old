@@ -6,26 +6,13 @@ interface Props {
   id: string
   label: string
   href: string
-  hasShadow?: boolean
-  background: 'dark' | 'light'
   handleIsMenuOpen: (arg: boolean) => void
+  hasDivider?: boolean
 }
 
-export default function MenuItem({
-  label,
-  href,
-  hasShadow,
-  background,
-  handleIsMenuOpen,
-  id,
-}: Props) {
+export default function MenuItem({ label, href, handleIsMenuOpen, id, hasDivider }: Props) {
   return (
-    <li
-      id={id}
-      className={`${background === 'light' ? styles.navigationLight : styles.navigationDark}${
-        hasShadow ? ` ${styles.boxShadow}` : ''
-      }`}
-    >
+    <li id={id} className={styles.container}>
       <div>
         <Link href={href}>
           <h1 onClick={() => handleIsMenuOpen(false)}>{label}</h1>
