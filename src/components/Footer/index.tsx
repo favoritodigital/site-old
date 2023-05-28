@@ -4,6 +4,7 @@ import InstagramIcon from '/public/images/brands/social-medias/instagram.svg'
 import LinkedInIcon from '/public/images/brands/social-medias/linkedin.svg'
 import TiktokIcon from '/public/images/brands/social-medias/tiktok.svg'
 import GitHubIcon from '/public/images/brands/social-medias/github.svg'
+import YoutubeIcon from '/public/images/brands/social-medias/youtube.svg'
 import QueBarbadaLogo from '/public/images/quebarbada-logo.svg'
 
 import styles from './styles.module.css'
@@ -36,6 +37,9 @@ export default function Footer() {
             <a href='https://github.com/quebarbada/landing-page' target='_blank' rel='noreferrer'>
               <GitHubIcon />
             </a>
+            <a href='https://www.youtube.com/@quebarbada' target='_blank' rel='noreferrer'>
+              <YoutubeIcon />
+            </a>
           </div>
         </div>
         <div className={styles.legal}>
@@ -62,10 +66,12 @@ export default function Footer() {
           </a>
         </div>
         <div className={styles.developer}>
-          <p>Desenvolvido por:</p>
-          <a href='https://www.linkedin.com/in/wesleybridirigo' target='_blank' rel='noreferrer'>
-            <p>Wesley Bridi Rigo</p>
-          </a>
+          <p>
+            Desenvolvido por: <br />{' '}
+            <a href='https://www.linkedin.com/in/wesleybridirigo' target='_blank' rel='noreferrer'>
+              Wesley Bridi Rigo
+            </a>
+          </p>
         </div>
       </div>
     </footer>
