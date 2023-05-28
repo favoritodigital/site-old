@@ -5,6 +5,7 @@ import HowOurBusinessWorkSection from '../sections/HowOurBusinessWorkSection'
 import AProfitableWaySection from '../sections/AProfitableWaySection'
 import AchievementsSoFarSection from '../sections/AchievementsSoFarSection'
 import EnjoyOurExclusiveAdvantagesSection from '../sections/EnjoyOurExclusiveAdvantagesSection'
+import WhoAlreadyMadeItHappenSection from '../sections/WhoAlreadyMadeItHappenSection'
 
 export default function BeAFranchisee() {
   return (
@@ -17,6 +18,7 @@ export default function BeAFranchisee() {
       <AProfitableWaySection />
       <AchievementsSoFarSection />
       <EnjoyOurExclusiveAdvantagesSection />
+      <WhoAlreadyMadeItHappenSection />
     </>
   )
 }
