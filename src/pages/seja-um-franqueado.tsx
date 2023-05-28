@@ -4,6 +4,7 @@ import YouCanProfitWithEachBusinessSection from '../sections/YouCanProfitWithEac
 import HowOurBusinessWorkSection from '../sections/HowOurBusinessWorkSection'
 import AProfitableWaySection from '../sections/AProfitableWaySection'
 import AchievementsSoFarSection from '../sections/AchievementsSoFarSection'
+import EnjoyOurExclusiveAdvantagesSection from '../sections/EnjoyOurExclusiveAdvantagesSection'
 
 export default function BeAFranchisee() {
   return (
@@ -15,6 +16,7 @@ export default function BeAFranchisee() {
       <HowOurBusinessWorkSection />
       <AProfitableWaySection />
       <AchievementsSoFarSection />
+      <EnjoyOurExclusiveAdvantagesSection />
     </>
   )
 }
