@@ -55,7 +55,7 @@ export default function Header({ badge }: Props) {
             />
           </div>
           <a
-            href='https://www.google.com/'
+            href='https://onelink.quebarbada.com/ykhN/50t22qt3'
             target='_blank'
             rel='noreferrer'
             className={styles.menuDownloadButton}
