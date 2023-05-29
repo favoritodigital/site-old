@@ -69,8 +69,7 @@ export default function OurPathSection() {
           <div className={styles.card}>
             <h1 className={styles.cardTitle}>13 de abril/23</h1>
             <p className={styles.cardParagraph}>
-              1 ano de firma! O app está presente em 4 cidades e com + de 200 clientes cadastrados
-              no app
+              1 ano de firma! O app está em 4 cidades e com + de 200 clientes cadastrados no app
             </p>
           </div>
           <div className={styles.altCard}>
