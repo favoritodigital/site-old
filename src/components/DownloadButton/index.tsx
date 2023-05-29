@@ -8,7 +8,7 @@ interface Props {
 
 export default function DownloadButton({ text }: Props) {
   return (
-    <a href='https://www.google.com/' target='_blank' rel='noreferrer'>
+    <a href='https://onelink.quebarbada.com/ykhN/50t22qt3' target='_blank' rel='noreferrer'>
       <div className={styles.container}>
         <div className={styles.content}>
           <DownloadIcon />
