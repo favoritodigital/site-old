@@ -8,7 +8,7 @@ export default function WhereWeAreSection() {
     <div id='onde-estamos-section' className={styles.container}>
       <h1 className={styles.title}>onde estamos</h1>
       <p className={styles.paragraph}>
-        até o momento, nosso app está presente em 4 microrregiões do Brasil:
+        até o momento, nosso app está presente em 4 microrregiões e<br />1 capital do Brasil:
       </p>
       <div className={styles.carouselWrapper}>
         <div className={styles.gradient} />
@@ -81,6 +81,19 @@ export default function WhereWeAreSection() {
                   />
                 </div>
                 <p className={styles.cityName}>Lajeado - RS</p>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className={styles.slideLajeado}>
+                <div className={styles.image}>
+                  <Image
+                    loading='eager'
+                    layout='fill'
+                    src='/images/cities/florianopolis.png'
+                    alt='Imagem da cidade de Florianópolis - SC'
+                  />
+                </div>
+                <p className={styles.cityName}>Florianópolis - SC</p>
               </div>
             </SwiperSlide>
           </Swiper>
