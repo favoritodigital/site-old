@@ -18,7 +18,7 @@ export default function EnjoyOurExclusiveAdvantagesSection() {
           </div>
           <p className={styles.text}>
             <span className={styles.bold}>
-              1. <span className={styles.purple}>negócio digital: </span>
+              1. <span className={styles.purple}>negócio digital</span>
             </span>
             <br />
             sem necessidade de escritório, estoques ou funcionários
@@ -30,7 +30,7 @@ export default function EnjoyOurExclusiveAdvantagesSection() {
           </div>
           <p className={styles.text}>
             <span className={styles.bold}>
-              2. <span className={styles.purple}>produto inovador: </span>
+              2. <span className={styles.purple}>produto inovador</span>
             </span>
             <br />
             aplicativo premiado e sem concorrentes diretos
@@ -42,7 +42,7 @@ export default function EnjoyOurExclusiveAdvantagesSection() {
           </div>
           <p className={styles.text}>
             <span className={styles.bold}>
-              3. <span className={styles.purple}>seja seu próprio chefe: </span>
+              3. <span className={styles.purple}>seja seu próprio chefe</span>
             </span>
             <br />
             gerencie sua região de casa, nos seus horários
@@ -54,7 +54,7 @@ export default function EnjoyOurExclusiveAdvantagesSection() {
           </div>
           <p className={styles.text}>
             <span className={styles.bold}>
-              4. <span className={styles.purple}>estratégia validada: </span>
+              4. <span className={styles.purple}>estratégia validada</span>
             </span>
             <br />
             treinamento individualizado e suporte contínuo
@@ -66,7 +66,7 @@ export default function EnjoyOurExclusiveAdvantagesSection() {
           </div>
           <p className={styles.text}>
             <span className={styles.bold}>
-              5. <span className={styles.purple}>exclusividade territorial: </span>
+              5. <span className={styles.purple}>exclusividade territorial</span>
             </span>
             <br />
             atendimento na sua cidade e regiões próximas
@@ -78,7 +78,7 @@ export default function EnjoyOurExclusiveAdvantagesSection() {
           </div>
           <p className={styles.text}>
             <span className={styles.bold}>
-              6. <span className={styles.purple}>baixo risco: </span>
+              6. <span className={styles.purple}>baixo risco</span>
             </span>
             <br />
             pode demorar além do previsto, mas o valor investido retorna pra você
