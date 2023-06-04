@@ -18,7 +18,11 @@ export default function WhatOurAppDeliversSection() {
           </div>
           <p className={styles.text}>
             <span className={styles.bold}>
-              1. <span className={styles.purple}>economia de tempo: </span>
+              1.{' '}
+              <span className={styles.purple}>
+                economia de tempo
+                <br />
+              </span>
             </span>
             gerenciamos seu perfil, cadastrando todas as informações por você
           </p>
@@ -29,7 +33,11 @@ export default function WhatOurAppDeliversSection() {
           </div>
           <p className={styles.text}>
             <span className={styles.bold}>
-              2. <span className={styles.purple}>vantagem competitiva: </span>
+              2.{' '}
+              <span className={styles.purple}>
+                vantagem competitiva
+                <br />
+              </span>
             </span>
             mostramos as principais características do seu estabelecimento
           </p>
@@ -40,7 +48,11 @@ export default function WhatOurAppDeliversSection() {
           </div>
           <p className={styles.text}>
             <span className={styles.bold}>
-              3. <span className={styles.purple}>conexão com clientes: </span>
+              3.{' '}
+              <span className={styles.purple}>
+                conexão com clientes
+                <br />
+              </span>
             </span>
             melhoramos a comunicação do seu estabelecimento com o público
           </p>
@@ -51,7 +63,11 @@ export default function WhatOurAppDeliversSection() {
           </div>
           <p className={styles.text}>
             <span className={styles.bold}>
-              4. <span className={styles.purple}>mais visibilidade: </span>
+              4.{' '}
+              <span className={styles.purple}>
+                mais visibilidade
+                <br />
+              </span>
             </span>
             temos parceria com hotéis e enviamos notificações diariamente
           </p>
@@ -62,7 +78,11 @@ export default function WhatOurAppDeliversSection() {
           </div>
           <p className={styles.text}>
             <span className={styles.bold}>
-              5. <span className={styles.purple}>custo-benefício: </span>
+              5.{' '}
+              <span className={styles.purple}>
+                custo-benefício
+                <br />
+              </span>
             </span>
             somos o investimento em marketing mais acessível do mercado
           </p>
@@ -73,7 +93,11 @@ export default function WhatOurAppDeliversSection() {
           </div>
           <p className={styles.text}>
             <span className={styles.bold}>
-              6. <span className={styles.purple}>inovação: </span>
+              6.{' '}
+              <span className={styles.purple}>
+                inovação
+                <br />
+              </span>
             </span>
             não existe outra plataforma como essa, e você pode sair na frente
           </p>
