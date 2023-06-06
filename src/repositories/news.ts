@@ -12,13 +12,13 @@ export const news = [
     imgFilePath: '/images/news/noticenter.png',
   },
   {
-    name: 'Diário da Jaraguá',
+    name: 'Agora no Vale',
     url: 'https://agoranovale.com.br/noticias/valedotaquari/startup-premiada-de-sc-chega-em-lajeado-para-garantir-o-seu-happy-hour/',
     title: 'Startup premiada de SC chega em Lajeado para garantir o seu happy hour',
     imgFilePath: '/images/news/agoranovale.png',
   },
   {
-    name: 'Super Nova FM',
+    name: 'ND+',
     url: 'https://ndmais.com.br/economia/dupla-larga-carreira-consolidada-para-lancar-aplicativo-gastronomico-no-norte-catarinense/',
     title:
       'Dupla larga carreira consolidada para lançar aplicativo gastronômico no Norte Catarinense',
