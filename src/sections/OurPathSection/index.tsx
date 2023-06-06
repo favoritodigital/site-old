@@ -72,6 +72,12 @@ export default function OurPathSection() {
               1 ano de firma! O app está em 4 cidades e com + de 200 clientes cadastrados no app
             </p>
           </div>
+          <div className={styles.card}>
+            <h1 className={styles.cardTitle}>16 de junho/23</h1>
+            <p className={styles.cardParagraph}>
+              início das operações na cidade de Florianópolis - SC, nossa primeira capital!
+            </p>
+          </div>
           <div className={styles.altCard}>
             <h1 className={styles.altCardTitle}>e a história continua!</h1>
           </div>

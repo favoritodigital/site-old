@@ -243,18 +243,19 @@
     z-index: 1;
   }
 
-  .card {
+  .card,
+  .altCard {
     width: 12rem;
   }
 
   .altCard {
     height: 9.125rem;
-    width: 25.21875rem;
     justify-content: center;
   }
 
   .altCardTitle {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
   }
 
   .img {
@@ -264,18 +265,20 @@
   }
 }
 
-@media screen and (min-width: 1366px) {
+@media screen and (min-width: 1440px) {
   .row1,
   .row2,
   .row3 {
     gap: 1.5rem;
   }
 
-  .card {
+  .card,
+  .altCard {
     width: 16rem;
   }
 
-  .altCard {
-    width: 33.625rem;
+  .altCardTitle {
+    font-size: 2rem;
+    line-height: 2rem;
   }
 }
