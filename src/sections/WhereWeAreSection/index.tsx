@@ -8,7 +8,7 @@ export default function WhereWeAreSection() {
     <div id='onde-estamos-section' className={styles.container}>
       <h1 className={styles.title}>onde estamos</h1>
       <p className={styles.paragraph}>
-        até o momento, nosso app está presente em 4 microrregiões e<br />1 capital do Brasil:
+        até o momento, nosso app está presente em 5 regiões do Brasil, incluindo 1 capital
       </p>
       <div className={styles.carouselWrapper}>
         <div className={styles.gradient} />
