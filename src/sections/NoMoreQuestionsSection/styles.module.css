@@ -66,6 +66,9 @@
 
     grid-column: 2/3;
     grid-row: 1/2;
+
+    margin-bottom: 0;
+    align-self: flex-end;
   }
 
   .container svg {
@@ -81,12 +84,12 @@
   }
 
   .paragraph {
-    font-size: 1.25rem;
-    width: 29.375rem;
-    line-height: 1.875rem;
+    width: 23rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
     text-align: start;
 
-    margin: 0;
+    margin: 2rem 0 0 0;
 
     grid-column: 2/3;
     grid-row: 2/3;
@@ -104,6 +107,7 @@
   }
 
   .paragraph {
+    width: 29.375rem;
     margin-top: 2rem;
     font-size: 1.25rem;
     line-height: 1.75rem;
