@@ -94,20 +94,15 @@
   .content {
     width: 54.375rem;
     grid-template-columns: 6fr 4fr;
-    /* grid-template-rows: 11.1875rem 5.25rem 4.985rem 4.1875rem; */
-    grid-template-rows: 14.1875rem 5.25rem 4.985rem 7.1875rem;
+    grid-template-rows: 14.1875rem 5.25rem 12.1725rem;
     grid-gap: 0 1.875rem;
     margin-right: 6.25rem;
   }
 
   .title {
-    /* margin: 1.6875rem 0 0 0; */
-    margin: 4.6875rem 0 0 0;
-    /* width: 35.625rem; */
+    margin: 6.6875rem 0 0 0;
     width: 25rem;
-    /* font-size: 3.75rem; */
     font-size: 2.75rem;
-    /* line-height: 4rem; */
     line-height: 3rem;
 
     grid-column: 1/2;
@@ -117,11 +112,8 @@
   }
 
   .paragraph {
-    /* font-size: 1.25rem; */
     font-size: 1rem;
-    /* line-height: 1.875rem; */
     line-height: 1.5rem;
-    /* width: 27.5rem; */
     width: 21rem;
 
     grid-column: 1/2;
@@ -134,7 +126,6 @@
   }
 
   .img {
-    /* width: 13.25rem; */
     width: 16.5rem;
     grid-row: 1/5;
     justify-self: flex-end;
@@ -142,7 +133,27 @@
   }
 
   .downloadButton {
-    justify-self: flex-start;
-    margin: 0 0 1.6875rem 0;
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .title {
+    margin: 5.6875rem 0 0 0;
+    width: 30rem;
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  .paragraph {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    width: 26rem;
+  }
+
+  .storeDownloadButtons {
+    margin-top: 0.75rem;
+    flex-direction: row;
+    gap: 1.5rem;
   }
 }
