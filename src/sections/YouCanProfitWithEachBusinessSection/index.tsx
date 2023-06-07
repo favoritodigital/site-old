@@ -16,12 +16,14 @@ export default function YouCanProfitWithEachBusinessSection() {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>
-        você pode lucrar com cada bar, pub, restaurante, café e evento da sua região!
+        fature alto com
+        <br />
+        um negócio inovador
       </h1>
       <p className={styles.paragraph}>
         seja dono do aplicativo Que Barbada e tenha a chance de faturar mais de
-        <span> R$ 20 mil reais</span> por mês em um negócio totalmente inovador. assista o vídeo
-        abaixo para entender:
+        <span> R$ 20 mil reais</span> vendendo a nossa solução! assista o vídeo abaixo para
+        entender:
       </p>
       <div className={styles.video}>
         <div className={styles.mobile}>
