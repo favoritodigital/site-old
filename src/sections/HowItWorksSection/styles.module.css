@@ -47,8 +47,8 @@
     grid-template-rows: 16.9375rem 7.125rem 9.3125rem;
   }
   .title {
-    font-size: 3.75rem;
-    line-height: 4rem;
+    font-size: 2.75rem;
+    line-height: 3rem;
     width: 20.0625rem;
     margin: 0;
     grid-column: 1/2;
@@ -59,8 +59,8 @@
     margin-bottom: 1.5rem;
   }
   .paragraph {
-    font-size: 1.25rem;
-    line-height: 1.875rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
     width: 13.875rem;
     grid-column: 1/2;
     grid-row: 2/3;
@@ -78,5 +78,26 @@
   .carousel {
     grid-column: 2/3;
     grid-row: 1/4;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    grid-template-rows: 15.9375rem 7.125rem 10.3125rem;
+  }
+
+  .title {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  .paragraph {
+    margin-top: 0.5rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .btn {
+    margin-top: 1rem;
   }
 }
