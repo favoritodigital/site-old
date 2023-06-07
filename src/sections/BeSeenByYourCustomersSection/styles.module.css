@@ -65,7 +65,7 @@
 
     width: 35.1875rem;
 
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
   }
 
   .form {
@@ -79,6 +79,8 @@
     font-size: 1.125rem;
     line-height: 1.375rem;
 
-    width: 19.5rem;
+    width: 19.75rem;
+
+    margin-bottom: 3rem;
   }
 }
