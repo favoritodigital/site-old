@@ -45,12 +45,12 @@
 
 @media screen and (min-width: 1024px) {
   .container {
-    height: 39.125rem;
+    margin: 4rem 0;
     padding: 0;
 
     display: grid;
     grid-template-columns: 23.125rem 29.375rem;
-    grid-template-rows: 14rem 5.625rem;
+    grid-template-rows: 11rem 8.625rem;
     gap: 0 8.125rem;
 
     align-content: center;
@@ -58,10 +58,11 @@
   }
 
   .title {
-    font-size: 3.75rem;
     width: 22.875rem;
-    line-height: 4rem;
     text-align: start;
+
+    font-size: 2.75rem;
+    line-height: 3rem;
 
     grid-column: 2/3;
     grid-row: 1/2;
@@ -89,5 +90,22 @@
 
     grid-column: 2/3;
     grid-row: 2/3;
+
+    align-self: flex-start;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .title {
+    font-size: 3rem;
+    line-height: 3rem;
+    margin-bottom: 0;
+    align-self: flex-end;
+  }
+
+  .paragraph {
+    margin-top: 2rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
