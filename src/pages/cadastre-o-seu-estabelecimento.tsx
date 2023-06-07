@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-import DisclosurePlatformEntrepreneursNeedSection from '../sections/DisclosurePlatformEntrepreneursNeedSection'
+import StandOutSection from '../sections/StandOutSection'
 import WhatOurAppDeliversSection from '../sections/WhatOurAppDeliversSection'
 import WeDoEverythingForYou from '../sections/WeDoEverythingForYouSection'
 import ThatsWhatEntrepreneursSayAboutUsSection from '../sections/ThatsWhatEntrepreneursSayAboutUsSection'
@@ -12,7 +12,7 @@ export default function RegisterEstablishment() {
       <Head>
         <title>cadastre o seu estabelecimento | Que Barbada</title>
       </Head>
-      <DisclosurePlatformEntrepreneursNeedSection />
+      <StandOutSection />
       <WhatOurAppDeliversSection />
       <WeDoEverythingForYou />
       <ThatsWhatEntrepreneursSayAboutUsSection />
