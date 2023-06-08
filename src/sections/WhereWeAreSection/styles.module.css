@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
 
-  /* height: 25.75rem; */
   padding: 3rem 0;
 
   background-color: var(--background-color-purple);
@@ -67,7 +66,8 @@
 .slideJaragua,
 .slideCriciuma,
 .slideJoinville,
-.slideLajeado {
+.slideLajeado,
+.slideFlorianopolis {
   height: 180px;
 }
 
@@ -87,6 +87,10 @@
   width: 312px;
 }
 
+.slideFlorianopolis {
+  width: 270px;
+}
+
 .cityName {
   position: absolute;
   text-align: center;
@@ -100,18 +104,16 @@
   color: white;
   text-shadow: 0px 0px 10px var(--brand-color-purple), 0px 0px 10px var(--brand-color-purple),
     0px 0px 10px var(--brand-color-purple), 0px 0px 10px var(--brand-color-purple);
-  box-shadow: ;
 }
 
 @media screen and (min-width: 1024px) {
   .container {
-    height: 39.125rem;
     display: grid;
     gap: 0 8.125rem;
     align-content: center;
     justify-content: center;
     grid-template-columns: 23.125rem 29.375rem;
-    grid-template-rows: 10rem 3.25rem;
+    grid-template-rows: 8.3125rem 7.3125rem;
   }
 
   .carouselWrapper {
@@ -121,28 +123,29 @@
   .title {
     width: 16.9375rem;
 
-    font-size: 3.75rem;
-    line-height: 4rem;
+    font-size: 2.75rem;
+    line-height: 3rem;
 
-    margin-bottom: 0;
+    margin-bottom: 0.5rem;
 
     text-align: end;
 
     grid-column: 1/2;
     grid-row: 1/2;
-    align-self: flex-start;
+    align-self: flex-end;
     justify-self: flex-end;
   }
 
   .paragraph {
-    width: 21.4375rem;
+    width: 18rem;
 
-    font-size: 1.25rem;
-    line-height: 1.875rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
 
     text-align: end;
 
     margin-bottom: 0;
+    margin-top: 0.5rem;
 
     align-self: flex-start;
     justify-self: flex-end;
@@ -154,5 +157,18 @@
   .carouselWrapper {
     grid-column: 2/3;
     grid-row: 1/3;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .title {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  .paragraph {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    width: 20rem;
   }
 }

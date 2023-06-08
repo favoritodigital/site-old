@@ -84,7 +84,7 @@ export default function WhereWeAreSection() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className={styles.slideLajeado}>
+              <div className={styles.slideFlorianopolis}>
                 <div className={styles.image}>
                   <Image
                     loading='eager'
