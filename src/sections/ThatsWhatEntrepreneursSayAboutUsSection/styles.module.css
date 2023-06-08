@@ -16,31 +16,50 @@
   width: 14.0625rem;
 
   color: var(--brand-color-purple);
+
+  margin-bottom: 2rem;
 }
 
-.carousel {
+.video {
   margin-bottom: 2rem;
+}
+
+.web {
+  display: none;
 }
 
 @media screen and (min-width: 1024px) {
   .container {
-    height: 39.125rem;
-
     justify-content: center;
 
-    padding: 0;
+    padding: 4rem 0;
   }
 
   .title {
-    font-size: 3.75rem;
-    line-height: 4rem;
+    font-size: 2.75rem;
+    line-height: 3rem;
 
-    width: 60.625rem;
+    width: 50rem;
 
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
 
-  .carousel {
-    margin-bottom: 3rem;
+  .video {
+    margin-bottom: 2rem;
+  }
+
+  .web {
+    display: block;
+  }
+
+  .mobile {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .title {
+    font-size: 3rem;
+    line-height: 3rem;
   }
 }
