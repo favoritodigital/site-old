@@ -73,8 +73,8 @@
 
   .title,
   .highlight {
-    font-size: 3.75rem;
-    line-height: 4rem;
+    font-size: 2.75rem;
+    line-height: 3rem;
   }
 
   .title {
@@ -103,6 +103,21 @@
   }
 
   .paragraph {
+    font-size: 1rem;
+    line-height: 1.25rem;
     text-align: center;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .title,
+  .highlight {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  .paragraph {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
   }
 }
