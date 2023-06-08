@@ -100,13 +100,20 @@
 
   .container {
     justify-content: center;
-    height: 39.125rem;
+    height: auto;
   }
 
   .title {
-    margin: 0 0 4rem 0;
+    margin: 0 0 2rem 0;
     width: auto;
 
-    font-size: 3.75rem;
+    font-size: 2.75rem;
+    line-height: 3rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .title {
+    font-size: 3rem;
   }
 }
