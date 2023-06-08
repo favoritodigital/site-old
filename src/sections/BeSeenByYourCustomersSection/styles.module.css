@@ -60,27 +60,40 @@
   }
 
   .title {
-    font-size: 3.75rem;
-    line-height: 4rem;
+    font-size: 2.75rem;
+    line-height: 3rem;
 
-    width: 35.1875rem;
+    width: 38rem;
 
-    margin-bottom: 1.5rem;
+    margin-bottom: 3rem;
   }
 
   .form {
     width: 48.125rem;
     height: 38.625rem;
 
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
   }
 
   .paragraph {
-    font-size: 1.125rem;
-    line-height: 1.375rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
 
     width: 19.75rem;
 
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .title {
+    font-size: 3rem;
+    line-height: 3rem;
+    width: 40rem;
+  }
+  .paragraph {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    width: 22rem;
   }
 }
