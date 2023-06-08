@@ -8,7 +8,7 @@ interface Props {
 
 export default function WhatsappButton({ text }: Props) {
   return (
-    <a href='https://www.google.com/' target='_blank' rel='noreferrer'>
+    <a href='https://wa.link/6lv4bz' target='_blank' rel='noreferrer'>
       <div className={styles.container}>
         <div className={styles.content}>
           <WhatsappIcon />
