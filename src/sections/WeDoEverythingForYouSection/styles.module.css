@@ -47,16 +47,14 @@
   .container {
     justify-content: center;
 
-    padding: 0;
-
-    height: 39.125rem;
+    padding: 4rem 0;
   }
 
   .title {
-    font-size: 3.75rem;
-    line-height: 4rem;
+    font-size: 2.75rem;
+    line-height: 3rem;
 
-    width: 34.125rem;
+    width: 30rem;
 
     color: var(--brand-color-purple);
 
@@ -73,8 +71,8 @@
   }
 
   .text p {
-    font-size: 1.25rem;
-    line-height: 1.875rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
 
     width: 48.125rem;
   }
@@ -84,5 +82,21 @@
     flex-direction: column;
 
     width: 48.125rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .title {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  .text {
+    gap: 1.75rem;
+  }
+
+  .text p {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
   }
 }
