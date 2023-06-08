@@ -64,8 +64,8 @@
   }
 
   .title {
-    font-size: 3.75rem;
-    line-height: 4rem;
+    font-size: 2.75rem;
+    line-height: 3rem;
 
     width: 35.0625rem;
 
@@ -73,7 +73,11 @@
   }
 
   .content {
-    gap: 4rem;
+    gap: 0;
+  }
+
+  .ilustration {
+    width: 17rem;
   }
 
   .card1,
@@ -88,13 +92,13 @@
     flex-direction: row;
   }
 
+  .card2 {
+    flex-direction: row-reverse;
+  }
+
   .card1 p,
   .card3 p {
     text-align: start;
-  }
-
-  .card2 {
-    flex-direction: row-reverse;
   }
 
   .card2 p {
@@ -102,9 +106,26 @@
   }
 
   .paragraph {
-    font-size: 2rem;
-    line-height: 3rem;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
 
-    width: 35.625rem;
+    width: 30rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .title {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  .paragraph {
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+    width: 33rem;
+  }
+
+  .ilustration {
+    width: 20rem;
   }
 }
