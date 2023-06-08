@@ -64,16 +64,18 @@
 
 @media screen and (min-width: 1024px) {
   .container {
+    margin: 0;
+
     padding: 4rem 0;
   }
 
   .title {
-    font-size: 3.75rem;
-    line-height: 4rem;
+    font-size: 2.75rem;
+    line-height: 3rem;
 
-    width: 60.625rem;
+    width: 45rem;
 
-    margin-bottom: 6rem;
+    margin-bottom: 4rem;
   }
 
   .card {
@@ -89,17 +91,32 @@
   .content {
     width: 46.875rem;
 
-    gap: 4rem;
-
-    margin-left: 1.25rem;
+    gap: 3rem;
   }
 
   .text {
-    font-size: 2rem;
-    line-height: 3rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
 
     text-align: start;
 
-    width: 37.5rem;
+    width: 32rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .title {
+    font-size: 3rem;
+    line-height: 3rem;
+    width: 50rem;
+    margin-bottom: 5rem;
+  }
+
+  .content {
+    gap: 4rem;
+  }
+
+  .text {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
   }
 }
