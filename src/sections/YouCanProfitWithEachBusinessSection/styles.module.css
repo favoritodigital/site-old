@@ -91,8 +91,8 @@
   }
 
   .title {
-    font-size: 3.75rem;
-    line-height: 4rem;
+    font-size: 2.75rem;
+    line-height: 3rem;
 
     width: 60.625rem;
 
@@ -100,16 +100,16 @@
   }
 
   .paragraph {
-    font-size: 1.25rem;
-    line-height: 1.875rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
 
-    width: 51.875rem;
+    width: 45rem;
 
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
 
   .video {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
 
   .web {
@@ -118,5 +118,17 @@
 
   .mobile {
     display: none;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .title {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  .paragraph {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    width: 50rem;
   }
 }

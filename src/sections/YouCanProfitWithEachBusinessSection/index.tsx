@@ -1,6 +1,7 @@
 import YouTube, { YouTubeProps } from 'react-youtube'
 
 import styles from './styles.module.css'
+import Link from 'next/link'
 
 const mobileOpts: YouTubeProps['opts'] = {
   height: '174',
@@ -33,17 +34,13 @@ export default function YouCanProfitWithEachBusinessSection() {
           <YouTube opts={webOpts} videoId={'-p6tSfUjP3o'} />
         </div>
       </div>
-      <a
-        href='/seja-um-franqueado#shall-we-build-history-together'
-        target='_blank'
-        rel='noreferrer'
-      >
+      <Link href='#bora-construir-uma-historia' rel='noreferrer'>
         <div className={styles.btn}>
           <div className={styles.content}>
             <p className={styles.text}>quero conhecer melhor agora</p>
           </div>
         </div>
-      </a>
+      </Link>
     </div>
   )
 }
