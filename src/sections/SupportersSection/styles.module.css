@@ -54,3 +54,10 @@
     gap: 3rem;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .title {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+}
