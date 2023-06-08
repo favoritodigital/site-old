@@ -25,14 +25,14 @@
 
 @media screen and (min-width: 1024px) {
   .container {
-    padding: 4rem 0 4rem 0;
+    padding: 3rem 0;
   }
 
   .title {
-    font-size: 3.75rem;
-    line-height: 4rem;
+    font-size: 2.75rem;
+    line-height: 3rem;
 
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
   }
 
   .web {
@@ -41,5 +41,12 @@
 
   .mobile {
     display: none;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .title {
+    font-size: 3rem;
+    line-height: 3rem;
   }
 }

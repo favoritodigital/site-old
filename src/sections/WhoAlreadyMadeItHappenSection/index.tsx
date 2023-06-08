@@ -17,10 +17,10 @@ export default function WhoAlreadyMadeItHappenSection() {
     <div className={styles.container}>
       <h1 className={styles.title}>quem já fez acontecer</h1>
       <div className={styles.mobile}>
-        <YouTube opts={mobileOpts} videoId={'-p6tSfUjP3o'} />
+        <YouTube opts={mobileOpts} videoId={'2W-KDA4F1Ng'} />
       </div>
       <div className={styles.web}>
-        <YouTube opts={webOpts} videoId={'-p6tSfUjP3o'} />
+        <YouTube opts={webOpts} videoId={'2W-KDA4F1Ng'} />
       </div>
     </div>
   )
