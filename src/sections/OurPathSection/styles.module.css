@@ -148,8 +148,8 @@
 
   .title {
     font-size: 3.75rem;
-    line-height: 4rem;
-    margin-bottom: 4rem;
+    font-size: 2.75rem;
+    line-height: 3rem;
   }
 
   .roadmap {
@@ -266,6 +266,11 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .title {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
   .row1,
   .row2,
   .row3 {
