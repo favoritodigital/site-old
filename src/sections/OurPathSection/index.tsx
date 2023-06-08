@@ -40,7 +40,7 @@ export default function OurPathSection() {
         </div>
         <div className={styles.row2}>
           <div className={styles.card}>
-            <h1 className={styles.cardTitle}>1º de outrubro/22</h1>
+            <h1 className={styles.cardTitle}>1º de outubro/22</h1>
             <p className={styles.cardParagraph}>início das operações na cidade de Criciúma - SC</p>
           </div>
           <div className={styles.card}>
@@ -73,7 +73,7 @@ export default function OurPathSection() {
             </p>
           </div>
           <div className={styles.card}>
-            <h1 className={styles.cardTitle}>16 de junho/23</h1>
+            <h1 className={styles.cardTitle}>15 de junho/23</h1>
             <p className={styles.cardParagraph}>
               início das operações na cidade de Florianópolis - SC, nossa primeira capital!
             </p>
