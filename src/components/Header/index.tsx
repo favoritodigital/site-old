@@ -75,7 +75,7 @@ export default function Header({ badge }: Props) {
                   id='home'
                   handleIsMenuOpen={handleIsMenuOpen}
                   href='/'
-                  label='home'
+                  label='início'
                   hasDivider
                 />
                 <MenuItem
