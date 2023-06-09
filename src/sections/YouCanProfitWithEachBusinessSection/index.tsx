@@ -28,10 +28,10 @@ export default function YouCanProfitWithEachBusinessSection() {
       </p>
       <div className={styles.video}>
         <div className={styles.mobile}>
-          <YouTube opts={mobileOpts} videoId={'-p6tSfUjP3o'} />
+          <YouTube opts={mobileOpts} videoId={'SWqBIbeF4t4'} />
         </div>
         <div className={styles.web}>
-          <YouTube opts={webOpts} videoId={'-p6tSfUjP3o'} />
+          <YouTube opts={webOpts} videoId={'SWqBIbeF4t4'} />
         </div>
       </div>
       <Link href='#bora-construir-uma-historia' rel='noreferrer'>
