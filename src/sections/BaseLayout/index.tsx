@@ -3,6 +3,7 @@ import { useRouter } from 'next/router'
 
 import Header, { BadgePages } from '../../components/Header'
 import Footer from '../../components/Footer'
+import WhatsappFixedButton from '../../components/WhatsappFixedButton'
 import CookiesMessage from '../../components/CookiesMessage'
 
 import { CookiesContext } from '../../contexts/CookiesContext'
@@ -20,6 +21,7 @@ export default function BaseLayout({ children }: Props) {
       <Header badge={router.pathname as BadgePages} />
       {!cookiesIsEnabled && <CookiesMessage />}
       {children}
+      <WhatsappFixedButton />
       <Footer />
     </div>
   )
