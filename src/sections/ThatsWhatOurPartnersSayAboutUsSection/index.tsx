@@ -13,10 +13,10 @@ const webOpts: YouTubeProps['opts'] = {
   width: '765',
 }
 
-export default function ThatsWhatEntrepreneursSayAboutUsSection() {
+export default function ThatsWhatOurPartnersSayAboutUsSection() {
   return (
     <div id='é-isso-que-os-empreendedores-falam-sobre-nós' className={styles.container}>
-      <h1 className={styles.title}>é isso que os empreendedores falam sobre nós...</h1>
+      <h1 className={styles.title}>é isso que os parceiros falam sobre nós...</h1>
       <div className={styles.video}>
         <div className={styles.mobile}>
           <YouTube opts={mobileOpts} videoId={'T43sLq62O1s'} />
