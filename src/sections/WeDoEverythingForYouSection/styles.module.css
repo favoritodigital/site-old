@@ -54,6 +54,13 @@
   margin-bottom: 2rem;
 }
 
+.secondColumn {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
 @media screen and (min-width: 1024px) {
   .container {
     display: grid;
@@ -130,6 +137,9 @@
   .btn {
     display: flex;
     flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
 
     margin-bottom: 1.3125rem;
   }
