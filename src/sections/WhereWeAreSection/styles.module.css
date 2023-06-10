@@ -37,20 +37,6 @@
   color: var(--text-color-gray);
 }
 
-.gradient {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  background: linear-gradient(
-    270deg,
-    var(--background-color-purple) 0%,
-    rgba(250, 245, 255, 0) 5%,
-    rgba(250, 245, 255, 0) 95%,
-    var(--background-color-purple) 100%
-  );
-}
-
 .carouselWrapper {
   position: relative;
   width: 19.5rem;
@@ -59,6 +45,7 @@
 }
 
 .slides {
+  overflow: visible;
   position: relative;
   z-index: 0;
 }
@@ -95,7 +82,7 @@
   position: absolute;
   text-align: center;
   width: 100%;
-  bottom: 1.5rem;
+  bottom: 0.25rem;
 
   font-family: 'Poppins', sans-serif;
   font-size: 1.5rem;

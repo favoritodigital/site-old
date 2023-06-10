@@ -1,7 +1,11 @@
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Autoplay } from 'swiper'
-import styles from './styles.module.css'
+import { Autoplay, Navigation } from 'swiper'
+import 'swiper/css'
+import 'swiper/css/pagination'
+
 import Image from 'next/image'
+
+import styles from './styles.module.css'
 
 export default function WhereWeAreSection() {
   return (
@@ -11,9 +15,9 @@ export default function WhereWeAreSection() {
         até o momento, nosso app está presente em 5 regiões do Brasil, incluindo 1 capital
       </p>
       <div className={styles.carouselWrapper}>
-        <div className={styles.gradient} />
         <div className={styles.slides}>
           <Swiper
+            navigation={true}
             spaceBetween={8}
             grabCursor={true}
             centeredSlides={true}
@@ -23,7 +27,7 @@ export default function WhereWeAreSection() {
               delay: 2500,
               disableOnInteraction: false,
             }}
-            modules={[Autoplay]}
+            modules={[Autoplay, Navigation]}
           >
             <SwiperSlide>
               <div className={styles.slideJaragua}>
