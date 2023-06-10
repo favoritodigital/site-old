@@ -29,36 +29,38 @@ export default function Header({ badge }: Props) {
     <>
       <div className={styles.wrapper}>
         <div className={styles.container}>
-          <div className={styles.logo}>
-            <Link href={'/'}>
-              <a>
-                <QueBarbadaLogo />
-              </a>
-            </Link>
-          </div>
-          <div className={styles.navigationWeb}>
-            <WebNavigationItem href={'/'} label={'início'} hasBadge={badge === BadgePages.home} />
-            <WebNavigationItem
-              href={'/quem-somos'}
-              label={'quem somos'}
-              hasBadge={badge === BadgePages.whoWeAre}
-            />
-            <WebNavigationItem
-              href={'/cadastre-o-seu-estabelecimento'}
-              label={'cadastre o seu estabelecimento'}
-              hasBadge={badge === BadgePages.registerYourStablishment}
-            />
-            <WebNavigationItem
-              href={'/seja-um-franqueado'}
-              label={'seja um franqueado'}
-              hasBadge={badge === BadgePages.beAFranchisee}
-            />
+          <div className={styles.left}>
+            <div className={styles.logo}>
+              <Link href={'/'}>
+                <a>
+                  <QueBarbadaLogo />
+                </a>
+              </Link>
+            </div>
+            <div className={styles.navigationWeb}>
+              <WebNavigationItem href={'/'} label={'início'} hasBadge={badge === BadgePages.home} />
+              <WebNavigationItem
+                href={'/quem-somos'}
+                label={'quem somos'}
+                hasBadge={badge === BadgePages.whoWeAre}
+              />
+              <WebNavigationItem
+                href={'/cadastre-o-seu-estabelecimento'}
+                label={'cadastre o seu estabelecimento'}
+                hasBadge={badge === BadgePages.registerYourStablishment}
+              />
+              <WebNavigationItem
+                href={'/seja-um-franqueado'}
+                label={'seja um franqueado'}
+                hasBadge={badge === BadgePages.beAFranchisee}
+              />
+            </div>
           </div>
           <a
+            className={styles.menuDownloadButton}
             href='https://onelink.quebarbada.com/ykhN/50t22qt3'
             target='_blank'
             rel='noreferrer'
-            className={styles.menuDownloadButton}
           >
             <p className={styles.downloadButtonText}>baixe o app</p>
             <DownloadIcon />

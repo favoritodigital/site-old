@@ -9,7 +9,7 @@
 .headerMenuBagde {
   display: none;
   position: absolute;
-  bottom: -0.5rem;
+  bottom: 0.25rem;
   height: 0.35rem;
   width: 0.35rem;
   clip-path: circle();
