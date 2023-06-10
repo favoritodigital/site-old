@@ -31,7 +31,7 @@
   color: var(--text-color-gray);
 
   text-align: center;
-  width: 19.5rem;
+  width: 19rem;
 
   margin-bottom: 2rem;
 }
@@ -94,7 +94,7 @@
     font-size: 2.75rem;
     line-height: 3rem;
 
-    width: 60.625rem;
+    width: 60rem;
 
     margin-bottom: 1.5rem;
   }
@@ -129,6 +129,6 @@
   .paragraph {
     font-size: 1.25rem;
     line-height: 1.75rem;
-    width: 50rem;
+    width: 55rem;
   }
 }
