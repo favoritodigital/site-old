@@ -62,8 +62,8 @@ export default function Header({ badge }: Props) {
             target='_blank'
             rel='noreferrer'
           >
-            <p className={styles.downloadButtonText}>baixe o app</p>
             <DownloadIcon />
+            <p className={styles.downloadButtonText}>baixe o app</p>
           </a>
           <button className={styles.menuButton} onClick={() => handleIsMenuOpen(!isMenuOpen)}>
             <div>{isMenuOpen ? <CloseIcon /> : <OpenIcon />}</div>
