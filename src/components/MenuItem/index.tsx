@@ -7,12 +7,12 @@ interface Props {
   label: string
   href: string
   handleIsMenuOpen: (arg: boolean) => void
-  hasDivider?: boolean
+  hasBadge: boolean
 }
 
-export default function MenuItem({ label, href, handleIsMenuOpen, id, hasDivider }: Props) {
+export default function MenuItem({ label, href, handleIsMenuOpen, id, hasBadge }: Props) {
   return (
-    <li id={id} className={styles.container}>
+    <li id={id} className={`${styles.container} ${hasBadge && ` ${styles.highlight}`}`}>
       <div>
         <Link href={href}>
           <h1 onClick={() => handleIsMenuOpen(false)}>{label}</h1>

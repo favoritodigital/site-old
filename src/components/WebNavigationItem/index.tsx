@@ -13,7 +13,7 @@ export default function WebNavigationItem({ href, label, hasBadge }: Props) {
     <div className={styles.webnavigationItem}>
       <Link href={href}>
         <a>
-          <h1>{label}</h1>
+          <h1 className={`${hasBadge && `${styles.bold}`}`}>{label}</h1>
         </a>
       </Link>
       <div className={`${styles.headerMenuBagde} ${hasBadge && ` ${styles.visible}`}`}></div>

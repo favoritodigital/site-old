@@ -78,25 +78,28 @@ export default function Header({ badge }: Props) {
                   handleIsMenuOpen={handleIsMenuOpen}
                   href='/'
                   label='início'
-                  hasDivider
+                  hasBadge={badge === BadgePages.home}
                 />
                 <MenuItem
                   id='quem-somos'
                   handleIsMenuOpen={handleIsMenuOpen}
                   href='/quem-somos'
                   label='quem somos'
+                  hasBadge={badge === BadgePages.whoWeAre}
                 />
                 <MenuItem
                   id='cadastre-o-seu-estabelecimento'
                   handleIsMenuOpen={handleIsMenuOpen}
                   href='/cadastre-o-seu-estabelecimento'
                   label='cadastre o seu estabelecimento'
+                  hasBadge={badge === BadgePages.registerYourStablishment}
                 />
                 <MenuItem
                   id='seja-um-franqueado'
                   handleIsMenuOpen={handleIsMenuOpen}
                   href='/seja-um-franqueado'
                   label='seja um franqueado'
+                  hasBadge={badge === BadgePages.beAFranchisee}
                 />
               </ul>
             </div>

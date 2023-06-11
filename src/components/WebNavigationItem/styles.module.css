@@ -19,3 +19,7 @@
 .visible {
   display: inherit !important;
 }
+
+.webnavigationItem h1.bold {
+  font-weight: 700;
+}
