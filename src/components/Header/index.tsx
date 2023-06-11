@@ -14,8 +14,8 @@ import styles from './styles.module.css'
 export enum BadgePages {
   home = '/',
   whoWeAre = '/quem-somos',
-  registerYourStablishment = '/cadastre-o-seu-estabelecimento',
-  beAFranchisee = '/seja-um-franqueado',
+  registerYourStablishment = '/cadastre-seu-estabelecimento',
+  beAFranchisee = '/seja-franqueado',
 }
 
 interface Props {
@@ -45,12 +45,12 @@ export default function Header({ badge }: Props) {
                 hasBadge={badge === BadgePages.whoWeAre}
               />
               <WebNavigationItem
-                href={'/cadastre-o-seu-estabelecimento'}
+                href={'/cadastre-seu-estabelecimento'}
                 label={'cadastre o seu estabelecimento'}
                 hasBadge={badge === BadgePages.registerYourStablishment}
               />
               <WebNavigationItem
-                href={'/seja-um-franqueado'}
+                href={'/seja-franqueado'}
                 label={'seja um franqueado'}
                 hasBadge={badge === BadgePages.beAFranchisee}
               />
@@ -88,16 +88,16 @@ export default function Header({ badge }: Props) {
                   hasBadge={badge === BadgePages.whoWeAre}
                 />
                 <MenuItem
-                  id='cadastre-o-seu-estabelecimento'
+                  id='cadastre-seu-estabelecimento'
                   handleIsMenuOpen={handleIsMenuOpen}
-                  href='/cadastre-o-seu-estabelecimento'
+                  href='/cadastre-seu-estabelecimento'
                   label='cadastre o seu estabelecimento'
                   hasBadge={badge === BadgePages.registerYourStablishment}
                 />
                 <MenuItem
-                  id='seja-um-franqueado'
+                  id='seja-franqueado'
                   handleIsMenuOpen={handleIsMenuOpen}
-                  href='/seja-um-franqueado'
+                  href='/seja-franqueado'
                   label='seja um franqueado'
                   hasBadge={badge === BadgePages.beAFranchisee}
                 />
