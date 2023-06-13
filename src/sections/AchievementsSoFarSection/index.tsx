@@ -9,7 +9,7 @@ export default function AchievementsSoFarSection() {
           <p className={styles.highlight}>5</p>
           <p className={styles.paragraph}>
             <span>estrelas</span> na App Store
-            <br />e na Play Store
+            <br />e na Google Play
           </p>
         </div>
         <div className={styles.item}>
