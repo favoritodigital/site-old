@@ -10,8 +10,7 @@
 }
 
 .icon {
-  height: 12.625rem;
-  width: 12.625rem;
+  width: 10rem;
 
   margin-bottom: 2rem;
 }
@@ -64,9 +63,9 @@
 @media screen and (min-width: 1024px) {
   .container {
     display: grid;
-    grid-template-columns: 13.75rem 22.9375rem;
-    grid-template-rows: 6rem 2.5625rem 17.5625rem;
-    gap: 0 3.4375rem;
+    grid-template-columns: 22.25rem 24.25rem;
+    grid-template-rows: 9.5rem 1.5rem 17.5625rem;
+    gap: 0 1.875rem;
 
     justify-content: center;
 
@@ -85,6 +84,7 @@
     grid-column: 1/3;
 
     justify-self: center;
+    align-self: flex-start;
   }
 
   .paragraph {
@@ -98,14 +98,14 @@
   }
 
   .icon {
-    height: 13.75rem;
-    width: 13.75rem;
+    width: 13rem;
 
     margin-bottom: 0;
 
     grid-column: 1/2;
     grid-row: 3/4;
 
+    justify-self: flex-end;
     align-self: flex-end;
   }
 
@@ -146,10 +146,10 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .container {
+  /* .container {
     grid-template-columns: 14.875rem 25.25rem;
     grid-template-rows: 6rem 3.0625rem 18.0625rem;
-  }
+  } */
 
   .title {
     font-size: 3rem;
@@ -163,7 +163,7 @@
 
   .paragraph,
   .paragraphItem {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
   }
 }
