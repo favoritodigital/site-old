@@ -4,7 +4,7 @@
 
   align-items: center;
 
-  padding: 3rem 0;
+  margin: 3rem 0;
 
   background-color: var(--background-color-purple);
 }
@@ -66,6 +66,8 @@
 
 @media screen and (min-width: 1024px) {
   .container {
+    margin: 0;
+
     padding: 4rem 0;
   }
 
@@ -73,7 +75,7 @@
     font-size: 2.75rem;
     line-height: 3rem;
 
-    width: 40rem;
+    width: 45rem;
 
     margin-bottom: 4rem;
   }
@@ -85,37 +87,39 @@
   }
 
   .icon {
-    width: 6.25rem;
+    width: 5.5rem;
   }
 
   .content {
-    width: 46.875rem;
+    width: 45rem;
 
     gap: 3rem;
   }
 
   .text {
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
 
     text-align: start;
 
-    width: 32rem;
+    width: 28rem;
   }
 }
 @media screen and (min-width: 1440px) {
   .title {
     font-size: 3rem;
     line-height: 3rem;
+    width: 50rem;
     margin-bottom: 5rem;
   }
 
-  .content {
-    gap: 4rem;
+  .text {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    width: 35rem;
   }
 
-  .text {
-    font-size: 1.75rem;
-    line-height: 2.25rem;
+  .icon {
+    width: 6rem;
   }
 }
