@@ -1,3 +1,7 @@
+#onde-estamos-section .swiper-slide {
+  width: auto;
+}
+
 #onde-estamos-section .swiper-button-next,
 #onde-estamos-section .swiper-button-prev {
   display: flex;

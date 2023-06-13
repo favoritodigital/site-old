@@ -4,7 +4,7 @@ import AStartupThatCameToHelpSection from '../sections/AStartupThatCameToHelpSec
 import OurPathSection from '../sections/OurPathSection'
 import SupportersSection from '../sections/SupportersSection'
 
-export default function Home() {
+export default function WhoWeAre() {
   return (
     <>
       <Head>

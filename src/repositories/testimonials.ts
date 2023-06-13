@@ -3,7 +3,7 @@ export const testimonials = [
     testimonial:
       'Melhor aplicativo! Várias opções de estabelecimento e com as informações que precisamos: horários, cardápio, shows, promoções... É só baixar e escolher qual será o rolê do dia',
     name: 'Alessandra Marquard',
-    imageFileName: 'alessandra marquardt.jpg',
+    imageFileName: 'Alessandra Marquardt.jpg',
     width: 512,
     height: 512,
   },
