@@ -58,7 +58,7 @@
 }
 
 .icon {
-  width: 12.625rem;
+  width: 10rem;
   margin-bottom: 2rem;
 }
 
@@ -67,7 +67,7 @@
     padding: 3rem 0;
 
     display: grid;
-    grid-template-columns: 23.25rem 23.25rem;
+    grid-template-columns: 22.25rem 24.25rem;
     grid-template-rows: 9.5rem 3.9375rem 11.9375rem 4.9375rem;
     align-content: center;
     justify-content: center;
@@ -115,7 +115,7 @@
   }
 
   .icon {
-    width: 16.875rem;
+    width: 13rem;
 
     margin: 0;
 
