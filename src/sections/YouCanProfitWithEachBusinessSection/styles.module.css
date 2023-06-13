@@ -42,6 +42,9 @@
 }
 
 .video {
+  height: 174px;
+  width: 310px;
+  background-color: #121214;
   margin-bottom: 2rem;
 }
 
@@ -109,7 +112,8 @@
   }
 
   .video {
-    margin-bottom: 2rem;
+    height: 430px;
+    width: 765px;
   }
 
   .web {
