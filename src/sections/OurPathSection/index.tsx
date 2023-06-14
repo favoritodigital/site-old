@@ -87,6 +87,7 @@ export default function OurPathSection() {
         <Image
           src='/images/team/cristian-gabriel.png'
           layout='fill'
+          objectFit='contain'
           alt='foto do Cristian e do Gabriel'
         />
       </div>

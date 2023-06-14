@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
 
-  padding: 3rem 0;
+  padding: 3rem 0 0 0;
 }
 
 .title {
@@ -136,13 +136,13 @@
 
 .img {
   position: relative;
-  width: 312px;
   height: 173px;
+  width: 100%;
 }
 
 @media screen and (min-width: 1024px) {
   .container {
-    padding: 4rem 0;
+    padding: 4rem 0 0 0;
     align-items: center;
   }
 
@@ -260,8 +260,7 @@
 
   .img {
     position: relative;
-    width: 60.625rem;
-    height: 33.625rem;
+    height: 400px;
   }
 }
 
