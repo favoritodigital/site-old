@@ -85,7 +85,7 @@ export default function OurPathSection() {
       </div>
       <div className={styles.img}>
         <Image
-          src='/images/crew/cristian-gabriel.png'
+          src='/images/team/cristian-gabriel.png'
           layout='fill'
           alt='foto do Cristian e do Gabriel'
         />
