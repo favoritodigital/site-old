@@ -8,7 +8,7 @@ interface Props {
   hasBadge: boolean
 }
 
-export default function WebNavigationItem({ href, label, hasBadge }: Props) {
+export function WebNavigationItem({ href, label, hasBadge }: Props) {
   return (
     <div className={styles.webnavigationItem}>
       <Link href={href}>

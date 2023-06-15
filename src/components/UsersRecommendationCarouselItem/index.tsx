@@ -10,13 +10,7 @@ interface Props {
   width: number
 }
 
-export default function UsersRecommendationCarouselItem({
-  text,
-  name,
-  file,
-  height,
-  width,
-}: Props) {
+export function UsersRecommendationCarouselItem({ text, name, file, height, width }: Props) {
   return (
     <div className={styles.slide}>
       <div className={styles.container}>

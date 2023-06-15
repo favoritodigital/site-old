@@ -7,7 +7,7 @@ import EyeIcon from '../../../public/images/icons/eye.svg'
 import PiggybankIcon from '../../../public/images/icons/piggybank.svg'
 import RocketIcon from '../../../public/images/icons/rocket.svg'
 
-export default function WhatOurAppDeliversSection() {
+export function WhatOurAppDeliversSection() {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>o que o aplicativo Que Barbada te entrega</h1>

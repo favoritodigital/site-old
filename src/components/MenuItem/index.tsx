@@ -10,7 +10,7 @@ interface Props {
   hasBadge: boolean
 }
 
-export default function MenuItem({ label, href, handleIsMenuOpen, id, hasBadge }: Props) {
+export function MenuItem({ label, href, handleIsMenuOpen, id, hasBadge }: Props) {
   return (
     <li id={id} className={`${styles.container} ${hasBadge && ` ${styles.highlight}`}`}>
       <div>

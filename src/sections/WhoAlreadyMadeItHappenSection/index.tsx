@@ -12,7 +12,7 @@ const webOpts: YouTubeProps['opts'] = {
   width: '765',
 }
 
-export default function WhoAlreadyMadeItHappenSection() {
+export function WhoAlreadyMadeItHappenSection() {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>quem já fez acontecer</h1>

@@ -13,7 +13,7 @@ const webOpts: YouTubeProps['opts'] = {
   width: '765',
 }
 
-export default function YouCanProfitWithEachBusinessSection() {
+export function YouCanProfitWithEachBusinessSection() {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>

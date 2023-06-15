@@ -8,7 +8,7 @@ import 'swiper/css/pagination'
 
 import styles from './styles.module.css'
 
-export default function HowItWorksCarousel() {
+export function HowItWorksCarousel() {
   return (
     <div className={styles.carouselWrapper}>
       <Swiper

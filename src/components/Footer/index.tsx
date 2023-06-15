@@ -9,7 +9,7 @@ import QueBarbadaLogo from '/public/images/quebarbada-logo.svg'
 
 import styles from './styles.module.css'
 
-export default function Footer() {
+export function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={styles.footerItems}>

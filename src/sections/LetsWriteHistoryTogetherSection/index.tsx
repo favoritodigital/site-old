@@ -1,6 +1,6 @@
 import styles from './styles.module.css'
 
-export default function LetsWriteHistoryTogetherSection() {
+export function LetsWriteHistoryTogetherSection() {
   return (
     <div className={styles.container}>
       <div id='bora-construir-uma-historia' className={styles.pin} />

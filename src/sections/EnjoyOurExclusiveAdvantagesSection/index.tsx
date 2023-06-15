@@ -7,7 +7,7 @@ import CheckboxIcon from '../../../public/images/icons/checkbox.svg'
 import LandmarkIcon from '../../../public/images/icons/landmark.svg'
 import MoneybagIcon from '../../../public/images/icons/moneybag.svg'
 
-export default function EnjoyOurExclusiveAdvantagesSection() {
+export function EnjoyOurExclusiveAdvantagesSection() {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>aproveite nossas vantagens exclusivas</h1>

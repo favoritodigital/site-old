@@ -4,7 +4,7 @@ import Ilustration1 from '../../../public/images/ilustrations/uma-start-up-que-v
 import Ilustration2 from '../../../public/images/ilustrations/uma-start-up-que-veio-para-ajudar_2.svg'
 import Ilustration3 from '../../../public/images/ilustrations/uma-start-up-que-veio-para-ajudar_3.svg'
 
-export default function AStartupThatCameToHelpSection() {
+export function AStartupThatCameToHelpSection() {
   return (
     <div id='uma-start-up-que-veio-para-ajudar-section' className={styles.container}>
       <h1 className={styles.title}>uma startup que veio para ajudar...</h1>

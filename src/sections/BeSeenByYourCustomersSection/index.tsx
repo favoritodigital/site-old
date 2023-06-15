@@ -1,7 +1,8 @@
-import WhatsappButton from '../../components/WhatsappButton'
+import { WhatsappButton } from '../../components/WhatsappButton'
+
 import styles from './styles.module.css'
 
-export default function BeSeenByYourCustomersSection() {
+export function BeSeenByYourCustomersSection() {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>seja visto pelo seu cliente ideal a partir de hoje!</h1>

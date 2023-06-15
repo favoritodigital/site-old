@@ -2,7 +2,7 @@ import ProfitIcon from '../../../public/images/icons/profit-graph.svg'
 
 import styles from './styles.module.css'
 
-export default function AProfitableWaySection() {
+export function AProfitableWaySection() {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>um jeito lucrativo de facilitar os rolês</h1>

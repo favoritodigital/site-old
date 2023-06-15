@@ -1,11 +1,11 @@
 import Head from 'next/head'
 
-import IntroductionSection from '../sections/IntroductionSection'
-import NoMoreQuestionsSection from '../sections/NoMoreQuestionsSection'
-import HowItWorksSection from '../sections/HowItWorksSection'
-import UsersRecommendationsSection from '../sections/UsersRecommendationsSection'
-import WhereWeAreSection from '../sections/WhereWeAreSection'
-import InTheMediaSection from '../sections/InTheMediaSection'
+import { IntroductionSection } from '../sections/IntroductionSection'
+import { NoMoreQuestionsSection } from '../sections/NoMoreQuestionsSection'
+import { HowItWorksSection } from '../sections/HowItWorksSection'
+import { UsersRecommendationsSection } from '../sections/UsersRecommendationsSection'
+import { WhereWeAreSection } from '../sections/WhereWeAreSection'
+import { InTheMediaSection } from '../sections/InTheMediaSection'
 
 export default function Home() {
   return (

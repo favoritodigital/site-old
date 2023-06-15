@@ -6,7 +6,7 @@ interface Props {
   type: 'appstore' | 'googleplay'
 }
 
-export default function StoreDownloadButton({ type }: Props) {
+export function StoreDownloadButton({ type }: Props) {
   return (
     <a
       href={

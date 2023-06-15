@@ -1,11 +1,11 @@
 import Image from 'next/image'
 
-import StoreDownloadButton from '../../components/StoreDownloadButton'
-import DownloadButton from '../../components/DownloadButton'
+import { StoreDownloadButton } from '../../components/StoreDownloadButton'
+import { DownloadButton } from '../../components/DownloadButton'
 
 import styles from './styles.module.css'
 
-export default function IntroductionSection() {
+export function IntroductionSection() {
   return (
     <div id='inicio' className={styles.container}>
       <div className={styles.content}>

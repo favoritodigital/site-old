@@ -1,6 +1,6 @@
 import styles from './styles.module.css'
 
-export default function AchievementsSoFarSection() {
+export function AchievementsSoFarSection() {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>nas primeiras 4 cidades já conquistamos</h1>

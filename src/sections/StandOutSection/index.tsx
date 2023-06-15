@@ -1,7 +1,8 @@
 import YouTube, { YouTubeProps } from 'react-youtube'
 
+import { DownloadButton } from '../../components/DownloadButton'
+
 import styles from './styles.module.css'
-import DownloadButton from '../../components/DownloadButton'
 
 const mobileOpts: YouTubeProps['opts'] = {
   height: '174',
@@ -13,7 +14,7 @@ const webOpts: YouTubeProps['opts'] = {
   width: '765',
 }
 
-export default function StandOutSection() {
+export function StandOutSection() {
   return (
     <div id='a-plataforma-de-divulgacao-que-o-empreendedor-precisava' className={styles.container}>
       <h1 className={styles.title}>tenha destaque na gastronomia e lazer local</h1>

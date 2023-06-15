@@ -1,11 +1,11 @@
 import Image from 'next/image'
 
-import SlidesInTheMedia from '../../components/SlidesInTheMedia'
-import styles from './styles.module.css'
-
+import { SlidesInTheMedia } from '../../components/SlidesInTheMedia'
 import { news } from '../../repositories/news'
 
-export default function InTheMediaSection() {
+import styles from './styles.module.css'
+
+export function InTheMediaSection() {
   return (
     <div id='na-midia-section' className={styles.container}>
       <h1 className={styles.title}>Que Barbada na mídia</h1>

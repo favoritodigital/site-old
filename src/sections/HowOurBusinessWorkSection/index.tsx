@@ -1,9 +1,9 @@
-import DownloadButton from '../../components/DownloadButton'
-import HowOurBusinessWorkCarousel from '../../components/HowOurBusinessWorkCarousel'
+import { DownloadButton } from '../../components/DownloadButton'
+import { HowOurBusinessWorkCarousel } from '../../components/HowOurBusinessWorkCarousel'
 
 import styles from './styles.module.css'
 
-export default function HowOurBusinessWorkSection() {
+export function HowOurBusinessWorkSection() {
   return (
     <div id='how-our-business-work' className={styles.container}>
       <h1 className={styles.title}>como funciona o nosso negócio</h1>

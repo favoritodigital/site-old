@@ -5,13 +5,13 @@ import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 
-import UsersRecommendationCarouselItem from '../UsersRecommendationCarouselItem'
+import { UsersRecommendationCarouselItem } from '../UsersRecommendationCarouselItem'
 
 import styles from './styles.module.css'
 
 import { testimonials } from '../../repositories/testimonials'
 
-export default function UsersRecommendationCarousel() {
+export function UsersRecommendationCarousel() {
   return (
     <div className={styles.wrapper}>
       <Swiper

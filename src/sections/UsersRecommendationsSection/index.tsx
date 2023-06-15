@@ -1,8 +1,9 @@
-import DownloadButton from '../../components/DownloadButton'
-import UsersRecommendationCarousel from '../../components/UsersRecommendationCarousel'
+import { DownloadButton } from '../../components/DownloadButton'
+import { UsersRecommendationCarousel } from '../../components/UsersRecommendationCarousel'
+
 import styles from './styles.module.css'
 
-export default function UsersRecommendationsSection() {
+export function UsersRecommendationsSection() {
   return (
     <div id='quem-usa-recomenda-section' className={styles.container}>
       <h1 className={styles.title}>quem usa, recomenda</h1>

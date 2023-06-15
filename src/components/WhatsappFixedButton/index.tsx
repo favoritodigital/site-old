@@ -2,7 +2,7 @@ import WhatsappIcon from '../../../public/images/brands/social-medias/whatsapp.s
 
 import styles from './styles.module.css'
 
-export default function WhatsappFixedButton() {
+export function WhatsappFixedButton() {
   return (
     <a
       className={styles.container}

@@ -1,6 +1,7 @@
 import YouTube, { YouTubeProps } from 'react-youtube'
 
-import DownloadButton from '../../components/DownloadButton'
+import { DownloadButton } from '../../components/DownloadButton'
+
 import styles from './styles.module.css'
 
 const mobileOpts: YouTubeProps['opts'] = {
@@ -13,7 +14,7 @@ const webOpts: YouTubeProps['opts'] = {
   width: '765',
 }
 
-export default function ThatsWhatOurPartnersSayAboutUsSection() {
+export function ThatsWhatOurPartnersSayAboutUsSection() {
   return (
     <div id='é-isso-que-os-empreendedores-falam-sobre-nós' className={styles.container}>
       <h1 className={styles.title}>é isso que os parceiros falam sobre nós...</h1>

@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 import styles from './styles.module.css'
 
-export default function OurPathSection() {
+export function OurPathSection() {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>nossa trajetória</h1>

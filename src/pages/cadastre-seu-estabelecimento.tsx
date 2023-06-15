@@ -1,10 +1,10 @@
 import Head from 'next/head'
 
-import StandOutSection from '../sections/StandOutSection'
-import WhatOurAppDeliversSection from '../sections/WhatOurAppDeliversSection'
-import WeDoEverythingForYouSection from '../sections/WeDoEverythingForYouSection'
-import ThatsWhatOurPartnersSayAboutUsSection from '../sections/ThatsWhatOurPartnersSayAboutUsSection'
-import BeSeenByYourCustomersSection from '../sections/BeSeenByYourCustomersSection'
+import { StandOutSection } from '../sections/StandOutSection'
+import { WhatOurAppDeliversSection } from '../sections/WhatOurAppDeliversSection'
+import { WeDoEverythingForYouSection } from '../sections/WeDoEverythingForYouSection'
+import { ThatsWhatOurPartnersSayAboutUsSection } from '../sections/ThatsWhatOurPartnersSayAboutUsSection'
+import { BeSeenByYourCustomersSection } from '../sections/BeSeenByYourCustomersSection'
 
 export default function RegisterEstablishment() {
   return (

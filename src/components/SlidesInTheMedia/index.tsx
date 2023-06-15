@@ -11,7 +11,7 @@ import { news } from '../../repositories/news'
 
 import styles from './styles.module.css'
 
-export default function SlidesInTheMedia() {
+export function SlidesInTheMedia() {
   return (
     <div className={styles.carouselWrapper}>
       <Swiper

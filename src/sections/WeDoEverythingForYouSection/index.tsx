@@ -1,9 +1,9 @@
-import DownloadButton from '../../components/DownloadButton'
-import styles from './styles.module.css'
-
+import { DownloadButton } from '../../components/DownloadButton'
 import LightBulb from '../../../public/images/icons/light-bulb.svg'
 
-export default function WeDoEverythingForYouSection() {
+import styles from './styles.module.css'
+
+export function WeDoEverythingForYouSection() {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>nós fazemos tudo por você</h1>

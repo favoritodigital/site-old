@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import Link from 'next/link'
 
-import MenuItem from '../MenuItem'
-import WebNavigationItem from '../WebNavigationItem'
+import { MenuItem } from '../MenuItem'
+import { WebNavigationItem } from '../WebNavigationItem'
 
 import QueBarbadaLogo from '/public/images/quebarbada-logo.svg'
 import OpenIcon from '/public/images/icons/open.svg'
@@ -22,7 +22,7 @@ interface Props {
   badge?: BadgePages
 }
 
-export default function Header({ badge }: Props) {
+export function Header({ badge }: Props) {
   const [isMenuOpen, handleIsMenuOpen] = useState(false)
 
   return (

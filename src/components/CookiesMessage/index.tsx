@@ -5,7 +5,7 @@ import { CookiesContext } from '../../contexts/CookiesContext'
 
 import styles from './styles.module.css'
 
-export default function CookiesMessage() {
+export function CookiesMessage() {
   const { setCookiesIsEnabled } = useContext(CookiesContext)
 
   return (
