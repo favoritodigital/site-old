@@ -4,6 +4,8 @@ import { Autoplay, Navigation } from 'swiper'
 import 'swiper/css'
 import 'swiper/css/pagination'
 
+import { CAPITAL_REGION_COUNT, REGION_COUNT } from '../../repositories/constants'
+
 import styles from './styles.module.css'
 
 export function WhereWeAreSection() {
@@ -11,7 +13,8 @@ export function WhereWeAreSection() {
     <div id='onde-estamos-section' className={styles.container}>
       <h1 className={styles.title}>onde estamos</h1>
       <p className={styles.paragraph}>
-        até o momento, nosso app está presente em 5 regiões do Brasil, incluindo 1 capital
+        até o momento, nosso app está presente em {REGION_COUNT} regiões do Brasil, incluindo{' '}
+        {CAPITAL_REGION_COUNT} capital
       </p>
       <div className={styles.carouselWrapper}>
         <div className={styles.slides}>

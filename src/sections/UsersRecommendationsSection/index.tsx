@@ -1,6 +1,8 @@
 import { DownloadButton } from '../../components/DownloadButton'
 import { UsersRecommendationCarousel } from '../../components/UsersRecommendationCarousel'
 
+import { STORE_RATING, STORE_RATING_COUNT } from '../../repositories/constants'
+
 import styles from './styles.module.css'
 
 export function UsersRecommendationsSection() {
@@ -8,7 +10,8 @@ export function UsersRecommendationsSection() {
     <div id='quem-usa-recomenda-section' className={styles.container}>
       <h1 className={styles.title}>quem usa, recomenda</h1>
       <p className={styles.paragraph}>
-        somos 5 estrelas na App Store e na Google Play, com <span>+ de 850 avaliações</span>!
+        somos {STORE_RATING} estrelas na App Store e na Google Play, com{' '}
+        <span>+ de {STORE_RATING_COUNT} avaliações</span>!
       </p>
       <div className={styles.carousel}>
         <UsersRecommendationCarousel />
