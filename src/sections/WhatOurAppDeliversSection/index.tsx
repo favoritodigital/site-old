@@ -1,11 +1,11 @@
-import styles from './styles.module.css'
-
 import ClockIcon from '../../../public/images/icons/clock.svg'
 import PodiumIcon from '../../../public/images/icons/podium.svg'
 import ContactsIcon from '../../../public/images/icons/contacts.svg'
 import EyeIcon from '../../../public/images/icons/eye.svg'
 import PiggybankIcon from '../../../public/images/icons/piggybank.svg'
 import RocketIcon from '../../../public/images/icons/rocket.svg'
+
+import styles from './styles.module.css'
 
 export function WhatOurAppDeliversSection() {
   return (

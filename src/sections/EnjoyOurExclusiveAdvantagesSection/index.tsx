@@ -1,11 +1,11 @@
-import styles from './styles.module.css'
-
 import NotebookIcon from '../../../public/images/icons/notebook.svg'
 import CupIcon from '../../../public/images/icons/cup.svg'
 import BossIcon from '../../../public/images/icons/boss.svg'
 import CheckboxIcon from '../../../public/images/icons/checkbox.svg'
 import LandmarkIcon from '../../../public/images/icons/landmark.svg'
 import MoneybagIcon from '../../../public/images/icons/moneybag.svg'
+
+import styles from './styles.module.css'
 
 export function EnjoyOurExclusiveAdvantagesSection() {
   return (

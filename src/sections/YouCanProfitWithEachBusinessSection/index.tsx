@@ -1,7 +1,7 @@
+import Link from 'next/link'
 import YouTube, { YouTubeProps } from 'react-youtube'
 
 import styles from './styles.module.css'
-import Link from 'next/link'
 
 const mobileOpts: YouTubeProps['opts'] = {
   height: '174',

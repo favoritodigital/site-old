@@ -1,15 +1,13 @@
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation, Pagination } from 'swiper'
-
 import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 
 import { UsersRecommendationCarouselItem } from '../UsersRecommendationCarouselItem'
+import { testimonials } from '../../repositories/testimonials'
 
 import styles from './styles.module.css'
-
-import { testimonials } from '../../repositories/testimonials'
 
 export function UsersRecommendationCarousel() {
   return (
