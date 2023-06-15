@@ -17,29 +17,16 @@ export function StoreDownloadButton({ type }: Props) {
       target='_blank'
       rel='noreferrer'
     >
-      {type === 'appstore' ? (
-        <div className={styles.button}>
-          <Image
-            priority
-            layout='responsive'
-            width={992}
-            height={325}
-            src='/images/brands/appstore.png'
-            alt='appstore'
-          />
-        </div>
-      ) : (
-        <div className={styles.button}>
-          <Image
-            priority
-            layout='responsive'
-            width={992}
-            height={325}
-            src='/images/brands/googleplay.png'
-            alt='googleplay'
-          />
-        </div>
-      )}
+      <div className={styles.button}>
+        <Image
+          priority
+          layout='responsive'
+          width={992}
+          height={325}
+          src={`/images/brands/${type}.png`}
+          alt={type}
+        />
+      </div>
     </a>
   )
 }
