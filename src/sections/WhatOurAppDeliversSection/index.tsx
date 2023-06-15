@@ -8,100 +8,64 @@ import RocketIcon from '../../../public/images/icons/rocket.svg'
 import styles from './styles.module.css'
 
 export function WhatOurAppDeliversSection() {
+  const items = [
+    {
+      id: 1,
+      icon: ClockIcon,
+      text1: 'economia de tempo',
+      text2: 'gerenciamos seu perfil, cadastrando todas as informações por você',
+    },
+    {
+      id: 2,
+      icon: PodiumIcon,
+      text1: 'vantagem competitiva',
+      text2: 'mostramos as principais características do seu estabelecimento',
+    },
+    {
+      id: 3,
+      icon: ContactsIcon,
+      text1: 'conexão com clientes',
+      text2: 'melhoramos a comunicação do seu estabelecimento com o público',
+    },
+    {
+      id: 4,
+      icon: EyeIcon,
+      text1: 'mais visibilidade',
+      text2: 'temos parceria com hotéis e enviamos notificações diariamente',
+    },
+    {
+      id: 5,
+      icon: PiggybankIcon,
+      text1: 'custo-benefício',
+      text2: 'somos o investimento em marketing mais acessível do mercado',
+    },
+    {
+      id: 6,
+      icon: RocketIcon,
+      text1: 'inovação',
+      text2: 'não existe outra plataforma como essa, e você pode sair na frente',
+    },
+  ]
+
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>o que o aplicativo Que Barbada te entrega</h1>
       <div className={styles.content}>
-        <div className={styles.card}>
-          <div className={styles.icon}>
-            <ClockIcon />
-          </div>
-          <p className={styles.text}>
-            <span className={styles.bold}>
-              1.{' '}
-              <span className={styles.purple}>
-                economia de tempo
-                <br />
+        {items.map(item => (
+          <div key={item.id} className={styles.card}>
+            <div className={styles.icon}>{item.icon()}</div>
+            <p className={styles.text}>
+              <span className={styles.bold}>
+                {`${item.id}. `}
+                <span className={styles.purple}>
+                  {item.text1}
+                  <br />
+                </span>
               </span>
-            </span>
-            gerenciamos seu perfil, cadastrando todas as informações por você
-          </p>
-        </div>
-        <div className={styles.card}>
-          <div className={styles.icon}>
-            <PodiumIcon />
+              {item.text2}
+            </p>
           </div>
-          <p className={styles.text}>
-            <span className={styles.bold}>
-              2.{' '}
-              <span className={styles.purple}>
-                vantagem competitiva
-                <br />
-              </span>
-            </span>
-            mostramos as principais características do seu estabelecimento
-          </p>
-        </div>
-        <div className={styles.card}>
-          <div className={styles.icon}>
-            <ContactsIcon />
-          </div>
-          <p className={styles.text}>
-            <span className={styles.bold}>
-              3.{' '}
-              <span className={styles.purple}>
-                conexão com clientes
-                <br />
-              </span>
-            </span>
-            melhoramos a comunicação do seu estabelecimento com o público
-          </p>
-        </div>
-        <div className={styles.card}>
-          <div className={styles.icon}>
-            <EyeIcon />
-          </div>
-          <p className={styles.text}>
-            <span className={styles.bold}>
-              4.{' '}
-              <span className={styles.purple}>
-                mais visibilidade
-                <br />
-              </span>
-            </span>
-            temos parceria com hotéis e enviamos notificações diariamente
-          </p>
-        </div>
-        <div className={styles.card}>
-          <div className={styles.icon}>
-            <PiggybankIcon />
-          </div>
-          <p className={styles.text}>
-            <span className={styles.bold}>
-              5.{' '}
-              <span className={styles.purple}>
-                custo-benefício
-                <br />
-              </span>
-            </span>
-            somos o investimento em marketing mais acessível do mercado
-          </p>
-        </div>
-        <div className={styles.card}>
-          <div className={styles.icon}>
-            <RocketIcon />
-          </div>
-          <p className={styles.text}>
-            <span className={styles.bold}>
-              6.{' '}
-              <span className={styles.purple}>
-                inovação
-                <br />
-              </span>
-            </span>
-            não existe outra plataforma como essa, e você pode sair na frente
-          </p>
-        </div>
+        ))}
       </div>
     </div>
   )

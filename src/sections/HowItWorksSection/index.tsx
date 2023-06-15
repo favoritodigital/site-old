@@ -8,7 +8,7 @@ export function HowItWorksSection() {
     <div className={styles.container} id='como-funciona-na-pratica-section'>
       <h1 className={styles.title}>como funciona na prática</h1>
       <p className={styles.paragraph}>
-        o app é <span>grátis</span> e sem nenhum cadastro! após baixar, você já consegue
+        o app é <span>grátis</span> e sem nenhum cadastro! após baixar, você já consegue:
       </p>
       <div className={styles.carousel}>
         <HowItWorksCarousel />

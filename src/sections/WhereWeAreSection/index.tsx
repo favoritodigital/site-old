@@ -9,6 +9,34 @@ import { CAPITAL_REGION_COUNT, REGION_COUNT } from '../../repositories/constants
 import styles from './styles.module.css'
 
 export function WhereWeAreSection() {
+  const slides = [
+    {
+      fileName: 'jaragua-do-sul.png',
+      text: 'Jaraguá do Sul - SC',
+      className: styles.slideJaragua,
+    },
+    {
+      fileName: 'criciuma.png',
+      text: 'Criciúma - SC',
+      className: styles.slideCriciuma,
+    },
+    {
+      fileName: 'joinville.png',
+      text: 'Joinville - SC',
+      className: styles.slideJoinville,
+    },
+    {
+      fileName: 'lajeado.png',
+      text: 'Lajeado - RS',
+      className: styles.slideLajeado,
+    },
+    {
+      fileName: 'florianopolis.png',
+      text: 'Florianópolis - SC',
+      className: styles.slideFlorianopolis,
+    },
+  ]
+
   return (
     <div id='onde-estamos-section' className={styles.container}>
       <h1 className={styles.title}>onde estamos</h1>
@@ -31,77 +59,21 @@ export function WhereWeAreSection() {
             }}
             modules={[Autoplay, Navigation]}
           >
-            <SwiperSlide>
-              <div className={styles.slideJaragua}>
-                <div className={styles.image}>
-                  <Image
-                    loading='eager'
-                    layout='responsive'
-                    width={271}
-                    height={180}
-                    src='/images/cities/jaragua-do-sul.png'
-                    alt='Imagem da cidade de Jaraguá do Sul - SC'
-                  />
+            {slides.map(slide => (
+              <SwiperSlide key={slide.fileName}>
+                <div className={slide.className}>
+                  <div className={styles.image}>
+                    <Image
+                      loading='eager'
+                      layout='fill'
+                      src={`/images/cities/${slide.fileName}`}
+                      alt={`Imagem da cidade de ${slide.text}`}
+                    />
+                  </div>
+                  <p className={styles.cityName}>{slide.text}</p>
                 </div>
-                <p className={styles.cityName}>Jaraguá do Sul - SC</p>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className={styles.slideCriciuma}>
-                <div className={styles.image}>
-                  <Image
-                    loading='eager'
-                    layout='responsive'
-                    width={271}
-                    height={180}
-                    src='/images/cities/criciuma.png'
-                    alt='Imagem da cidade de Criciúma - SC'
-                  />
-                </div>
-                <p className={styles.cityName}>Criciúma - SC</p>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className={styles.slideJoinville}>
-                <div className={styles.image}>
-                  <Image
-                    loading='eager'
-                    layout='responsive'
-                    width={325}
-                    height={180}
-                    src='/images/cities/joinville.png'
-                    alt='Imagem da cidade de Joiville - SC'
-                  />
-                </div>
-                <p className={styles.cityName}>Joinville - SC</p>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className={styles.slideLajeado}>
-                <div className={styles.image}>
-                  <Image
-                    loading='eager'
-                    layout='fill'
-                    src='/images/cities/lajeado.png'
-                    alt='Imagem da cidade de Lajeado - RS'
-                  />
-                </div>
-                <p className={styles.cityName}>Lajeado - RS</p>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className={styles.slideFlorianopolis}>
-                <div className={styles.image}>
-                  <Image
-                    loading='eager'
-                    layout='fill'
-                    src='/images/cities/florianopolis.png'
-                    alt='Imagem da cidade de Florianópolis - SC'
-                  />
-                </div>
-                <p className={styles.cityName}>Florianópolis - SC</p>
-              </div>
-            </SwiperSlide>
+              </SwiperSlide>
+            ))}
           </Swiper>
         </div>
       </div>

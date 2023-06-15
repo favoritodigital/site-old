@@ -9,6 +9,21 @@ import 'swiper/css/pagination'
 import styles from './styles.module.css'
 
 export function HowOurBusinessWorkCarousel() {
+  const slides = [
+    {
+      fileName: 'app-3.png',
+      text: 'você, como licenciado, cadastra e atualiza as informações dos estabelecimentos no app',
+    },
+    {
+      fileName: 'app-4.png',
+      text: 'os estabelecimentos são facilmente encontrados pelo público que tem a intenção de sair',
+    },
+    {
+      fileName: 'app-2.png',
+      text: 'os usuários podem filtrar locais conforme as suas preferências, de forma rápida e prática',
+    },
+  ]
+
   return (
     <div className={styles.carouselWrapper}>
       <Swiper
@@ -19,58 +34,23 @@ export function HowOurBusinessWorkCarousel() {
         pagination={true}
         modules={[EffectFade, Navigation, Pagination]}
       >
-        <SwiperSlide>
-          <div className={styles.slide}>
-            <div className={styles.img}>
-              <Image
-                loading='eager'
-                layout='responsive'
-                width={220}
-                height={425}
-                src='/images/app/app-3.png'
-                alt='Imagem de um estabelecimento no Que Barbada'
-              />
+        {slides.map(slide => (
+          <SwiperSlide key={slide.fileName}>
+            <div className={styles.slide}>
+              <div className={styles.img}>
+                <Image
+                  loading='eager'
+                  layout='responsive'
+                  width={220}
+                  height={425}
+                  src={`/images/app/${slide.fileName}`}
+                  alt='Imagem do aplicativo Que Barbada'
+                />
+              </div>
+              <p className={styles.slideText}>{slide.text}</p>
             </div>
-            <p className={styles.slideText}>
-              você, como licenciado, cadastra e atualiza as informações dos estabelecimentos no app
-            </p>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className={styles.slide}>
-            <div className={styles.img}>
-              <Image
-                loading='eager'
-                layout='responsive'
-                width={220}
-                height={425}
-                src='/images/app/app-4.png'
-                alt='Imagem do mapa do rolê do Que Barbada'
-              />
-            </div>
-            <p className={styles.slideText}>
-              os estabelecimentos são facilmente encontrados pelo público que tem a intenção de sair
-            </p>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className={styles.slide}>
-            <div className={styles.img}>
-              <Image
-                loading='eager'
-                layout='responsive'
-                width={220}
-                height={425}
-                src='/images/app/app-2.png'
-                alt='Imagem dos filtros no Que Barbada'
-              />
-            </div>
-            <p className={styles.slideText}>
-              os usuários podem filtrar locais conforme as suas preferências, de forma rápida e
-              prática
-            </p>
-          </div>
-        </SwiperSlide>
+          </SwiperSlide>
+        ))}
       </Swiper>
     </div>
   )
