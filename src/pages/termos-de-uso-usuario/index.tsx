@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 import styles from './styles.module.css'
 
-export default function TermsOfUseUser() {
+export default function TermsOfUse() {
   return (
     <>
       <Head>

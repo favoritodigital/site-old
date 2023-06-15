@@ -1,0 +1,40 @@
+#como-funciona-na-pratica-section .swiper-button-next,
+#como-funciona-na-pratica-section .swiper-button-prev {
+  display: flex;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 1.5rem;
+  width: 0.5rem;
+}
+#como-funciona-na-pratica-section .swiper-button-next {
+  top: 11.125rem;
+  right: 1.5rem;
+  background-image: url('/images/icons/right-arrow.svg');
+}
+#como-funciona-na-pratica-section .swiper-button-prev {
+  top: 11.125rem;
+  left: 1.5rem;
+  background-image: url('/images/icons/left-arrow.svg');
+}
+#como-funciona-na-pratica-section .swiper-button-next::after,
+#como-funciona-na-pratica-section .swiper-button-prev::after {
+  display: none;
+}
+#como-funciona-na-pratica-section .swiper-pagination {
+  bottom: 0;
+}
+
+@media screen and (min-width: 1024px) {
+  #como-funciona-na-pratica-section .swiper-button-prev,
+  #como-funciona-na-pratica-section .swiper-button-next {
+    top: 14rem;
+  }
+  #como-funciona-na-pratica-section .swiper-button-prev {
+    left: 7rem;
+  }
+  #como-funciona-na-pratica-section .swiper-button-next {
+    right: 7rem;
+  }
+}

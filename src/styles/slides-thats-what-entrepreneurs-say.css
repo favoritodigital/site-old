@@ -1,0 +1,33 @@
+#é-isso-que-os-empreendedores-falam-sobre-nós .swiper-pagination {
+  bottom: -2.5px;
+}
+
+#é-isso-que-os-empreendedores-falam-sobre-nós .swiper-button-next,
+#é-isso-que-os-empreendedores-falam-sobre-nós .swiper-button-prev {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 1.5rem;
+  width: 0.5rem;
+}
+#é-isso-que-os-empreendedores-falam-sobre-nós .swiper-button-next {
+  right: 1.5rem;
+  background-image: url('/images/icons/right-arrow.svg');
+}
+#é-isso-que-os-empreendedores-falam-sobre-nós .swiper-button-prev {
+  left: 1.5rem;
+  background-image: url('/images/icons/left-arrow.svg');
+}
+#é-isso-que-os-empreendedores-falam-sobre-nós .swiper-button-next::after,
+#é-isso-que-os-empreendedores-falam-sobre-nós .swiper-button-prev::after {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  #é-isso-que-os-empreendedores-falam-sobre-nós .swiper-button-next {
+    right: 0;
+  }
+  #é-isso-que-os-empreendedores-falam-sobre-nós .swiper-button-prev {
+    left: 0;
+  }
+}

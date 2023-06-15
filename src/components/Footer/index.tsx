@@ -4,11 +4,12 @@ import InstagramIcon from '/public/images/brands/social-medias/instagram.svg'
 import LinkedInIcon from '/public/images/brands/social-medias/linkedin.svg'
 import TiktokIcon from '/public/images/brands/social-medias/tiktok.svg'
 import GitHubIcon from '/public/images/brands/social-medias/github.svg'
+import YoutubeIcon from '/public/images/brands/social-medias/youtube.svg'
 import QueBarbadaLogo from '/public/images/quebarbada-logo.svg'
 
 import styles from './styles.module.css'
 
-export default function Footer() {
+export function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={styles.footerItems}>
@@ -36,36 +37,26 @@ export default function Footer() {
             <a href='https://github.com/quebarbada/landing-page' target='_blank' rel='noreferrer'>
               <GitHubIcon />
             </a>
+            <a href='https://www.youtube.com/@quebarbada' target='_blank' rel='noreferrer'>
+              <YoutubeIcon />
+            </a>
           </div>
         </div>
         <div className={styles.legal}>
-          <a
-            href='https://www.quebarbada.com/politica-de-privacidade'
-            target='_blank'
-            rel='noreferrer'
-          >
+          <a href='/politica-de-privacidade' target='_blank' rel='noreferrer'>
             <p>Política de Privacidade</p>
           </a>
-          <a
-            href='https://www.quebarbada.com/termos-de-uso-estabelecimento'
-            target='_blank'
-            rel='noreferrer'
-          >
-            <p>Termos de Uso - Estabelecimento</p>
-          </a>
-          <a
-            href='https://www.quebarbada.com/termos-de-uso-usuario'
-            target='_blank'
-            rel='noreferrer'
-          >
-            <p>Termos de Uso - Usuário</p>
+          <a href='/termos-de-uso-usuario' target='_blank' rel='noreferrer'>
+            <p>Termos de Uso</p>
           </a>
         </div>
         <div className={styles.developer}>
-          <p>Desenvolvido por:</p>
-          <a href='https://www.linkedin.com/in/wesleybridirigo' target='_blank' rel='noreferrer'>
-            <p>Wesley Bridi Rigo</p>
-          </a>
+          <p>
+            Desenvolvido por: <br />{' '}
+            <a href='https://www.linkedin.com/in/wesleybridirigo' target='_blank' rel='noreferrer'>
+              Wesley Bridi Rigo
+            </a>
+          </p>
         </div>
       </div>
     </footer>

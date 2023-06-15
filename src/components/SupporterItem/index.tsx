@@ -10,10 +10,10 @@ interface Props {
   height: number
 }
 
-export default function SupporterItem({ name, imagePath, url, width, height }: Props) {
+export function SupporterItem({ name, imagePath, url, width, height }: Props) {
   return (
     <a href={url} className={styles.supporter} target='_blank' rel='noreferrer'>
-      <div className={styles.supporterImage}>
+      <div className={styles.image}>
         <Image
           loading='eager'
           layout='responsive'

@@ -1,0 +1,66 @@
+.carouselWrapper,
+.slide {
+  width: 22.5rem;
+}
+
+.carouselWrapper {
+  height: 28.44825rem;
+  margin-bottom: 2rem;
+}
+
+.img {
+  height: auto;
+  width: 11.75rem;
+}
+
+.slideText {
+  width: 19.5rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.625rem;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+@media screen and (min-width: 1024px) {
+  .carouselWrapper,
+  .slide {
+    width: 29.375rem;
+  }
+
+  .carouselWrapper {
+    height: 33.375rem;
+    margin-bottom: 0;
+  }
+
+  .img {
+    height: auto;
+    width: 14.5rem;
+  }
+
+  .slideText {
+    width: 22rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

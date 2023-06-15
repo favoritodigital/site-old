@@ -3,11 +3,14 @@ import Head from 'next/head'
 
 import '../styles/globals.css'
 import '../styles/swiper.css'
-import '../styles/slides-content-section.css'
 import '../styles/slides-in-the-media.css'
-import '../styles/slides-testimonials-section.css'
+import '../styles/slides-how-it-works.css'
+import '../styles/slides-users-recommendation-section.css'
+import '../styles/slides-thats-what-entrepreneurs-say.css'
+import '../styles/slides-how-our-business-work.css'
+import '../styles/slides-where-we-are-section.css'
 
-import BaseLayout from '../sections/BaseLayout'
+import { BaseLayout } from '../sections/BaseLayout'
 import { CookiesProvider } from '../contexts/CookiesContext'
 
 function MyApp({ Component, pageProps }: AppProps) {

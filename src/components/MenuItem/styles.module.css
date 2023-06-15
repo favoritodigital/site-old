@@ -1,19 +1,36 @@
-.navigationDark {
+.container {
   display: flex;
   height: 5rem;
-  background-color: var(--brand-color-purple);
+  background-color: white;
 }
-.navigationDark h1 {
-  font-weight: 500;
+.container h1 {
+  font-weight: 400;
+  font-family: 'poppins', sans-serif;
+  font-size: 1rem;
+  word-spacing: 120%;
+  color: var(--brand-color-purple);
+  position: relative;
 }
-.navigationLight {
-  display: flex;
-  height: 3.25rem;
-  background-color: var(--brand-color-light-purple);
+.container.highlight h1 {
+  font-weight: 700;
 }
-.navigationLight h1 {
-  font-weight: 300;
+
+.container.highlight h1::after {
+  position: absolute;
+  content: '';
+
+  width: 0.5rem;
+  height: 0.5rem;
+
+  clip-path: circle();
+
+  background-color: var(--brand-color-yellow);
+
+  align-self: center;
+  justify-self: center;
+  top: calc(50% - 0.25rem);
 }
-.boxShadow {
-  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+
+.container.highlight h1::after {
+  left: -1rem;
 }

@@ -1,0 +1,33 @@
+#quem-usa-recomenda-section .swiper-pagination {
+  bottom: -2.5px;
+}
+
+#quem-usa-recomenda-section .swiper-button-next,
+#quem-usa-recomenda-section .swiper-button-prev {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 1.5rem;
+  width: 0.5rem;
+}
+#quem-usa-recomenda-section .swiper-button-next {
+  right: 1.5rem;
+  background-image: url('/images/icons/right-arrow.svg');
+}
+#quem-usa-recomenda-section .swiper-button-prev {
+  left: 1.5rem;
+  background-image: url('/images/icons/left-arrow.svg');
+}
+#quem-usa-recomenda-section .swiper-button-next::after,
+#quem-usa-recomenda-section .swiper-button-prev::after {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  #quem-usa-recomenda-section .swiper-button-next {
+    right: 0;
+  }
+  #quem-usa-recomenda-section .swiper-button-prev {
+    left: 0;
+  }
+}

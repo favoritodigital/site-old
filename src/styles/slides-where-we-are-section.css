@@ -1,0 +1,48 @@
+#onde-estamos-section .swiper-slide {
+  width: auto;
+}
+
+#onde-estamos-section .swiper-button-next,
+#onde-estamos-section .swiper-button-prev {
+  display: flex;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 2rem;
+  width: 2rem;
+  z-index: 2;
+}
+#onde-estamos-section .swiper-wrapper {
+  z-index: 1;
+}
+#onde-estamos-section .swiper-button-next {
+  top: 6.5rem;
+  right: 0.375rem;
+  background-image: url('/images/icons/right-arrow-alt.svg');
+}
+#onde-estamos-section .swiper-button-prev {
+  top: 6.5rem;
+  left: 0.375rem;
+  background-image: url('/images/icons/left-arrow-alt.svg');
+}
+#onde-estamos-section .swiper-button-next::after,
+#onde-estamos-section .swiper-button-prev::after {
+  display: none;
+}
+#onde-estamos-section .swiper-pagination {
+  bottom: 0;
+}
+
+@media screen and (min-width: 1024px) {
+  #onde-estamos-section .swiper-button-prev,
+  #onde-estamos-section .swiper-button-next {
+    top: 6.5rem;
+  }
+  #onde-estamos-section .swiper-button-prev {
+    left: 0.375rem;
+  }
+  #onde-estamos-section .swiper-button-next {
+    right: 0.375rem;
+  }
+}

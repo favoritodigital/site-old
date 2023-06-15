@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 3rem 0 3rem 0;
+}
+
+.title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+
+  text-align: center;
+
+  color: var(--brand-color-purple);
+
+  margin-bottom: 3rem;
+}
+
+.web {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    padding: 3rem 0;
+  }
+
+  .title {
+    font-size: 2.75rem;
+    line-height: 3rem;
+
+    margin-bottom: 3rem;
+  }
+
+  .web {
+    display: block;
+  }
+
+  .mobile {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .title {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+}

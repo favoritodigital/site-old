@@ -1,0 +1,12 @@
+.wrapper {
+  width: 22.5rem;
+  z-index: 0;
+  margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .wrapper {
+    width: 24.5625rem;
+    margin-bottom: 0;
+  }
+}

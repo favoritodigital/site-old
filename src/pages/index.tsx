@@ -1,12 +1,11 @@
 import Head from 'next/head'
 
-import IntroductionSection from '../sections/IntroductionSection'
-import ContentSection from '../sections/ContentSection'
-import CustomersSection from '../sections/CustomersSection'
-import TestimonialsSection from '../sections/TestimonialsSection'
-import SupportersSection from '../sections/SupportersSection'
-import InviteSection from '../sections/InviteSection'
-import InTheMediaSection from '../sections/InTheMediaSection'
+import { IntroductionSection } from '../sections/IntroductionSection'
+import { NoMoreQuestionsSection } from '../sections/NoMoreQuestionsSection'
+import { HowItWorksSection } from '../sections/HowItWorksSection'
+import { UsersRecommendationsSection } from '../sections/UsersRecommendationsSection'
+import { WhereWeAreSection } from '../sections/WhereWeAreSection'
+import { InTheMediaSection } from '../sections/InTheMediaSection'
 
 export default function Home() {
   return (
@@ -15,12 +14,11 @@ export default function Home() {
         <title>Que Barbada - a bússola do rolê</title>
       </Head>
       <IntroductionSection />
-      <ContentSection />
+      <NoMoreQuestionsSection />
+      <HowItWorksSection />
+      <UsersRecommendationsSection />
+      <WhereWeAreSection />
       <InTheMediaSection />
-      <CustomersSection />
-      <TestimonialsSection />
-      <SupportersSection />
-      <InviteSection />
     </>
   )
 }

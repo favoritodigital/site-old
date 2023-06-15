@@ -1,9 +1,10 @@
 import { useContext } from 'react'
 import { useRouter } from 'next/router'
 
-import Header, { BadgePages } from '../../components/Header'
-import Footer from '../../components/Footer'
-import CookiesMessage from '../../components/CookiesMessage'
+import { Header, BadgePages } from '../../components/Header'
+import { Footer } from '../../components/Footer'
+import { WhatsappFixedButton } from '../../components/WhatsappFixedButton'
+import { CookiesMessage } from '../../components/CookiesMessage'
 
 import { CookiesContext } from '../../contexts/CookiesContext'
 
@@ -11,7 +12,7 @@ interface Props {
   children: React.ReactNode
 }
 
-export default function BaseLayout({ children }: Props) {
+export function BaseLayout({ children }: Props) {
   const router = useRouter()
   const { cookiesIsEnabled } = useContext(CookiesContext)
 
@@ -20,6 +21,7 @@ export default function BaseLayout({ children }: Props) {
       <Header badge={router.pathname as BadgePages} />
       {!cookiesIsEnabled && <CookiesMessage />}
       {children}
+      <WhatsappFixedButton />
       <Footer />
     </div>
   )

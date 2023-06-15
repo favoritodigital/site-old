@@ -1,0 +1,288 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 3rem 0 0 0;
+}
+
+.title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+
+  color: var(--brand-color-purple);
+
+  margin-bottom: 2rem;
+}
+
+.roadmap {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+
+  width: 19.5rem;
+  margin-bottom: 1.5rem;
+
+  overflow: visible;
+}
+
+.roadmap::before {
+  content: '';
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  left: 1.3125rem;
+  top: 0;
+  border-left: 4px dashed #8c7eab;
+}
+
+.card,
+.altCard {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 1rem;
+
+  width: 16rem;
+
+  gap: 2rem;
+
+  padding: 1rem;
+}
+
+.card::before,
+.altCard::before {
+  content: '';
+
+  position: absolute;
+  top: 0;
+  left: -1.375rem;
+
+  height: 0;
+  width: 0;
+
+  border: 1.4rem solid transparent;
+}
+
+.card::after,
+.altCard::after {
+  content: '';
+
+  position: absolute;
+  top: -0.5rem;
+  left: -2.5625rem;
+
+  height: 1rem;
+  width: 1rem;
+
+  clip-path: circle();
+
+  background-color: var(--brand-color-red);
+}
+
+.card {
+  background-color: var(--brand-color-purple);
+
+  margin-bottom: 2rem;
+}
+
+.card::before {
+  border-top-color: var(--brand-color-purple);
+}
+
+.altCard {
+  background-color: var(--brand-color-yellow);
+}
+
+.altCard::before {
+  border-top-color: var(--brand-color-yellow);
+}
+
+.cardTitle {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+
+  color: white;
+}
+
+.altCardTitle {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+
+  width: 100%;
+  text-align: center;
+
+  color: var(--text-color-gray);
+}
+
+.cardParagraph {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+
+  color: white;
+}
+
+.img {
+  position: relative;
+  height: 173px;
+  width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    padding: 4rem 0 0 0;
+    align-items: center;
+  }
+
+  .title {
+    font-size: 3.75rem;
+    font-size: 2.75rem;
+    line-height: 3rem;
+  }
+
+  .roadmap {
+    width: auto;
+    margin-bottom: 3.5rem;
+
+    overflow: visible;
+  }
+
+  .roadmap::before {
+    display: none;
+  }
+
+  .row1,
+  .row2,
+  .row3 {
+    position: relative;
+    display: flex;
+    height: 15.125rem;
+    gap: 1.1rem;
+    align-items: end;
+  }
+
+  .row1::before,
+  .row2::before,
+  .row3::before {
+    top: 0;
+    left: 0;
+    position: absolute;
+    content: '';
+    height: calc(100% - 4px);
+    width: calc(100% - 4px);
+  }
+
+  .row1::before {
+    border-bottom: 4px dashed #8c7eab;
+  }
+
+  .row2::before {
+    border-bottom: 4px dashed #8c7eab;
+    border-right: 4px dashed #8c7eab;
+  }
+
+  .row3::before {
+    border-bottom: 4px dashed #8c7eab;
+    border-left: 4px dashed #8c7eab;
+  }
+
+  .row1,
+  .row3 {
+    flex-direction: row;
+    padding-left: 4.375rem;
+  }
+
+  .row2 {
+    flex-direction: row-reverse;
+    padding-right: 4.375rem;
+  }
+
+  .card,
+  .altCard {
+    height: fit-content;
+    gap: 1.5rem;
+    padding: 1rem;
+
+    margin-bottom: 2.375rem;
+  }
+
+  .card::before,
+  .altCard::before {
+    top: auto;
+    left: 0;
+    bottom: -1.40625rem;
+  }
+
+  .card::before {
+    border-top-color: transparent;
+    border-left-color: var(--brand-color-purple);
+  }
+
+  .altCard::before {
+    border-top-color: transparent;
+    border-left-color: var(--brand-color-yellow);
+  }
+
+  .card::after,
+  .altCard::after {
+    top: auto;
+    left: -8px;
+    bottom: -2.75rem;
+    z-index: 1;
+  }
+
+  .card,
+  .altCard {
+    width: 12rem;
+  }
+
+  .altCard {
+    height: 9.125rem;
+    justify-content: center;
+  }
+
+  .altCardTitle {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+
+  .img {
+    position: relative;
+    height: 400px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .title {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  .row1,
+  .row2,
+  .row3 {
+    gap: 1.5rem;
+  }
+
+  .card,
+  .altCard {
+    width: 16rem;
+  }
+
+  .altCardTitle {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+}

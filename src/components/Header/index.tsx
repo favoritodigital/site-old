@@ -1,46 +1,70 @@
 import { useState } from 'react'
 import Link from 'next/link'
 
-import MenuItem from '../MenuItem'
-import WebNavigationItem from '../WebNavigationItem'
+import { MenuItem } from '../MenuItem'
+import { WebNavigationItem } from '../WebNavigationItem'
 
 import QueBarbadaLogo from '/public/images/quebarbada-logo.svg'
 import OpenIcon from '/public/images/icons/open.svg'
 import CloseIcon from '/public/images/icons/close.svg'
+import DownloadIcon from '/public/images/icons/download.svg'
 
 import styles from './styles.module.css'
 
 export enum BadgePages {
   home = '/',
-  bePartner = '/seja-parceiro',
+  whoWeAre = '/quem-somos',
+  registerYourStablishment = '/cadastre-seu-estabelecimento',
+  beAFranchisee = '/seja-franqueado',
 }
 
 interface Props {
   badge?: BadgePages
 }
 
-export default function Header({ badge }: Props) {
+export function Header({ badge }: Props) {
   const [isMenuOpen, handleIsMenuOpen] = useState(false)
 
   return (
     <>
       <div className={styles.wrapper}>
         <div className={styles.container}>
-          <div className={styles.logo}>
-            <Link href={'/'}>
-              <a>
-                <QueBarbadaLogo />
-              </a>
-            </Link>
+          <div className={styles.left}>
+            <div className={styles.logo}>
+              <Link href={'/'}>
+                <a>
+                  <QueBarbadaLogo />
+                </a>
+              </Link>
+            </div>
+            <div className={styles.navigationWeb}>
+              <WebNavigationItem href={'/'} label={'início'} hasBadge={badge === BadgePages.home} />
+              <WebNavigationItem
+                href={'/quem-somos'}
+                label={'quem somos'}
+                hasBadge={badge === BadgePages.whoWeAre}
+              />
+              <WebNavigationItem
+                href={'/cadastre-seu-estabelecimento'}
+                label={'cadastre o seu estabelecimento'}
+                hasBadge={badge === BadgePages.registerYourStablishment}
+              />
+              <WebNavigationItem
+                href={'/seja-franqueado'}
+                label={'seja um franqueado'}
+                hasBadge={badge === BadgePages.beAFranchisee}
+              />
+            </div>
           </div>
-          <div className={styles.navigationWeb}>
-            <WebNavigationItem href={'/'} label={'início'} hasBadge={badge === BadgePages.home} />
-            <WebNavigationItem
-              href={'/seja-parceiro'}
-              label={'seja parceiro'}
-              hasBadge={badge === BadgePages.bePartner}
-            />
-          </div>
+          <a
+            className={styles.menuDownloadButton}
+            href='https://onelink.quebarbada.com/ykhN/50t22qt3'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <DownloadIcon />
+            <p className={styles.downloadButtonText}>baixe o app</p>
+          </a>
           <button className={styles.menuButton} onClick={() => handleIsMenuOpen(!isMenuOpen)}>
             <div>{isMenuOpen ? <CloseIcon /> : <OpenIcon />}</div>
           </button>
@@ -50,63 +74,32 @@ export default function Header({ badge }: Props) {
             <div className={styles.headerMenu}>
               <ul>
                 <MenuItem
-                  id='menu_item1'
+                  id='home'
                   handleIsMenuOpen={handleIsMenuOpen}
-                  href={'/'}
-                  label={'home'}
-                  background={'dark'}
-                  hasShadow
+                  href='/'
+                  label='início'
+                  hasBadge={badge === BadgePages.home}
                 />
                 <MenuItem
-                  id='menu_item2'
+                  id='quem-somos'
                   handleIsMenuOpen={handleIsMenuOpen}
-                  href={'/#inicio'}
-                  label={'inicio'}
-                  background={'light'}
+                  href='/quem-somos'
+                  label='quem somos'
+                  hasBadge={badge === BadgePages.whoWeAre}
                 />
                 <MenuItem
-                  id='menu_item3'
+                  id='cadastre-seu-estabelecimento'
                   handleIsMenuOpen={handleIsMenuOpen}
-                  href={'/#como-encontrar'}
-                  label={'como encontrar o seu rolê'}
-                  background={'light'}
+                  href='/cadastre-seu-estabelecimento'
+                  label='cadastre o seu estabelecimento'
+                  hasBadge={badge === BadgePages.registerYourStablishment}
                 />
                 <MenuItem
-                  id='menu_item4'
+                  id='seja-franqueado'
                   handleIsMenuOpen={handleIsMenuOpen}
-                  href={'/#na-midia'}
-                  label={'na mídia'}
-                  background={'light'}
-                />
-                <MenuItem
-                  id='menu_item5'
-                  handleIsMenuOpen={handleIsMenuOpen}
-                  href={'/#clientes'}
-                  label={'clientes'}
-                  background={'light'}
-                />
-                <MenuItem
-                  id='menu_item6'
-                  handleIsMenuOpen={handleIsMenuOpen}
-                  href={'/#depoimentos'}
-                  label={'depoimentos'}
-                  background={'light'}
-                />
-                <MenuItem
-                  id='menu_item7'
-                  handleIsMenuOpen={handleIsMenuOpen}
-                  href={'/#apoiadores'}
-                  label={'apoiadores'}
-                  background={'light'}
-                  hasShadow
-                />
-                <MenuItem
-                  id='menu_item8'
-                  handleIsMenuOpen={handleIsMenuOpen}
-                  href={'/seja-parceiro'}
-                  label={'seja parceiro'}
-                  background={'dark'}
-                  hasShadow
+                  href='/seja-franqueado'
+                  label='seja um franqueado'
+                  hasBadge={badge === BadgePages.beAFranchisee}
                 />
               </ul>
             </div>

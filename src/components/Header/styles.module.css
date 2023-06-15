@@ -1,22 +1,22 @@
 .wrapper {
-  z-index: 1;
-  width: 100%;
-  min-width: 22.5rem;
+  z-index: 2;
+  width: 100vw;
   height: 5rem;
-  position: fixed;
   display: flex;
-  justify-content: center;
+  position: fixed;
+  align-items: center;
   background-color: var(--brand-color-purple);
 }
 .container {
-  display: inline-flex;
+  padding: 0 1.5rem;
   width: 100%;
   height: 100%;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 0 2rem;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4);
-  z-index: 2;
 }
 .logo {
   width: 11rem;
@@ -27,24 +27,28 @@
 .menuButton {
   cursor: pointer;
   border: none;
-  width: 1.25rem;
+  width: 1rem;
   height: auto;
   background-color: var(--brand-color-purple);
 }
+.menuDownloadButton {
+  width: 9.3125rem;
+  height: 2.5rem;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--brand-color-red);
+  gap: 0.5rem;
+  border-radius: 10px;
+}
+
 .navigationWeb {
   display: none;
-  gap: 5rem;
 }
-.navigationWeb h1 {
-  font-size: 1.5rem;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  color: var(--brand-color-white);
-  cursor: pointer;
-  position: relative;
-}
+
 .navigationMobile {
-  z-index: 1;
+  z-index: 2;
   display: flex;
   position: absolute;
   width: 100%;
@@ -66,42 +70,61 @@
   align-items: center;
   font-size: 1rem;
 }
-.headerMenu ul h1 {
-  font-family: 'Poppins', sans-serif;
-  font-size: 1.25em;
-  color: var(--brand-color-white);
-}
-
 /* EFECTS */
 .navigationWeb h1,
-.logo {
+.logo,
+.menuDownloadButton {
   transition: 0.2s;
 }
 .logo:hover,
 .navigationWeb h1:hover {
   opacity: 0.7;
 }
-.navigationWeb h1:hover {
+
+.menuDownloadButton:hover {
+  background-color: #dd6666;
+}
+.navigationWeb h1:hover,
+.menuDownloadButton:hover {
   transform: scale(1.05);
 }
+.navigationMobile {
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4);
+}
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
+  .navigationWeb h1 {
+    font-size: 0.9rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: var(--brand-color-white);
+    cursor: pointer;
+    position: relative;
+  }
   .container {
-    padding: 0 4rem;
+    justify-content: space-between;
+    padding: 0 2.5rem;
   }
   .menuButton {
     display: none;
   }
+  .left {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+  }
   .navigationWeb {
     display: inline-flex;
+    margin: 0;
+    gap: 1.5rem;
   }
-}
-@media screen and (min-width: 1024px) {
-  .navigationWeb {
-    right: 0;
+  .downloadButtonText {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: white;
   }
-  .container {
-    padding-left: 8rem;
-    padding-right: 12rem;
+  .menuDownloadButton {
+    display: flex;
   }
 }
