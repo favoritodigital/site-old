@@ -3,7 +3,7 @@ import styles from './styles.module.css'
 
 import LightBulb from '../../../public/images/icons/light-bulb.svg'
 
-export default function WeDoEverythingForYou() {
+export default function WeDoEverythingForYouSection() {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>nós fazemos tudo por você</h1>

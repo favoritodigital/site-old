@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
 import IntroductionSection from '../sections/IntroductionSection'
-import NoMoreQuestions from '../sections/NoMoreQuestionsSection'
+import NoMoreQuestionsSection from '../sections/NoMoreQuestionsSection'
 import HowItWorksSection from '../sections/HowItWorksSection'
 import UsersRecommendationsSection from '../sections/UsersRecommendationsSection'
 import WhereWeAreSection from '../sections/WhereWeAreSection'
@@ -14,7 +14,7 @@ export default function Home() {
         <title>Que Barbada - a bússola do rolê</title>
       </Head>
       <IntroductionSection />
-      <NoMoreQuestions />
+      <NoMoreQuestionsSection />
       <HowItWorksSection />
       <UsersRecommendationsSection />
       <WhereWeAreSection />

@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 import StandOutSection from '../sections/StandOutSection'
 import WhatOurAppDeliversSection from '../sections/WhatOurAppDeliversSection'
-import WeDoEverythingForYou from '../sections/WeDoEverythingForYouSection'
+import WeDoEverythingForYouSection from '../sections/WeDoEverythingForYouSection'
 import ThatsWhatOurPartnersSayAboutUsSection from '../sections/ThatsWhatOurPartnersSayAboutUsSection'
 import BeSeenByYourCustomersSection from '../sections/BeSeenByYourCustomersSection'
 
@@ -14,7 +14,7 @@ export default function RegisterEstablishment() {
       </Head>
       <StandOutSection />
       <WhatOurAppDeliversSection />
-      <WeDoEverythingForYou />
+      <WeDoEverythingForYouSection />
       <ThatsWhatOurPartnersSayAboutUsSection />
       <BeSeenByYourCustomersSection />
     </>
