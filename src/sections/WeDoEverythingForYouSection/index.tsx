@@ -1,4 +1,7 @@
+import { isMobile } from 'react-device-detect'
+
 import { DownloadButton } from '../../components/DownloadButton'
+import { WebDownloadButton } from '../../components/WebDownloadButton'
 import LightBulb from '../../../public/images/icons/light-bulb.svg'
 
 import styles from './styles.module.css'
@@ -18,7 +21,11 @@ export function WeDoEverythingForYouSection() {
           <p className={styles.paragraphItem}>✔ notificações personalizadas (sob consulta)</p>
         </div>
         <div className={styles.btn}>
-          <DownloadButton text={'baixe o app grátis'} />
+          {isMobile ? (
+            <DownloadButton text={'baixe o app grátis'} />
+          ) : (
+            <WebDownloadButton text={'baixe o app grátis'} />
+          )}
         </div>
       </div>
     </div>

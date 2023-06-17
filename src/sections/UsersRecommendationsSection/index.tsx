@@ -1,4 +1,7 @@
+import { isMobile } from 'react-device-detect'
+
 import { DownloadButton } from '../../components/DownloadButton'
+import { WebDownloadButton } from '../../components/WebDownloadButton'
 import { UsersRecommendationCarousel } from '../../components/UsersRecommendationCarousel'
 
 import { STORE_RATING, STORE_RATING_COUNT } from '../../repositories/constants'
@@ -16,8 +19,13 @@ export function UsersRecommendationsSection() {
       <div className={styles.carousel}>
         <UsersRecommendationCarousel />
       </div>
+
       <div className={styles.btn}>
-        <DownloadButton text='baixe agora' />
+        {isMobile ? (
+          <DownloadButton text={'baixe agora'} />
+        ) : (
+          <WebDownloadButton text={'baixe agora'} />
+        )}
       </div>
     </div>
   )

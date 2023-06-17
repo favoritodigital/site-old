@@ -1,5 +1,8 @@
+import { isMobile } from 'react-device-detect'
+
 import { DownloadButton } from '../../components/DownloadButton'
 import { HowItWorksCarousel } from '../../components/HowItWorksCarousel'
+import { WebDownloadButton } from '../../components/WebDownloadButton'
 
 import styles from './styles.module.css'
 
@@ -14,7 +17,11 @@ export function HowItWorksSection() {
         <HowItWorksCarousel />
       </div>
       <div className={styles.btn}>
-        <DownloadButton text={'baixe o app e aproveite'} />
+        {isMobile ? (
+          <DownloadButton text={'baixe o app e aproveite'} />
+        ) : (
+          <WebDownloadButton text={'baixe o app e aproveite'} />
+        )}
       </div>
     </div>
   )

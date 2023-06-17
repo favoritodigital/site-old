@@ -1,6 +1,8 @@
 import YouTube, { YouTubeProps } from 'react-youtube'
+import { isMobile } from 'react-device-detect'
 
 import { DownloadButton } from '../../components/DownloadButton'
+import { WebDownloadButton } from '../../components/WebDownloadButton'
 
 import styles from './styles.module.css'
 
@@ -26,7 +28,11 @@ export function ThatsWhatOurPartnersSayAboutUsSection() {
           <YouTube opts={webOpts} videoId={'T43sLq62O1s'} />
         </div>
       </div>
-      <DownloadButton text='baixe agora' />
+      {isMobile ? (
+        <DownloadButton text={'baixe agora'} />
+      ) : (
+        <WebDownloadButton text={'baixe agora'} />
+      )}
     </div>
   )
 }
