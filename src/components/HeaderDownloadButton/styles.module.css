@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 9.3125rem;
+  height: 2.5rem;
+
+  background-color: var(--brand-color-red);
+
+  border-radius: 10px;
+
+  transition: 0.2s;
+}
+
+.container:hover {
+  transform: scale(1.05);
+  background-color: #dd6666;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+}
+
+.content svg {
+  margin-right: 0.5rem;
+}
+
+.text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: white;
+
+  color: var(--brand-color-white);
+}
