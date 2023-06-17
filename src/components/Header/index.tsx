@@ -59,11 +59,13 @@ export function Header({ badge }: Props) {
               />
             </div>
           </div>
-          {isMobile ? (
-            <HeaderDownloadButton text='baixe o app' />
-          ) : (
-            <HeaderWebDownloadButton text='baixe o app' />
-          )}
+          <div className={styles.downloadButton}>
+            {isMobile ? (
+              <HeaderDownloadButton text='baixe o app' />
+            ) : (
+              <HeaderWebDownloadButton text='baixe o app' />
+            )}
+          </div>
           <button className={styles.menuButton} onClick={() => handleIsMenuOpen(!isMenuOpen)}>
             <div>{isMenuOpen ? <CloseIcon /> : <OpenIcon />}</div>
           </button>
