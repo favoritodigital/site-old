@@ -1,5 +1,7 @@
 import type { AppProps } from 'next/app'
+
 import Head from 'next/head'
+import { Analytics } from '@vercel/analytics/react'
 
 import '../styles/globals.css'
 import '../styles/swiper.css'
@@ -26,7 +28,10 @@ function MyApp({ Component, pageProps }: AppProps) {
       </Head>
       <CookiesProvider>
         <BaseLayout>
-          <Component {...pageProps} />
+          <>
+            <Component {...pageProps} />
+            <Analytics />
+          </>
         </BaseLayout>
       </CookiesProvider>
     </>
