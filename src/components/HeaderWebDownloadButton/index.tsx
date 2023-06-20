@@ -1,4 +1,5 @@
 import DownloadIcon from '../../../public/images/icons/download.svg'
+import { APP_STORE_URL, GOOGLE_PLAY_URL } from '../../repositories/constants'
 
 import styles from './styles.module.css'
 
@@ -11,18 +12,10 @@ export function HeaderWebDownloadButton({ text }: Props) {
     <div className={styles.container}>
       <div className={styles.slider}>
         <div className={styles.alt}>
-          <a
-            href='https://apps.apple.com/br/app/que-barbada/id1598991618'
-            target='_blank'
-            rel='noreferrer'
-          >
-            <p className={styles.text}>iOs</p>
+          <a href={APP_STORE_URL} target='_blank' rel='noreferrer'>
+            <p className={styles.text}>iOS</p>
           </a>
-          <a
-            href='https://play.google.com/store/apps/details?id=com.quebarbada.quebarbada'
-            target='_blank'
-            rel='noreferrer'
-          >
+          <a href={GOOGLE_PLAY_URL} target='_blank' rel='noreferrer'>
             <p className={styles.text}>Android</p>
           </a>
         </div>

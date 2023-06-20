@@ -1,4 +1,5 @@
 import DownloadIcon from '../../../public/images/icons/download.svg'
+import { ONE_LINK_URL } from '../../repositories/constants'
 
 import styles from './styles.module.css'
 
@@ -8,7 +9,7 @@ interface Props {
 
 export function HeaderDownloadButton({ text }: Props) {
   return (
-    <a href='https://onelink.quebarbada.com/ykhN/50t22qt3' target='_blank' rel='noreferrer'>
+    <a href={ONE_LINK_URL} target='_blank' rel='noreferrer'>
       <div className={styles.container}>
         <div className={styles.content}>
           <DownloadIcon />
