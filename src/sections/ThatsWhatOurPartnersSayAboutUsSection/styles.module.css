@@ -40,6 +40,12 @@
     padding: 4rem 0;
   }
 
+  .videos {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+
   .title {
     font-size: 2.75rem;
     line-height: 3rem;
@@ -50,8 +56,8 @@
   }
 
   .video {
-    height: 430px;
-    width: 765px;
+    height: 253px;
+    width: 450px;
   }
 
   .web {
