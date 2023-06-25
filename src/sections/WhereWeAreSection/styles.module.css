@@ -33,78 +33,49 @@
   font-weight: 400;
   font-size: 1.125rem;
   line-height: 1.375rem;
-  text-align: center;
   color: var(--text-color-gray);
+  text-align: center;
 }
 
-.carouselWrapper {
+.illustration {
+  display: flex;
   position: relative;
   width: 19.5rem;
-  height: 11.25rem;
-  z-index: 0;
 }
 
-.slides {
-  overflow: visible;
-  position: relative;
-  z-index: 0;
+.vector {
+  display: flex;
+  width: 10.875rem;
 }
 
-.slideJaragua,
-.slideCriciuma,
-.slideJoinville,
-.slideLajeado,
-.slideFlorianopolis {
-  height: 180px;
-}
-
-.slideLajeado {
-  width: 240px;
-}
-
-.slideCriciuma {
-  width: 271px;
-}
-
-.slideJoinville {
-  width: 325px;
-}
-
-.slideJaragua {
-  width: 312px;
-}
-
-.slideFlorianopolis {
-  width: 270px;
-}
-
-.cityName {
-  position: absolute;
-  text-align: center;
-  width: 100%;
-  bottom: 0.25rem;
-
-  font-family: 'Poppins', sans-serif;
-  font-size: 1.5rem;
+.illustration p {
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
+  font-size: 1rem;
+  line-height: 1rem;
+  color: var(--text-color-gray);
+  position: absolute;
+}
 
-  color: white;
-  text-shadow: 0px 0px 10px var(--brand-color-purple), 0px 0px 10px var(--brand-color-purple),
-    0px 0px 10px var(--brand-color-purple), 0px 0px 10px var(--brand-color-purple);
+.SCItens {
+  left: 11.25rem;
+  top: 0;
+}
+
+.RSItens {
+  left: 11.25rem;
+  top: 4.6875rem;
 }
 
 @media screen and (min-width: 1024px) {
   .container {
     display: grid;
-    gap: 0 8.125rem;
+    grid-template-columns: 23.125rem 29.375rem;
+    grid-template-rows: 6rem 4.5rem;
+    gap: 2rem 8.125rem;
+
     align-content: center;
     justify-content: center;
-    grid-template-columns: 23.125rem 29.375rem;
-    grid-template-rows: 8.3125rem 7.3125rem;
-  }
-
-  .carouselWrapper {
-    width: 23.0625rem;
   }
 
   .title {
@@ -113,14 +84,14 @@
     font-size: 2.75rem;
     line-height: 3rem;
 
-    margin-bottom: 0.5rem;
+    margin-bottom: 0;
 
     text-align: end;
 
+    justify-self: flex-end;
+
     grid-column: 1/2;
     grid-row: 1/2;
-    align-self: flex-end;
-    justify-self: flex-end;
   }
 
   .paragraph {
@@ -129,33 +100,57 @@
     font-size: 1rem;
     line-height: 1.5rem;
 
+    margin-bottom: 0;
+    margin-top: 0;
+
     text-align: end;
 
-    margin-bottom: 0;
-    margin-top: 0.5rem;
-
-    align-self: flex-start;
     justify-self: flex-end;
 
     grid-column: 1/2;
     grid-row: 2/3;
   }
 
-  .carouselWrapper {
+  .illustration {
+    height: 12.5rem;
+
+    justify-self: flex-start;
+
     grid-column: 2/3;
     grid-row: 1/3;
   }
-}
 
-@media screen and (min-width: 1440px) {
-  .title {
-    font-size: 3rem;
-    line-height: 3rem;
+  .vector {
+    width: 15.625rem;
   }
 
-  .paragraph {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-    width: 20rem;
+  .illustration p {
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+    width: 10rem;
+  }
+
+  .SCItens {
+    top: 0.5rem;
+    left: 16rem;
+  }
+
+  .RSItens {
+    left: 16rem;
+
+    top: 7rem;
+  }
+
+  @media screen and (min-width: 1440px) {
+    .title {
+      font-size: 3rem;
+      line-height: 3rem;
+    }
+
+    .paragraph {
+      font-size: 1.25rem;
+      line-height: 1.75rem;
+      width: 20rem;
+    }
   }
 }
