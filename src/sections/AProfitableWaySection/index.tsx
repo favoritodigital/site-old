@@ -1,4 +1,4 @@
-import ProfitIcon from '../../../public/images/icons/profit-graph.svg'
+import ProfitIcon from '/public/images/icons/profit-graph.svg'
 
 import styles from './styles.module.css'
 

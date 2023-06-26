@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-import DownloadIcon from '../../../public/images/icons/download.svg'
+import DownloadIcon from '/public/images/icons/download.svg'
 import { APP_STORE_URL, GOOGLE_PLAY_URL } from '../../repositories/constants'
 
 import styles from './styles.module.css'

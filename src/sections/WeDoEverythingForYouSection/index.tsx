@@ -2,7 +2,7 @@ import { isMobile } from 'react-device-detect'
 
 import { DownloadButton } from '../../components/DownloadButton'
 import { WebDownloadButton } from '../../components/WebDownloadButton'
-import LightBulb from '../../../public/images/icons/light-bulb.svg'
+import LightBulb from '/public/images/icons/light-bulb.svg'
 
 import styles from './styles.module.css'
 

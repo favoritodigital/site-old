@@ -1,7 +1,7 @@
 import 'swiper/css'
 import 'swiper/css/pagination'
 
-import MapIcon from '../../../public/images/ilustrations/south-map-with-arrows.svg'
+import MapIcon from '/public/images/ilustrations/south-map-with-arrows.svg'
 
 import { CAPITAL_REGION_COUNT, REGION_COUNT } from '../../repositories/constants'
 
