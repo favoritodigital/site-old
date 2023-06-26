@@ -1,5 +1,11 @@
 export const news = [
   {
+    name: 'G1',
+    url: 'https://g1.globo.com/sc/santa-catarina/sc-que-da-certo/noticia/2023/06/20/empresas-catarinenses-projetam-seu-dna-inovador-ao-redor-do-mundo.ghtml',
+    title: 'Empresas catarinenses projetam seu DNA inovador ao redor do mundo',
+    imgFilePath: '/images/news/g1.png',
+  },
+  {
     name: 'Engeplus',
     url: 'https://www.engeplus.com.br/noticia/economia/2023/187392-que-barbada-comemora-um-ano-de-startup-e-1-lugar-no-premio-inova-criciuma',
     title: 'Que Barbada comemora um ano de startup e 1º Lugar no Prêmio Inova Criciúma',
