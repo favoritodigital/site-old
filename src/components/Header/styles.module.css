@@ -31,17 +31,6 @@
   height: auto;
   background-color: var(--brand-color-purple);
 }
-.menuDownloadButton {
-  width: 9.3125rem;
-  height: 2.5rem;
-  display: none;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--brand-color-red);
-  gap: 0.5rem;
-  border-radius: 10px;
-}
 
 .navigationWeb {
   display: none;
@@ -72,27 +61,27 @@
 }
 /* EFECTS */
 .navigationWeb h1,
-.logo,
-.menuDownloadButton {
+.logo {
   transition: 0.2s;
 }
 .logo:hover,
 .navigationWeb h1:hover {
   opacity: 0.7;
 }
-
-.menuDownloadButton:hover {
-  background-color: #dd6666;
-}
-.navigationWeb h1:hover,
-.menuDownloadButton:hover {
+.navigationWeb h1:hover {
   transform: scale(1.05);
 }
 .navigationMobile {
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4);
 }
+.downloadButton {
+  display: none;
+}
 
 @media screen and (min-width: 1024px) {
+  .downloadButton {
+    display: flex;
+  }
   .navigationWeb h1 {
     font-size: 0.9rem;
     font-family: 'Roboto', sans-serif;
@@ -117,14 +106,5 @@
     display: inline-flex;
     margin: 0;
     gap: 1.5rem;
-  }
-  .downloadButtonText {
-    font-family: 'Roboto', sans-serif;
-    font-size: 0.9rem;
-    font-weight: 400;
-    color: white;
-  }
-  .menuDownloadButton {
-    display: flex;
   }
 }

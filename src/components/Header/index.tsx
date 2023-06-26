@@ -1,13 +1,15 @@
 import { useState } from 'react'
 import Link from 'next/link'
+import { isMobile } from 'react-device-detect'
 
 import { MenuItem } from '../MenuItem'
 import { WebNavigationItem } from '../WebNavigationItem'
+import { HeaderDownloadButton } from '../HeaderDownloadButton'
+import { WebDownloadButton } from '../WebDownloadButton'
 
 import QueBarbadaLogo from '/public/images/quebarbada-logo.svg'
 import OpenIcon from '/public/images/icons/open.svg'
 import CloseIcon from '/public/images/icons/close.svg'
-import DownloadIcon from '/public/images/icons/download.svg'
 
 import styles from './styles.module.css'
 
@@ -56,15 +58,13 @@ export function Header({ badge }: Props) {
               />
             </div>
           </div>
-          <a
-            className={styles.menuDownloadButton}
-            href='https://onelink.quebarbada.com/ykhN/50t22qt3'
-            target='_blank'
-            rel='noreferrer'
-          >
-            <DownloadIcon />
-            <p className={styles.downloadButtonText}>baixe o app</p>
-          </a>
+          <div className={styles.downloadButton}>
+            {isMobile ? (
+              <HeaderDownloadButton text='baixe o app' />
+            ) : (
+              <WebDownloadButton text='baixe o app' header />
+            )}
+          </div>
           <button className={styles.menuButton} onClick={() => handleIsMenuOpen(!isMenuOpen)}>
             <div>{isMenuOpen ? <CloseIcon /> : <OpenIcon />}</div>
           </button>

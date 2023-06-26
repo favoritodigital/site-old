@@ -1,7 +1,4 @@
 module.exports = {
-  images: {
-    domains: ['quebarbada.s3.sa-east-1.amazonaws.com'],
-  },
   reactStrictMode: true,
   swcMinify: true,
   webpack(config) {

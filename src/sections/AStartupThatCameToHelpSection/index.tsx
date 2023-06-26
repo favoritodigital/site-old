@@ -1,6 +1,6 @@
-import Ilustration1 from '../../../public/images/ilustrations/uma-start-up-que-veio-para-ajudar_1.svg'
-import Ilustration2 from '../../../public/images/ilustrations/uma-start-up-que-veio-para-ajudar_2.svg'
-import Ilustration3 from '../../../public/images/ilustrations/uma-start-up-que-veio-para-ajudar_3.svg'
+import Ilustration1 from '/public/images/ilustrations/uma-start-up-que-veio-para-ajudar_1.svg'
+import Ilustration2 from '/public/images/ilustrations/uma-start-up-que-veio-para-ajudar_2.svg'
+import Ilustration3 from '/public/images/ilustrations/uma-start-up-que-veio-para-ajudar_3.svg'
 
 import styles from './styles.module.css'
 

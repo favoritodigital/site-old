@@ -1,6 +1,8 @@
+import { isMobile } from 'react-device-detect'
 import YouTube, { YouTubeProps } from 'react-youtube'
 
 import { DownloadButton } from '../../components/DownloadButton'
+import { WebDownloadButton } from '../../components/WebDownloadButton'
 
 import styles from './styles.module.css'
 
@@ -30,7 +32,11 @@ export function StandOutSection() {
           <YouTube opts={webOpts} videoId={'-p6tSfUjP3o'} />
         </div>
       </div>
-      <DownloadButton text='baixe o app grátis' />
+      {isMobile ? (
+        <DownloadButton text={'baixe o app grátis'} />
+      ) : (
+        <WebDownloadButton text={'baixe o app grátis'} />
+      )}
     </div>
   )
 }

@@ -7,7 +7,7 @@ interface Props {
   text: string
 }
 
-export function DownloadButton({ text }: Props) {
+export function HeaderDownloadButton({ text }: Props) {
   return (
     <a href={ONE_LINK_URL} target='_blank' rel='noreferrer'>
       <div className={styles.container}>

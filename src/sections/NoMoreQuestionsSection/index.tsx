@@ -1,4 +1,4 @@
-import Ilustration from '../../../public/images/ilustrations/chega-de-duvidas.svg'
+import Ilustration from '/public/images/ilustrations/chega-de-duvidas.svg'
 
 import styles from './styles.module.css'
 

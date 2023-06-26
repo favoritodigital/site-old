@@ -5,8 +5,6 @@
   align-items: center;
 
   padding: 3rem 0;
-
-  background-color: var(--background-color-purple);
 }
 
 .title {
@@ -81,16 +79,15 @@
   .card {
     flex-direction: row;
 
-    gap: 3.125rem;
+    gap: 2.5rem;
   }
 
   .icon {
-    width: 5.5rem;
+    width: 3.5rem;
   }
 
   .content {
-    width: 45rem;
-
+    width: auto;
     gap: 3rem;
   }
 
@@ -112,12 +109,11 @@
   }
 
   .text {
-    font-size: 1.5rem;
-    line-height: 2rem;
-    width: 35rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 
   .icon {
-    width: 6rem;
+    width: 4rem;
   }
 }

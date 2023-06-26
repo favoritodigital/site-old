@@ -67,11 +67,11 @@
     padding: 3rem 0;
 
     display: grid;
-    grid-template-columns: 22.25rem 24.25rem;
-    grid-template-rows: 9.5rem 3.9375rem 11.9375rem 4.9375rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 6rem 1.375rem 11.25rem;
     align-content: center;
     justify-content: center;
-    gap: 0 1.875rem;
+    gap: 4rem 1.875rem;
   }
 
   .title {
@@ -115,34 +115,31 @@
   }
 
   .icon {
-    width: 13rem;
+    height: 100%;
+    width: 11.25rem;
 
     margin: 0;
 
     grid-column: 1/2;
-    grid-row: 3/5;
+    grid-row: 3/4;
 
     align-self: center;
     justify-self: flex-end;
   }
 
-  .text {
-    margin: 0;
-
-    gap: 0.75rem;
-
+  .secondColumn {
     grid-column: 2/3;
     grid-row: 3/4;
   }
 
+  .text {
+    margin: 0 0 0.75rem 0;
+
+    gap: 0.75rem;
+  }
+
   .container .bold {
-    width: 19.5rem;
     text-align: start;
-
-    margin-bottom: 1rem;
-
-    grid-column: 2/3;
-    grid-row: 4/5;
 
     justify-self: start;
     align-self: flex-end;
@@ -151,6 +148,7 @@
 
 @media screen and (min-width: 1440px) {
   .title {
+    width: 32rem;
     font-size: 3rem;
     line-height: 3rem;
   }
@@ -162,7 +160,12 @@
     line-height: 1.375rem;
   }
 
+  .container {
+    grid-template-columns: 1fr 1fr;
+  }
+
   .text {
     gap: 1.5rem;
+    margin-bottom: 1.5rem;
   }
 }

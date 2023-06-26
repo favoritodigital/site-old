@@ -1,4 +1,4 @@
-import WhatsappIcon from '../../../public/images/brands/social-medias/whatsapp.svg'
+import WhatsappIcon from '/public/images/brands/social-medias/whatsapp.svg'
 
 import styles from './styles.module.css'
 
