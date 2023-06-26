@@ -1,4 +1,5 @@
-.container {
+.container,
+.headerContainer {
   display: flex;
 
   position: relative;
@@ -8,36 +9,59 @@
 
   overflow: hidden;
 
-  width: 16rem;
   height: 2.5rem;
 
-  background-color: var(--brand-color-purple);
-
   border-radius: 10px;
+
+  cursor: pointer;
 
   box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.25);
 }
 
-.standart {
+.container {
+  width: 16rem;
+  background-color: var(--brand-color-purple);
+}
+
+.headerContainer {
+  width: 9.3125rem;
+  background-color: var(--brand-color-red);
+}
+
+.standart,
+.headerStandart {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
+  transition: 0.2s;
 }
 
-.alt {
+.standart:hover {
+  background-color: #716195;
+}
+
+.headerStandart:hover {
+  background-color: #dd6666;
+}
+
+.alt,
+.headerAlt {
   align-items: center;
   justify-content: center;
 }
 
 .standart,
-.alt {
+.headerStandart,
+.alt,
+.headerAlt {
   display: flex;
   width: 100%;
   flex-direction: row;
 }
 
-.alt a {
+.alt a,
+.headerAlt a {
   display: flex;
   height: 2.5rem;
   width: 50%;
@@ -54,25 +78,42 @@
   transition: 0.2s;
 }
 
-.text {
+.clickedSlider {
+  position: absolute;
+  right: -100%;
+  display: flex;
+  flex-direction: row;
+  width: 200%;
+  transition: 0.2s;
+}
+
+.text,
+.headerText {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 1.125rem;
-  line-height: 1.375rem;
 
   color: var(--brand-color-white);
 
   transition: 0.2s;
 }
 
-.container:hover > .slider {
-  right: -100%;
+.text {
+  font-size: 1.125rem;
+}
+
+.headerText {
+  font-size: 0.9rem;
 }
 
 .alt a:hover {
   background-color: #716195;
 }
 
-.alt a:hover > .text {
+.headerAlt a:hover {
+  background-color: #dd6666;
+}
+
+.alt a:hover > .text,
+.headerAlt a:hover > .headerText {
   transform: scale(1.1);
 }

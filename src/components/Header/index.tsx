@@ -12,7 +12,7 @@ import CloseIcon from '/public/images/icons/close.svg'
 
 import styles from './styles.module.css'
 import { HeaderDownloadButton } from '../HeaderDownloadButton'
-import { HeaderWebDownloadButton } from '../HeaderWebDownloadButton'
+import { WebDownloadButton } from '../WebDownloadButton'
 
 export enum BadgePages {
   home = '/',
@@ -63,7 +63,7 @@ export function Header({ badge }: Props) {
             {isMobile ? (
               <HeaderDownloadButton text='baixe o app' />
             ) : (
-              <HeaderWebDownloadButton text='baixe o app' />
+              <WebDownloadButton text='baixe o app' header />
             )}
           </div>
           <button className={styles.menuButton} onClick={() => handleIsMenuOpen(!isMenuOpen)}>
