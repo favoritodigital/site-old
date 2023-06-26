@@ -1,18 +1,17 @@
 import { useState } from 'react'
 import Link from 'next/link'
-
 import { isMobile } from 'react-device-detect'
 
 import { MenuItem } from '../MenuItem'
 import { WebNavigationItem } from '../WebNavigationItem'
+import { HeaderDownloadButton } from '../HeaderDownloadButton'
+import { WebDownloadButton } from '../WebDownloadButton'
 
 import QueBarbadaLogo from '/public/images/quebarbada-logo.svg'
 import OpenIcon from '/public/images/icons/open.svg'
 import CloseIcon from '/public/images/icons/close.svg'
 
 import styles from './styles.module.css'
-import { HeaderDownloadButton } from '../HeaderDownloadButton'
-import { WebDownloadButton } from '../WebDownloadButton'
 
 export enum BadgePages {
   home = '/',

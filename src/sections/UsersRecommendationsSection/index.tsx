@@ -19,7 +19,6 @@ export function UsersRecommendationsSection() {
       <div className={styles.carousel}>
         <UsersRecommendationCarousel />
       </div>
-
       <div className={styles.btn}>
         {isMobile ? (
           <DownloadButton text={'baixe agora'} />
