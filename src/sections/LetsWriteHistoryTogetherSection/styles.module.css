@@ -32,23 +32,11 @@
   text-align: center;
 
   width: 19.5rem;
-
-  margin-bottom: 2rem;
 }
 
 .form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  width: 19.5rem;
-  height: 76.625rem;
-}
-
-.form iframe {
-  height: 100%;
+  max-width: 50rem;
   width: 100%;
-  border: none;
 }
 
 .pin {
@@ -76,13 +64,6 @@
     line-height: 1.5rem;
 
     width: 19.75rem;
-
-    margin-bottom: 1.5rem;
-  }
-
-  .form {
-    width: 48.125rem;
-    height: 69.5rem;
   }
 }
 

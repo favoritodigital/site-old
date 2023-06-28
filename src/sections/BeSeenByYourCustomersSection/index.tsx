@@ -10,7 +10,12 @@ export function BeSeenByYourCustomersSection() {
         preencha o formulário abaixo e a nossa equipe entrará em contato com você
       </p>
       <div className={styles.form}>
-        <iframe src='https://app.pipefy.com/public/form/TKVxxmPf?embedded=true%27'></iframe>
+        <script
+          src='static/bitrix-estabelecimento-form.js'
+          data-b24-form='inline/14/vle4l0'
+          data-skip-moving='true'
+          defer
+        />
       </div>
       <p className={styles.paragraph}>ou se preferir, clique no botão abaixo e fale conosco</p>
       <WhatsappButton text='quero me cadastrar' />

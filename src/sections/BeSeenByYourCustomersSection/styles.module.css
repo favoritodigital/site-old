@@ -7,20 +7,8 @@
 }
 
 .form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  width: 19.5rem;
-  height: 39.25rem;
-
-  margin-bottom: 2rem;
-}
-
-.form iframe {
-  height: 100%;
+  max-width: 50rem;
   width: 100%;
-  border: none;
 }
 
 .title {
@@ -48,8 +36,6 @@
   text-align: center;
 
   width: 19.5rem;
-
-  margin-bottom: 2rem;
 }
 
 @media screen and (min-width: 1024px) {
@@ -66,20 +52,11 @@
     margin-bottom: 3rem;
   }
 
-  .form {
-    width: 48.125rem;
-    height: 38.625rem;
-
-    margin-bottom: 3rem;
-  }
-
   .paragraph {
     font-size: 1rem;
     line-height: 1.5rem;
 
     width: 19.75rem;
-
-    margin-bottom: 1.5rem;
   }
 }
 

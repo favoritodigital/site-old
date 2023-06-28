@@ -9,7 +9,12 @@ export function LetsWriteHistoryTogetherSection() {
         preencha o formulário abaixo e a nossa equipe entrará em contato com você
       </p>
       <div className={styles.form}>
-        <iframe src='https://app.pipefy.com/public/form/76Hk7joU?embedded=true'></iframe>
+        <script
+          src='/static/bitrix-franqueado-form.js'
+          data-b24-form='inline/10/esgoms'
+          data-skip-moving='true'
+          defer
+        />
       </div>
     </div>
   )
