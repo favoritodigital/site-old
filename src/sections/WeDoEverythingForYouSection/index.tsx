@@ -1,4 +1,4 @@
-import { isMobile } from 'react-device-detect'
+import { useIsMobile } from '../../hooks/useIsMobile'
 
 import { DownloadButton } from '../../components/DownloadButton'
 import { WebDownloadButton } from '../../components/WebDownloadButton'
@@ -7,6 +7,8 @@ import LightBulb from '/public/images/icons/light-bulb.svg'
 import styles from './styles.module.css'
 
 export function WeDoEverythingForYouSection() {
+  const isMobile = useIsMobile()
+
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>nós fazemos tudo por você</h1>

@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
-import { isMobile } from 'react-device-detect'
+
+import { useIsMobile } from '../../hooks/useIsMobile'
 
 import { MenuItem } from '../MenuItem'
 import { WebNavigationItem } from '../WebNavigationItem'
@@ -26,6 +27,8 @@ interface Props {
 
 export function Header({ badge }: Props) {
   const [isMenuOpen, handleIsMenuOpen] = useState(false)
+
+  const isMobile = useIsMobile()
 
   return (
     <>

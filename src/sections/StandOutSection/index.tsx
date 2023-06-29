@@ -1,4 +1,4 @@
-import { isMobile } from 'react-device-detect'
+import { useIsMobile } from '../../hooks/useIsMobile'
 
 import { DownloadButton } from '../../components/DownloadButton'
 import { WebDownloadButton } from '../../components/WebDownloadButton'
@@ -6,6 +6,8 @@ import { WebDownloadButton } from '../../components/WebDownloadButton'
 import styles from './styles.module.css'
 
 export function StandOutSection() {
+  const isMobile = useIsMobile()
+
   return (
     <div id='a-plataforma-de-divulgacao-que-o-empreendedor-precisava' className={styles.container}>
       <h1 className={styles.title}>tenha destaque na gastronomia e lazer local</h1>

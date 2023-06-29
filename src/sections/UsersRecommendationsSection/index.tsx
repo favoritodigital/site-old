@@ -1,4 +1,4 @@
-import { isMobile } from 'react-device-detect'
+import { useIsMobile } from '../../hooks/useIsMobile'
 
 import { DownloadButton } from '../../components/DownloadButton'
 import { WebDownloadButton } from '../../components/WebDownloadButton'
@@ -9,6 +9,8 @@ import { STORE_RATING, STORE_RATING_COUNT } from '../../repositories/constants'
 import styles from './styles.module.css'
 
 export function UsersRecommendationsSection() {
+  const isMobile = useIsMobile()
+
   return (
     <div id='quem-usa-recomenda-section' className={styles.container}>
       <h1 className={styles.title}>quem usa, recomenda</h1>

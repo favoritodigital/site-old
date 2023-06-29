@@ -1,4 +1,4 @@
-import { isMobile } from 'react-device-detect'
+import { useIsMobile } from '../../hooks/useIsMobile'
 
 import { DownloadButton } from '../../components/DownloadButton'
 import { HowItWorksCarousel } from '../../components/HowItWorksCarousel'
@@ -7,6 +7,8 @@ import { WebDownloadButton } from '../../components/WebDownloadButton'
 import styles from './styles.module.css'
 
 export function HowItWorksSection() {
+  const isMobile = useIsMobile()
+
   return (
     <div className={styles.container} id='como-funciona-na-pratica-section'>
       <h1 className={styles.title}>como funciona na prática</h1>
