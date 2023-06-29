@@ -1,20 +1,9 @@
 import { isMobile } from 'react-device-detect'
-import YouTube, { YouTubeProps } from 'react-youtube'
 
 import { DownloadButton } from '../../components/DownloadButton'
 import { WebDownloadButton } from '../../components/WebDownloadButton'
 
 import styles from './styles.module.css'
-
-const mobileOpts: YouTubeProps['opts'] = {
-  height: '174',
-  width: '310',
-}
-
-const webOpts: YouTubeProps['opts'] = {
-  height: '430',
-  width: '765',
-}
 
 export function StandOutSection() {
   return (
@@ -24,14 +13,7 @@ export function StandOutSection() {
         se você tem um bar, pub, restaurante, até mesmo um evento, o aplicativo Que Barbada foi
         criado para te trazer benefícios exclusivos! assista o vídeo abaixo para entender:
       </p>
-      <div className={styles.video}>
-        <div className={styles.mobile}>
-          <YouTube opts={mobileOpts} videoId={'-p6tSfUjP3o'} />
-        </div>
-        <div className={styles.web}>
-          <YouTube opts={webOpts} videoId={'-p6tSfUjP3o'} />
-        </div>
-      </div>
+      <iframe className={styles.video} src='https://www.youtube.com/embed/-p6tSfUjP3o' />
       {isMobile ? (
         <DownloadButton text={'baixe o app grátis'} />
       ) : (

@@ -40,10 +40,7 @@
   width: 310px;
   background-color: #000000;
   margin-bottom: 2rem;
-}
-
-.web {
-  display: none;
+  border: none;
 }
 
 @media screen and (min-width: 1024px) {
@@ -72,14 +69,6 @@
   .video {
     height: 430px;
     width: 765px;
-  }
-
-  .web {
-    display: block;
-  }
-
-  .mobile {
-    display: none;
   }
 }
 

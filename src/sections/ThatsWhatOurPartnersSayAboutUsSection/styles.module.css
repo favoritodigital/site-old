@@ -22,15 +22,18 @@
   margin-bottom: 2rem;
 }
 
+.videos {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
 .video {
   height: 174px;
   width: 310px;
   background-color: #000000;
   margin-bottom: 2rem;
-}
-
-.web {
-  display: none;
+  border: none;
 }
 
 @media screen and (min-width: 1024px) {
@@ -41,9 +44,7 @@
   }
 
   .videos {
-    display: flex;
     flex-direction: row;
-    gap: 2rem;
   }
 
   .title {
@@ -58,14 +59,6 @@
   .video {
     height: 253px;
     width: 450px;
-  }
-
-  .web {
-    display: block;
-  }
-
-  .mobile {
-    display: none;
   }
 }
 
