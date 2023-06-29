@@ -46,7 +46,7 @@
 
   width: 5.8125rem;
 
-  text-align: end;
+  text-align: flex-end;
 
   color: var(--brand-color-red);
 }

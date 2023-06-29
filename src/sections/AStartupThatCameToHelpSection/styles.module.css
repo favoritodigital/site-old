@@ -102,7 +102,7 @@
   }
 
   .card2 p {
-    text-align: end;
+    text-align: flex-end;
   }
 
   .paragraph {

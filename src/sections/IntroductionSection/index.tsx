@@ -27,6 +27,7 @@ export function IntroductionSection() {
             layout='responsive'
             width={440}
             height={850}
+            priority
             src='/images/app/app-introduction.png'
             alt='Imagem do aplicativo Que Barbada'
           />
