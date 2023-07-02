@@ -14,13 +14,13 @@ export function StoreDownloadButton({ type }: Props) {
       href={type === 'appstore' ? APP_STORE_URL : GOOGLE_PLAY_URL}
       target='_blank'
       rel='noreferrer'
+      className={styles.button}
     >
-      <div className={styles.button}>
+      <div>
         <Image
           priority
-          layout='responsive'
-          width={992}
-          height={325}
+          layout='fill'
+          objectFit='contain'
           src={`/images/brands/${type}.png`}
           alt={type}
         />
