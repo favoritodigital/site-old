@@ -46,6 +46,7 @@
 .vector {
   display: flex;
   width: 10.875rem;
+  height: 8.75rem;
 }
 
 .illustration p {
@@ -122,6 +123,7 @@
 
   .vector {
     width: 15.625rem;
+    height: 12.5rem;
   }
 
   .illustration p {
