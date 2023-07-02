@@ -22,11 +22,12 @@ export function WhereWeAreSection() {
         <p className={styles.SCItens}>
           • Joinville
           <br />
+          • Blumenau
+          <br />
           • Jaraguá do Sul
           <br />
           • Florianópolis
           <br />• Criciúma
-          <br />• Blumenau
         </p>
         <p className={styles.RSItens}>• Lajeado</p>
       </div>
