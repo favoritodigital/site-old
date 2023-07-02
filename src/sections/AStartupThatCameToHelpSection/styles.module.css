@@ -98,11 +98,11 @@
 
   .card1 p,
   .card3 p {
-    text-align: start;
+    text-align: left;
   }
 
   .card2 p {
-    text-align: flex-end;
+    text-align: right;
   }
 
   .paragraph {

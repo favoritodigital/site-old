@@ -48,7 +48,7 @@
 }
 
 .paragraph {
-  text-align: start;
+  text-align: left;
   font-weight: 400;
 }
 
@@ -139,7 +139,7 @@
   }
 
   .container .bold {
-    text-align: start;
+    text-align: left;
 
     justify-self: start;
     align-self: flex-end;
