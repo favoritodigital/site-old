@@ -20,14 +20,14 @@ export function WhereWeAreSection() {
           <MapIcon />
         </div>
         <p className={styles.SCItens}>
-          • Joinville
-          <br />
           • Blumenau
           <br />
-          • Jaraguá do Sul
+          • Criciúma
           <br />
           • Florianópolis
-          <br />• Criciúma
+          <br />
+          • Jaraguá do Sul
+          <br />• Joinville
         </p>
         <p className={styles.RSItens}>• Lajeado</p>
       </div>
