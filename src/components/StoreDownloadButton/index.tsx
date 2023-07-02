@@ -16,15 +16,13 @@ export function StoreDownloadButton({ type }: Props) {
       rel='noreferrer'
       className={styles.button}
     >
-      <div>
-        <Image
-          priority
-          layout='fill'
-          objectFit='contain'
-          src={`/images/brands/${type}.png`}
-          alt={type}
-        />
-      </div>
+      <Image
+        priority
+        layout='fill'
+        objectFit='contain'
+        src={`/images/brands/${type}.png`}
+        alt={type}
+      />
     </a>
   )
 }
