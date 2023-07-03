@@ -1,6 +1,6 @@
 .button {
   position: relative;
-  height: auto;
   min-height: 0;
+  height: 3rem;
   width: 9.125rem;
 }

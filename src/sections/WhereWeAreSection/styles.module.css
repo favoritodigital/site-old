@@ -46,6 +46,7 @@
 .vector {
   display: flex;
   width: 10.875rem;
+  height: 8.75rem;
 }
 
 .illustration p {
@@ -64,7 +65,7 @@
 
 .RSItens {
   left: 11.25rem;
-  top: 4.6875rem;
+  top: 5.85rem;
 }
 
 @media screen and (min-width: 1024px) {
@@ -86,7 +87,7 @@
 
     margin-bottom: 0;
 
-    text-align: flex-end;
+    text-align: right;
 
     justify-self: flex-end;
 
@@ -103,7 +104,7 @@
     margin-bottom: 0;
     margin-top: 0;
 
-    text-align: flex-end;
+    text-align: right;
 
     justify-self: flex-end;
 
@@ -122,6 +123,7 @@
 
   .vector {
     width: 15.625rem;
+    height: 12.5rem;
   }
 
   .illustration p {
@@ -138,7 +140,7 @@
   .RSItens {
     left: 16rem;
 
-    top: 7rem;
+    top: 8.5rem;
   }
 
   @media screen and (min-width: 1440px) {

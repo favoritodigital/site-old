@@ -22,7 +22,7 @@
   color: var(--brand-color-black);
 }
 .container h2 {
-  text-align: start;
+  text-align: left;
   text-indent: 1.5rem;
   width: 100%;
   font-size: 1.25em;

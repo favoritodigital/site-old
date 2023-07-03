@@ -59,7 +59,7 @@
 
   .title {
     width: 22.875rem;
-    text-align: start;
+    text-align: left;
 
     font-size: 2.75rem;
     line-height: 3rem;
@@ -87,7 +87,7 @@
     width: 22rem;
     font-size: 1rem;
     line-height: 1.5rem;
-    text-align: start;
+    text-align: left;
 
     margin: 2rem 0 0 0;
 

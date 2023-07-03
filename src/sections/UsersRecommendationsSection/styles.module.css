@@ -61,7 +61,7 @@
     font-size: 2.75rem;
     line-height: 3rem;
 
-    text-align: start;
+    text-align: left;
 
     align-self: flex-end;
     justify-self: flex-start;
@@ -75,7 +75,7 @@
 
     font-size: 1rem;
     line-height: 1.5rem;
-    text-align: start;
+    text-align: left;
 
     align-self: center;
     justify-self: flex-start;
