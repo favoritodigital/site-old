@@ -46,7 +46,7 @@ export function Footer() {
           <a href='/politica-de-privacidade' target='_blank' rel='noreferrer'>
             <p>Política de Privacidade</p>
           </a>
-          <a href='/termos-de-uso-usuario' target='_blank' rel='noreferrer'>
+          <a href='/termos-de-uso' target='_blank' rel='noreferrer'>
             <p>Termos de Uso</p>
           </a>
         </div>
