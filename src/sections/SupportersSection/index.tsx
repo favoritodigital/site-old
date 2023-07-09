@@ -18,8 +18,6 @@ export function SupportersSection() {
               name={supporter.name}
               imagePath={supporter.imagePath}
               url={supporter.url}
-              width={supporter.width}
-              height={supporter.height}
             />
           )
         })}

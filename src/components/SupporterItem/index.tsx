@@ -6,19 +6,16 @@ interface Props {
   name: string
   imagePath: string
   url: string
-  width: number
-  height: number
 }
 
-export function SupporterItem({ name, imagePath, url, width, height }: Props) {
+export function SupporterItem({ name, imagePath, url }: Props) {
   return (
     <a href={url} className={styles.supporter} target='_blank' rel='noreferrer'>
       <div className={styles.image}>
         <Image
           loading='eager'
-          layout='responsive'
-          width={width}
-          height={height}
+          layout='fill'
+          objectFit='contain'
           src={imagePath}
           alt={`imagem do apoiador ${name}`}
         />

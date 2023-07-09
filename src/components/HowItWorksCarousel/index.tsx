@@ -24,9 +24,8 @@ export function HowItWorksCarousel() {
             <div className={styles.img}>
               <Image
                 loading='eager'
-                layout='responsive'
-                width={220}
-                height={425}
+                layout='fill'
+                objectFit='contain'
                 src='/images/app/app-1.png'
                 alt='Imagem da página inicial do Que Barbada'
               />
@@ -43,9 +42,8 @@ export function HowItWorksCarousel() {
             <div className={styles.img}>
               <Image
                 loading='eager'
-                layout='responsive'
-                width={220}
-                height={425}
+                layout='fill'
+                objectFit='contain'
                 src='/images/app/app-2.png'
                 alt='Imagem dos filtros do Que Barbada'
               />
@@ -63,9 +61,8 @@ export function HowItWorksCarousel() {
             <div className={styles.img}>
               <Image
                 loading='eager'
-                layout='responsive'
-                width={220}
-                height={425}
+                layout='fill'
+                objectFit='contain'
                 src='/images/app/app-3.png'
                 alt='Imagem de um estabelecimento no Que Barbada'
               />
@@ -83,9 +80,8 @@ export function HowItWorksCarousel() {
             <div className={styles.img}>
               <Image
                 loading='eager'
-                layout='responsive'
-                width={220}
-                height={425}
+                layout='fill'
+                objectFit='contain'
                 src='/images/app/app-4.png'
                 alt='Imagem da página inicial do Que Barbada'
               />
@@ -102,9 +98,8 @@ export function HowItWorksCarousel() {
             <div className={styles.img}>
               <Image
                 loading='eager'
-                layout='responsive'
-                width={220}
-                height={425}
+                layout='fill'
+                objectFit='contain'
                 src='/images/app/app-5.png'
                 alt='Imagem dos eventos no Que Barbada'
               />

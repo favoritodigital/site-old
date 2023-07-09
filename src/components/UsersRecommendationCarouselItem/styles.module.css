@@ -28,6 +28,9 @@
   clip-path: circle();
 
   width: 42px;
+  height: 42px;
+
+  position: relative;
 
   align-self: flex-start;
   justify-self: flex-start;
@@ -83,13 +86,11 @@
 
   .image {
     width: 3.625rem;
+    height: 3.625rem;
   }
 
   .name {
     margin-top: 1.125rem;
     font-size: 0.9rem;
-  }
-
-  .text {
   }
 }

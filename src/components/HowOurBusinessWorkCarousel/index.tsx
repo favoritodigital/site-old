@@ -40,9 +40,8 @@ export function HowOurBusinessWorkCarousel() {
               <div className={styles.img}>
                 <Image
                   loading='eager'
-                  layout='responsive'
-                  width={220}
-                  height={425}
+                  layout='fill'
+                  objectFit='contain'
                   src={`/images/app/${slide.fileName}`}
                   alt='Imagem do aplicativo Que Barbada'
                 />
