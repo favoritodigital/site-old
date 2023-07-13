@@ -16,12 +16,14 @@ export function BaseLayout({ children }: Props) {
   const router = useRouter()
   const { cookiesIsEnabled } = useContext(CookiesContext)
 
+  const route = router.pathname as BadgePages
+
   return (
     <div>
-      <Header badge={router.pathname as BadgePages} />
+      <Header badge={route} />
       {!cookiesIsEnabled && <CookiesMessage />}
       {children}
-      <WhatsappFixedButton />
+      {route !== BadgePages.beFranchisee && <WhatsappFixedButton />}
       <Footer />
     </div>
   )

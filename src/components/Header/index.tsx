@@ -17,8 +17,8 @@ import styles from './styles.module.css'
 export enum BadgePages {
   home = '/',
   whoWeAre = '/quem-somos',
-  registerYourStablishment = '/cadastre-seu-estabelecimento',
-  beAFranchisee = '/seja-franqueado',
+  registerEstablishment = '/cadastre-seu-estabelecimento',
+  beFranchisee = '/seja-franqueado',
 }
 
 interface Props {
@@ -52,12 +52,12 @@ export function Header({ badge }: Props) {
               <WebNavigationItem
                 href={'/cadastre-seu-estabelecimento'}
                 label={'cadastre o seu estabelecimento'}
-                hasBadge={badge === BadgePages.registerYourStablishment}
+                hasBadge={badge === BadgePages.registerEstablishment}
               />
               <WebNavigationItem
                 href={'/seja-franqueado'}
                 label={'seja um franqueado'}
-                hasBadge={badge === BadgePages.beAFranchisee}
+                hasBadge={badge === BadgePages.beFranchisee}
               />
             </div>
           </div>
@@ -95,14 +95,14 @@ export function Header({ badge }: Props) {
                   handleIsMenuOpen={handleIsMenuOpen}
                   href='/cadastre-seu-estabelecimento'
                   label='cadastre o seu estabelecimento'
-                  hasBadge={badge === BadgePages.registerYourStablishment}
+                  hasBadge={badge === BadgePages.registerEstablishment}
                 />
                 <MenuItem
                   id='seja-franqueado'
                   handleIsMenuOpen={handleIsMenuOpen}
                   href='/seja-franqueado'
                   label='seja um franqueado'
-                  hasBadge={badge === BadgePages.beAFranchisee}
+                  hasBadge={badge === BadgePages.beFranchisee}
                 />
               </ul>
             </div>
