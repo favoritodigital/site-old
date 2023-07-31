@@ -40,7 +40,10 @@
 }
 
 .icon {
+  position: relative;
+
   width: 4.5rem;
+  height: 4.5rem;
 }
 
 .text {
@@ -84,6 +87,7 @@
 
   .icon {
     width: 3.5rem;
+    height: 3.5rem;
   }
 
   .content {
@@ -115,5 +119,6 @@
 
   .icon {
     width: 4rem;
+    height: 4rem;
   }
 }

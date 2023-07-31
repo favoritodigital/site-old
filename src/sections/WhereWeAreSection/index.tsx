@@ -1,7 +1,7 @@
+import Image from 'next/image'
+
 import 'swiper/css'
 import 'swiper/css/pagination'
-
-import MapIcon from '/public/images/ilustrations/south-map-with-arrows.svg'
 
 import { CAPITAL_REGION_COUNT, REGION_COUNT } from '../../repositories/constants'
 
@@ -17,7 +17,12 @@ export function WhereWeAreSection() {
       </p>
       <div className={styles.illustration}>
         <div className={styles.vector}>
-          <MapIcon />
+          <Image
+            src='/images/ilustrations/south-map-with-arrows.svg'
+            alt='Imagem do mapa de SC'
+            layout='fill'
+            objectFit='contain'
+          />
         </div>
         <p className={styles.SCItens}>
           • Blumenau

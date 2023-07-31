@@ -25,7 +25,10 @@
   align-items: center;
 }
 
-.content svg {
+.content .svg {
+  position: relative;
+  height: 15px;
+  width: 16px;
   margin-right: 0.5rem;
 }
 

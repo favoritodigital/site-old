@@ -1,16 +1,23 @@
-import WhatsappIcon from '/public/images/brands/social-medias/whatsapp.svg'
+import Image from 'next/image'
 
 import styles from './styles.module.css'
 
 export function WhatsappFixedButton() {
   return (
     <a
-      className={styles.container}
+      className={styles.button}
       href='https://wa.me/5547997536595'
       target='_blank'
       rel='noreferrer'
     >
-      <WhatsappIcon />
+      <div className={styles.container}>
+        <Image
+          src='/images/brands/social-medias/whatsapp.svg'
+          alt='logo do Whatsapp'
+          layout='fill'
+          objectFit='contain'
+        />
+      </div>
     </a>
   )
 }

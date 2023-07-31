@@ -1,6 +1,7 @@
 import WhatsappIcon from '/public/images/brands/social-medias/whatsapp.svg'
 
 import styles from './styles.module.css'
+import Image from 'next/image'
 
 interface Props {
   text: string
@@ -15,7 +16,14 @@ export function WhatsappButton({ text }: Props) {
     >
       <div className={styles.container}>
         <div className={styles.content}>
-          <WhatsappIcon />
+          <div className={styles.svg}>
+            <Image
+              src='/images/brands/social-medias/whatsapp.svg'
+              alt='Ícone do Whatsapp'
+              layout='fill'
+              objectFit='contain'
+            />
+          </div>
           <p className={styles.text}>{text}</p>
         </div>
       </div>

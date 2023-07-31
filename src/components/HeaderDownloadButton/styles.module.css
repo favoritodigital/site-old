@@ -24,8 +24,11 @@
   align-items: center;
 }
 
-.content svg {
+.svg {
+  position: relative;
   margin-right: 0.5rem;
+  height: 15px;
+  width: 16px;
 }
 
 .text {

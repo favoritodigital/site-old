@@ -2,9 +2,9 @@ import { useIsMobile } from '../../hooks/useIsMobile'
 
 import { DownloadButton } from '../../components/DownloadButton'
 import { WebDownloadButton } from '../../components/WebDownloadButton'
-import LightBulb from '/public/images/icons/light-bulb.svg'
 
 import styles from './styles.module.css'
+import Image from 'next/image'
 
 export function WeDoEverythingForYouSection() {
   const isMobile = useIsMobile()
@@ -13,7 +13,12 @@ export function WeDoEverythingForYouSection() {
     <div className={styles.container}>
       <h1 className={styles.title}>nós fazemos tudo por você</h1>
       <div className={styles.icon}>
-        <LightBulb />
+        <Image
+          src='/images/icons/light-bulb.svg'
+          alt='Imagem de uma lâmpada'
+          layout='fill'
+          objectFit='contain'
+        />
       </div>
       <p className={styles.paragraph}>além do cadastro de informações, também disponibilizamos:</p>
       <div className={styles.secondColumn}>

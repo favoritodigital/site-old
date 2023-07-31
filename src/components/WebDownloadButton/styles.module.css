@@ -116,3 +116,9 @@
 .headerAlt a:hover > .headerText {
   transform: scale(1.1);
 }
+
+.svg {
+  position: relative;
+  height: 15px;
+  width: 16px;
+}
