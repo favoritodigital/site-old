@@ -120,4 +120,8 @@
     width: 4rem;
     height: 4rem;
   }
+
+  .icon#rocketIcon {
+    height: 7.22rem;
+  }
 }
