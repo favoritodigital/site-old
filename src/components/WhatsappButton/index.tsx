@@ -1,5 +1,3 @@
-import WhatsappIcon from '/public/images/brands/social-medias/whatsapp.svg'
-
 import styles from './styles.module.css'
 import Image from 'next/image'
 
