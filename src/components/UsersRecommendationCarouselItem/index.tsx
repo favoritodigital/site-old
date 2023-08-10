@@ -6,8 +6,6 @@ interface Props {
   text: string
   name: string
   file: string
-  height: number
-  width: number
 }
 
 export function UsersRecommendationCarouselItem({ text, name, file }: Props) {
