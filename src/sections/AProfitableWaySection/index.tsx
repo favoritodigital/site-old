@@ -1,6 +1,5 @@
-import ProfitIcon from '/public/images/icons/profit-graph.svg'
-
 import styles from './styles.module.css'
+import Image from 'next/image'
 
 export function AProfitableWaySection() {
   return (
@@ -10,7 +9,12 @@ export function AProfitableWaySection() {
         você terá a satisfação de conectar pessoas ao seu rolê ideal e ainda ganhará com isso!
       </p>
       <div className={styles.icon}>
-        <ProfitIcon />
+        <Image
+          src='/images/icons/profit-graph.svg'
+          alt='Imagem de um gráfico com resultados positivos'
+          layout='fill'
+          objectFit='contain'
+        />
       </div>
       <div className={styles.secondColumn}>
         <div className={styles.text}>

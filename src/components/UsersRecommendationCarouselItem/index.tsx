@@ -6,23 +6,19 @@ interface Props {
   text: string
   name: string
   file: string
-  height: number
-  width: number
 }
 
-export function UsersRecommendationCarouselItem({ text, name, file, height, width }: Props) {
+export function UsersRecommendationCarouselItem({ text, name, file }: Props) {
   return (
     <div className={styles.slide}>
       <div className={styles.container}>
         <div className={styles.image}>
           <Image
             loading='eager'
-            layout='responsive'
-            width={width}
-            height={height}
+            layout='fill'
             src={`/images/testimonials/${file}`}
             alt={`Foto do(a) ${name}`}
-            objectFit='cover'
+            objectFit='contain'
           />
         </div>
         <h1 className={styles.name}>{name}</h1>

@@ -24,9 +24,9 @@ export function IntroductionSection() {
         <div className={styles.img}>
           <Image
             loading='eager'
-            layout='responsive'
-            width={440}
-            height={850}
+            layout='fill'
+            objectFit='contain'
+            objectPosition='right center'
             priority
             src='/images/app/app-introduction.png'
             alt='Imagem do aplicativo Que Barbada'

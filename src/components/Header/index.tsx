@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 import { useIsMobile } from '../../hooks/useIsMobile'
 
@@ -8,7 +9,6 @@ import { WebNavigationItem } from '../WebNavigationItem'
 import { HeaderDownloadButton } from '../HeaderDownloadButton'
 import { WebDownloadButton } from '../WebDownloadButton'
 
-import QueBarbadaLogo from '/public/images/quebarbada-logo.svg'
 import OpenIcon from '/public/images/icons/open.svg'
 import CloseIcon from '/public/images/icons/close.svg'
 
@@ -38,7 +38,12 @@ export function Header({ badge }: Props) {
             <div className={styles.logo}>
               <Link href={'/'}>
                 <a>
-                  <QueBarbadaLogo />
+                  <Image
+                    src='/images/quebarbada-logo.svg'
+                    layout='fill'
+                    objectFit='contain'
+                    alt='logo Quebarbada'
+                  />
                 </a>
               </Link>
             </div>

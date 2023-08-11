@@ -18,6 +18,13 @@
   margin-top: 1.5rem;
 }
 
+.svg {
+  position: relative;
+  width: 20px;
+  height: 21px;
+  margin-right: 0.5rem;
+}
+
 .container:hover {
   opacity: 0.7;
 }
@@ -25,11 +32,6 @@
 .content {
   display: flex;
   align-items: center;
-}
-
-.content svg {
-  margin-right: 0.5rem;
-  width: 1.25rem;
 }
 
 .text {

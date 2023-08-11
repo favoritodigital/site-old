@@ -1,11 +1,5 @@
 import Link from 'next/link'
-
-import InstagramIcon from '/public/images/brands/social-medias/instagram.svg'
-import LinkedInIcon from '/public/images/brands/social-medias/linkedin.svg'
-import TiktokIcon from '/public/images/brands/social-medias/tiktok.svg'
-import GitHubIcon from '/public/images/brands/social-medias/github.svg'
-import YoutubeIcon from '/public/images/brands/social-medias/youtube.svg'
-import QueBarbadaLogo from '/public/images/quebarbada-logo.svg'
+import Image from 'next/image'
 
 import styles from './styles.module.css'
 
@@ -16,7 +10,12 @@ export function Footer() {
         <div className={styles.quebarbada}>
           <Link href={'/'}>
             <a>
-              <QueBarbadaLogo />
+              <Image
+                src='/images/quebarbada-logo.svg'
+                alt='logo do Que Barbada'
+                layout='fill'
+                objectFit='contain'
+              />
             </a>
           </Link>
           <p>&copy; {new Date().getFullYear()} Que Barbada. Todos direitos reservados.</p>
@@ -26,19 +25,44 @@ export function Footer() {
           <p>Siga nas redes sociais:</p>
           <div className={styles.socialMediaImages}>
             <a href='https://www.instagram.com/quebarbadaoficial/' target='_blank' rel='noreferrer'>
-              <InstagramIcon />
+              <Image
+                src='/images/brands/social-medias/instagram.svg'
+                alt='logo do Instagram'
+                layout='fill'
+                objectFit='contain'
+              />
             </a>
             <a href='https://www.tiktok.com/@quebarbada' target='_blank' rel='noreferrer'>
-              <TiktokIcon />
+              <Image
+                src='/images/brands/social-medias/tiktok.svg'
+                alt='logo do Tiktok'
+                layout='fill'
+                objectFit='contain'
+              />
             </a>
             <a href='https://www.linkedin.com/company/quebarbada' target='_blank' rel='noreferrer'>
-              <LinkedInIcon />
+              <Image
+                src='/images/brands/social-medias/linkedin.svg'
+                alt='logo do Lindekin'
+                layout='fill'
+                objectFit='contain'
+              />
             </a>
             <a href='https://github.com/quebarbada/landing-page' target='_blank' rel='noreferrer'>
-              <GitHubIcon />
+              <Image
+                src='/images/brands/social-medias/github.svg'
+                alt='logo do Github'
+                layout='fill'
+                objectFit='contain'
+              />
             </a>
             <a href='https://www.youtube.com/@quebarbada' target='_blank' rel='noreferrer'>
-              <YoutubeIcon />
+              <Image
+                src='/images/brands/social-medias/youtube.svg'
+                alt='logo do Github'
+                layout='fill'
+                objectFit='contain'
+              />
             </a>
           </div>
         </div>

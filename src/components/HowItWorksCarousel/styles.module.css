@@ -9,7 +9,8 @@
 }
 
 .img {
-  height: auto;
+  position: relative;
+  height: 22.6875rem;
   width: 11.75rem;
 }
 
@@ -52,7 +53,7 @@
   }
 
   .img {
-    height: auto;
+    height: 28rem;
     width: 14.5rem;
   }
 

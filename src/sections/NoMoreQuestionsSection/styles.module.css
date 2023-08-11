@@ -26,8 +26,10 @@
   text-align: center;
 }
 
-.container svg {
+.container .svg {
+  position: relative;
   width: 19.5rem;
+  height: 17rem;
   margin-bottom: 1.5rem;
 }
 
@@ -71,8 +73,9 @@
     align-self: flex-end;
   }
 
-  .container svg {
+  .container .svg {
     width: 23.125rem;
+    height: 20.125rem;
 
     justify-self: center;
     align-self: center;

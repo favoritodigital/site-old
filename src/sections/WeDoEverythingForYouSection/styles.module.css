@@ -10,7 +10,9 @@
 }
 
 .icon {
+  position: relative;
   width: 10rem;
+  height: 10rem;
 
   margin-bottom: 2rem;
 }
@@ -99,6 +101,7 @@
 
   .icon {
     width: 11rem;
+    height: 11rem;
 
     margin-bottom: 0;
 

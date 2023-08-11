@@ -1,6 +1,6 @@
 import { useState } from 'react'
+import Image from 'next/image'
 
-import DownloadIcon from '/public/images/icons/download.svg'
 import { APP_STORE_URL, GOOGLE_PLAY_URL } from '../../repositories/constants'
 
 import styles from './styles.module.css'
@@ -29,7 +29,15 @@ export function WebDownloadButton({ text, header }: Props) {
           </a>
         </div>
         <div className={header ? styles.headerStandart : styles.standart}>
-          <DownloadIcon />
+          <div className={styles.svg}>
+            <Image
+              className={styles.svg}
+              src='/images/icons/download.svg'
+              alt='ícone de download'
+              layout='fill'
+              objectFit='contain'
+            />
+          </div>
           <p className={header ? styles.headerText : styles.text}>{text}</p>
         </div>
       </div>

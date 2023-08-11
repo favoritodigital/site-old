@@ -3,7 +3,6 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 6.8125rem;
   cursor: pointer;
 }
 .image {
@@ -11,12 +10,13 @@
   justify-content: center;
   display: block;
   position: relative;
-  width: 100%;
-  height: auto;
+  width: 6.8125rem;
+  height: 6.8125rem;
 }
 
 @media screen and (min-width: 1024px) {
-  .supporter {
+  .image {
+    height: 9.375rem;
     width: 9.375rem;
   }
 }

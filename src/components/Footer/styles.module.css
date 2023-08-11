@@ -21,13 +21,21 @@
   color: var(--brand-color-white);
   margin-bottom: 1.225rem;
 }
+.quebarbada a {
+  position: relative;
+  display: flex;
+  margin: 0 0 2rem 0;
+  width: 190px;
+  height: 48px;
+  margin-bottom: 1.75rem;
+}
 .footer a {
+  position: relative;
   cursor: pointer;
 }
-.footer .quebarbada svg {
-  height: 3rem;
-  width: auto;
-  margin-bottom: 3rem;
+.footer .socialMediaImages a {
+  width: 2.25rem;
+  height: 2.25rem;
 }
 .footer .socialMedia {
   display: flex;

@@ -6,6 +6,7 @@ import Head from 'next/head'
 import { Analytics } from '@vercel/analytics/react'
 
 import '../styles/globals.css'
+import '../styles/what-our-app-delivers-section-icons.css'
 import '../styles/swiper.css'
 import '../styles/slides-in-the-media.css'
 import '../styles/slides-how-it-works.css'

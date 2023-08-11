@@ -26,8 +26,6 @@ export function UsersRecommendationCarousel() {
                 text={testimonial.testimonial}
                 name={testimonial.name}
                 file={testimonial.imageFileName}
-                height={testimonial.height}
-                width={testimonial.width}
               />
             </SwiperSlide>
           )
