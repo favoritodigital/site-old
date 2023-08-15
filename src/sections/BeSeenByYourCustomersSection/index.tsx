@@ -1,8 +1,8 @@
 import { useEffect } from 'react'
 
-import { WhatsappButton } from '../../components/WhatsappButton'
-
 import styles from './styles.module.css'
+
+import { WhatsappButton } from '../../components/WhatsappButton'
 
 export function BeSeenByYourCustomersSection() {
   useEffect(() => {

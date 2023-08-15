@@ -1,9 +1,10 @@
 import { useState } from 'react'
+
 import Image from 'next/image'
 
-import { APP_STORE_URL, GOOGLE_PLAY_URL } from '../../repositories/constants'
-
 import styles from './styles.module.css'
+
+import { APP_STORE_URL, GOOGLE_PLAY_URL } from '../../repositories/constants'
 
 interface Props {
   text: string

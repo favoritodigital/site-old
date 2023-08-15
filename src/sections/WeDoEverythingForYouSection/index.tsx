@@ -1,10 +1,11 @@
-import { useIsMobile } from '../../hooks/useIsMobile'
+import Image from 'next/image'
+
+import styles from './styles.module.css'
 
 import { DownloadButton } from '../../components/DownloadButton'
 import { WebDownloadButton } from '../../components/WebDownloadButton'
 
-import styles from './styles.module.css'
-import Image from 'next/image'
+import { useIsMobile } from '../../hooks/useIsMobile'
 
 export function WeDoEverythingForYouSection() {
   const isMobile = useIsMobile()

@@ -3,9 +3,9 @@ import Image from 'next/image'
 import 'swiper/css'
 import 'swiper/css/pagination'
 
-import { CAPITAL_REGION_COUNT, REGION_COUNT } from '../../repositories/constants'
-
 import styles from './styles.module.css'
+
+import { CAPITAL_REGION_COUNT, REGION_COUNT } from '../../repositories/constants'
 
 export function WhereWeAreSection() {
   return (

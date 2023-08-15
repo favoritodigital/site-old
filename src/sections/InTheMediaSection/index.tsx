@@ -1,9 +1,10 @@
 import Image from 'next/image'
 
-import { SlidesInTheMedia } from '../../components/SlidesInTheMedia'
-import { news } from '../../repositories/news'
-
 import styles from './styles.module.css'
+
+import { SlidesInTheMedia } from '../../components/SlidesInTheMedia'
+
+import { news } from '../../repositories/news'
 
 export function InTheMediaSection() {
   return (

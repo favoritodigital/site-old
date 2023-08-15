@@ -1,8 +1,10 @@
 import { useEffect } from 'react'
+
 import type { AppProps } from 'next/app'
+import Head from 'next/head'
 import { useRouter } from 'next/router'
 import Script from 'next/script'
-import Head from 'next/head'
+
 import { Analytics } from '@vercel/analytics/react'
 
 import '../styles/globals.css'
@@ -15,7 +17,9 @@ import '../styles/slides-how-our-business-work.css'
 import '../styles/slides-where-we-are-section.css'
 
 import { BaseLayout } from '../sections/BaseLayout'
+
 import { CookiesProvider } from '../contexts/CookiesContext'
+
 import { trackPageView } from '../helpers/facebookPixelHelper'
 
 function MyApp({ Component, pageProps }: AppProps) {

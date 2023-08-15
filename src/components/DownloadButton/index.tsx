@@ -1,8 +1,8 @@
 import Image from 'next/image'
 
-import { ONE_LINK_URL } from '../../repositories/constants'
-
 import styles from './styles.module.css'
+
+import { ONE_LINK_URL } from '../../repositories/constants'
 
 interface Props {
   text: string

@@ -1,10 +1,11 @@
 import { useContext } from 'react'
+
 import { useRouter } from 'next/router'
 
-import { Header, BadgePages } from '../../components/Header'
-import { Footer } from '../../components/Footer'
-import { WhatsappFixedButton } from '../../components/WhatsappFixedButton'
 import { CookiesMessage } from '../../components/CookiesMessage'
+import { Footer } from '../../components/Footer'
+import { Header, BadgePages } from '../../components/Header'
+import { WhatsappFixedButton } from '../../components/WhatsappFixedButton'
 
 import { CookiesContext } from '../../contexts/CookiesContext'
 

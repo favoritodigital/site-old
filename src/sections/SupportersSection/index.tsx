@@ -1,10 +1,11 @@
 import 'swiper/css'
 import 'swiper/css/pagination'
 
-import { SupporterItem } from '../../components/SupporterItem'
-import { supporters } from '../../repositories/supporters'
-
 import styles from './styles.module.css'
+
+import { SupporterItem } from '../../components/SupporterItem'
+
+import { supporters } from '../../repositories/supporters'
 
 export function SupportersSection() {
   return (

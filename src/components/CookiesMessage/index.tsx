@@ -1,9 +1,10 @@
 import { useContext } from 'react'
+
 import Link from 'next/link'
 
-import { CookiesContext } from '../../contexts/CookiesContext'
-
 import styles from './styles.module.css'
+
+import { CookiesContext } from '../../contexts/CookiesContext'
 
 export function CookiesMessage() {
   const { setCookiesIsEnabled } = useContext(CookiesContext)

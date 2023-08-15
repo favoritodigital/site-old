@@ -1,11 +1,11 @@
+import styles from './styles.module.css'
+
 import {
   REGION_COUNT,
   STORE_RATING,
   STORE_RATING_COUNT,
   THOUSANDS_MONTHLY_ACCESS,
 } from '../../repositories/constants'
-
-import styles from './styles.module.css'
 
 export function AchievementsSoFarSection() {
   return (

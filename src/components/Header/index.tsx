@@ -1,18 +1,18 @@
 import { useState } from 'react'
-import Link from 'next/link'
+
 import Image from 'next/image'
+import Link from 'next/link'
+
+import { HeaderDownloadButton } from '../HeaderDownloadButton'
+import { MenuItem } from '../MenuItem'
+import { WebDownloadButton } from '../WebDownloadButton'
+import { WebNavigationItem } from '../WebNavigationItem'
+import styles from './styles.module.css'
+
+import CloseIcon from '/public/images/icons/close.svg'
+import OpenIcon from '/public/images/icons/open.svg'
 
 import { useIsMobile } from '../../hooks/useIsMobile'
-
-import { MenuItem } from '../MenuItem'
-import { WebNavigationItem } from '../WebNavigationItem'
-import { HeaderDownloadButton } from '../HeaderDownloadButton'
-import { WebDownloadButton } from '../WebDownloadButton'
-
-import OpenIcon from '/public/images/icons/open.svg'
-import CloseIcon from '/public/images/icons/close.svg'
-
-import styles from './styles.module.css'
 
 export enum BadgePages {
   home = '/',

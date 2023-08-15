@@ -1,12 +1,12 @@
 import Head from 'next/head'
 
-import { YouCanProfitWithEachBusinessSection } from '../sections/YouCanProfitWithEachBusinessSection'
-import { HowOurBusinessWorkSection } from '../sections/HowOurBusinessWorkSection'
-import { AProfitableWaySection } from '../sections/AProfitableWaySection'
 import { AchievementsSoFarSection } from '../sections/AchievementsSoFarSection'
+import { AProfitableWaySection } from '../sections/AProfitableWaySection'
 import { EnjoyOurExclusiveAdvantagesSection } from '../sections/EnjoyOurExclusiveAdvantagesSection'
-import { WhoAlreadyMadeItHappenSection } from '../sections/WhoAlreadyMadeItHappenSection'
+import { HowOurBusinessWorkSection } from '../sections/HowOurBusinessWorkSection'
 import { LetsWriteHistoryTogetherSection } from '../sections/LetsWriteHistoryTogetherSection'
+import { WhoAlreadyMadeItHappenSection } from '../sections/WhoAlreadyMadeItHappenSection'
+import { YouCanProfitWithEachBusinessSection } from '../sections/YouCanProfitWithEachBusinessSection'
 
 export default function BeAFranchisee() {
   return (

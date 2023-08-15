@@ -1,9 +1,9 @@
-import { useIsMobile } from '../../hooks/useIsMobile'
+import styles from './styles.module.css'
 
 import { DownloadButton } from '../../components/DownloadButton'
 import { WebDownloadButton } from '../../components/WebDownloadButton'
 
-import styles from './styles.module.css'
+import { useIsMobile } from '../../hooks/useIsMobile'
 
 export function ThatsWhatOurPartnersSayAboutUsSection() {
   const isMobile = useIsMobile()

@@ -1,9 +1,9 @@
 import Image from 'next/image'
 
-import { StoreDownloadButton } from '../../components/StoreDownloadButton'
-import { DownloadButton } from '../../components/DownloadButton'
-
 import styles from './styles.module.css'
+
+import { DownloadButton } from '../../components/DownloadButton'
+import { StoreDownloadButton } from '../../components/StoreDownloadButton'
 
 export function IntroductionSection() {
   return (

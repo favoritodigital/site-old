@@ -1,12 +1,12 @@
-import { useIsMobile } from '../../hooks/useIsMobile'
+import styles from './styles.module.css'
 
 import { DownloadButton } from '../../components/DownloadButton'
-import { WebDownloadButton } from '../../components/WebDownloadButton'
 import { UsersRecommendationCarousel } from '../../components/UsersRecommendationCarousel'
+import { WebDownloadButton } from '../../components/WebDownloadButton'
+
+import { useIsMobile } from '../../hooks/useIsMobile'
 
 import { STORE_RATING, STORE_RATING_COUNT } from '../../repositories/constants'
-
-import styles from './styles.module.css'
 
 export function UsersRecommendationsSection() {
   const isMobile = useIsMobile()
