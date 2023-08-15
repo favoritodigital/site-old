@@ -10,63 +10,219 @@ export default function TermsOfUse() {
       </Head>
       <div className={styles.container}>
         <div>
-          <h1>Termos e Condições Gerais de Uso do USUÁRIO</h1>
+          <h1>Termos de Uso</h1>
           <p>
-            Seja muito bem vindo(a) a plataforma QUE BARBADA. Ao baixar ou usar o aplicativo, estes
-            termos se aplicarão automaticamente a você - portanto, certifique-se de lê-los com
-            atenção antes de usar o aplicativo. Neste termo você terá acesso às informações para
-            aproveitar os benefícios da plataforma.
+            Você sabia que cerca de 97% (noventa e sete por cento) das pessoas não leem termos de
+            uso e políticas de privacidade, segundo pesquisa da <i>Stanford University</i> ?
           </p>
-          <h2>1. QUEM SOMOS</h2>
           <p>
-            1.1. Somos uma plataforma que deseja proporcionar a você (USUÁRIO) momentos de alegria,
+            Sabemos que é tentador pular estes Termos de Uso, mas é importante estabelecer o que
+            você pode esperar de nós ao utilizar o <i>app</i> <b>Que Barbada</b> e o que esperamos
+            de você.
+          </p>
+          <p>
+            Estes “Termos de Uso” ou “Termos” ajudam a definir a relação do <b>Que Barbada</b> com
+            você.
+          </p>
+          <p>Por exemplo, estes Termos incluem as seguintes seções:</p>
+          <ol>
+            <li>
+              <b>O que você pode esperar de nós</b>, que descreve o modo como fornecemos e
+              desenvolvemos nosso trabalho.
+            </li>
+            <li>
+              <b>O que esperamos de você</b>, que estabelece certas regras para você usar nosso
+              aplicativo.
+            </li>
+            <li>
+              <b>Em caso de problemas ou discordâncias</b>, que descreve outros direitos legais que
+              você tem e o que esperar caso estes Termos sejam violados.
+            </li>
+          </ol>
+          <p>
+            Compreender estes Termos é importante porque, para baixar ou usar o aplicativo, você
+            precisa aceitá-los. Portanto, certifique-se de lê-los com atenção antes de usar o
+            aplicativo.
+          </p>
+          <p>
+            Além destes Termos, também publicamos uma{' '}
+            <a href='/politica-de-privacidade' target='_blank' rel='noreferrer'>
+              <b>Política de Privacidade</b>
+            </a>
+            . Recomendamos que você a leia também, para entender melhor como pode gerir seus dados
+            pessoais.
+          </p>
+          <h3>Seu relacionamento com o Que Barbada</h3>
+          <p>
+            Estes Termos ajudam a definir o relacionamento entre você e o Que Barbada. De modo
+            geral, permitimos que você utilize nosso aplicativo se concordar em seguir estes Termos,
+            que refletem o modo como o Que Barbada funciona.
+          </p>
+          <p>
+            Quando falamos de “Que Barbada”, “nós”, “nosso” ou “nossa”, estamos nos referindo a MM
+            Tech Ltda, pessoa jurídica de direito privado, sociedade limitada registrada na Junta
+            Comercial do Estado de Santa Catarina (“Jucesc”), inscrita no Cadastro Nacional da
+            Pessoa Jurídica (“CNPJ”) sob o n.º 46.230.468/0001-73, com sede na Rua Pascoal Meller,
+            73, Universitário, 88805-380, Criciúma, SC.
+          </p>
+          <h2>1. O que você pode esperar de nós</h2>
+          <p>
+            Somos uma plataforma que deseja proporcionar a você, usuário, momentos de alegria,
             diversão e lazer em diversos estabelecimentos.
           </p>
-          <h2>2. QUAIS SERVIÇOS OFERECEMOS</h2>
           <p>
-            2.2. O serviço da plataforma QUE BARBADA consiste em conectar, através do aplicativo, as
+            O serviço da plataforma Que Barbada consiste em conectar, através do aplicativo, as
             pessoas (usuários) aos estabelecimentos cadastrados, por meio da visualização online das
             ofertas e/ou opções diferenciadas de entretenimento/atendimento do estabelecimento para
             um determinado dia.
           </p>
-          <h2>3. COMO FUNCIONA</h2>
+          <h3>1.1. Como funciona</h3>
           <p>
-            3.1. Cabe a você, USUÁRIO do app, visualizar a oferta do estabelecimento na nossa
-            plataforma e decidir se vai ou não aproveitá-la.
+            Após baixar o aplicativo, você pode acessá-lo através do seu cadastro ou como convidado.
+            Ao entrar no aplicativo, você terá acesso a diversas funcionalidades, como visualizar os
+            melhores bares, pubs e restaurantes em uma única plataforma, combinar filtros, verificar
+            as principais informações do estabelecimento, explorar locais próximos no mapa e
+            descobrir eventos na região.
           </p>
           <p>
-            3.2. Para uma melhor experiência, utilize nossos filtros para encontrar os locais de
-            acordo com a sua preferência. Por exemplo: que aceitem seu pet, possui espaço kids,
-            música ao vivo, wi-fi, estacionamento, mesa ao ar livre entre outras opções.
+            O cadastro serve para que você possa usufruir de maiores benefícios e funcionalidades.
           </p>
           <p>
-            3.3. Desde logo fica esclarecido ao USUÁRIO, o qual se declara ciente, que os serviços
-            oferecidos pela plataforma QUE BARBADA se relacionam apenas à intermediação, sem
-            qualquer responsabilidade quanto ao preparo, atendimento e vícios inerentes aos produtos
-            e serviços.
+            Cabe a você, usuário do <i>app</i>, ou <i>barbadinha</i>, como gostamos de chamar,
+            visualizar o estabelecimento na nossa plataforma e decidir se vai ou não aproveitá-la.
           </p>
-          <h2>4. MODIFICAÇÕES DESTE TERMO</h2>
           <p>
-            4.1. O presente TERMO de uso poderá, a qualquer tempo, ter seu conteúdo, ou parte dele,
-            modificados para adequações e inserções, tudo com vistas ao aprimoramento dos serviços
-            disponibilizados, sendo possível ao USUÁRIO manifestar oposição a quaisquer dos termos
-            modificados.
+            Para proporcionar uma melhor experiência, recomendamos que utilize nossos filtros para
+            encontrar os locais de acordo com suas preferências. Por exemplo, é possível filtrar
+            estabelecimentos que aceitam animais de estimação, possuem espaço kids, oferecem música
+            ao vivo, disponibilizam wi-fi, estacionamento, mesas ao ar livre, entre outras opções.
           </p>
-          <h2>5. CANAL DE COMUNICAÇÃO</h2>
           <p>
-            5.1. Se você tiver dúvidas ou sugestões sobre nosso TERMO e CONDIÇÕES, não hesite em nos
-            contatar em{' '}
-            <a href='mailto:contato@quebarbada.com' target='_blank' rel='noreferrer'>
-              contato@quebarbada.com
-            </a>{' '}
-            ou WhatsApp: (47) 99680-8143.
+            Você pode também compartilhar sua localização conosco ou selecionar sua área de
+            interesse para visualizar os estabelecimentos mais próximos a você.
           </p>
-          <h2>6. ACEITAÇÃO DO TERMO DE USO</h2>
           <p>
-            6.1. O USUÁRIO declara ter lido, entendido e que aceita todas as regras, condições e
-            obrigações estabelecidas no presente TERMO.
+            Essas funcionalidades são disponibilizadas com o intuito de facilitar a busca e
+            personalizar sua experiência no aplicativo.
           </p>
-          <p>Estes termos e condições são válidos a partir de 01-03-2022.</p>
+          <p>
+            Nós não nos responsabilizamos pelas ofertas e promoções dos estabelecimentos, bem como
+            pelos produtos e serviços oferecidos por eles. Nossa atuação se limita apenas a fornecer
+            informações sobre os estabelecimentos a você.
+          </p>
+          <p>
+            Você reconhece que ao utilizar o aplicativo, é de sua inteira responsabilidade avaliar e
+            decidir pela utilização dos serviços e produtos dos estabelecimentos e prestadores de
+            serviços.
+          </p>
+          <p>
+            Quaisquer problemas decorrentes dessa utilização devem ser tratados diretamente com os
+            estabelecimentos e prestadores de serviços.
+          </p>
+          <p>
+            O aplicativo Que Barbada é completamente gratuito para os usuários e não requer nenhum
+            pagamento para o seu uso.
+          </p>
+          <h3>1.2. Promoções e ofertas</h3>
+          <p>
+            Quando quiser, o Que Barbada veiculará em sua plataforma promoções e ofertas, com ou sem
+            restrições próprias, a serem veiculadas conforme o interesse da empresa. Sua
+            participação em quaisquer promoções implica na aceitação das regras próprias delas.
+          </p>
+          <h2>2. O que esperamos de você</h2>
+          <p>
+            Você deve cumprir com suas responsabilidades definidas nestes Termos e em eventuais
+            termos adicionais.
+          </p>
+          <p>Essas são algumas dessas responsabilidades:</p>
+          <ul>
+            <li>
+              Você deve ter pelo menos 18 (dezoito) anos de idade para concordar e aceitar os Termos
+              de Uso. Se você for menor de 18 anos, só poderá usar um Site ou Serviço na presença e
+              com a aprovação de um dos pais ou responsável legal;
+            </li>
+            <li>
+              Todas as comunicações do Que Barbada diretamente com você serão feitas através das
+              informações fornecidas no cadastro, por isso é muito importante que você forneça os
+              dados corretos e os mantenha atualizados;
+            </li>
+            <li>
+              Manter seus dados seguros é muito importante para nós, mas para isso precisamos de sua
+              colaboração: crie uma senha forte (com maiúsculas, minúsculas, números e caracteres
+              especiais). Além disso, você deve mudá-la periodicamente e não compartilhá-la com
+              ninguém;
+            </li>
+            <li>
+              Qualquer violação ao disposto nos Termos de Uso garantirá ao Que Barbada o direito de
+              adotar as medidas que julgar necessárias, podendo vedar o acesso do usuário;
+            </li>
+            <li>
+              Você não pode tentar ou incentivar terceiros a driblar, reverter à engenharia,
+              decodificar, decompilar, desmontar ou fraudar ou interferir de qualquer forma com
+              aspectos da Plataforma.
+            </li>
+          </ul>
+          <h2>3. Em caso de problemas ou discordâncias</h2>
+          <p>
+            Por lei, você tem direito a resolução de problemas se algo der errado. Estes Termos não
+            limitam nem retiram nenhum desses direitos.
+          </p>
+          <h3>3.1. Gerenciamento de solicitações pelos seus dados</h3>
+          <p>
+            O respeito pela privacidade e segurança dos seus dados é fundamental na nossa abordagem
+            para responder às solicitações de dados. Quando recebemos solicitações de divulgação de
+            dados, nossa equipe as analisa para garantir que satisfaçam os requisitos legais e as
+            políticas de privacidade do Que Barbada. O Que Barbada trata dados de acordo com as leis
+            do Brasil, em especial a Lei Geral de Proteção de Dados. Para ver mais informações sobre
+            as solicitações de divulgação de dados que o Que Barbada recebe e como respondemos a
+            essas solicitações, consulte nossa{' '}
+            <a href='/politica-de-privacidade' target='_blank' rel='noreferrer'>
+              <b>Política de Privacidade</b>
+            </a>
+          </p>
+          <h3>3.2. Disposições gerais</h3>
+          <p>
+            O Que Barbada reserva o direito de alterar os Termos de Uso aqui estipuladas a seu
+            critério, podendo alterar, adicionar, modificar ou remover partes.
+          </p>
+          <p>
+            É obrigação do usuário, periodicamente, inteirar-se dos Termos de Uso e da{' '}
+            <a href='/politica-de-privacidade' target='_blank' rel='noreferrer'>
+              <b>Política de Privacidade</b>
+            </a>
+            , a fim de acompanhar e opinar acerca das modificações. A continuação do uso de sua
+            conta na Plataforma constituirá a sua aceitação às alterações e aos novos Termos de Uso.
+          </p>
+          <h3>3.3. Soluções de disputas, legislação aplicável e tribunais</h3>
+          <p>
+            Para obter informações sobre como entrar em contato com o Que Barbada, por favor visite
+            nossa página de contato.
+          </p>
+          <p>
+            As leis do Brasil vão reger todas as disputas que surgirem com relação a qualquer um
+            destes Termos, de termos adicionais ou qualquer serviço relacionado, mesmo se houver
+            conflito nas regras das leis. Essas disputas serão resolvidas exclusivamente na Justiça
+            Federal ou Estadual de Criciúma, Santa Catarina, Brasil.
+          </p>
+          <div className={styles.companyInfo}>
+            <p>
+              <b>
+                <i>Que Barbada</i>
+              </b>
+            </p>
+            <p>
+              <i>MM Tech Ltda</i>
+            </p>
+            <p>
+              <i>CNPJ: 46.230.468/0001-73</i>
+            </p>
+            <p>
+              <i>Rua Pascoal Meller, 73, Universitário, 88805-380, Criciúma, SC</i>
+            </p>
+          </div>
+          <p>
+            <b>Estes Termos entraram em vigor em agosto de 2023.</b>
+          </p>
         </div>
       </div>
     </>

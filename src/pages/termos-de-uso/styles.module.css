@@ -1,44 +1,76 @@
 .container {
   display: flex;
   flex-direction: column;
-  width: 100%;
   align-items: center;
-}
-.container div {
-  justify-items: center;
-  max-width: 600px;
-  display: flex;
-  flex-direction: column;
-  padding: 6rem 0;
-  margin: 0 2rem;
+
   font-family: 'Roboto', sans-serif;
+  text-align: justify;
+  line-height: 1.5rem;
 }
+
+.container div {
+  max-width: 600px;
+  padding-inline: 2rem;
+  padding-top: 9rem;
+  padding-bottom: 5rem;
+}
+
 .container h1 {
   text-align: center;
-  width: 100%;
-  font-size: 2em;
-  margin-top: 3rem;
-  margin-bottom: 1rem;
   color: var(--brand-color-black);
+
+  margin-bottom: 2.5rem;
 }
+
 .container h2 {
-  text-align: left;
-  text-indent: 1.5rem;
-  width: 100%;
-  font-size: 1.25em;
+  color: var(--brand-color-black);
+  font-size: 1.3em;
+
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.container h3 {
+  color: var(--brand-color-black);
+  font-size: 1.15em;
+
   margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.container p {
+  color: var(--text-color-gray);
+
+  margin-bottom: 0.75rem;
+}
+
+.container li {
+  color: var(--text-color-gray);
+  margin-left: 3rem;
+
+  margin-bottom: 0.75rem;
+}
+
+.container ul {
+  margin-bottom: 2rem;
+}
+
+.container ol {
+  margin-bottom: 2rem;
+}
+
+.container ul li {
+  list-style-type: disc;
+}
+
+.container b {
   color: var(--brand-color-black);
 }
-.container p {
-  text-indent: 1.5rem;
-  margin-top: 0.75rem;
-  width: 100%;
-  text-align: justify;
-  font-size: 1em;
-  line-height: 1.5rem;
-  color: var(--text-color-gray);
+
+.container .companyInfo {
+  padding: 1rem 0;
 }
-.container a {
-  color: var(--text-color-gray);
-  text-decoration: underline;
+
+.companyInfo p {
+  margin-bottom: 0rem;
 }
