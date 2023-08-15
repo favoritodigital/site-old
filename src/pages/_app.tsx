@@ -15,8 +15,10 @@ import '../styles/slides-users-recommendation-section.css'
 import '../styles/slides-how-our-business-work.css'
 import '../styles/slides-where-we-are-section.css'
 
-import { trackPageView } from '../libs/facebookPixelHelper'
+import * as facebookPixel from '../libs/facebookPixelHelper'
 import { FacebookPixelScript } from '../libs/FacebookPixelScript'
+import * as googleAnalytics from '../libs/googleAnalyticsHelper'
+import { GoogleAnalyticsScript } from '../libs/GoogleAnalyticsScript'
 
 import { BaseLayout } from '../sections/BaseLayout'
 
@@ -26,11 +28,12 @@ function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter()
 
   useEffect(() => {
-    trackPageView()
-
     const handleRouteChange = () => {
-      trackPageView()
+      facebookPixel.trackPageView()
+      googleAnalytics.trackPageView()
     }
+
+    handleRouteChange()
 
     router.events.on('routeChangeComplete', handleRouteChange)
 
@@ -50,6 +53,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta property='og:image' content='https://www.quebarbada.com/quebarbada.png' />
       </Head>
       <FacebookPixelScript />
+      <GoogleAnalyticsScript />
       <CookiesProvider>
         <BaseLayout>
           <Component {...pageProps} />
