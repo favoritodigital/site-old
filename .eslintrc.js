@@ -18,8 +18,32 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['react', '@typescript-eslint'],
+  plugins: ['react', '@typescript-eslint', 'eslint-plugin-import-helpers'],
   rules: {
+    'import-helpers/order-imports': [
+      'warn',
+      {
+        newlinesBetween: 'always',
+        groups: [
+          ['/^react/'],
+          ['/^next/', '/^@react/'],
+          'module',
+          ['index', 'parent', 'sibling'],
+          '/public/',
+          '/pages/',
+          '/sections/',
+          '/components/',
+          '/contexts/',
+          '/hooks/',
+          '/helpers/',
+          '/repositories/',
+        ],
+        alphabetize: {
+          order: 'asc',
+          ignoreCase: true,
+        },
+      },
+    ],
     'space-before-function-paren': [
       'error',
       {
