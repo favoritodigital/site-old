@@ -1,3 +1,6 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable @next/next/no-img-element */
+
 import React from 'react'
 
 import Script from 'next/script'
@@ -5,7 +8,7 @@ import Script from 'next/script'
 export function FacebookPixelScript() {
   return (
     <Script
-      id='fb-pixel'
+      id='facebook-pixel'
       strategy='afterInteractive'
       dangerouslySetInnerHTML={{
         __html: `
@@ -30,5 +33,18 @@ export function FacebookPixelScript() {
               `,
       }}
     />
+  )
+}
+
+export function FacebookPixelNoScript() {
+  return (
+    <noscript>
+      <img
+        height='1'
+        width='1'
+        style={{ display: 'none' }}
+        src={`https://www.facebook.com/tr?id=${process.env.NEXT_PUBLIC_FACEBOOK_PIXEL_ID}&ev=PageView&noscript=1`}
+      />
+    </noscript>
   )
 }

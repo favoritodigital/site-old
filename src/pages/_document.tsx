@@ -1,19 +1,12 @@
-/* eslint-disable jsx-a11y/alt-text */
-/* eslint-disable @next/next/no-img-element */
 import { Html, Head, Main, NextScript } from 'next/document'
+
+import { FacebookPixelNoScript } from '../libs/FacebookPixelScript'
 
 export default function Document() {
   return (
     <Html>
       <Head>
-        <noscript>
-          <img
-            height='1'
-            width='1'
-            style={{ display: 'none' }}
-            src={`https://www.facebook.com/tr?id=${process.env.NEXT_PUBLIC_FACEBOOK_PIXEL_ID}&ev=PageView&noscript=1`}
-          />
-        </noscript>
+        <FacebookPixelNoScript />
       </Head>
       <link rel='preconnect' href='https://fonts.googleapis.com' />
       <link rel='preconnect' href='https://fonts.gstatic.com' />
