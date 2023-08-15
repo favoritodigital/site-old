@@ -8,6 +8,6 @@
     "next-env.d.ts": true,
     "next.config.js": true,
     "tsconfig.json": true,
-    "package-lock.json": true
+    "yarn.lock": true
   }
 }
