@@ -34,7 +34,10 @@ export function WhereWeAreSection() {
           • Jaraguá do Sul
           <br />• Joinville
         </p>
-        <p className={styles.RSItens}>• Lajeado</p>
+        <p className={styles.RSItens}>
+          • Lajeado
+          <br />• Porto Alegre
+        </p>
       </div>
     </div>
   )
