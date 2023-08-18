@@ -1,8 +1,8 @@
 export const STORE_RATING = 5
-export const STORE_RATING_COUNT = 900
-export const REGION_COUNT = 6
-export const CAPITAL_REGION_COUNT = 1
-export const THOUSANDS_MONTHLY_ACCESS = 35
+export const STORE_RATING_COUNT = 1000
+export const REGION_COUNT = 7
+export const CAPITAL_REGION_COUNT = 2
+export const THOUSANDS_MONTHLY_ACCESS = 45
 
 export const APP_STORE_URL =
   'https://apps.apple.com/br/app/que-barbada/id1598991618?platform=iphone'
