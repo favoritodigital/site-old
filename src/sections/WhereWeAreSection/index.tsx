@@ -13,7 +13,7 @@ export function WhereWeAreSection() {
       <h1 className={styles.title}>onde estamos</h1>
       <p className={styles.paragraph}>
         até o momento, nosso app está presente em {REGION_COUNT} regiões do Brasil, incluindo{' '}
-        {CAPITAL_REGION_COUNT} {`${CAPITAL_REGION_COUNT === 1 ? 'capital' : 'capitais'}`}
+        {CAPITAL_REGION_COUNT} capitais
       </p>
       <div className={styles.illustration}>
         <div className={styles.vector}>
