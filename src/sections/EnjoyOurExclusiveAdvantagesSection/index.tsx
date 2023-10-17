@@ -43,8 +43,8 @@ export function EnjoyOurExclusiveAdvantagesSection() {
       id: 6,
       icon: '/images/icons/moneybag.svg',
       alt: 'Ícon de um saco de dinheiro',
-      text1: 'baixo risco',
-      text2: 'investimento a partir de R$ 15 mil reais',
+      text1: 'baixo investimento',
+      text2: 'investimento a partir de 25 mil reais',
     },
   ]
 
