@@ -44,7 +44,7 @@ export function EnjoyOurExclusiveAdvantagesSection() {
       icon: '/images/icons/moneybag.svg',
       alt: 'Ícon de um saco de dinheiro',
       text1: 'baixo risco',
-      text2: 'pode demorar além do previsto, mas o valor investido retorna pra você',
+      text2: 'investimento a partir de R$ 15 mil reais',
     },
   ]
 
