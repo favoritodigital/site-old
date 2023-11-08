@@ -12,7 +12,7 @@ export default function BeAFranchisee() {
   return (
     <>
       <Head>
-        <title>seja um franqueado | Que Barbada</title>
+        <title>Seja um franqueado | Favorito</title>
       </Head>
       <YouCanProfitWithEachBusinessSection />
       <HowOurBusinessWorkSection />

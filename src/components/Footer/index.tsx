@@ -24,7 +24,7 @@ export function Footer() {
         <div className={styles.socialMedia}>
           <p>Siga nas redes sociais:</p>
           <div className={styles.socialMediaImages}>
-            <a href='https://www.instagram.com/quebarbadaoficial/' target='_blank' rel='noreferrer'>
+            <a href='https://www.instagram.com/favorito.digital/' target='_blank' rel='noreferrer'>
               <Image
                 src='/images/brands/social-medias/instagram.svg'
                 alt='logo do Instagram'
@@ -32,7 +32,7 @@ export function Footer() {
                 objectFit='contain'
               />
             </a>
-            <a href='https://www.tiktok.com/@quebarbada' target='_blank' rel='noreferrer'>
+            <a href='https://www.tiktok.com/@favorito.digital' target='_blank' rel='noreferrer'>
               <Image
                 src='/images/brands/social-medias/tiktok.svg'
                 alt='logo do Tiktok'
@@ -40,7 +40,11 @@ export function Footer() {
                 objectFit='contain'
               />
             </a>
-            <a href='https://www.linkedin.com/company/quebarbada' target='_blank' rel='noreferrer'>
+            <a
+              href='https://www.linkedin.com/company/favoritodigital'
+              target='_blank'
+              rel='noreferrer'
+            >
               <Image
                 src='/images/brands/social-medias/linkedin.svg'
                 alt='logo do Lindekin'
@@ -48,7 +52,7 @@ export function Footer() {
                 objectFit='contain'
               />
             </a>
-            <a href='https://github.com/quebarbada/landing-page' target='_blank' rel='noreferrer'>
+            <a href='https://github.com/favoritodigital/site' target='_blank' rel='noreferrer'>
               <Image
                 src='/images/brands/social-medias/github.svg'
                 alt='logo do Github'
@@ -56,7 +60,7 @@ export function Footer() {
                 objectFit='contain'
               />
             </a>
-            <a href='https://www.youtube.com/@quebarbada' target='_blank' rel='noreferrer'>
+            <a href='https://www.youtube.com/@favorito.digital' target='_blank' rel='noreferrer'>
               <Image
                 src='/images/brands/social-medias/youtube.svg'
                 alt='logo do Github'

@@ -10,7 +10,7 @@ export default function RegisterEstablishment() {
   return (
     <>
       <Head>
-        <title>cadastre o seu estabelecimento | Que Barbada</title>
+        <title>Cadastre o seu estabelecimento | Favorito</title>
       </Head>
       <StandOutSection />
       <WhatOurAppDeliversSection />

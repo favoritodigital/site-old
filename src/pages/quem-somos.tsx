@@ -8,7 +8,7 @@ export default function WhoWeAre() {
   return (
     <>
       <Head>
-        <title>quem somos | Que Barbada</title>
+        <title>Quem somos | Favorito</title>
       </Head>
       <AStartupThatCameToHelpSection />
       <OurPathSection />

@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Que Barbada - a bússola do rolê</title>
+        <title>Favorito: sua melhor experiência</title>
       </Head>
       <IntroductionSection />
       <NoMoreQuestionsSection />

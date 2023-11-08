@@ -6,7 +6,7 @@ export default function TermsOfUse() {
   return (
     <>
       <Head>
-        <title>termos de uso | Que Barbada</title>
+        <title>Termos de uso | Favorito</title>
       </Head>
       <div className={styles.container}>
         <div>
@@ -17,11 +17,11 @@ export default function TermsOfUse() {
           </p>
           <p>
             Sabemos que é tentador pular estes Termos de Uso, mas é importante estabelecer o que
-            você pode esperar de nós ao utilizar o <i>app</i> <b>Que Barbada</b> e o que esperamos
-            de você.
+            você pode esperar de nós ao utilizar o <i>app</i> <b>Favorito</b> e o que esperamos de
+            você.
           </p>
           <p>
-            Estes “Termos de Uso” ou “Termos” ajudam a definir a relação do <b>Que Barbada</b> com
+            Estes “Termos de Uso” ou “Termos” ajudam a definir a relação do <b>Favorito</b> com
             você.
           </p>
           <p>Por exemplo, estes Termos incluem as seguintes seções:</p>
@@ -52,15 +52,15 @@ export default function TermsOfUse() {
             . Recomendamos que você a leia também, para entender melhor como pode gerir seus dados
             pessoais.
           </p>
-          <h3>Seu relacionamento com o Que Barbada</h3>
+          <h3>Seu relacionamento com o Favorito</h3>
           <p>
-            Estes Termos ajudam a definir o relacionamento entre você e o Que Barbada. De modo
-            geral, permitimos que você utilize nosso aplicativo se concordar em seguir estes Termos,
-            que refletem o modo como o Que Barbada funciona.
+            Estes Termos ajudam a definir o relacionamento entre você e o Favorito. De modo geral,
+            permitimos que você utilize nosso aplicativo se concordar em seguir estes Termos, que
+            refletem o modo como o Favorito funciona.
           </p>
           <p>
-            Quando falamos de “Que Barbada”, “nós”, “nosso” ou “nossa”, estamos nos referindo a MM
-            Tech Ltda, pessoa jurídica de direito privado, sociedade limitada registrada na Junta
+            Quando falamos de “Favorito”, “nós”, “nosso” ou “nossa”, estamos nos referindo a MM Tech
+            Ltda, pessoa jurídica de direito privado, sociedade limitada registrada na Junta
             Comercial do Estado de Santa Catarina (“Jucesc”), inscrita no Cadastro Nacional da
             Pessoa Jurídica (“CNPJ”) sob o n.º 46.230.468/0001-73, com sede na Rua Pascoal Meller,
             73, Universitário, 88805-380, Criciúma, SC.
@@ -71,10 +71,10 @@ export default function TermsOfUse() {
             diversão e lazer em diversos estabelecimentos.
           </p>
           <p>
-            O serviço da plataforma Que Barbada consiste em conectar, através do aplicativo, as
-            pessoas (usuários) aos estabelecimentos cadastrados, por meio da visualização online das
-            ofertas e/ou opções diferenciadas de entretenimento/atendimento do estabelecimento para
-            um determinado dia.
+            O serviço da plataforma Favorito consiste em conectar, através do aplicativo, as pessoas
+            (usuários) aos estabelecimentos cadastrados, por meio da visualização online das ofertas
+            e/ou opções diferenciadas de entretenimento/atendimento do estabelecimento para um
+            determinado dia.
           </p>
           <h3>1.1. Como funciona</h3>
           <p>
@@ -88,8 +88,8 @@ export default function TermsOfUse() {
             O cadastro serve para que você possa usufruir de maiores benefícios e funcionalidades.
           </p>
           <p>
-            Cabe a você, usuário do <i>app</i>, ou <i>barbadinha</i>, como gostamos de chamar,
-            visualizar o estabelecimento na nossa plataforma e decidir se vai ou não aproveitá-la.
+            Cabe a você, usuário do <i>app</i>, visualizar o estabelecimento na nossa plataforma e
+            decidir se vai ou não aproveitá-la.
           </p>
           <p>
             Para proporcionar uma melhor experiência, recomendamos que utilize nossos filtros para
@@ -120,12 +120,12 @@ export default function TermsOfUse() {
             estabelecimentos e prestadores de serviços.
           </p>
           <p>
-            O aplicativo Que Barbada é completamente gratuito para os usuários e não requer nenhum
+            O aplicativo Favorito é completamente gratuito para os usuários e não requer nenhum
             pagamento para o seu uso.
           </p>
           <h3>1.2. Promoções e ofertas</h3>
           <p>
-            Quando quiser, o Que Barbada veiculará em sua plataforma promoções e ofertas, com ou sem
+            Quando quiser, o Favorito veiculará em sua plataforma promoções e ofertas, com ou sem
             restrições próprias, a serem veiculadas conforme o interesse da empresa. Sua
             participação em quaisquer promoções implica na aceitação das regras próprias delas.
           </p>
@@ -142,7 +142,7 @@ export default function TermsOfUse() {
               com a aprovação de um dos pais ou responsável legal;
             </li>
             <li>
-              Todas as comunicações do Que Barbada diretamente com você serão feitas através das
+              Todas as comunicações do Favorito diretamente com você serão feitas através das
               informações fornecidas no cadastro, por isso é muito importante que você forneça os
               dados corretos e os mantenha atualizados;
             </li>
@@ -153,7 +153,7 @@ export default function TermsOfUse() {
               ninguém;
             </li>
             <li>
-              Qualquer violação ao disposto nos Termos de Uso garantirá ao Que Barbada o direito de
+              Qualquer violação ao disposto nos Termos de Uso garantirá ao Favorito o direito de
               adotar as medidas que julgar necessárias, podendo vedar o acesso do usuário;
             </li>
             <li>
@@ -172,17 +172,17 @@ export default function TermsOfUse() {
             O respeito pela privacidade e segurança dos seus dados é fundamental na nossa abordagem
             para responder às solicitações de dados. Quando recebemos solicitações de divulgação de
             dados, nossa equipe as analisa para garantir que satisfaçam os requisitos legais e as
-            políticas de privacidade do Que Barbada. O Que Barbada trata dados de acordo com as leis
-            do Brasil, em especial a Lei Geral de Proteção de Dados. Para ver mais informações sobre
-            as solicitações de divulgação de dados que o Que Barbada recebe e como respondemos a
-            essas solicitações, consulte nossa{' '}
+            políticas de privacidade do Favorito. O Favorito trata dados de acordo com as leis do
+            Brasil, em especial a Lei Geral de Proteção de Dados. Para ver mais informações sobre as
+            solicitações de divulgação de dados que o Favorito recebe e como respondemos a essas
+            solicitações, consulte nossa{' '}
             <a href='/politica-de-privacidade' target='_blank' rel='noreferrer'>
               <b>Política de Privacidade</b>
             </a>
           </p>
           <h3>3.2. Disposições gerais</h3>
           <p>
-            O Que Barbada reserva o direito de alterar os Termos de Uso aqui estipuladas a seu
+            O Favorito reserva o direito de alterar os Termos de Uso aqui estipuladas a seu
             critério, podendo alterar, adicionar, modificar ou remover partes.
           </p>
           <p>
@@ -195,10 +195,6 @@ export default function TermsOfUse() {
           </p>
           <h3>3.3. Soluções de disputas, legislação aplicável e tribunais</h3>
           <p>
-            Para obter informações sobre como entrar em contato com o Que Barbada, por favor visite
-            nossa página de contato.
-          </p>
-          <p>
             As leis do Brasil vão reger todas as disputas que surgirem com relação a qualquer um
             destes Termos, de termos adicionais ou qualquer serviço relacionado, mesmo se houver
             conflito nas regras das leis. Essas disputas serão resolvidas exclusivamente na Justiça
@@ -207,7 +203,7 @@ export default function TermsOfUse() {
           <div className={styles.companyInfo}>
             <p>
               <b>
-                <i>Que Barbada</i>
+                <i>Favorito</i>
               </b>
             </p>
             <p>

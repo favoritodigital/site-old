@@ -47,10 +47,10 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Head>
         <meta charSet='utf-8' />
         <meta name='viewport' content='initial-scale=1.0, width=device-width' />
-        <meta property='og:title' content='Que Barbada - a bússola do rolê' />
-        <meta name='description' content='encontre seu rolê em 30 segundos!' />
-        <meta property='og:url' content='https://www.quebarbada.com/' />
-        <meta property='og:image' content='https://www.quebarbada.com/quebarbada.png' />
+        <meta property='og:title' content='Favorito: sua melhor experiência' />
+        <meta name='description' content='Descubra seu novo local Favorito' />
+        <meta property='og:url' content='https://favorito.digital/' />
+        <meta property='og:image' content='https://favorito.digital/favorito.png' />
       </Head>
       <FacebookPixelScript />
       <GoogleAnalyticsScript />

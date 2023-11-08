@@ -6,7 +6,7 @@ export default function PrivacyPolicy() {
   return (
     <>
       <Head>
-        <title>política de privacidade | Que Barbada</title>
+        <title>Política de privacidade | Favorito</title>
       </Head>
       <div className={styles.container}>
         <div>
