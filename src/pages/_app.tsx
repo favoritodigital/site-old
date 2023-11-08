@@ -48,7 +48,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta charSet='utf-8' />
         <meta name='viewport' content='initial-scale=1.0, width=device-width' />
         <meta property='og:title' content='Favorito: sua melhor experiência' />
-        <meta name='description' content='Descubra seu novo local Favorito' />
+        <meta name='description' content='Descubra seu novo local Favorito!' />
         <meta property='og:url' content='https://favorito.digital/' />
         <meta property='og:image' content='https://favorito.digital/favorito.png' />
       </Head>
