@@ -11,7 +11,7 @@ export function YouCanProfitWithEachBusinessSection() {
         um negócio inovador
       </h1>
       <p className={styles.paragraph}>
-        seja dono do aplicativo Que Barbada e tenha a chance de faturar mais de
+        seja dono do aplicativo Favorito e tenha a chance de faturar mais de
         <span> R$ 20 mil reais por mês</span> vendendo a nossa solução! assista o vídeo abaixo para
         entender:
       </p>

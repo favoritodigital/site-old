@@ -56,7 +56,7 @@ export function WhatOurAppDeliversSection() {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>o que o aplicativo Que Barbada te entrega</h1>
+      <h1 className={styles.title}>o que o aplicativo Favorito te entrega</h1>
       <div className={styles.content}>
         {items.map(item => (
           <div key={item.number} className={styles.card}>

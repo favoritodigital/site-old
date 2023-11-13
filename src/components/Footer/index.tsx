@@ -11,14 +11,14 @@ export function Footer() {
           <Link href={'/'}>
             <a>
               <Image
-                src='/images/quebarbada-logo.svg'
-                alt='logo do Que Barbada'
+                src='/images/favorito-logo.svg'
+                alt='logo do Favorito'
                 layout='fill'
                 objectFit='contain'
               />
             </a>
           </Link>
-          <p>&copy; {new Date().getFullYear()} Que Barbada. Todos direitos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} Favorito. Todos direitos reservados.</p>
           <p>CNPJ 46.230.468/0001-73</p>
         </div>
         <div className={styles.socialMedia}>

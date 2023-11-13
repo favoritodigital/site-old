@@ -39,10 +39,10 @@ export function Header({ badge }: Props) {
               <Link href={'/'}>
                 <a>
                   <Image
-                    src='/images/quebarbada-logo.svg'
+                    src='/images/favorito-logo.svg'
                     layout='fill'
                     objectFit='contain'
-                    alt='logo Quebarbada'
+                    alt='logo Favorito'
                   />
                 </a>
               </Link>

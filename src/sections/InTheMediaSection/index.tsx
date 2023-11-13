@@ -9,7 +9,7 @@ import { news } from '../../repositories/news'
 export function InTheMediaSection() {
   return (
     <div id='na-midia-section' className={styles.container}>
-      <h1 className={styles.title}>Que Barbada na mídia</h1>
+      <h1 className={styles.title}>Favorito na mídia</h1>
       <div className={styles.carousel}>
         <SlidesInTheMedia />
       </div>

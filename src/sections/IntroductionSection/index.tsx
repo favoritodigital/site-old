@@ -29,7 +29,7 @@ export function IntroductionSection() {
             objectPosition='right center'
             priority
             src='/images/app/app-introduction.png'
-            alt='Imagem do aplicativo Que Barbada'
+            alt='Imagem do aplicativo Favorito'
           />
         </div>
         <div className={styles.downloadButton}>

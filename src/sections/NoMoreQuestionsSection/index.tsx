@@ -15,7 +15,7 @@ export function NoMoreQuestionsSection() {
         />
       </div>
       <p className={styles.paragraph}>
-        no aplicativo Que Barbada você encontra as informações necessárias para escolher o seu rolê
+        no aplicativo Favorito você encontra as informações necessárias para escolher o seu rolê
         ideal, em apenas alguns toques
       </p>
     </div>

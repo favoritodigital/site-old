@@ -13,15 +13,15 @@ export default function PrivacyPolicy() {
           <h1>Privacy Policy</h1>
           <p>Para idioma português role a página.</p>
           <p>
-            QUE BARBADA LTDA built the Que Barbada app as a Free app. This SERVICE is provided by
-            QUE BARBADA LTDA at no cost and is intended for use as is. This page is used to inform
-            visitors regarding our policies with the collection, use, and disclosure of Personal
-            Information if anyone decided to use our Service. If you choose to use our Service, then
-            you agree to the collection and use of information in relation to this policy. The
-            Personal Information that we collect is used for providing and improving the Service. We
-            will not use or share your information with anyone except as described in this Privacy
-            Policy. The terms used in this Privacy Policy have the same meanings as in our Terms and
-            Conditions, which is accessible at Que Barbada unless otherwise defined in this Privacy
+            MM TECH LTDA built the Favorito app as a Free app. This SERVICE is provided by MM TECH
+            LTDA at no cost and is intended for use as is. This page is used to inform visitors
+            regarding our policies with the collection, use, and disclosure of Personal Information
+            if anyone decided to use our Service. If you choose to use our Service, then you agree
+            to the collection and use of information in relation to this policy. The Personal
+            Information that we collect is used for providing and improving the Service. We will not
+            use or share your information with anyone except as described in this Privacy Policy.
+            The terms used in this Privacy Policy have the same meanings as in our Terms and
+            Conditions, which is accessible at Favorito unless otherwise defined in this Privacy
             Policy.
           </p>
           <h2>Information Collection and Use</h2>
@@ -114,21 +114,21 @@ export default function PrivacyPolicy() {
           <h2>Contact Us</h2>
           <p>
             If you have any questions or suggestions about our Privacy Policy, do not hesitate to
-            contact us at contato@quebarbada.com.
+            contact us at contato@favorito.digital.
           </p>
           <h1>Política de Privacidade em Português</h1>
           <p>
-            A QUE BARBADA LTDA construiu o aplicativo Que Barbada como um aplicativo gratuito. Este
-            SERVIÇO é prestado pela QUE BARBADA LTDA sem nenhum custo e deve ser utilizado no estado
-            em que se encontra. Esta página é usada para informar os visitantes sobre nossas
-            políticas de coleta, uso e divulgação de Informações Pessoais, caso alguém decida usar
-            nosso Serviço. Se você optar por usar nosso Serviço, você concorda com a coleta e uso de
-            informações em relação a esta política. As informações pessoais que coletamos são usadas
-            para fornecer e melhorar o serviço. Não usaremos ou compartilharemos suas informações
-            com ninguém, exceto conforme descrito nesta Política de Privacidade. Os termos usados
-            nesta Política de Privacidade têm os mesmos significados que em nossos Termos e
-            Condições, que podem ser acessados no Que Barbada, a menos que definido de outra forma
-            nesta Política de Privacidade.
+            A MM TECH LTDA construiu o aplicativo Favorito como um aplicativo gratuito. Este SERVIÇO
+            é prestado pela MM TECH LTDA sem nenhum custo e deve ser utilizado no estado em que se
+            encontra. Esta página é usada para informar os visitantes sobre nossas políticas de
+            coleta, uso e divulgação de Informações Pessoais, caso alguém decida usar nosso Serviço.
+            Se você optar por usar nosso Serviço, você concorda com a coleta e uso de informações em
+            relação a esta política. As informações pessoais que coletamos são usadas para fornecer
+            e melhorar o serviço. Não usaremos ou compartilharemos suas informações com ninguém,
+            exceto conforme descrito nesta Política de Privacidade. Os termos usados nesta Política
+            de Privacidade têm os mesmos significados que em nossos Termos e Condições, que podem
+            ser acessados no Favorito, a menos que definido de outra forma nesta Política de
+            Privacidade.
           </p>
           <h2>Coleta e uso de informações</h2>
           <p>
@@ -224,7 +224,7 @@ export default function PrivacyPolicy() {
           <h2>Entre em contato conosco</h2>
           <p>
             Se você tiver alguma dúvida ou sugestão sobre nossa Política de Privacidade, não hesite
-            em nos contatar em contato@quebarbada.com
+            em nos contatar em contato@favorito.digital
           </p>
         </div>
       </div>

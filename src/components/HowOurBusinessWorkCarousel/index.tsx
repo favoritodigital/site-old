@@ -44,7 +44,7 @@ export function HowOurBusinessWorkCarousel() {
                   layout='fill'
                   objectFit='contain'
                   src={`/images/app/${slide.fileName}`}
-                  alt='Imagem do aplicativo Que Barbada'
+                  alt='Imagem do aplicativo Favorito'
                 />
               </div>
               <p className={styles.slideText}>{slide.text}</p>
