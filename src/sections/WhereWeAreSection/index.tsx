@@ -10,9 +10,9 @@ import { CAPITAL_REGION_COUNT, REGION_COUNT } from '../../repositories/constants
 export function WhereWeAreSection() {
   return (
     <div id='onde-estamos-section' className={styles.container}>
-      <h1 className={styles.title}>onde estamos</h1>
+      <h1 className={styles.title}>Onde estamos</h1>
       <p className={styles.paragraph}>
-        até o momento, nosso app está presente em {REGION_COUNT} regiões do Brasil, incluindo{' '}
+        Até o momento, nosso app está presente em {REGION_COUNT} regiões do Brasil, incluindo{' '}
         {CAPITAL_REGION_COUNT} capitais
       </p>
       <div className={styles.illustration}>

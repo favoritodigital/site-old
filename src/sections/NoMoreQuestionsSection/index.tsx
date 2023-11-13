@@ -5,7 +5,7 @@ import styles from './styles.module.css'
 export function NoMoreQuestionsSection() {
   return (
     <div id='chega-de-duvidas' className={styles.container}>
-      <h1 className={styles.title}>chega de dúvidas na hora de sair</h1>
+      <h1 className={styles.title}>Chega de dúvidas na hora de sair</h1>
       <div className={styles.svg}>
         <Image
           src='/images/ilustrations/chega-de-duvidas.svg'
@@ -15,8 +15,8 @@ export function NoMoreQuestionsSection() {
         />
       </div>
       <p className={styles.paragraph}>
-        no aplicativo Favorito você encontra as informações necessárias para escolher o seu rolê
-        ideal, em apenas alguns toques
+        No aplicativo Favorito você encontra as informações necessárias para escolher a sua
+        experiência ideal, em apenas alguns toques
       </p>
     </div>
   )

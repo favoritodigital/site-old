@@ -9,54 +9,54 @@ export function WhatOurAppDeliversSection() {
       id: 'clock-icon',
       icon: '/images/icons/clock.svg',
       alt: 'Ícone de um relógio',
-      text1: 'economia de tempo',
-      text2: 'gerenciamos seu perfil, cadastrando todas as informações por você',
+      text1: 'Economia de tempo',
+      text2: 'Gerenciamos seu perfil, cadastrando todas as informações por você',
     },
     {
       number: 2,
       id: 'podium-icon',
       icon: '/images/icons/podium.svg',
       alt: 'Ícone de um pódio',
-      text1: 'vantagem competitiva',
-      text2: 'mostramos as principais características do seu estabelecimento',
+      text1: 'Vantagem competitiva',
+      text2: 'Mostramos as principais características do seu estabelecimento',
     },
     {
       number: 3,
       id: 'contacts-icon',
       icon: '/images/icons/contacts.svg',
       alt: 'Ícone de pessoas',
-      text1: 'conexão com clientes',
-      text2: 'melhoramos a comunicação do seu estabelecimento com o público',
+      text1: 'Conexão com clientes',
+      text2: 'Melhoramos a comunicação do seu estabelecimento com o público',
     },
     {
       number: 4,
       id: 'eye-icon',
       icon: '/images/icons/eye.svg',
       alt: 'Ícone de um olho',
-      text1: 'mais visibilidade',
-      text2: 'temos parceria com hotéis e enviamos notificações diariamente',
+      text1: 'Mais visibilidade',
+      text2: 'Temos parceria com hotéis e enviamos notificações diariamente',
     },
     {
       number: 5,
       id: 'piggybank-icon',
       icon: '/images/icons/piggybank.svg',
       alt: 'Ícone de um cofre',
-      text1: 'custo-benefício',
-      text2: 'somos o investimento em marketing mais acessível do mercado',
+      text1: 'Custo-benefício',
+      text2: 'Somos o investimento em marketing mais acessível do mercado',
     },
     {
       number: 6,
       id: 'rocket-icon',
       icon: '/images/icons/rocket.svg',
       alt: 'Ícone de um foguete',
-      text1: 'inovação',
-      text2: 'não existe outra plataforma como essa, e você pode sair na frente',
+      text1: 'Inovação',
+      text2: 'Não existe outra plataforma como essa, e você pode sair na frente',
     },
   ]
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>o que o aplicativo Favorito te entrega</h1>
+      <h1 className={styles.title}>O que o aplicativo Favorito te entrega</h1>
       <div className={styles.content}>
         {items.map(item => (
           <div key={item.number} className={styles.card}>

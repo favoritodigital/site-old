@@ -5,7 +5,7 @@ import styles from './styles.module.css'
 export function AStartupThatCameToHelpSection() {
   return (
     <div id='uma-start-up-que-veio-para-ajudar-section' className={styles.container}>
-      <h1 className={styles.title}>uma startup que veio para ajudar...</h1>
+      <h1 className={styles.title}>Uma startup que veio para ajudar...</h1>
       <div className={styles.content}>
         <div className={styles.card1}>
           <div className={styles.ilustration}>
@@ -18,7 +18,7 @@ export function AStartupThatCameToHelpSection() {
             />
           </div>
           <p className={styles.paragraph}>
-            pessoas a encontrarem locais para comer, beber e se divertir com facilidade
+            Pessoas a encontrarem locais para comer, beber e se divertir com facilidade
           </p>
         </div>
         <div className={styles.card2}>
@@ -32,7 +32,7 @@ export function AStartupThatCameToHelpSection() {
             />
           </div>
           <p className={styles.paragraph}>
-            bares, pubs e restaurantes a melhorarem a experiência do cliente pela comunicação
+            Bares, pubs e restaurantes a melhorarem a experiência do cliente pela comunicação
           </p>
         </div>
         <div className={styles.card3}>
@@ -46,7 +46,7 @@ export function AStartupThatCameToHelpSection() {
             />
           </div>
           <p className={styles.paragraph}>
-            franqueados do app a serem donos do próprio negócio de forma acessível
+            Franqueados do app a serem donos do próprio negócio de forma acessível
           </p>
         </div>
       </div>

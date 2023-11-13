@@ -48,29 +48,29 @@ export function Header({ badge }: Props) {
               </Link>
             </div>
             <div className={styles.navigationWeb}>
-              <WebNavigationItem href={'/'} label={'início'} hasBadge={badge === BadgePages.home} />
+              <WebNavigationItem href={'/'} label={'Início'} hasBadge={badge === BadgePages.home} />
               <WebNavigationItem
                 href={'/quem-somos'}
-                label={'quem somos'}
+                label={'Quem somos'}
                 hasBadge={badge === BadgePages.whoWeAre}
               />
               <WebNavigationItem
                 href={'/cadastre-seu-estabelecimento'}
-                label={'cadastre o seu estabelecimento'}
+                label={'Cadastre o seu estabelecimento'}
                 hasBadge={badge === BadgePages.registerEstablishment}
               />
               <WebNavigationItem
                 href={'/seja-franqueado'}
-                label={'seja um franqueado'}
+                label={'Seja um franqueado'}
                 hasBadge={badge === BadgePages.beFranchisee}
               />
             </div>
           </div>
           <div className={styles.downloadButton}>
             {isMobile ? (
-              <HeaderDownloadButton text='baixe o app' />
+              <HeaderDownloadButton text='Baixe o app' />
             ) : (
-              <WebDownloadButton text='baixe o app' header />
+              <WebDownloadButton text='Baixe o app' header />
             )}
           </div>
           <button className={styles.menuButton} onClick={() => handleIsMenuOpen(!isMenuOpen)}>
@@ -85,28 +85,28 @@ export function Header({ badge }: Props) {
                   id='home'
                   handleIsMenuOpen={handleIsMenuOpen}
                   href='/'
-                  label='início'
+                  label='Início'
                   hasBadge={badge === BadgePages.home}
                 />
                 <MenuItem
                   id='quem-somos'
                   handleIsMenuOpen={handleIsMenuOpen}
                   href='/quem-somos'
-                  label='quem somos'
+                  label='Quem somos'
                   hasBadge={badge === BadgePages.whoWeAre}
                 />
                 <MenuItem
                   id='cadastre-seu-estabelecimento'
                   handleIsMenuOpen={handleIsMenuOpen}
                   href='/cadastre-seu-estabelecimento'
-                  label='cadastre o seu estabelecimento'
+                  label='Cadastre o seu estabelecimento'
                   hasBadge={badge === BadgePages.registerEstablishment}
                 />
                 <MenuItem
                   id='seja-franqueado'
                   handleIsMenuOpen={handleIsMenuOpen}
                   href='/seja-franqueado'
-                  label='seja um franqueado'
+                  label='Seja um franqueado'
                   hasBadge={badge === BadgePages.beFranchisee}
                 />
               </ul>

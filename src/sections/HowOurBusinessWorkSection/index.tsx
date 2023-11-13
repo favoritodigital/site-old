@@ -11,15 +11,15 @@ export function HowOurBusinessWorkSection() {
 
   return (
     <div id='how-our-business-work' className={styles.container}>
-      <h1 className={styles.title}>como funciona o nosso negócio</h1>
+      <h1 className={styles.title}>Como funciona o nosso negócio</h1>
       <div className={styles.carousel}>
         <HowOurBusinessWorkCarousel />
       </div>
       <div className={styles.btn}>
         {isMobile ? (
-          <DownloadButton text={'baixe o app e confira'} />
+          <DownloadButton text={'Baixe o app e confira'} />
         ) : (
-          <WebDownloadButton text={'baixe o app e confira'} />
+          <WebDownloadButton text={'Baixe o app e confira'} />
         )}
       </div>
     </div>

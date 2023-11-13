@@ -9,11 +9,11 @@ export function IntroductionSection() {
   return (
     <div id='inicio' className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>encontre seu rolê em 30 segundos</h1>
+        <h1 className={styles.title}>Encontre onde comer e beber</h1>
 
         <p className={styles.paragraph}>
-          te damos bons motivos para sair de casa e curtir! e o melhor:{' '}
-          <span>quem decide o rolê é você!</span>
+          Te damos bons motivos para sair de casa e curtir! E o melhor:{' '}
+          <span>quem escolhe a experiência é você!</span>
         </p>
 
         <div className={styles.storeDownloadButtons}>
@@ -33,7 +33,7 @@ export function IntroductionSection() {
           />
         </div>
         <div className={styles.downloadButton}>
-          <DownloadButton text={'baixe o app grátis'} />
+          <DownloadButton text={'Baixe o app grátis'} />
         </div>
       </div>
     </div>

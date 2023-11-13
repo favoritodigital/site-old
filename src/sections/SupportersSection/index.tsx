@@ -10,7 +10,7 @@ import { supporters } from '../../repositories/supporters'
 export function SupportersSection() {
   return (
     <div id='apoiadores-section' className={styles.container}>
-      <h1 className={styles.title}>apoiadores</h1>
+      <h1 className={styles.title}>Apoiadores</h1>
       <div className={styles.content}>
         {supporters.map(supporter => {
           return (

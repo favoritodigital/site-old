@@ -30,13 +30,13 @@ export function BeSeenByYourCustomersSection() {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>seja visto pelo seu cliente ideal a partir de hoje!</h1>
+      <h1 className={styles.title}>Seja visto pelo seu cliente ideal a partir de hoje!</h1>
       <p className={styles.paragraph}>
-        preencha o formulário abaixo e a nossa equipe entrará em contato com você
+        Preencha o formulário abaixo e a nossa equipe entrará em contato com você
       </p>
       <div id='script_div' className={styles.form} />
-      <p className={styles.paragraph}>ou se preferir, clique no botão abaixo e fale conosco</p>
-      <WhatsappButton text='quero me cadastrar' />
+      <p className={styles.paragraph}>Se preferir, clique no botão abaixo e fale conosco</p>
+      <WhatsappButton text='Quero me cadastrar' />
     </div>
   )
 }

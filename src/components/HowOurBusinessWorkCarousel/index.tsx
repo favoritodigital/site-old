@@ -13,15 +13,15 @@ export function HowOurBusinessWorkCarousel() {
   const slides = [
     {
       fileName: 'app-3.png',
-      text: 'você, como licenciado, cadastra e atualiza as informações dos estabelecimentos no app',
+      text: 'Você, como licenciado, cadastra e atualiza as informações dos estabelecimentos no app',
     },
     {
       fileName: 'app-4.png',
-      text: 'os estabelecimentos são facilmente encontrados pelo público que tem a intenção de sair',
+      text: 'Os estabelecimentos são facilmente encontrados pelo público que tem a intenção de sair',
     },
     {
       fileName: 'app-2.png',
-      text: 'os usuários podem filtrar locais conforme as suas preferências, de forma rápida e prática',
+      text: 'Os usuários podem filtrar locais conforme as suas preferências, de forma rápida e prática',
     },
   ]
 

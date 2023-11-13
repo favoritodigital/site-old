@@ -5,7 +5,7 @@ import styles from './styles.module.css'
 export function OurPathSection() {
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>nossa trajetória</h1>
+      <h1 className={styles.title}>Nossa trajetória</h1>
       <div className={styles.roadmap}>
         <div className={styles.row1}>
           <div className={styles.card}>
@@ -21,40 +21,40 @@ export function OurPathSection() {
           <div className={styles.card}>
             <h1 className={styles.cardTitle}>13 de abril/22</h1>
             <p className={styles.cardParagraph}>
-              lançamento do app Que Barbada na cidade de Jaraguá do Sul - SC
+              Lançamento do app Que Barbada na cidade de Jaraguá do Sul - SC
             </p>
           </div>
           <div className={styles.card}>
             <h1 className={styles.cardTitle}>15 de junho/22</h1>
             <p className={styles.cardParagraph}>
-              recebemos o Prêmio de Melhor Pitch do Programa de Pré-Incubação da FAPESC em
+              Recebemos o Prêmio de Melhor Pitch do Programa de Pré-Incubação da FAPESC em
               Florianópolis - SC
             </p>
           </div>
           <div className={styles.card}>
             <h1 className={styles.cardTitle}>15 de agosto/22</h1>
             <p className={styles.cardParagraph}>
-              implantado o modelo de licenciatura de marca em Jaraguá do Sul - SC
+              Implantado o modelo de licenciatura de marca em Jaraguá do Sul - SC
             </p>
           </div>
         </div>
         <div className={styles.row2}>
           <div className={styles.card}>
             <h1 className={styles.cardTitle}>1º de outubro/22</h1>
-            <p className={styles.cardParagraph}>início das operações na cidade de Criciúma - SC</p>
+            <p className={styles.cardParagraph}>Início das operações na cidade de Criciúma - SC</p>
           </div>
           <div className={styles.card}>
             <h1 className={styles.cardTitle}>1º de fevereiro/23</h1>
-            <p className={styles.cardParagraph}>início das operações na cidade de Joinville - SC</p>
+            <p className={styles.cardParagraph}>Início das operações na cidade de Joinville - SC</p>
           </div>
           <div className={styles.card}>
             <h1 className={styles.cardTitle}>15 de fevereiro/23</h1>
-            <p className={styles.cardParagraph}>início das operações na cidade de Lajeado - RS</p>
+            <p className={styles.cardParagraph}>Início das operações na cidade de Lajeado - RS</p>
           </div>
           <div className={styles.card}>
             <h1 className={styles.cardTitle}>30 de março/23</h1>
             <p className={styles.cardParagraph}>
-              startup fica em 1º lugar no Programa Inova Criciúma e recebe aporte de 25 mil reais
+              Startup fica em 1º lugar no Programa Inova Criciúma e recebe aporte de 25 mil reais
             </p>
           </div>
         </div>
@@ -62,7 +62,7 @@ export function OurPathSection() {
           <div className={styles.card}>
             <h1 className={styles.cardTitle}>3 de abril/23</h1>
             <p className={styles.cardParagraph}>
-              aprovados no Programa InovAtiva Brasil, a maior aceleradora de Startups da América
+              Aprovados no Programa InovAtiva Brasil, a maior aceleradora de Startups da América
               Latina
             </p>
           </div>
@@ -75,11 +75,11 @@ export function OurPathSection() {
           <div className={styles.card}>
             <h1 className={styles.cardTitle}>15 de junho/23</h1>
             <p className={styles.cardParagraph}>
-              início das operações na cidade de Florianópolis - SC, nossa primeira capital!
+              Início das operações na cidade de Florianópolis - SC, nossa primeira capital!
             </p>
           </div>
           <div className={styles.altCard}>
-            <h1 className={styles.altCardTitle}>e a história continua!</h1>
+            <h1 className={styles.altCardTitle}>E a história continua!</h1>
           </div>
         </div>
       </div>
@@ -88,7 +88,7 @@ export function OurPathSection() {
           src='/images/team/cristian-gabriel.png'
           layout='fill'
           objectFit='contain'
-          alt='foto do Cristian e do Gabriel'
+          alt='Foto do Cristian e do Gabriel'
         />
       </div>
     </div>

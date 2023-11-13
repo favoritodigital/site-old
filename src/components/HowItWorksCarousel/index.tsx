@@ -32,7 +32,7 @@ export function HowItWorksCarousel() {
               />
             </div>
             <p className={styles.slideText}>
-              <span className={styles.bold}>1.</span> ver os melhores bares, pubs e restaurantes em
+              <span className={styles.bold}>1.</span> Ver os melhores bares, pubs e restaurantes em
               uma <span className={styles.highlight}>única plataforma</span>
             </p>
           </div>
@@ -50,7 +50,7 @@ export function HowItWorksCarousel() {
               />
             </div>
             <p className={styles.slideText}>
-              <span className={styles.bold}>2.</span> combinar{' '}
+              <span className={styles.bold}>2.</span> Combinar{' '}
               <span className={styles.highlight}>filtros</span> de &ldquo;promoção&rdquo;,
               &ldquo;música ao vivo&rdquo; e muito mais
             </p>
@@ -69,7 +69,7 @@ export function HowItWorksCarousel() {
               />
             </div>
             <p className={styles.slideText}>
-              <span className={styles.bold}>3.</span> ver as principais{' '}
+              <span className={styles.bold}>3.</span> Ver as principais{' '}
               <span className={styles.highlight}>informações</span> do estabelecimento, incluindo{' '}
               <span className={styles.highlight}>cardápio</span>
             </p>
@@ -88,8 +88,8 @@ export function HowItWorksCarousel() {
               />
             </div>
             <p className={styles.slideText}>
-              <span className={styles.bold}>4.</span> explorar os locais mais{' '}
-              <span className={styles.highlight}>próximos</span> no mapa do rolê
+              <span className={styles.bold}>4.</span> Explorar os locais mais{' '}
+              <span className={styles.highlight}>próximos</span> no mapa
             </p>
           </div>
         </SwiperSlide>
@@ -106,7 +106,7 @@ export function HowItWorksCarousel() {
               />
             </div>
             <p className={styles.slideText}>
-              <span className={styles.bold}>5.</span> descobrir os{' '}
+              <span className={styles.bold}>5.</span> Descobrir os{' '}
               <span className={styles.highlight}>eventos</span> que estão rolando na{' '}
               <span className={styles.highlight}>região</span>
             </p>

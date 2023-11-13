@@ -10,7 +10,7 @@ import {
 export function AchievementsSoFarSection() {
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>nas primeiras {REGION_COUNT} cidades já conquistamos</h1>
+      <h1 className={styles.title}>Nas primeiras {REGION_COUNT} cidades já conquistamos</h1>
       <div className={styles.content}>
         <div className={styles.item}>
           <p className={styles.highlight}>{STORE_RATING}</p>

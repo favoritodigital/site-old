@@ -8,49 +8,49 @@ export function EnjoyOurExclusiveAdvantagesSection() {
       id: 1,
       icon: '/images/icons/notebook.svg',
       alt: 'Ícon de um notebook',
-      text1: 'negócio digital',
-      text2: 'sem necessidade de escritório, estoques ou funcionários',
+      text1: 'Negócio digital',
+      text2: 'Sem necessidade de escritório, estoques ou funcionários',
     },
     {
       id: 2,
       icon: '/images/icons/cup.svg',
       alt: 'Ícon de um troféu',
-      text1: 'produto inovador',
-      text2: 'aplicativo premiado e sem concorrentes diretos',
+      text1: 'Produto inovador',
+      text2: 'Aplicativo premiado e sem concorrentes diretos',
     },
     {
       id: 3,
       icon: '/images/icons/boss.svg',
       alt: 'Ícon de um chefe',
-      text1: 'seja seu próprio chefe',
-      text2: 'gerencie sua região de casa, nos seus horários',
+      text1: 'Seja seu próprio chefe',
+      text2: 'Gerencie sua região de casa, nos seus horários',
     },
     {
       id: 4,
       icon: '/images/icons/checkbox.svg',
       alt: 'Ícon de um checkbox',
-      text1: 'estratégia validada',
-      text2: 'treinamento individualizado e suporte contínuo',
+      text1: 'Estratégia validada',
+      text2: 'Treinamento individualizado e suporte contínuo',
     },
     {
       id: 5,
       icon: '/images/icons/landmark.svg',
       alt: 'Ícon de uma bandeira',
-      text1: 'exclusividade territorial',
-      text2: 'atendimento na sua cidade e regiões próximas',
+      text1: 'Exclusividade territorial',
+      text2: 'Atendimento na sua cidade e regiões próximas',
     },
     {
       id: 6,
       icon: '/images/icons/moneybag.svg',
       alt: 'Ícon de um saco de dinheiro',
-      text1: 'baixo investimento',
-      text2: 'investimento a partir de 25 mil reais',
+      text1: 'Baixo investimento',
+      text2: 'Investimento a partir de 25 mil reais',
     },
   ]
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>aproveite nossas vantagens exclusivas</h1>
+      <h1 className={styles.title}>Aproveite nossas vantagens exclusivas</h1>
       <div className={styles.content}>
         {items.map(item => (
           <div key={item.id} className={styles.card}>

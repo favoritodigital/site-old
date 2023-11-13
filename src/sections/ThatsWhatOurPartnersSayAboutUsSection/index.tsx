@@ -10,15 +10,15 @@ export function ThatsWhatOurPartnersSayAboutUsSection() {
 
   return (
     <div id='é-isso-que-os-empreendedores-falam-sobre-nós' className={styles.container}>
-      <h1 className={styles.title}>é isso que os parceiros falam sobre nós...</h1>
+      <h1 className={styles.title}>É isso que os parceiros falam sobre nós...</h1>
       <div className={styles.videos}>
         <iframe className={styles.video} src='https://www.youtube.com/embed/T43sLq62O1s' />
         <iframe className={styles.video} src='https://www.youtube.com/embed/lx8qJihfXZU' />
       </div>
       {isMobile ? (
-        <DownloadButton text={'baixe agora'} />
+        <DownloadButton text={'Baixe agora'} />
       ) : (
-        <WebDownloadButton text={'baixe agora'} />
+        <WebDownloadButton text={'Baixe agora'} />
       )}
     </div>
   )

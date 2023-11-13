@@ -13,9 +13,9 @@ export function UsersRecommendationsSection() {
 
   return (
     <div id='quem-usa-recomenda-section' className={styles.container}>
-      <h1 className={styles.title}>quem usa, recomenda</h1>
+      <h1 className={styles.title}>Quem usa, recomenda</h1>
       <p className={styles.paragraph}>
-        somos {STORE_RATING} estrelas na App Store e na Google Play, com{' '}
+        Somos {STORE_RATING} estrelas na App Store e na Google Play, com{' '}
         <span>+ de {STORE_RATING_COUNT} avaliações</span>!
       </p>
       <div className={styles.carousel}>
@@ -23,9 +23,9 @@ export function UsersRecommendationsSection() {
       </div>
       <div className={styles.btn}>
         {isMobile ? (
-          <DownloadButton text={'baixe agora'} />
+          <DownloadButton text={'Baixe agora'} />
         ) : (
-          <WebDownloadButton text={'baixe agora'} />
+          <WebDownloadButton text={'Baixe agora'} />
         )}
       </div>
     </div>

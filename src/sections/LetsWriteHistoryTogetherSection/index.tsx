@@ -29,9 +29,9 @@ export function LetsWriteHistoryTogetherSection() {
   return (
     <div className={styles.container}>
       <div id='bora-construir-uma-historia' className={styles.pin} />
-      <h1 className={styles.title}>bora construir uma história de sucesso juntos?</h1>
+      <h1 className={styles.title}>Bora construir uma história de sucesso juntos?</h1>
       <p className={styles.paragraph}>
-        preencha o formulário abaixo e a nossa equipe entrará em contato com você
+        Preencha o formulário abaixo e a nossa equipe entrará em contato com você
       </p>
       <div id='script_div' className={styles.form} />
     </div>
