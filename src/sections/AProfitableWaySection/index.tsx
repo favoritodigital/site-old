@@ -5,9 +5,10 @@ import styles from './styles.module.css'
 export function AProfitableWaySection() {
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>Um jeito lucrativo de facilitar os rolês</h1>
+      <h1 className={styles.title}>Um jeito lucrativo de facilitar o happy hour</h1>
       <p className={styles.introductionParagraph}>
-        Você terá a satisfação de conectar pessoas ao seu rolê ideal e ainda ganhará com isso!
+        Você terá a satisfação de conectar pessoas ao seus novos locais Favoritos e ainda ganhará
+        com isso!
       </p>
       <div className={styles.icon}>
         <Image
