@@ -4,6 +4,7 @@
     ".next": true,
     ".eslintrc.js": true,
     ".prettierrc": true,
+    ".editorconfig": true,
     ".gitignore": true,
     "next-env.d.ts": true,
     "next.config.js": true,
