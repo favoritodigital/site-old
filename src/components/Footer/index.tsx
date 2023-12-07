@@ -52,7 +52,7 @@ export function Footer() {
                 objectFit='contain'
               />
             </a>
-            <a href='https://github.com/favoritodigital/site' target='_blank' rel='noreferrer'>
+            <a href='https://github.com/favoritodigital/site-old' target='_blank' rel='noreferrer'>
               <Image
                 src='/images/brands/social-medias/github.svg'
                 alt='logo do Github'
