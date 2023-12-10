@@ -15,7 +15,7 @@ export function YouCanProfitWithEachBusinessSection() {
         <span> R$ 20 mil reais por mês</span> vendendo a nossa solução! Assista o vídeo abaixo para
         entender:
       </p>
-      <iframe className={styles.video} src='https://www.youtube.com/embed/SWqBIbeF4t4' />
+      <iframe className={styles.video} src='https://www.youtube.com/embed/6E2NXaYui_s' />
       <Link href='#bora-construir-uma-historia' rel='noreferrer'>
         <div className={styles.btn}>
           <div className={styles.content}>
