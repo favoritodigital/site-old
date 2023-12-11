@@ -21,7 +21,7 @@ export function AProfitableWaySection() {
       <div className={styles.secondColumn}>
         <div className={styles.text}>
           <p className={styles.paragraph}>✔ Receba comissão de 70% sobre as vendas realizadas</p>
-          <p className={styles.paragraph}>✔ Fature + de 8 mil/mês após 7 meses de operação</p>
+          <p className={styles.paragraph}>✔ Fature + de 8 mil/mês após 6 meses de operação</p>
           <p className={styles.paragraph}>
             ✔ Retorne o valor investido (payback) entre 7 a 12 meses
           </p>

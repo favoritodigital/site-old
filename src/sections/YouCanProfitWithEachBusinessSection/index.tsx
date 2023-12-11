@@ -12,7 +12,7 @@ export function YouCanProfitWithEachBusinessSection() {
       </h1>
       <p className={styles.paragraph}>
         Seja dono do aplicativo Favorito e tenha a chance de faturar mais de
-        <span> R$ 20 mil reais por mês</span> vendendo a nossa solução! Assista o vídeo abaixo para
+        <span> R$ 15 mil reais por mês</span> vendendo a nossa solução! Assista o vídeo abaixo para
         entender:
       </p>
       <iframe className={styles.video} src='https://www.youtube.com/embed/6E2NXaYui_s' />
