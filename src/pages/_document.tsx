@@ -4,7 +4,7 @@ import { FacebookPixelNoScript } from '../libs/FacebookPixelScript'
 
 export default function Document() {
   return (
-    <Html>
+    <Html lang='pt-BR'>
       <Head>
         <FacebookPixelNoScript />
       </Head>
