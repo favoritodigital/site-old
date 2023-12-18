@@ -6,7 +6,7 @@ export function WhatsappFixedButton() {
   return (
     <a
       className={styles.button}
-      href='https://wa.me/5548996303152'
+      href='https://wa.me/5547997536595'
       target='_blank'
       rel='noreferrer'
     >
