@@ -22,12 +22,6 @@
   margin-bottom: 2rem;
 }
 
-.videos {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
 .video {
   height: 174px;
   width: 310px;
@@ -43,10 +37,6 @@
     padding: 4rem 0;
   }
 
-  .videos {
-    flex-direction: row;
-  }
-
   .title {
     font-size: 2.75rem;
     line-height: 3rem;
@@ -57,8 +47,8 @@
   }
 
   .video {
-    height: 253px;
-    width: 450px;
+    height: 430px;
+    width: 765px;
   }
 }
 

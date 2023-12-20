@@ -11,10 +11,7 @@ export function ThatsWhatOurPartnersSayAboutUsSection() {
   return (
     <div id='é-isso-que-os-empreendedores-falam-sobre-nós' className={styles.container}>
       <h1 className={styles.title}>É isso que os parceiros falam sobre nós...</h1>
-      <div className={styles.videos}>
-        <iframe className={styles.video} src='https://www.youtube.com/embed/T43sLq62O1s' />
-        <iframe className={styles.video} src='https://www.youtube.com/embed/lx8qJihfXZU' />
-      </div>
+      <iframe className={styles.video} src='https://www.youtube.com/embed/0lt0gWfoLMI' />
       {isMobile ? (
         <DownloadButton text={'Baixe agora'} />
       ) : (
